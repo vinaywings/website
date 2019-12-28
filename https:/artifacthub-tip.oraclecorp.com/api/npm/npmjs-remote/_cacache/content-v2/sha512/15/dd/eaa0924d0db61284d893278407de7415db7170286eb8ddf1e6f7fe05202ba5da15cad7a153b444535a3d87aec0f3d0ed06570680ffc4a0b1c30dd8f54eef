@@ -1,0 +1,144 @@
+{
+  "_id" : "null-check",
+  "_rev" : "3-b9732fb8a25f64c00d946560e8600f67",
+  "name" : "null-check",
+  "description" : "Ensure a path doesn't contain null bytes",
+  "dist-tags" : {
+    "latest" : "2.0.0"
+  },
+  "versions" : {
+    "2.0.0" : {
+      "name" : "null-check",
+      "description" : "Ensure a path doesn't contain null bytes",
+      "version" : "2.0.0",
+      "author" : {
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com",
+        "url" : "sindresorhus.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/null-check",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/sindresorhus/null-check"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/null-check/issues"
+      },
+      "engines" : {
+        "node" : ">=0.10.0"
+      },
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/null-check/-/null-check-2.0.0.tgz",
+        "shasum" : "a9751ad8d203efa69d3a8e2246598051da6e1057"
+      },
+      "devDependencies" : {
+        "ava" : "*",
+        "xo" : "*"
+      },
+      "keywords" : [ "built-in", "core", "ponyfill", "polyfill", "shim", "fs", "path", "null", "bytes", "check" ],
+      "license" : "MIT",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && ava"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.14.4",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "null-check@2.0.0",
+      "gitHead" : "e0406aab618077eaaaef25a5b786641161aed88a",
+      "_shasum" : "a9751ad8d203efa69d3a8e2246598051da6e1057",
+      "_nodeVersion" : "4.1.1"
+    },
+    "1.0.0" : {
+      "name" : "null-check",
+      "description" : "Ensure a path doesn't contain null bytes",
+      "version" : "1.0.0",
+      "author" : {
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com",
+        "url" : "sindresorhus.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/null-check",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/sindresorhus/null-check"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/null-check/issues"
+      },
+      "engines" : {
+        "node" : ">=0.10.0"
+      },
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/null-check/-/null-check-1.0.0.tgz",
+        "shasum" : "977dffd7176012b9ec30d2a39db5cf72a0439edd"
+      },
+      "devDependencies" : {
+        "ava" : "0.0.4"
+      },
+      "keywords" : [ "built-in", "core", "ponyfill", "polyfill", "shim", "fs", "path", "null", "bytes", "check" ],
+      "license" : "MIT",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node test.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.7.4",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "null-check@1.0.0",
+      "gitHead" : "bcdcbc68e4735aa5222a2c5575335041cd59ebaa",
+      "_shasum" : "977dffd7176012b9ec30d2a39db5cf72a0439edd",
+      "_nodeVersion" : "0.12.2"
+    }
+  },
+  "_attachments" : {
+  },
+  "readme" : "# null-check [![Build Status](https://travis-ci.org/sindresorhus/null-check.svg?branch=master)](https://travis-ci.org/sindresorhus/null-check)\n\n> Ensure a path doesn't contain [null bytes](http://en.wikipedia.org/wiki/Null_character)\n\n\n## Install\n\n```\n$ npm install --save null-check\n```\n\n\n## Usage\n\n```js\nconst nullCheck = require('null-check');\n\ntry {\n\tnullCheck('unicorn.png\\u0000');\n} catch (err) {\n\t//=> 'Path must be a string without null bytes.'\n}\n```\n\n\n## License\n\nMIT © [Sindre Sorhus](http://sindresorhus.com)\n",
+  "maintainers" : [ {
+    "name" : "sindresorhus",
+    "email" : "sindresorhus@gmail.com"
+  } ],
+  "author" : {
+    "name" : "Sindre Sorhus",
+    "email" : "sindresorhus@gmail.com",
+    "url" : "sindresorhus.com"
+  },
+  "time" : {
+    "2.0.0" : "2015-10-17T21:56:41.268Z",
+    "created" : "2015-05-10T22:51:58.849Z",
+    "modified" : "2016-10-11T22:19:15.210Z",
+    "1.0.0" : "2015-05-10T22:51:58.849Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/sindresorhus/null-check"
+  },
+  "users" : {
+    "fredcorn" : true
+  },
+  "readmeFilename" : "readme.md",
+  "homepage" : "https://github.com/sindresorhus/null-check",
+  "keywords" : [ "built-in", "core", "ponyfill", "polyfill", "shim", "fs", "path", "null", "bytes", "check" ],
+  "bugs" : {
+    "url" : "https://github.com/sindresorhus/null-check/issues"
+  },
+  "license" : "MIT"
+}

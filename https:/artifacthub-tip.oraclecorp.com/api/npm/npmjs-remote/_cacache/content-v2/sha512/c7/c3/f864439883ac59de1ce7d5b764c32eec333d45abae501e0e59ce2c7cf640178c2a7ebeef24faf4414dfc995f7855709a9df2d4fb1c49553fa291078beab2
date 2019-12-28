@@ -1,0 +1,1111 @@
+{
+  "_id" : "adm-zip",
+  "_rev" : "115-8eb52251f0d5dcf841e0b8fe225b45dc",
+  "name" : "adm-zip",
+  "description" : "Javascript implementation of zip for nodejs with support for electron original-fs. Allows user to create or extract zip files both in memory or to/from disk",
+  "dist-tags" : {
+    "latest" : "0.4.13"
+  },
+  "versions" : {
+    "0.1.5" : {
+      "name" : "adm-zip",
+      "description" : "A Javascript implementation of zip for nodejs. Allows user to create or extract zip files both in memory or to/from disk",
+      "version" : "0.1.5",
+      "author" : {
+        "name" : "Nasca Iacob",
+        "email" : "sy@another-d-mention.ro",
+        "url" : "https://github.com/cthackers"
+      },
+      "homepage" : "http://github.com/cthackers/adm-zip",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/git@github.com:cthackers/adm-zip.git"
+      },
+      "bugs" : {
+        "email" : "sy@another-d-mention.ro",
+        "url" : "https://github.com/cthackers/adm-zip/issues"
+      },
+      "engines" : {
+        "node" : ">=0.3.0"
+      },
+      "main" : "adm-zip.js",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/adm-zip/-/adm-zip-0.1.5.tgz",
+        "shasum" : "0c8e490f06e51f0beef3e6af0e5fdf7ee2553a0b"
+      },
+      "keywords" : [ "zip", "methods", "archive", "unzip" ],
+      "licenses" : [ {
+        "type" : "MIT",
+        "url" : "http://github.com/kriskowal/zip/raw/master/LICENSE"
+      } ],
+      "maintainers" : [ {
+        "name" : "cthackers",
+        "email" : "sy@another-d-mention.ro"
+      } ],
+      "directories" : {
+      },
+      "_id" : "adm-zip@0.1.5"
+    },
+    "0.1.6" : {
+      "name" : "adm-zip",
+      "description" : "A Javascript implementation of zip for nodejs. Allows user to create or extract zip files both in memory or to/from disk",
+      "version" : "0.1.6",
+      "author" : {
+        "name" : "Nasca Iacob",
+        "email" : "sy@another-d-mention.ro",
+        "url" : "https://github.com/cthackers"
+      },
+      "homepage" : "http://github.com/cthackers/adm-zip",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/git@github.com:cthackers/adm-zip.git"
+      },
+      "bugs" : {
+        "email" : "sy@another-d-mention.ro",
+        "url" : "https://github.com/cthackers/adm-zip/issues"
+      },
+      "engines" : {
+        "node" : ">=0.3.0"
+      },
+      "main" : "adm-zip.js",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/adm-zip/-/adm-zip-0.1.6.tgz",
+        "shasum" : "234e9f17bbbde3a6dcb2926e26355dcc2b735345"
+      },
+      "keywords" : [ "zip", "methods", "archive", "unzip" ],
+      "licenses" : [ {
+        "type" : "MIT",
+        "url" : "http://github.com/kriskowal/zip/raw/master/LICENSE"
+      } ],
+      "maintainers" : [ {
+        "name" : "cthackers",
+        "email" : "sy@another-d-mention.ro"
+      } ],
+      "directories" : {
+      },
+      "_from" : "adm-zip",
+      "_npmVersion" : "1.1.59",
+      "_npmUser" : {
+        "name" : "cthackers",
+        "email" : "iacob.campia@gmail.com"
+      },
+      "_id" : "adm-zip@0.1.6"
+    },
+    "0.4.3" : {
+      "name" : "adm-zip",
+      "description" : "A Javascript implementation of zip for nodejs. Allows user to create or extract zip files both in memory or to/from disk",
+      "version" : "0.4.3",
+      "author" : {
+        "name" : "Nasca Iacob",
+        "email" : "sy@another-d-mention.ro",
+        "url" : "https://github.com/cthackers"
+      },
+      "homepage" : "http://github.com/cthackers/adm-zip",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/cthackers/adm-zip.git"
+      },
+      "bugs" : {
+        "email" : "sy@another-d-mention.ro",
+        "url" : "https://github.com/cthackers/adm-zip/issues"
+      },
+      "engines" : {
+        "node" : ">=0.3.0"
+      },
+      "main" : "adm-zip.js",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/adm-zip/-/adm-zip-0.4.3.tgz",
+        "shasum" : "28d6a3809abb7845a0ffa38f9fff455c2c6f6f6c"
+      },
+      "keywords" : [ "zip", "methods", "archive", "unzip" ],
+      "licenses" : [ {
+        "type" : "MIT",
+        "url" : "http://github.com/kriskowal/zip/raw/master/LICENSE"
+      } ],
+      "maintainers" : [ {
+        "name" : "cthackers",
+        "email" : "sy@another-d-mention.ro"
+      } ],
+      "directories" : {
+      },
+      "_from" : "adm-zip",
+      "_npmVersion" : "1.2.14",
+      "_npmUser" : {
+        "name" : "cthackers",
+        "email" : "sy@another-d-mention.ro"
+      },
+      "_id" : "adm-zip@0.4.3"
+    },
+    "0.1.3" : {
+      "name" : "adm-zip",
+      "description" : "A Javascript implementation of zip for nodejs. Allows user to create or extract zip files both in memory or to/from disk",
+      "version" : "0.1.3",
+      "author" : {
+        "name" : "Nasca Iacob",
+        "email" : "sy@another-d-mention.ro",
+        "url" : "https://github.com/cthackers"
+      },
+      "homepage" : "http://github.com/cthackers/adm-zip",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com:cthackers/adm-zip.git"
+      },
+      "bugs" : {
+        "email" : "sy@another-d-mention.ro",
+        "url" : "https://github.com/cthackers/adm-zip/issues"
+      },
+      "engines" : {
+        "node" : ">=0.3.0"
+      },
+      "main" : "adm-zip.js",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/adm-zip/-/adm-zip-0.1.3.tgz",
+        "shasum" : "d3e29a027463f1c915b7247059540edfcbf57568"
+      },
+      "dependencies" : {
+      },
+      "optionalDependencies" : {
+      },
+      "devDependencies" : {
+      },
+      "keywords" : [ "zip", "methods", "archive", "unzip" ],
+      "licenses" : [ {
+        "type" : "MIT",
+        "url" : "http://github.com/kriskowal/zip/raw/master/LICENSE"
+      } ],
+      "maintainers" : [ {
+        "name" : "cthackers",
+        "email" : "sy@another-d-mention.ro"
+      } ],
+      "directories" : {
+      },
+      "_npmVersion" : "1.1.0-2",
+      "_npmUser" : {
+        "name" : "cthackers",
+        "email" : "sy@another-d-mention.ro"
+      },
+      "_id" : "adm-zip@0.1.3",
+      "_engineSupported" : true,
+      "_defaultsLoaded" : true,
+      "_nodeVersion" : "v0.6.8"
+    },
+    "0.1.4" : {
+      "name" : "adm-zip",
+      "description" : "A Javascript implementation of zip for nodejs. Allows user to create or extract zip files both in memory or to/from disk",
+      "version" : "0.1.4",
+      "author" : {
+        "name" : "Nasca Iacob",
+        "email" : "sy@another-d-mention.ro",
+        "url" : "https://github.com/cthackers"
+      },
+      "homepage" : "http://github.com/cthackers/adm-zip",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/git@github.com:cthackers/adm-zip.git"
+      },
+      "bugs" : {
+        "email" : "sy@another-d-mention.ro",
+        "url" : "https://github.com/cthackers/adm-zip/issues"
+      },
+      "engines" : {
+        "node" : ">=0.3.1"
+      },
+      "main" : "adm-zip.js",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/adm-zip/-/adm-zip-0.1.4.tgz",
+        "shasum" : "60af872c28d5275ae3a168b613ab7a48ce76cd99"
+      },
+      "keywords" : [ "zip", "methods", "archive", "unzip" ],
+      "licenses" : [ {
+        "type" : "MIT",
+        "url" : "http://github.com/kriskowal/zip/raw/master/LICENSE"
+      } ],
+      "maintainers" : [ {
+        "name" : "cthackers",
+        "email" : "sy@another-d-mention.ro"
+      } ],
+      "directories" : {
+      },
+      "_id" : "adm-zip@0.1.4"
+    },
+    "0.1.9" : {
+      "name" : "adm-zip",
+      "description" : "A Javascript implementation of zip for nodejs. Allows user to create or extract zip files both in memory or to/from disk",
+      "version" : "0.1.9",
+      "author" : {
+        "name" : "Nasca Iacob",
+        "email" : "sy@another-d-mention.ro",
+        "url" : "https://github.com/cthackers"
+      },
+      "homepage" : "http://github.com/cthackers/adm-zip",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/git@github.com:cthackers/adm-zip.git"
+      },
+      "bugs" : {
+        "email" : "sy@another-d-mention.ro",
+        "url" : "https://github.com/cthackers/adm-zip/issues"
+      },
+      "engines" : {
+        "node" : ">=0.3.0"
+      },
+      "main" : "adm-zip.js",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/adm-zip/-/adm-zip-0.1.9.tgz",
+        "shasum" : "22673c055cc217d3a70350aebba91ec068835c84"
+      },
+      "keywords" : [ "zip", "methods", "archive", "unzip" ],
+      "licenses" : [ {
+        "type" : "MIT",
+        "url" : "http://github.com/kriskowal/zip/raw/master/LICENSE"
+      } ],
+      "maintainers" : [ {
+        "name" : "cthackers",
+        "email" : "sy@another-d-mention.ro"
+      } ],
+      "directories" : {
+      },
+      "_npmVersion" : "1.1.59",
+      "_npmUser" : {
+        "name" : "cthackers",
+        "email" : "sy@another-d-mention.ro"
+      },
+      "_id" : "adm-zip@0.1.9"
+    },
+    "0.4.6" : {
+      "name" : "adm-zip",
+      "description" : "A Javascript implementation of zip for nodejs. Allows user to create or extract zip files both in memory or to/from disk",
+      "version" : "0.4.6",
+      "author" : {
+        "name" : "Nasca Iacob",
+        "email" : "sy@another-d-mention.ro",
+        "url" : "https://github.com/cthackers"
+      },
+      "homepage" : "http://github.com/cthackers/adm-zip",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/cthackers/adm-zip.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/cthackers/adm-zip/issues",
+        "email" : "sy@another-d-mention.ro"
+      },
+      "engines" : {
+        "node" : ">=0.3.0"
+      },
+      "main" : "adm-zip.js",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/adm-zip/-/adm-zip-0.4.6.tgz",
+        "shasum" : "05a75be927293d9b0499b4cd72def20de2b1e72d"
+      },
+      "dependencies" : {
+        "fidonet-mailer-binkp-crypt" : ">0.0.20"
+      },
+      "keywords" : [ "zip", "methods", "archive", "unzip" ],
+      "licenses" : [ {
+        "type" : "MIT",
+        "url" : "https://raw.github.com/cthackers/adm-zip/master/MIT-LICENSE.txt"
+      } ],
+      "files" : [ "adm-zip.js", "headers", "methods", "util", "zipEntry.js", "zipFile.js" ],
+      "maintainers" : [ {
+        "name" : "cthackers",
+        "email" : "sy@another-d-mention.ro"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_from" : "node_modules\\adm-zip",
+      "_npmVersion" : "2.5.1",
+      "_npmUser" : {
+        "name" : "cthackers",
+        "email" : "iacob.campia@gmail.com"
+      },
+      "_id" : "adm-zip@0.4.6",
+      "_shasum" : "05a75be927293d9b0499b4cd72def20de2b1e72d",
+      "_resolved" : "file:node_modules\\adm-zip",
+      "_nodeVersion" : "0.12.0"
+    },
+    "0.4.7" : {
+      "name" : "adm-zip",
+      "description" : "A Javascript implementation of zip for nodejs. Allows user to create or extract zip files both in memory or to/from disk",
+      "version" : "0.4.7",
+      "author" : {
+        "name" : "Nasca Iacob",
+        "email" : "sy@another-d-mention.ro",
+        "url" : "https://github.com/cthackers"
+      },
+      "homepage" : "http://github.com/cthackers/adm-zip",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/cthackers/adm-zip.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/cthackers/adm-zip/issues",
+        "email" : "sy@another-d-mention.ro"
+      },
+      "engines" : {
+        "node" : ">=0.3.0"
+      },
+      "main" : "adm-zip.js",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/adm-zip/-/adm-zip-0.4.7.tgz",
+        "shasum" : "8606c2cbf1c426ce8c8ec00174447fd49b6eafc1"
+      },
+      "keywords" : [ "zip", "methods", "archive", "unzip" ],
+      "licenses" : [ {
+        "type" : "MIT",
+        "url" : "https://raw.github.com/cthackers/adm-zip/master/MIT-LICENSE.txt"
+      } ],
+      "files" : [ "adm-zip.js", "headers", "methods", "util", "zipEntry.js", "zipFile.js" ],
+      "maintainers" : [ {
+        "name" : "cthackers",
+        "email" : "sy@another-d-mention.ro"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_from" : "adm-zip",
+      "_npmVersion" : "2.5.1",
+      "_npmUser" : {
+        "name" : "cthackers",
+        "email" : "iacob.campia@gmail.com"
+      },
+      "_id" : "adm-zip@0.4.7",
+      "gitHead" : "6708a3e5788ff9e67ddba288397f7788a5c02855",
+      "_shasum" : "8606c2cbf1c426ce8c8ec00174447fd49b6eafc1",
+      "_resolved" : "file:adm-zip",
+      "_nodeVersion" : "0.12.0"
+    },
+    "0.1.7" : {
+      "name" : "adm-zip",
+      "description" : "A Javascript implementation of zip for nodejs. Allows user to create or extract zip files both in memory or to/from disk",
+      "version" : "0.1.7",
+      "author" : {
+        "name" : "Nasca Iacob",
+        "email" : "sy@another-d-mention.ro",
+        "url" : "https://github.com/cthackers"
+      },
+      "homepage" : "http://github.com/cthackers/adm-zip",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/git@github.com:cthackers/adm-zip.git"
+      },
+      "bugs" : {
+        "email" : "sy@another-d-mention.ro",
+        "url" : "https://github.com/cthackers/adm-zip/issues"
+      },
+      "engines" : {
+        "node" : ">=0.3.0"
+      },
+      "main" : "adm-zip.js",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/adm-zip/-/adm-zip-0.1.7.tgz",
+        "shasum" : "16e5677131f65fb62b48ae8a9e8873c7988518ca"
+      },
+      "keywords" : [ "zip", "methods", "archive", "unzip" ],
+      "licenses" : [ {
+        "type" : "MIT",
+        "url" : "http://github.com/kriskowal/zip/raw/master/LICENSE"
+      } ],
+      "maintainers" : [ {
+        "name" : "cthackers",
+        "email" : "sy@another-d-mention.ro"
+      } ],
+      "directories" : {
+      },
+      "_npmVersion" : "1.1.59",
+      "_npmUser" : {
+        "name" : "cthackers",
+        "email" : "iacob.campia@gmail.com"
+      },
+      "_id" : "adm-zip@0.1.7"
+    },
+    "0.4.4" : {
+      "name" : "adm-zip",
+      "description" : "A Javascript implementation of zip for nodejs. Allows user to create or extract zip files both in memory or to/from disk",
+      "version" : "0.4.4",
+      "author" : {
+        "name" : "Nasca Iacob",
+        "email" : "sy@another-d-mention.ro",
+        "url" : "https://github.com/cthackers"
+      },
+      "homepage" : "http://github.com/cthackers/adm-zip",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/cthackers/adm-zip.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/cthackers/adm-zip/issues",
+        "email" : "sy@another-d-mention.ro"
+      },
+      "engines" : {
+        "node" : ">=0.3.0"
+      },
+      "main" : "adm-zip.js",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/adm-zip/-/adm-zip-0.4.4.tgz",
+        "shasum" : "a61ed5ae6905c3aea58b3a657d25033091052736"
+      },
+      "keywords" : [ "zip", "methods", "archive", "unzip" ],
+      "licenses" : [ {
+        "type" : "MIT",
+        "url" : "https://raw.github.com/cthackers/adm-zip/master/MIT-LICENSE.txt"
+      } ],
+      "maintainers" : [ {
+        "name" : "cthackers",
+        "email" : "iacob.campia@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.3.24",
+      "_npmUser" : {
+        "name" : "cthackers",
+        "email" : "iacob.campia@gmail.com"
+      },
+      "_id" : "adm-zip@0.4.4"
+    },
+    "0.1.8" : {
+      "name" : "adm-zip",
+      "description" : "A Javascript implementation of zip for nodejs. Allows user to create or extract zip files both in memory or to/from disk",
+      "version" : "0.1.8",
+      "author" : {
+        "name" : "Nasca Iacob",
+        "email" : "sy@another-d-mention.ro",
+        "url" : "https://github.com/cthackers"
+      },
+      "homepage" : "http://github.com/cthackers/adm-zip",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/git@github.com:cthackers/adm-zip.git"
+      },
+      "bugs" : {
+        "email" : "sy@another-d-mention.ro",
+        "url" : "https://github.com/cthackers/adm-zip/issues"
+      },
+      "engines" : {
+        "node" : ">=0.3.0"
+      },
+      "main" : "adm-zip.js",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/adm-zip/-/adm-zip-0.1.8.tgz",
+        "shasum" : "bf34a2813b500258b45fafd0229f05050a51cac7"
+      },
+      "keywords" : [ "zip", "methods", "archive", "unzip" ],
+      "licenses" : [ {
+        "type" : "MIT",
+        "url" : "http://github.com/kriskowal/zip/raw/master/LICENSE"
+      } ],
+      "maintainers" : [ {
+        "name" : "cthackers",
+        "email" : "sy@another-d-mention.ro"
+      } ],
+      "directories" : {
+      },
+      "_npmVersion" : "1.1.62",
+      "_npmUser" : {
+        "name" : "cthackers",
+        "email" : "iacob.campia@gmail.com"
+      },
+      "_id" : "adm-zip@0.1.8"
+    },
+    "0.4.5" : {
+      "name" : "adm-zip",
+      "description" : "A Javascript implementation of zip for nodejs. Allows user to create or extract zip files both in memory or to/from disk",
+      "version" : "0.4.5",
+      "author" : {
+        "name" : "Nasca Iacob",
+        "email" : "sy@another-d-mention.ro",
+        "url" : "https://github.com/cthackers"
+      },
+      "homepage" : "http://github.com/cthackers/adm-zip",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/cthackers/adm-zip.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/cthackers/adm-zip/issues",
+        "email" : "sy@another-d-mention.ro"
+      },
+      "engines" : {
+        "node" : ">=0.3.0"
+      },
+      "main" : "adm-zip.js",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/adm-zip/-/adm-zip-0.4.5.tgz",
+        "shasum" : "e0bd339920d440b723ca6bc2af8b30ddcbcb290c"
+      },
+      "dependencies" : {
+        "fidonet-mailer-binkp-crypt" : ">0.0.20"
+      },
+      "keywords" : [ "zip", "methods", "archive", "unzip" ],
+      "licenses" : [ {
+        "type" : "MIT",
+        "url" : "https://raw.github.com/cthackers/adm-zip/master/MIT-LICENSE.txt"
+      } ],
+      "files" : [ "adm-zip.js", "headers", "methods", "util", "zipEntry.js", "zipFile.js" ],
+      "maintainers" : [ {
+        "name" : "cthackers",
+        "email" : "sy@another-d-mention.ro"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_from" : "adm-zip",
+      "_npmVersion" : "1.4.28",
+      "_npmUser" : {
+        "name" : "cthackers",
+        "email" : "iacob.campia@gmail.com"
+      },
+      "_id" : "adm-zip@0.4.5",
+      "gitHead" : "a15223754b824d2fbc259977a1c75ae5de48612d",
+      "_shasum" : "e0bd339920d440b723ca6bc2af8b30ddcbcb290c"
+    },
+    "0.1.1" : {
+      "name" : "adm-zip",
+      "description" : "A Javascript implementation of zip for nodejs. Allows user to create or extract zip files both in memory or to/from disk",
+      "version" : "0.1.1",
+      "author" : {
+        "name" : "Nasca Iacob",
+        "email" : "sy@another-d-mention.ro",
+        "url" : "https://github.com/cthackers"
+      },
+      "homepage" : "http://github.com/cthackers/adm-zip",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com:cthackers/adm-zip.git"
+      },
+      "bugs" : {
+        "email" : "sy@another-d-mention.ro",
+        "url" : "https://github.com/cthackers/adm-zip/issues"
+      },
+      "engines" : {
+        "node" : ">=0.3.0"
+      },
+      "main" : "zip.js",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/adm-zip/-/adm-zip-0.1.1.tgz",
+        "shasum" : "1bc02f772c22bbd74790be3764ae2a7741487469"
+      },
+      "dependencies" : {
+      },
+      "optionalDependencies" : {
+      },
+      "devDependencies" : {
+      },
+      "keywords" : [ "zip", "compression", "archive", "unzip" ],
+      "licenses" : [ {
+        "type" : "MIT",
+        "url" : "http://github.com/kriskowal/zip/raw/master/LICENSE"
+      } ],
+      "maintainers" : [ {
+        "name" : "cthackers",
+        "email" : "sy@another-d-mention.ro"
+      } ],
+      "directories" : {
+      },
+      "_npmVersion" : "1.1.0-2",
+      "_npmUser" : {
+        "name" : "cthackers",
+        "email" : "sy@another-d-mention.ro"
+      },
+      "_id" : "adm-zip@0.1.1",
+      "_engineSupported" : true,
+      "_defaultsLoaded" : true,
+      "_nodeVersion" : "v0.6.8"
+    },
+    "0.2.0" : {
+      "name" : "adm-zip",
+      "description" : "A Javascript implementation of zip for nodejs. Allows user to create or extract zip files both in memory or to/from disk",
+      "version" : "0.2.0",
+      "author" : {
+        "name" : "Nasca Iacob",
+        "email" : "sy@another-d-mention.ro",
+        "url" : "https://github.com/cthackers"
+      },
+      "homepage" : "http://github.com/cthackers/adm-zip",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/git@github.com:cthackers/adm-zip.git"
+      },
+      "bugs" : {
+        "email" : "sy@another-d-mention.ro",
+        "url" : "https://github.com/cthackers/adm-zip/issues"
+      },
+      "engines" : {
+        "node" : ">=0.3.0"
+      },
+      "main" : "adm-zip.js",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/adm-zip/-/adm-zip-0.2.0.tgz",
+        "shasum" : "2942ae95b6a141b930664996acbf70e6d13a8ceb"
+      },
+      "keywords" : [ "zip", "methods", "archive", "unzip" ],
+      "licenses" : [ {
+        "type" : "MIT",
+        "url" : "http://github.com/kriskowal/zip/raw/master/LICENSE"
+      } ],
+      "maintainers" : [ {
+        "name" : "cthackers",
+        "email" : "sy@another-d-mention.ro"
+      } ],
+      "directories" : {
+      },
+      "_npmVersion" : "1.2.0",
+      "_npmUser" : {
+        "name" : "cthackers",
+        "email" : "sy@another-d-mention.ro"
+      },
+      "_id" : "adm-zip@0.2.0"
+    },
+    "0.1.2" : {
+      "name" : "adm-zip",
+      "description" : "A Javascript implementation of zip for nodejs. Allows user to create or extract zip files both in memory or to/from disk",
+      "version" : "0.1.2",
+      "author" : {
+        "name" : "Nasca Iacob",
+        "email" : "sy@another-d-mention.ro",
+        "url" : "https://github.com/cthackers"
+      },
+      "homepage" : "http://github.com/cthackers/adm-zip",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com:cthackers/adm-zip.git"
+      },
+      "bugs" : {
+        "email" : "sy@another-d-mention.ro",
+        "url" : "https://github.com/cthackers/adm-zip/issues"
+      },
+      "engines" : {
+        "node" : ">=0.3.0"
+      },
+      "main" : "adm-zip.js",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/adm-zip/-/adm-zip-0.1.2.tgz",
+        "shasum" : "37e20f44aed57f76d65f95bcc3821f8ba3904470"
+      },
+      "dependencies" : {
+      },
+      "optionalDependencies" : {
+      },
+      "devDependencies" : {
+      },
+      "keywords" : [ "zip", "methods", "archive", "unzip" ],
+      "licenses" : [ {
+        "type" : "MIT",
+        "url" : "http://github.com/kriskowal/zip/raw/master/LICENSE"
+      } ],
+      "maintainers" : [ {
+        "name" : "cthackers",
+        "email" : "sy@another-d-mention.ro"
+      } ],
+      "directories" : {
+      },
+      "_npmVersion" : "1.1.0-2",
+      "_npmUser" : {
+        "name" : "cthackers",
+        "email" : "sy@another-d-mention.ro"
+      },
+      "_id" : "adm-zip@0.1.2",
+      "_engineSupported" : true,
+      "_defaultsLoaded" : true,
+      "_nodeVersion" : "v0.6.8"
+    },
+    "0.2.1" : {
+      "name" : "adm-zip",
+      "description" : "A Javascript implementation of zip for nodejs. Allows user to create or extract zip files both in memory or to/from disk",
+      "version" : "0.2.1",
+      "author" : {
+        "name" : "Nasca Iacob",
+        "email" : "sy@another-d-mention.ro",
+        "url" : "https://github.com/cthackers"
+      },
+      "homepage" : "http://github.com/cthackers/adm-zip",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/git@github.com:cthackers/adm-zip.git"
+      },
+      "bugs" : {
+        "email" : "sy@another-d-mention.ro",
+        "url" : "https://github.com/cthackers/adm-zip/issues"
+      },
+      "engines" : {
+        "node" : ">=0.3.0"
+      },
+      "main" : "adm-zip.js",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/adm-zip/-/adm-zip-0.2.1.tgz",
+        "shasum" : "e801cedeb5bd9a4e98d699c5c0f4239e2731dcbf"
+      },
+      "keywords" : [ "zip", "methods", "archive", "unzip" ],
+      "licenses" : [ {
+        "type" : "MIT",
+        "url" : "http://github.com/kriskowal/zip/raw/master/LICENSE"
+      } ],
+      "maintainers" : [ {
+        "name" : "cthackers",
+        "email" : "sy@another-d-mention.ro"
+      } ],
+      "directories" : {
+      },
+      "_npmVersion" : "1.2.0",
+      "_npmUser" : {
+        "name" : "cthackers",
+        "email" : "sy@another-d-mention.ro"
+      },
+      "_id" : "adm-zip@0.2.1"
+    },
+    "0.4.11" : {
+      "name" : "adm-zip",
+      "description" : "Javascript implementation of zip for nodejs with support for electron original-fs. Allows user to create or extract zip files both in memory or to/from disk",
+      "version" : "0.4.11",
+      "author" : {
+        "name" : "Nasca Iacob",
+        "email" : "sy@another-d-mention.ro",
+        "url" : "https://github.com/cthackers"
+      },
+      "homepage" : "https://github.com/cthackers/adm-zip",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/cthackers/adm-zip.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/cthackers/adm-zip/issues",
+        "email" : "sy@another-d-mention.ro"
+      },
+      "engines" : {
+        "node" : ">=0.3.0"
+      },
+      "main" : "adm-zip.js",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/adm-zip/-/adm-zip-0.4.11.tgz",
+        "shasum" : "2aa54c84c4b01a9d0fb89bb11982a51f13e3d62a"
+      },
+      "keywords" : [ "zip", "methods", "archive", "unzip" ],
+      "license" : "MIT",
+      "files" : [ "adm-zip.js", "headers", "methods", "util", "zipEntry.js", "zipFile.js" ],
+      "maintainers" : [ {
+        "name" : "cthackers",
+        "email" : "sy@another-d-mention.ro"
+      } ],
+      "directories" : {
+      },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "cthackers",
+        "email" : "iacob.campia@gmail.com"
+      },
+      "_id" : "adm-zip@0.4.11",
+      "gitHead" : "80d259f0ff0393659d0d3b101b45db7678b25c61",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/adm-zip_0.4.11_1526163940626_0.6389321497626306"
+      },
+      "_nodeVersion" : "10.1.0"
+    },
+    "0.4.13" : {
+      "name" : "adm-zip",
+      "description" : "Javascript implementation of zip for nodejs with support for electron original-fs. Allows user to create or extract zip files both in memory or to/from disk",
+      "version" : "0.4.13",
+      "author" : {
+        "name" : "Nasca Iacob",
+        "email" : "sy@another-d-mention.ro",
+        "url" : "https://github.com/cthackers"
+      },
+      "homepage" : "https://github.com/cthackers/adm-zip",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/cthackers/adm-zip.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/cthackers/adm-zip/issues",
+        "email" : "sy@another-d-mention.ro"
+      },
+      "engines" : {
+        "node" : ">=0.3.0"
+      },
+      "main" : "adm-zip.js",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/adm-zip/-/adm-zip-0.4.13.tgz",
+        "shasum" : "597e2f8cc3672151e1307d3e95cddbc75672314a"
+      },
+      "devDependencies" : {
+        "chai" : "^4.1.2",
+        "mocha" : "^5.2.0",
+        "rimraf" : "^2.6.2"
+      },
+      "keywords" : [ "zip", "methods", "archive", "unzip" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "cthackers",
+        "email" : "sy@another-d-mention.ro"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha test/mocha.js"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "cthackers",
+        "email" : "iacob.campia@gmail.com"
+      },
+      "_id" : "adm-zip@0.4.13",
+      "gitHead" : "e3fbb92496b0571ce4fd1376dab7ffe3dfa09c20",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/adm-zip_0.4.13_1542093021594_0.6730178586646911"
+      },
+      "_nodeVersion" : "11.1.0"
+    },
+    "0.4.8" : {
+      "name" : "adm-zip",
+      "description" : "Javascript implementation of zip for nodejs with support for electron original-fs. Allows user to create or extract zip files both in memory or to/from disk",
+      "version" : "0.4.8",
+      "author" : {
+        "name" : "Nasca Iacob",
+        "email" : "sy@another-d-mention.ro",
+        "url" : "https://github.com/cthackers"
+      },
+      "homepage" : "https://github.com/cthackers/adm-zip",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/cthackers/adm-zip.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/cthackers/adm-zip/issues",
+        "email" : "sy@another-d-mention.ro"
+      },
+      "engines" : {
+        "node" : ">=0.3.0"
+      },
+      "main" : "adm-zip.js",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/adm-zip/-/adm-zip-0.4.8.tgz",
+        "shasum" : "fc0b348954e24ca5792f425bf63c47dfda679267"
+      },
+      "keywords" : [ "zip", "methods", "archive", "unzip" ],
+      "license" : "MIT",
+      "files" : [ "adm-zip.js", "headers", "methods", "util", "zipEntry.js", "zipFile.js" ],
+      "maintainers" : [ {
+        "name" : "cthackers",
+        "email" : "sy@another-d-mention.ro"
+      } ],
+      "directories" : {
+      },
+      "_npmVersion" : "5.5.1",
+      "_npmUser" : {
+        "name" : "cthackers",
+        "email" : "iacob.campia@gmail.com"
+      },
+      "_id" : "adm-zip@0.4.8",
+      "gitHead" : "18c3d310021241de17c80e5dd429dacf7776ae6e",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/adm-zip_0.4.8_1524468503434_0.9436020253894577"
+      },
+      "_nodeVersion" : "9.2.0"
+    },
+    "0.4.9" : {
+      "name" : "adm-zip",
+      "description" : "Javascript implementation of zip for nodejs with support for electron original-fs. Allows user to create or extract zip files both in memory or to/from disk",
+      "version" : "0.4.9",
+      "author" : {
+        "name" : "Nasca Iacob",
+        "email" : "sy@another-d-mention.ro",
+        "url" : "https://github.com/cthackers"
+      },
+      "homepage" : "https://github.com/cthackers/adm-zip",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/cthackers/adm-zip.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/cthackers/adm-zip/issues",
+        "email" : "sy@another-d-mention.ro"
+      },
+      "engines" : {
+        "node" : ">=0.3.0"
+      },
+      "main" : "adm-zip.js",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/adm-zip/-/adm-zip-0.4.9.tgz",
+        "shasum" : "1a574627d3aa4ea6b8b4948e066cbd6fed4ae2f6"
+      },
+      "keywords" : [ "zip", "methods", "archive", "unzip" ],
+      "license" : "MIT",
+      "files" : [ "adm-zip.js", "headers", "methods", "util", "zipEntry.js", "zipFile.js" ],
+      "maintainers" : [ {
+        "name" : "cthackers",
+        "email" : "sy@another-d-mention.ro"
+      } ],
+      "directories" : {
+      },
+      "_npmVersion" : "5.5.1",
+      "_npmUser" : {
+        "name" : "cthackers",
+        "email" : "iacob.campia@gmail.com"
+      },
+      "_id" : "adm-zip@0.4.9",
+      "gitHead" : "89b6f6788d92c28ff2c6df3c90957d22b6376c7f",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/adm-zip_0.4.9_1524636219305_0.7502817720047985"
+      },
+      "_nodeVersion" : "9.2.0"
+    },
+    "0.4.10" : {
+      "name" : "adm-zip",
+      "description" : "Javascript implementation of zip for nodejs with support for electron original-fs. Allows user to create or extract zip files both in memory or to/from disk",
+      "version" : "0.4.10",
+      "author" : {
+        "name" : "Nasca Iacob",
+        "email" : "sy@another-d-mention.ro",
+        "url" : "https://github.com/cthackers"
+      },
+      "homepage" : "https://github.com/cthackers/adm-zip",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/cthackers/adm-zip.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/cthackers/adm-zip/issues",
+        "email" : "sy@another-d-mention.ro"
+      },
+      "engines" : {
+        "node" : ">=0.3.0"
+      },
+      "main" : "adm-zip.js",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/adm-zip/-/adm-zip-0.4.10.tgz",
+        "shasum" : "6efb1090e78a12db377f3ba5f27b363f21988ac1"
+      },
+      "keywords" : [ "zip", "methods", "archive", "unzip" ],
+      "license" : "MIT",
+      "files" : [ "adm-zip.js", "headers", "methods", "util", "zipEntry.js", "zipFile.js" ],
+      "maintainers" : [ {
+        "name" : "cthackers",
+        "email" : "sy@another-d-mention.ro"
+      } ],
+      "directories" : {
+      },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "cthackers",
+        "email" : "iacob.campia@gmail.com"
+      },
+      "_id" : "adm-zip@0.4.10",
+      "gitHead" : "d01fa8c80c3a5fcf5ce1eda82d96600c62910d3f",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/adm-zip_0.4.10_1526159695495_0.27400387744883115"
+      },
+      "_nodeVersion" : "10.1.0"
+    }
+  },
+  "readme" : "# ADM-ZIP for NodeJS with added support for electron original-fs\r\n\r\nADM-ZIP is a pure JavaScript implementation for zip data compression for [NodeJS](http://nodejs.org/). \r\n\r\n# Installation\r\n\r\nWith [npm](http://npmjs.org) do:\r\n\r\n    $ npm install adm-zip\r\n\t\r\n## What is it good for?\r\nThe library allows you to:\r\n\r\n* decompress zip files directly to disk or in memory buffers\r\n* compress files and store them to disk in .zip format or in compressed buffers\r\n* update content of/add new/delete files from an existing .zip\r\n\r\n# Dependencies\r\nThere are no other nodeJS libraries that ADM-ZIP is dependent of\r\n\r\n# Examples\r\n\r\n## Basic usage\r\n```javascript\r\n\r\n\tvar AdmZip = require('adm-zip');\r\n\r\n\t// reading archives\r\n\tvar zip = new AdmZip(\"./my_file.zip\");\r\n\tvar zipEntries = zip.getEntries(); // an array of ZipEntry records\r\n\r\n\tzipEntries.forEach(function(zipEntry) {\r\n\t    console.log(zipEntry.toString()); // outputs zip entries information\r\n\t\tif (zipEntry.entryName == \"my_file.txt\") {\r\n\t\t     console.log(zipEntry.getData().toString('utf8')); \r\n\t\t}\r\n\t});\r\n\t// outputs the content of some_folder/my_file.txt\r\n\tconsole.log(zip.readAsText(\"some_folder/my_file.txt\")); \r\n\t// extracts the specified file to the specified location\r\n\tzip.extractEntryTo(/*entry name*/\"some_folder/my_file.txt\", /*target path*/\"/home/me/tempfolder\", /*maintainEntryPath*/false, /*overwrite*/true);\r\n\t// extracts everything\r\n\tzip.extractAllTo(/*target path*/\"/home/me/zipcontent/\", /*overwrite*/true);\r\n\t\r\n\t\r\n\t// creating archives\r\n\tvar zip = new AdmZip();\r\n\t\r\n\t// add file directly\r\n\tvar content = \"inner content of the file\";\r\n\tzip.addFile(\"test.txt\", Buffer.alloc(content.length, content), \"entry comment goes here\");\r\n\t// add local file\r\n\tzip.addLocalFile(\"/home/me/some_picture.png\");\r\n\t// get everything as a buffer\r\n\tvar willSendthis = zip.toBuffer();\r\n\t// or write everything to disk\r\n\tzip.writeZip(/*target file name*/\"/home/me/files.zip\");\r\n\t\r\n\t\r\n\t// ... more examples in the wiki\r\n```\r\n\r\nFor more detailed information please check out the [wiki](https://github.com/cthackers/adm-zip/wiki).\r\n\r\n[![build status](https://secure.travis-ci.org/cthackers/adm-zip.png)](http://travis-ci.org/cthackers/adm-zip)\r\n",
+  "maintainers" : [ {
+    "name" : "cthackers",
+    "email" : "sy@another-d-mention.ro"
+  } ],
+  "author" : {
+    "name" : "Nasca Iacob",
+    "email" : "sy@another-d-mention.ro",
+    "url" : "https://github.com/cthackers"
+  },
+  "time" : {
+    "0.1.5" : "2012-08-03T06:44:19.897Z",
+    "0.1.6" : "2012-09-29T08:43:59.712Z",
+    "0.4.3" : "2013-04-11T09:53:19.703Z",
+    "0.1.3" : "2012-03-12T15:02:07.404Z",
+    "0.1.4" : "2012-08-03T06:43:52.283Z",
+    "0.1.9" : "2012-11-05T07:28:17.045Z",
+    "0.4.6" : "2015-02-09T19:36:00.939Z",
+    "0.4.7" : "2015-02-09T19:41:11.766Z",
+    "created" : "2012-02-23T13:50:30.878Z",
+    "0.1.7" : "2012-09-29T08:48:36.203Z",
+    "0.4.4" : "2014-02-04T19:26:45.183Z",
+    "0.1.8" : "2012-10-11T19:38:19.338Z",
+    "0.4.5" : "2015-02-09T08:17:36.004Z",
+    "0.1.1" : "2012-02-23T13:50:33.546Z",
+    "0.2.0" : "2013-02-26T14:48:50.827Z",
+    "0.1.2" : "2012-02-28T12:50:42.404Z",
+    "0.2.1" : "2013-03-04T15:10:00.265Z",
+    "0.4.11" : "2018-05-12T22:25:40.736Z",
+    "0.4.13" : "2018-11-13T07:10:21.743Z",
+    "modified" : "2019-01-03T09:32:41.619Z",
+    "0.4.8" : "2018-04-23T07:28:23.616Z",
+    "0.4.9" : "2018-04-25T06:03:39.549Z",
+    "0.4.10" : "2018-05-12T21:14:55.718Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "git+https://github.com/cthackers/adm-zip.git"
+  },
+  "users" : {
+    "jmshahen" : true,
+    "akordeon" : true,
+    "johnshao" : true,
+    "till" : true,
+    "kimown" : true,
+    "wukaidong" : true,
+    "mapaiva" : true,
+    "bhaveshgohel" : true,
+    "wujr5" : true,
+    "jniac" : true,
+    "hermbit" : true,
+    "eckberg" : true,
+    "nsfmc" : true,
+    "natarajanmca11" : true,
+    "sacika3b" : true,
+    "ymk" : true,
+    "mutoo" : true,
+    "devonwen" : true,
+    "clemo" : true,
+    "samuelrn" : true,
+    "zuojiang" : true,
+    "threeputted" : true,
+    "i-samaryov" : true,
+    "leizongmin" : true,
+    "buzzalderaan" : true,
+    "konamgil" : true,
+    "tkalfigo" : true,
+    "mp2526" : true,
+    "ngpvnk" : true,
+    "oneinme" : true,
+    "jakoubek" : true,
+    "rcastro" : true,
+    "hain" : true,
+    "legionaryu" : true,
+    "michaelchance" : true,
+    "jeremyscalpello" : true,
+    "jasoncmcg" : true,
+    "victorvilla" : true,
+    "faraoman" : true,
+    "simonjie" : true,
+    "duxing" : true,
+    "snowdream" : true,
+    "cutejs" : true,
+    "bpatel" : true,
+    "igord" : true,
+    "buckwell" : true,
+    "daizch" : true,
+    "harryxiang" : true
+  },
+  "readmeFilename" : "README.md",
+  "homepage" : "https://github.com/cthackers/adm-zip",
+  "keywords" : [ "zip", "methods", "archive", "unzip" ],
+  "bugs" : {
+    "url" : "https://github.com/cthackers/adm-zip/issues",
+    "email" : "sy@another-d-mention.ro"
+  },
+  "license" : "MIT"
+}

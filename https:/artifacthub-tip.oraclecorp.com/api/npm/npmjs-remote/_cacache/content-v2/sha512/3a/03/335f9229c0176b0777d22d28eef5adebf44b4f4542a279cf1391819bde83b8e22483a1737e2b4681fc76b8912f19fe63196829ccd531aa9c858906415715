@@ -1,0 +1,2021 @@
+{
+  "_id" : "npm-packlist",
+  "_rev" : "36-0236fa8b4ab600972e7b98f053d4bdb0",
+  "name" : "npm-packlist",
+  "description" : "Get a list of the files to add from a folder into an npm package",
+  "dist-tags" : {
+    "legacy-v1" : "1.4.7",
+    "latest" : "2.0.3"
+  },
+  "versions" : {
+    "1.4.7" : {
+      "name" : "npm-packlist",
+      "description" : "Get a list of the files to add from a folder into an npm package",
+      "version" : "1.4.7",
+      "author" : {
+        "name" : "Isaac Z. Schlueter",
+        "email" : "i@izs.me",
+        "url" : "http://blog.izs.me/"
+      },
+      "homepage" : "https://www.npmjs.com/package/npm-packlist",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/npm/npm-packlist.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/npm/npm-packlist/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/npm-packlist/-/npm-packlist-1.4.7.tgz",
+        "shasum" : "9e954365a06b80b18111ea900945af4f88ed4848"
+      },
+      "dependencies" : {
+        "ignore-walk" : "^3.0.1",
+        "npm-bundled" : "^1.0.1"
+      },
+      "devDependencies" : {
+        "mkdirp" : "^0.5.1",
+        "rimraf" : "^2.6.1",
+        "tap" : "^14.6.9"
+      },
+      "license" : "ISC",
+      "maintainers" : [ {
+        "email" : "evilpacket@gmail.com",
+        "name" : "adam_baldwin"
+      }, {
+        "email" : "ahmad@ahmadnassri.com",
+        "name" : "ahmadnassri"
+      }, {
+        "email" : "anne@npmjs.com",
+        "name" : "annekimsey"
+      }, {
+        "email" : "billatnpm@gmail.com",
+        "name" : "billatnpm"
+      }, {
+        "email" : "cghr1990@gmail.com",
+        "name" : "claudiahdz"
+      }, {
+        "email" : "darcy@darcyclarke.me",
+        "name" : "darcyclarke"
+      }, {
+        "email" : "i@izs.me",
+        "name" : "isaacs"
+      }, {
+        "email" : "mike@mikecorp.ca",
+        "name" : "mikemimik"
+      }, {
+        "email" : "ruyadorno@hotmail.com",
+        "name" : "ruyadorno"
+      } ],
+      "directories" : {
+        "test" : "test"
+      },
+      "scripts" : {
+        "test" : "tap",
+        "snap" : "tap",
+        "preversion" : "npm test",
+        "postversion" : "npm publish",
+        "postpublish" : "git push origin --follow-tags"
+      },
+      "publishConfig" : {
+        "tag" : "legacy-v1"
+      },
+      "_npmVersion" : "6.13.2",
+      "_npmUser" : {
+        "name" : "isaacs",
+        "email" : "i@izs.me"
+      },
+      "_id" : "npm-packlist@1.4.7",
+      "gitHead" : "36d3f1769023d695d14a26b5fa8ca684032a520a",
+      "tap" : {
+        "jobs" : 1
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/npm-packlist_1.4.7_1575935702795_0.8768125655269128"
+      },
+      "readme" : "# npm-packlist\n\n[![Build Status](https://travis-ci.com/npm/npm-packlist.svg?token=hHeDp9pQmz9kvsgRNVHy&branch=master)](https://travis-ci.com/npm/npm-packlist)\n\nGet a list of the files to add from a folder into an npm package\n\nThese can be handed to [tar](http://npm.im/tar) like so to make an npm\npackage tarball:\n\n```js\nconst packlist = require('npm-packlist')\nconst tar = require('tar')\nconst packageDir = '/path/to/package'\nconst packageTarball = '/path/to/package.tgz'\n\npacklist({ path: packageDir })\n  .then(files => tar.create({\n    prefix: 'package/',\n    cwd: packageDir,\n    file: packageTarball,\n    gzip: true\n  }, files))\n  .then(_ => {\n    // tarball has been created, continue with your day\n  })\n```\n\nThis uses the following rules:\n\n1. If a `package.json` file is found, and it has a `files` list,\n   then ignore everything that isn't in `files`.  Always include the\n   readme, license, notice, changes, changelog, and history files, if\n   they exist, and the package.json file itself.\n2. If there's no `package.json` file (or it has no `files` list), and\n   there is a `.npmignore` file, then ignore all the files in the\n   `.npmignore` file.\n3. If there's no `package.json` with a `files` list, and there's no\n   `.npmignore` file, but there is a `.gitignore` file, then ignore\n   all the files in the `.gitignore` file.\n4. Everything in the root `node_modules` is ignored, unless it's a\n   bundled dependency.  If it IS a bundled dependency, and it's a\n   symbolic link, then the target of the link is included, not the\n   symlink itself.\n4. Unless they're explicitly included (by being in a `files` list, or\n   a `!negated` rule in a relevant `.npmignore` or `.gitignore`),\n   always ignore certain common cruft files:\n\n    1. .npmignore and .gitignore files (their effect is in the package\n       already, there's no need to include them in the package)\n    2. editor junk like `.*.swp`, `._*` and `.*.orig` files\n    3. `.npmrc` files (these may contain private configs)\n    4. The `node_modules/.bin` folder\n    5. Waf and gyp cruft like `/build/config.gypi` and `.lock-wscript`\n    6. Darwin's `.DS_Store` files because wtf are those even\n    7. `npm-debug.log` files at the root of a project\n\n    You can explicitly re-include any of these with a `files` list in\n    `package.json` or a negated ignore file rule.\n\n## API\n\nSame API as [ignore-walk](http://npm.im/ignore-walk), just hard-coded\nfile list and rule sets.\n\nThe `Walker` and `WalkerSync` classes take a `bundled` argument, which\nis a list of package names to include from node_modules.  When calling\nthe top-level `packlist()` and `packlist.sync()` functions, this\nmodule calls into `npm-bundled` directly.\n",
+      "readmeFilename" : "README.md",
+      "_nodeVersion" : "12.12.0"
+    },
+    "2.0.0" : {
+      "name" : "npm-packlist",
+      "description" : "Get a list of the files to add from a folder into an npm package",
+      "version" : "2.0.0",
+      "author" : {
+        "name" : "Isaac Z. Schlueter",
+        "email" : "i@izs.me",
+        "url" : "http://blog.izs.me/"
+      },
+      "homepage" : "https://github.com/npm/npm-packlist#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/npm/npm-packlist.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/npm/npm-packlist/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/npm-packlist/-/npm-packlist-2.0.0.tgz",
+        "shasum" : "083121fbc881e59ecfbd4b694c8ae7f4457e71d9"
+      },
+      "dependencies" : {
+        "ignore-walk" : "^3.0.3",
+        "npm-bundled" : "^1.0.1"
+      },
+      "devDependencies" : {
+        "mkdirp" : "^0.5.1",
+        "mutate-fs" : "^2.1.1",
+        "require-inject" : "^1.4.4",
+        "rimraf" : "^2.7.1",
+        "tap" : "^14.7.0"
+      },
+      "license" : "ISC",
+      "bin" : {
+        "npm-packlist" : "bin/index.js"
+      },
+      "maintainers" : [ {
+        "email" : "evilpacket@gmail.com",
+        "name" : "adam_baldwin"
+      }, {
+        "email" : "ahmad@ahmadnassri.com",
+        "name" : "ahmadnassri"
+      }, {
+        "email" : "anne@npmjs.com",
+        "name" : "annekimsey"
+      }, {
+        "email" : "billatnpm@gmail.com",
+        "name" : "billatnpm"
+      }, {
+        "email" : "cghr1990@gmail.com",
+        "name" : "claudiahdz"
+      }, {
+        "email" : "darcy@darcyclarke.me",
+        "name" : "darcyclarke"
+      }, {
+        "email" : "i@izs.me",
+        "name" : "isaacs"
+      }, {
+        "email" : "mike@mikecorp.ca",
+        "name" : "mikemimik"
+      }, {
+        "email" : "ruyadorno@hotmail.com",
+        "name" : "ruyadorno"
+      } ],
+      "directories" : {
+        "test" : "test"
+      },
+      "scripts" : {
+        "test" : "tap",
+        "snap" : "tap",
+        "preversion" : "npm test",
+        "postversion" : "npm publish",
+        "postpublish" : "git push origin --follow-tags"
+      },
+      "_npmVersion" : "6.12.1",
+      "_npmUser" : {
+        "name" : "isaacs",
+        "email" : "i@izs.me"
+      },
+      "_id" : "npm-packlist@2.0.0",
+      "gitHead" : "5297df11d8ee5cccefc931fd540cd5ec0ef7d6b3",
+      "tap" : {
+        "check-coverage" : true,
+        "nyc-arg" : [ "--include=index.js", "--include=bin/index.js" ]
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/npm-packlist_2.0.0_1572916072144_0.8962262708320585"
+      },
+      "_nodeVersion" : "12.12.0"
+    },
+    "2.0.1" : {
+      "name" : "npm-packlist",
+      "description" : "Get a list of the files to add from a folder into an npm package",
+      "version" : "2.0.1",
+      "author" : {
+        "name" : "Isaac Z. Schlueter",
+        "email" : "i@izs.me",
+        "url" : "http://blog.izs.me/"
+      },
+      "homepage" : "https://github.com/npm/npm-packlist#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/npm/npm-packlist.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/npm/npm-packlist/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/npm-packlist/-/npm-packlist-2.0.1.tgz",
+        "shasum" : "891ae4dc81d8cd8ddeb9070d6338623cd5a20fce"
+      },
+      "dependencies" : {
+        "glob" : "^7.1.6",
+        "ignore-walk" : "^3.0.3",
+        "npm-bundled" : "^1.0.1"
+      },
+      "devDependencies" : {
+        "mkdirp" : "^0.5.1",
+        "mutate-fs" : "^2.1.1",
+        "require-inject" : "^1.4.4",
+        "rimraf" : "^2.7.1",
+        "tap" : "^14.7.0"
+      },
+      "license" : "ISC",
+      "bin" : {
+        "npm-packlist" : "bin/index.js"
+      },
+      "maintainers" : [ {
+        "email" : "evilpacket@gmail.com",
+        "name" : "adam_baldwin"
+      }, {
+        "email" : "ahmad@ahmadnassri.com",
+        "name" : "ahmadnassri"
+      }, {
+        "email" : "anne@npmjs.com",
+        "name" : "annekimsey"
+      }, {
+        "email" : "billatnpm@gmail.com",
+        "name" : "billatnpm"
+      }, {
+        "email" : "cghr1990@gmail.com",
+        "name" : "claudiahdz"
+      }, {
+        "email" : "darcy@darcyclarke.me",
+        "name" : "darcyclarke"
+      }, {
+        "email" : "i@izs.me",
+        "name" : "isaacs"
+      }, {
+        "email" : "mike@mikecorp.ca",
+        "name" : "mikemimik"
+      }, {
+        "email" : "ruyadorno@hotmail.com",
+        "name" : "ruyadorno"
+      } ],
+      "directories" : {
+        "test" : "test"
+      },
+      "scripts" : {
+        "test" : "tap",
+        "snap" : "tap",
+        "preversion" : "npm test",
+        "postversion" : "npm publish",
+        "postpublish" : "git push origin --follow-tags"
+      },
+      "_npmVersion" : "6.13.0",
+      "_npmUser" : {
+        "name" : "isaacs",
+        "email" : "i@izs.me"
+      },
+      "_id" : "npm-packlist@2.0.1",
+      "gitHead" : "36030bfb69f86e0a8d0ef820796c38a278c1a347",
+      "tap" : {
+        "check-coverage" : true,
+        "nyc-arg" : [ "--include=index.js", "--include=bin/index.js" ]
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/npm-packlist_2.0.1_1573863633054_0.9648065185965455"
+      },
+      "_nodeVersion" : "12.12.0"
+    },
+    "1.1.10" : {
+      "name" : "npm-packlist",
+      "description" : "Get a list of the files to add from a folder into an npm package",
+      "version" : "1.1.10",
+      "author" : {
+        "name" : "Isaac Z. Schlueter",
+        "email" : "i@izs.me",
+        "url" : "http://blog.izs.me/"
+      },
+      "homepage" : "https://www.npmjs.com/package/npm-packlist",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/npm/npm-packlist.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/npm/npm-packlist/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/npm-packlist/-/npm-packlist-1.1.10.tgz",
+        "shasum" : "1039db9e985727e464df066f4cf0ab6ef85c398a"
+      },
+      "dependencies" : {
+        "ignore-walk" : "^3.0.1",
+        "npm-bundled" : "^1.0.1"
+      },
+      "devDependencies" : {
+        "mkdirp" : "^0.5.1",
+        "rimraf" : "^2.6.1",
+        "tap" : "^10.7.2"
+      },
+      "license" : "ISC",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "email" : "kat@sykosomatic.org",
+        "name" : "zkat"
+      }, {
+        "email" : "i@izs.me",
+        "name" : "isaacs"
+      } ],
+      "directories" : {
+        "test" : "test"
+      },
+      "scripts" : {
+        "test" : "tap test/*.js --100 -J",
+        "preversion" : "npm test",
+        "postversion" : "npm publish",
+        "postpublish" : "git push origin --all; git push origin --tags"
+      },
+      "_npmVersion" : "5.5.1",
+      "_npmUser" : {
+        "name" : "isaacs",
+        "email" : "i@izs.me"
+      },
+      "_id" : "npm-packlist@1.1.10",
+      "gitHead" : "991cd69bd1fd8fc88dd47238587d2daf6e0057ad",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/npm-packlist-1.1.10.tgz_1508532801516_0.12739980965852737"
+      },
+      "_nodeVersion" : "8.7.0"
+    },
+    "1.1.11" : {
+      "name" : "npm-packlist",
+      "description" : "Get a list of the files to add from a folder into an npm package",
+      "version" : "1.1.11",
+      "author" : {
+        "name" : "Isaac Z. Schlueter",
+        "email" : "i@izs.me",
+        "url" : "http://blog.izs.me/"
+      },
+      "homepage" : "https://www.npmjs.com/package/npm-packlist",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/npm/npm-packlist.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/npm/npm-packlist/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/npm-packlist/-/npm-packlist-1.1.11.tgz",
+        "shasum" : "84e8c683cbe7867d34b1d357d893ce29e28a02de"
+      },
+      "dependencies" : {
+        "ignore-walk" : "^3.0.1",
+        "npm-bundled" : "^1.0.1"
+      },
+      "devDependencies" : {
+        "mkdirp" : "^0.5.1",
+        "rimraf" : "^2.6.1",
+        "tap" : "^12.0.1"
+      },
+      "license" : "ISC",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "email" : "i@izs.me",
+        "name" : "isaacs"
+      }, {
+        "email" : "kat@sykosomatic.org",
+        "name" : "zkat"
+      } ],
+      "directories" : {
+        "test" : "test"
+      },
+      "scripts" : {
+        "test" : "tap test/*.js --100 -J",
+        "preversion" : "npm test",
+        "postversion" : "npm publish",
+        "postpublish" : "git push origin --all; git push origin --tags"
+      },
+      "_npmVersion" : "6.2.0",
+      "_npmUser" : {
+        "name" : "isaacs",
+        "email" : "i@izs.me"
+      },
+      "_id" : "npm-packlist@1.1.11",
+      "gitHead" : "534322cfa8b3333e5d1306bb43ffc395e547cb8c",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/npm-packlist_1.1.11_1532463296186_0.12250296158107665"
+      },
+      "_nodeVersion" : "10.0.0"
+    },
+    "1.1.12" : {
+      "name" : "npm-packlist",
+      "description" : "Get a list of the files to add from a folder into an npm package",
+      "version" : "1.1.12",
+      "author" : {
+        "name" : "Isaac Z. Schlueter",
+        "email" : "i@izs.me",
+        "url" : "http://blog.izs.me/"
+      },
+      "homepage" : "https://www.npmjs.com/package/npm-packlist",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/npm/npm-packlist.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/npm/npm-packlist/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/npm-packlist/-/npm-packlist-1.1.12.tgz",
+        "shasum" : "22bde2ebc12e72ca482abd67afc51eb49377243a"
+      },
+      "dependencies" : {
+        "ignore-walk" : "^3.0.1",
+        "npm-bundled" : "^1.0.1"
+      },
+      "devDependencies" : {
+        "mkdirp" : "^0.5.1",
+        "rimraf" : "^2.6.1",
+        "tap" : "^12.0.1"
+      },
+      "license" : "ISC",
+      "maintainers" : [ {
+        "email" : "i@izs.me",
+        "name" : "isaacs"
+      }, {
+        "email" : "kat@sykosomatic.org",
+        "name" : "zkat"
+      } ],
+      "directories" : {
+        "test" : "test"
+      },
+      "scripts" : {
+        "test" : "tap test/*.js --100 -J",
+        "preversion" : "npm test",
+        "postversion" : "npm publish",
+        "postpublish" : "git push origin --all; git push origin --tags"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "isaacs",
+        "email" : "i@izs.me"
+      },
+      "_id" : "npm-packlist@1.1.12",
+      "gitHead" : "32d12e0776a77c54bb2b89c32490da27ee6385ea",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/npm-packlist_1.1.12_1539021533370_0.20922398512114637"
+      },
+      "_nodeVersion" : "10.10.0"
+    },
+    "2.0.2" : {
+      "name" : "npm-packlist",
+      "description" : "Get a list of the files to add from a folder into an npm package",
+      "version" : "2.0.2",
+      "author" : {
+        "name" : "Isaac Z. Schlueter",
+        "email" : "i@izs.me",
+        "url" : "http://blog.izs.me/"
+      },
+      "homepage" : "https://github.com/npm/npm-packlist#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/npm/npm-packlist.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/npm/npm-packlist/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/npm-packlist/-/npm-packlist-2.0.2.tgz",
+        "shasum" : "9e5e5d61f205771b4dfc1695e65a3ad0f2a2088b"
+      },
+      "dependencies" : {
+        "glob" : "^7.1.6",
+        "ignore-walk" : "^3.0.3",
+        "npm-bundled" : "^1.0.1",
+        "npm-normalize-package-bin" : "^1.0.1"
+      },
+      "devDependencies" : {
+        "mkdirp" : "^0.5.1",
+        "mutate-fs" : "^2.1.1",
+        "require-inject" : "^1.4.4",
+        "rimraf" : "^2.7.1",
+        "tap" : "^14.7.0"
+      },
+      "license" : "ISC",
+      "bin" : {
+        "npm-packlist" : "bin/index.js"
+      },
+      "maintainers" : [ {
+        "email" : "evilpacket@gmail.com",
+        "name" : "adam_baldwin"
+      }, {
+        "email" : "ahmad@ahmadnassri.com",
+        "name" : "ahmadnassri"
+      }, {
+        "email" : "anne@npmjs.com",
+        "name" : "annekimsey"
+      }, {
+        "email" : "billatnpm@gmail.com",
+        "name" : "billatnpm"
+      }, {
+        "email" : "cghr1990@gmail.com",
+        "name" : "claudiahdz"
+      }, {
+        "email" : "darcy@darcyclarke.me",
+        "name" : "darcyclarke"
+      }, {
+        "email" : "i@izs.me",
+        "name" : "isaacs"
+      }, {
+        "email" : "mike@mikecorp.ca",
+        "name" : "mikemimik"
+      }, {
+        "email" : "ruyadorno@hotmail.com",
+        "name" : "ruyadorno"
+      } ],
+      "directories" : {
+        "test" : "test"
+      },
+      "scripts" : {
+        "test" : "tap",
+        "snap" : "tap",
+        "preversion" : "npm test",
+        "postversion" : "npm publish",
+        "postpublish" : "git push origin --follow-tags"
+      },
+      "_npmVersion" : "6.13.2",
+      "_npmUser" : {
+        "name" : "isaacs",
+        "email" : "i@izs.me"
+      },
+      "_id" : "npm-packlist@2.0.2",
+      "gitHead" : "59f271b31ed62ef552502145449ee859e3f72517",
+      "tap" : {
+        "check-coverage" : true,
+        "nyc-arg" : [ "--include=index.js", "--include=bin/index.js" ]
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/npm-packlist_2.0.2_1575935750748_0.27145046956341945"
+      },
+      "_nodeVersion" : "12.12.0"
+    },
+    "2.0.3" : {
+      "name" : "npm-packlist",
+      "description" : "Get a list of the files to add from a folder into an npm package",
+      "version" : "2.0.3",
+      "author" : {
+        "name" : "Isaac Z. Schlueter",
+        "email" : "i@izs.me",
+        "url" : "http://blog.izs.me/"
+      },
+      "homepage" : "https://github.com/npm/npm-packlist#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/npm/npm-packlist.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/npm/npm-packlist/issues"
+      },
+      "engines" : {
+        "node" : ">=10"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/npm-packlist/-/npm-packlist-2.0.3.tgz",
+        "shasum" : "0044b36971039fc3b46a090ed663feb547147257"
+      },
+      "dependencies" : {
+        "glob" : "^7.1.6",
+        "ignore-walk" : "^3.0.3",
+        "npm-bundled" : "^1.0.1",
+        "npm-normalize-package-bin" : "^1.0.1"
+      },
+      "devDependencies" : {
+        "mkdirp" : "^0.5.1",
+        "mutate-fs" : "^2.1.1",
+        "require-inject" : "^1.4.4",
+        "rimraf" : "^2.7.1",
+        "tap" : "^14.7.0"
+      },
+      "license" : "ISC",
+      "bin" : {
+        "npm-packlist" : "bin/index.js"
+      },
+      "maintainers" : [ {
+        "email" : "evilpacket@gmail.com",
+        "name" : "adam_baldwin"
+      }, {
+        "email" : "ahmad@ahmadnassri.com",
+        "name" : "ahmadnassri"
+      }, {
+        "email" : "anne@npmjs.com",
+        "name" : "annekimsey"
+      }, {
+        "email" : "billatnpm@gmail.com",
+        "name" : "billatnpm"
+      }, {
+        "email" : "cghr1990@gmail.com",
+        "name" : "claudiahdz"
+      }, {
+        "email" : "darcy@darcyclarke.me",
+        "name" : "darcyclarke"
+      }, {
+        "email" : "i@izs.me",
+        "name" : "isaacs"
+      }, {
+        "email" : "mike@mikecorp.ca",
+        "name" : "mikemimik"
+      }, {
+        "email" : "ruyadorno@hotmail.com",
+        "name" : "ruyadorno"
+      } ],
+      "directories" : {
+        "test" : "test"
+      },
+      "scripts" : {
+        "test" : "tap",
+        "snap" : "tap",
+        "preversion" : "npm test",
+        "postversion" : "npm publish",
+        "postpublish" : "git push origin --follow-tags"
+      },
+      "_npmVersion" : "6.13.4",
+      "_npmUser" : {
+        "name" : "isaacs",
+        "email" : "i@izs.me"
+      },
+      "_id" : "npm-packlist@2.0.3",
+      "gitHead" : "4df127d99e1fcf10d8907886cf43028399b111ad",
+      "tap" : {
+        "check-coverage" : true,
+        "nyc-arg" : [ "--include=index.js", "--include=bin/index.js" ]
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/npm-packlist_2.0.3_1576556066015_0.191651588257862"
+      },
+      "_nodeVersion" : "13.3.0"
+    },
+    "1.1.2" : {
+      "name" : "npm-packlist",
+      "description" : "Get a list of the files to add from a folder into an npm package",
+      "version" : "1.1.2",
+      "author" : {
+        "name" : "Isaac Z. Schlueter",
+        "email" : "i@izs.me",
+        "url" : "http://blog.izs.me/"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/npm-packlist/-/npm-packlist-1.1.2.tgz",
+        "shasum" : "806fd8483676690bac5dd1021507ae7d1a6ba89f"
+      },
+      "dependencies" : {
+        "ignore-walk" : "^2.0.2",
+        "npm-bundled" : "^1.0.1"
+      },
+      "devDependencies" : {
+        "mkdirp" : "^0.5.1",
+        "rimraf" : "^2.6.1",
+        "tap" : "^10.3.2"
+      },
+      "license" : "ISC",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "isaacs",
+        "email" : "i@izs.me"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tap test/*.js --100 -J",
+        "preversion" : "npm test",
+        "postversion" : "npm publish",
+        "postpublish" : "git push origin --all; git push origin --tags"
+      },
+      "_npmVersion" : "5.0.0",
+      "_npmUser" : {
+        "name" : "isaacs",
+        "email" : "i@izs.me"
+      },
+      "_id" : "npm-packlist@1.1.2",
+      "gitHead" : "5b8fc7021d2a1051c93baa0f2eddc091a9fac740",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/npm-packlist-1.1.2.tgz_1496075061459_0.9057607934810221"
+      },
+      "_nodeVersion" : "8.0.0-pre"
+    },
+    "1.3.0" : {
+      "name" : "npm-packlist",
+      "description" : "Get a list of the files to add from a folder into an npm package",
+      "version" : "1.3.0",
+      "author" : {
+        "name" : "Isaac Z. Schlueter",
+        "email" : "i@izs.me",
+        "url" : "http://blog.izs.me/"
+      },
+      "homepage" : "https://www.npmjs.com/package/npm-packlist",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/npm/npm-packlist.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/npm/npm-packlist/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/npm-packlist/-/npm-packlist-1.3.0.tgz",
+        "shasum" : "7f01e8e44408341379ca98cfd756e7b29bd2626c"
+      },
+      "dependencies" : {
+        "ignore-walk" : "^3.0.1",
+        "npm-bundled" : "^1.0.1"
+      },
+      "devDependencies" : {
+        "mkdirp" : "^0.5.1",
+        "rimraf" : "^2.6.1",
+        "tap" : "^12.0.1"
+      },
+      "license" : "ISC",
+      "maintainers" : [ {
+        "email" : "audrey@npmjs.com",
+        "name" : "audrey.e"
+      }, {
+        "email" : "i@izs.me",
+        "name" : "isaacs"
+      }, {
+        "email" : "npm@zkat.tech",
+        "name" : "zkat"
+      } ],
+      "directories" : {
+        "test" : "test"
+      },
+      "scripts" : {
+        "test" : "tap test/*.js --100 -J",
+        "preversion" : "npm test",
+        "postversion" : "npm publish",
+        "postpublish" : "git push origin --all; git push origin --tags"
+      },
+      "_npmVersion" : "6.8.0-next.0",
+      "_npmUser" : {
+        "name" : "audrey.e",
+        "email" : "audrey@npmjs.com"
+      },
+      "_id" : "npm-packlist@1.3.0",
+      "gitHead" : "d95ad05c51f2b2073b1193d96ff29c2c06e367dc",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/npm-packlist_1.3.0_1549403526565_0.5662687050410935"
+      },
+      "_nodeVersion" : "10.14.1"
+    },
+    "1.1.3" : {
+      "name" : "npm-packlist",
+      "description" : "Get a list of the files to add from a folder into an npm package",
+      "version" : "1.1.3",
+      "author" : {
+        "name" : "Isaac Z. Schlueter",
+        "email" : "i@izs.me",
+        "url" : "http://blog.izs.me/"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/npm-packlist/-/npm-packlist-1.1.3.tgz",
+        "shasum" : "c639bd25e6981ca3fe957a0eb731a19b945f1bf0"
+      },
+      "dependencies" : {
+        "ignore-walk" : "^2.0.2",
+        "npm-bundled" : "^1.0.1"
+      },
+      "devDependencies" : {
+        "mkdirp" : "^0.5.1",
+        "rimraf" : "^2.6.1",
+        "tap" : "^10.3.2"
+      },
+      "license" : "ISC",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "isaacs",
+        "email" : "i@izs.me"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tap test/*.js --100 -J",
+        "preversion" : "npm test",
+        "postversion" : "npm publish",
+        "postpublish" : "git push origin --all; git push origin --tags"
+      },
+      "_npmVersion" : "5.0.0",
+      "_npmUser" : {
+        "name" : "isaacs",
+        "email" : "i@izs.me"
+      },
+      "_id" : "npm-packlist@1.1.3",
+      "gitHead" : "a03da7572198c5597c1725573319d6a02d254388",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/npm-packlist-1.1.3.tgz_1496075230885_0.7036038567312062"
+      },
+      "_nodeVersion" : "8.0.0-pre"
+    },
+    "1.4.0" : {
+      "name" : "npm-packlist",
+      "description" : "Get a list of the files to add from a folder into an npm package",
+      "version" : "1.4.0",
+      "author" : {
+        "name" : "Isaac Z. Schlueter",
+        "email" : "i@izs.me",
+        "url" : "http://blog.izs.me/"
+      },
+      "homepage" : "https://www.npmjs.com/package/npm-packlist",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/npm/npm-packlist.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/npm/npm-packlist/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/npm-packlist/-/npm-packlist-1.4.0.tgz",
+        "shasum" : "b2c0867af2a396e0734343d2b6b3f7934db935f2"
+      },
+      "dependencies" : {
+        "ignore-walk" : "^3.0.1",
+        "npm-bundled" : "^1.0.1"
+      },
+      "devDependencies" : {
+        "mkdirp" : "^0.5.1",
+        "rimraf" : "^2.6.1",
+        "tap" : "^12.0.1"
+      },
+      "license" : "ISC",
+      "maintainers" : [ {
+        "email" : "audrey@npmjs.com",
+        "name" : "audrey.e"
+      }, {
+        "email" : "me@re-becca.org",
+        "name" : "iarna"
+      }, {
+        "email" : "i@izs.me",
+        "name" : "isaacs"
+      }, {
+        "email" : "npm@zkat.tech",
+        "name" : "zkat"
+      } ],
+      "directories" : {
+        "test" : "test"
+      },
+      "scripts" : {
+        "test" : "tap test/*.js --100 -J",
+        "preversion" : "npm test",
+        "postversion" : "npm publish",
+        "postpublish" : "git push origin --all; git push origin --tags"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "audrey.e",
+        "email" : "audrey@npmjs.com"
+      },
+      "_id" : "npm-packlist@1.4.0",
+      "gitHead" : "647293a625f3d0a0f3154cd488404be68fed78b6",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/npm-packlist_1.4.0_1550606806585_0.4079041616296335"
+      },
+      "_nodeVersion" : "10.15.1"
+    },
+    "1.1.4" : {
+      "name" : "npm-packlist",
+      "description" : "Get a list of the files to add from a folder into an npm package",
+      "version" : "1.1.4",
+      "author" : {
+        "name" : "Isaac Z. Schlueter",
+        "email" : "i@izs.me",
+        "url" : "http://blog.izs.me/"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/npm-packlist/-/npm-packlist-1.1.4.tgz",
+        "shasum" : "8024763b6c5d346b59d3c2cd17f0e3a183c144ea"
+      },
+      "dependencies" : {
+        "ignore-walk" : "^2.0.2",
+        "npm-bundled" : "^1.0.1"
+      },
+      "devDependencies" : {
+        "mkdirp" : "^0.5.1",
+        "rimraf" : "^2.6.1",
+        "tap" : "^10.3.2"
+      },
+      "license" : "ISC",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "isaacs",
+        "email" : "i@izs.me"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tap test/*.js --100 -J",
+        "preversion" : "npm test",
+        "postversion" : "npm publish",
+        "postpublish" : "git push origin --all; git push origin --tags"
+      },
+      "_npmVersion" : "5.0.0",
+      "_npmUser" : {
+        "name" : "isaacs",
+        "email" : "i@izs.me"
+      },
+      "_id" : "npm-packlist@1.1.4",
+      "gitHead" : "a6e411255a63aeb2dee4cbbd6044523878bd2e33",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/npm-packlist-1.1.4.tgz_1496076431790_0.3186323142144829"
+      },
+      "_nodeVersion" : "8.0.0-pre"
+    },
+    "1.4.1" : {
+      "name" : "npm-packlist",
+      "description" : "Get a list of the files to add from a folder into an npm package",
+      "version" : "1.4.1",
+      "author" : {
+        "name" : "Isaac Z. Schlueter",
+        "email" : "i@izs.me",
+        "url" : "http://blog.izs.me/"
+      },
+      "homepage" : "https://www.npmjs.com/package/npm-packlist",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/npm/npm-packlist.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/npm/npm-packlist/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/npm-packlist/-/npm-packlist-1.4.1.tgz",
+        "shasum" : "19064cdf988da80ea3cee45533879d90192bbfbc"
+      },
+      "dependencies" : {
+        "ignore-walk" : "^3.0.1",
+        "npm-bundled" : "^1.0.1"
+      },
+      "devDependencies" : {
+        "mkdirp" : "^0.5.1",
+        "rimraf" : "^2.6.1",
+        "tap" : "^12.0.1"
+      },
+      "license" : "ISC",
+      "maintainers" : [ {
+        "email" : "audrey@npmjs.com",
+        "name" : "audrey.e"
+      }, {
+        "email" : "me@re-becca.org",
+        "name" : "iarna"
+      }, {
+        "email" : "i@izs.me",
+        "name" : "isaacs"
+      }, {
+        "email" : "npm@zkat.tech",
+        "name" : "zkat"
+      } ],
+      "directories" : {
+        "test" : "test"
+      },
+      "scripts" : {
+        "test" : "tap test/*.js --100 -J",
+        "preversion" : "npm test",
+        "postversion" : "npm publish",
+        "postpublish" : "git push origin --all; git push origin --tags"
+      },
+      "_npmVersion" : "6.8.0",
+      "_npmUser" : {
+        "name" : "zkat",
+        "email" : "npm@zkat.tech"
+      },
+      "_id" : "npm-packlist@1.4.1",
+      "gitHead" : "1a4c8bfe712f8b2804c0ae48fb2a9dd99c78ef99",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/npm-packlist_1.4.1_1550690064875_0.9430295266761035"
+      },
+      "_nodeVersion" : "11.6.0"
+    },
+    "1.1.5" : {
+      "name" : "npm-packlist",
+      "description" : "Get a list of the files to add from a folder into an npm package",
+      "version" : "1.1.5",
+      "author" : {
+        "name" : "Isaac Z. Schlueter",
+        "email" : "i@izs.me",
+        "url" : "http://blog.izs.me/"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/npm-packlist/-/npm-packlist-1.1.5.tgz",
+        "shasum" : "943b0da827308f0a59e3595d3424e2d7e89a13f7"
+      },
+      "dependencies" : {
+        "ignore-walk" : "^2.0.2",
+        "npm-bundled" : "^1.0.1"
+      },
+      "devDependencies" : {
+        "mkdirp" : "^0.5.1",
+        "rimraf" : "^2.6.1",
+        "tap" : "^10.3.2"
+      },
+      "license" : "ISC",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "isaacs",
+        "email" : "i@izs.me"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tap test/*.js --100 -J",
+        "preversion" : "npm test",
+        "postversion" : "npm publish",
+        "postpublish" : "git push origin --all; git push origin --tags"
+      },
+      "_npmVersion" : "5.0.0",
+      "_npmUser" : {
+        "name" : "isaacs",
+        "email" : "i@izs.me"
+      },
+      "_id" : "npm-packlist@1.1.5",
+      "gitHead" : "34fd45fcecedb316e891d05d815f5857ec708187",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/npm-packlist-1.1.5.tgz_1496108899184_0.40621192194521427"
+      },
+      "_nodeVersion" : "8.0.0-pre"
+    },
+    "1.4.2" : {
+      "name" : "npm-packlist",
+      "description" : "Get a list of the files to add from a folder into an npm package",
+      "version" : "1.4.2",
+      "author" : {
+        "name" : "Isaac Z. Schlueter",
+        "email" : "i@izs.me",
+        "url" : "http://blog.izs.me/"
+      },
+      "homepage" : "https://www.npmjs.com/package/npm-packlist",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/npm/npm-packlist.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/npm/npm-packlist/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/npm-packlist/-/npm-packlist-1.4.2.tgz",
+        "shasum" : "a9d63153d4fb0547e6d4342e4102ba6c3bd2b2c7"
+      },
+      "dependencies" : {
+        "ignore-walk" : "^3.0.1",
+        "npm-bundled" : "^1.0.1"
+      },
+      "devDependencies" : {
+        "mkdirp" : "^0.5.1",
+        "rimraf" : "^2.6.1",
+        "tap" : "^11.1.5"
+      },
+      "license" : "ISC",
+      "maintainers" : [ {
+        "email" : "audrey@npmjs.com",
+        "name" : "audrey.e"
+      }, {
+        "email" : "me@re-becca.org",
+        "name" : "iarna"
+      }, {
+        "email" : "i@izs.me",
+        "name" : "isaacs"
+      }, {
+        "email" : "npm@zkat.tech",
+        "name" : "zkat"
+      } ],
+      "directories" : {
+        "test" : "test"
+      },
+      "scripts" : {
+        "test" : "tap test/*.js --100 -J",
+        "preversion" : "npm test",
+        "postversion" : "npm publish",
+        "postpublish" : "git push origin --all --follow-tags"
+      },
+      "_npmVersion" : "6.9.2",
+      "_npmUser" : {
+        "name" : "isaacs",
+        "email" : "i@izs.me"
+      },
+      "_id" : "npm-packlist@1.4.2",
+      "gitHead" : "8d85a56afc0a482385b3c22ba5266cb42b911a31",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/npm-packlist_1.4.2_1561676952961_0.5225606651314625"
+      },
+      "_nodeVersion" : "12.4.0"
+    },
+    "1.1.6" : {
+      "name" : "npm-packlist",
+      "description" : "Get a list of the files to add from a folder into an npm package",
+      "version" : "1.1.6",
+      "author" : {
+        "name" : "Isaac Z. Schlueter",
+        "email" : "i@izs.me",
+        "url" : "http://blog.izs.me/"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/npm-packlist/-/npm-packlist-1.1.6.tgz",
+        "shasum" : "1091724b854ae0d6537782a30bec2ff86c2b39cb"
+      },
+      "dependencies" : {
+        "ignore-walk" : "^3.0.0",
+        "npm-bundled" : "^1.0.1"
+      },
+      "devDependencies" : {
+        "mkdirp" : "^0.5.1",
+        "rimraf" : "^2.6.1",
+        "tap" : "^10.3.2"
+      },
+      "license" : "ISC",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "isaacs",
+        "email" : "i@izs.me"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tap test/*.js --100 -J",
+        "preversion" : "npm test",
+        "postversion" : "npm publish",
+        "postpublish" : "git push origin --all; git push origin --tags"
+      },
+      "_npmVersion" : "5.0.1",
+      "_npmUser" : {
+        "name" : "isaacs",
+        "email" : "i@izs.me"
+      },
+      "_id" : "npm-packlist@1.1.6",
+      "gitHead" : "a90518c79d7648aa3737d49c221c6233521eea42",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/npm-packlist-1.1.6.tgz_1496429114840_0.9671227398794144"
+      },
+      "_nodeVersion" : "8.0.0"
+    },
+    "1.4.3" : {
+      "name" : "npm-packlist",
+      "description" : "Get a list of the files to add from a folder into an npm package",
+      "version" : "1.4.3",
+      "author" : {
+        "name" : "Isaac Z. Schlueter",
+        "email" : "i@izs.me",
+        "url" : "http://blog.izs.me/"
+      },
+      "homepage" : "https://www.npmjs.com/package/npm-packlist",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/npm/npm-packlist.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/npm/npm-packlist/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/npm-packlist/-/npm-packlist-1.4.3.tgz",
+        "shasum" : "44baf075a36ec9217b307eb77a3f4eb3db0ec1ff"
+      },
+      "dependencies" : {
+        "ignore-walk" : "^3.0.1",
+        "npm-bundled" : "^1.0.1"
+      },
+      "devDependencies" : {
+        "mkdirp" : "^0.5.1",
+        "rimraf" : "^2.6.1",
+        "tap" : "^11.1.5"
+      },
+      "license" : "ISC",
+      "maintainers" : [ {
+        "email" : "audrey@npmjs.com",
+        "name" : "audrey.e"
+      }, {
+        "email" : "me@re-becca.org",
+        "name" : "iarna"
+      }, {
+        "email" : "i@izs.me",
+        "name" : "isaacs"
+      }, {
+        "email" : "npm@zkat.tech",
+        "name" : "zkat"
+      } ],
+      "directories" : {
+        "test" : "test"
+      },
+      "scripts" : {
+        "test" : "tap test/*.js --100 -J",
+        "preversion" : "npm test",
+        "postversion" : "npm publish",
+        "postpublish" : "git push origin --all --follow-tags"
+      },
+      "_npmVersion" : "6.9.2",
+      "_npmUser" : {
+        "name" : "isaacs",
+        "email" : "i@izs.me"
+      },
+      "_id" : "npm-packlist@1.4.3",
+      "gitHead" : "ed853bc5baa9bc03f94b5df8d536081d0e34cbe5",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/npm-packlist_1.4.3_1561760935008_0.7976752975875308"
+      },
+      "_nodeVersion" : "12.4.0"
+    },
+    "1.1.7" : {
+      "name" : "npm-packlist",
+      "description" : "Get a list of the files to add from a folder into an npm package",
+      "version" : "1.1.7",
+      "author" : {
+        "name" : "Isaac Z. Schlueter",
+        "email" : "i@izs.me",
+        "url" : "http://blog.izs.me/"
+      },
+      "homepage" : "https://www.npmjs.com/package/npm-packlist",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/npm/npm-packlist.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/npm/npm-packlist/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/npm-packlist/-/npm-packlist-1.1.7.tgz",
+        "shasum" : "963c2857a62d3135c64afce89043a4df517bd714"
+      },
+      "dependencies" : {
+        "ignore-walk" : "^3.0.0",
+        "npm-bundled" : "^1.0.1"
+      },
+      "devDependencies" : {
+        "mkdirp" : "^0.5.1",
+        "rimraf" : "^2.6.1",
+        "tap" : "^10.3.2"
+      },
+      "license" : "ISC",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "isaacs",
+        "email" : "i@izs.me"
+      } ],
+      "directories" : {
+        "test" : "test"
+      },
+      "scripts" : {
+        "test" : "tap test/*.js --100 -J",
+        "preversion" : "npm test",
+        "postversion" : "npm publish",
+        "postpublish" : "git push origin --all; git push origin --tags"
+      },
+      "_npmVersion" : "5.3.0",
+      "_npmUser" : {
+        "name" : "iarna",
+        "email" : "me@re-becca.org"
+      },
+      "_id" : "npm-packlist@1.1.7",
+      "gitHead" : "9589b6937a139636190c0da3769454ee730f343e",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/npm-packlist-1.1.7.tgz_1503441577041_0.30037618963979185"
+      },
+      "_nodeVersion" : "8.4.0"
+    },
+    "1.4.4" : {
+      "name" : "npm-packlist",
+      "description" : "Get a list of the files to add from a folder into an npm package",
+      "version" : "1.4.4",
+      "author" : {
+        "name" : "Isaac Z. Schlueter",
+        "email" : "i@izs.me",
+        "url" : "http://blog.izs.me/"
+      },
+      "homepage" : "https://www.npmjs.com/package/npm-packlist",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/npm/npm-packlist.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/npm/npm-packlist/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/npm-packlist/-/npm-packlist-1.4.4.tgz",
+        "shasum" : "866224233850ac534b63d1a6e76050092b5d2f44"
+      },
+      "dependencies" : {
+        "ignore-walk" : "^3.0.1",
+        "npm-bundled" : "^1.0.1"
+      },
+      "devDependencies" : {
+        "mkdirp" : "^0.5.1",
+        "rimraf" : "^2.6.1",
+        "tap" : "^14.2.1"
+      },
+      "license" : "ISC",
+      "maintainers" : [ {
+        "email" : "audrey@npmjs.com",
+        "name" : "audrey.e"
+      }, {
+        "email" : "me@re-becca.org",
+        "name" : "iarna"
+      }, {
+        "email" : "i@izs.me",
+        "name" : "isaacs"
+      }, {
+        "email" : "npm@zkat.tech",
+        "name" : "zkat"
+      } ],
+      "directories" : {
+        "test" : "test"
+      },
+      "scripts" : {
+        "test" : "tap",
+        "snap" : "tap",
+        "preversion" : "npm test",
+        "postversion" : "npm publish",
+        "postpublish" : "git push origin --follow-tags"
+      },
+      "_npmVersion" : "6.9.2",
+      "_npmUser" : {
+        "name" : "isaacs",
+        "email" : "i@izs.me"
+      },
+      "_id" : "npm-packlist@1.4.4",
+      "gitHead" : "270f534bc70dfb1d316682226332fd05e75e1b14",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/npm-packlist_1.4.4_1561846846025_0.8177961384718202"
+      },
+      "_nodeVersion" : "12.4.0"
+    },
+    "1.1.8" : {
+      "name" : "npm-packlist",
+      "description" : "Get a list of the files to add from a folder into an npm package",
+      "version" : "1.1.8",
+      "author" : {
+        "name" : "Isaac Z. Schlueter",
+        "email" : "i@izs.me",
+        "url" : "http://blog.izs.me/"
+      },
+      "homepage" : "https://www.npmjs.com/package/npm-packlist",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/npm/npm-packlist.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/npm/npm-packlist/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/npm-packlist/-/npm-packlist-1.1.8.tgz",
+        "shasum" : "aa7e56734ed038aba50724d79d0bc9c2acad372a"
+      },
+      "dependencies" : {
+        "ignore-walk" : "^3.0.0",
+        "npm-bundled" : "^1.0.1"
+      },
+      "devDependencies" : {
+        "mkdirp" : "^0.5.1",
+        "rimraf" : "^2.6.1",
+        "tap" : "^10.3.2"
+      },
+      "license" : "ISC",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "isaacs",
+        "email" : "i@izs.me"
+      } ],
+      "directories" : {
+        "test" : "test"
+      },
+      "scripts" : {
+        "test" : "tap test/*.js --100 -J",
+        "preversion" : "npm test",
+        "postversion" : "npm publish",
+        "postpublish" : "git push origin --all; git push origin --tags"
+      },
+      "_npmVersion" : "5.3.0",
+      "_npmUser" : {
+        "name" : "iarna",
+        "email" : "me@re-becca.org"
+      },
+      "_id" : "npm-packlist@1.1.8",
+      "gitHead" : "49238286e3ca09e40239458e3b8376bb398d22fe",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/npm-packlist-1.1.8.tgz_1503442030688_0.8616737648844719"
+      },
+      "_nodeVersion" : "8.4.0"
+    },
+    "1.4.5" : {
+      "name" : "npm-packlist",
+      "description" : "Get a list of the files to add from a folder into an npm package",
+      "version" : "1.4.5",
+      "author" : {
+        "name" : "Isaac Z. Schlueter",
+        "email" : "i@izs.me",
+        "url" : "http://blog.izs.me/"
+      },
+      "homepage" : "https://www.npmjs.com/package/npm-packlist",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/npm/npm-packlist.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/npm/npm-packlist/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/npm-packlist/-/npm-packlist-1.4.5.tgz",
+        "shasum" : "46d14d60ce52ff8c370bf72c5bc4cf665dd21f33"
+      },
+      "dependencies" : {
+        "ignore-walk" : "^3.0.1",
+        "npm-bundled" : "^1.0.1"
+      },
+      "devDependencies" : {
+        "mkdirp" : "^0.5.1",
+        "rimraf" : "^2.6.1",
+        "tap" : "^14.6.9"
+      },
+      "license" : "ISC",
+      "maintainers" : [ {
+        "email" : "evilpacket@gmail.com",
+        "name" : "adam_baldwin"
+      }, {
+        "email" : "ahmad@ahmadnassri.com",
+        "name" : "ahmadnassri"
+      }, {
+        "email" : "anne@npmjs.com",
+        "name" : "annekimsey"
+      }, {
+        "email" : "billatnpm@gmail.com",
+        "name" : "billatnpm"
+      }, {
+        "email" : "cghr1990@gmail.com",
+        "name" : "claudiahdz"
+      }, {
+        "email" : "darcy@darcyclarke.me",
+        "name" : "darcyclarke"
+      }, {
+        "email" : "i@izs.me",
+        "name" : "isaacs"
+      }, {
+        "email" : "mike@mikecorp.ca",
+        "name" : "mikemimik"
+      }, {
+        "email" : "ruyadorno@hotmail.com",
+        "name" : "ruyadorno"
+      } ],
+      "directories" : {
+        "test" : "test"
+      },
+      "scripts" : {
+        "test" : "tap",
+        "snap" : "tap",
+        "preversion" : "npm test",
+        "postversion" : "npm publish",
+        "postpublish" : "git push origin --follow-tags"
+      },
+      "_npmVersion" : "6.12.0",
+      "_npmUser" : {
+        "name" : "isaacs",
+        "email" : "i@izs.me"
+      },
+      "_id" : "npm-packlist@1.4.5",
+      "gitHead" : "bc1d66bbc7c71bc01e7bb34b93ed8f0139e9168e",
+      "tap" : {
+        "jobs" : 1
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/npm-packlist_1.4.5_1570602147877_0.1832477003855808"
+      },
+      "_nodeVersion" : "12.11.1"
+    },
+    "1.1.9" : {
+      "name" : "npm-packlist",
+      "description" : "Get a list of the files to add from a folder into an npm package",
+      "version" : "1.1.9",
+      "author" : {
+        "name" : "Isaac Z. Schlueter",
+        "email" : "i@izs.me",
+        "url" : "http://blog.izs.me/"
+      },
+      "homepage" : "https://www.npmjs.com/package/npm-packlist",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/npm/npm-packlist.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/npm/npm-packlist/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/npm-packlist/-/npm-packlist-1.1.9.tgz",
+        "shasum" : "bd24a0b7a31a307315b07c2e54f4888f10577548"
+      },
+      "dependencies" : {
+        "ignore-walk" : "^3.0.0",
+        "npm-bundled" : "^1.0.1"
+      },
+      "devDependencies" : {
+        "mkdirp" : "^0.5.1",
+        "rimraf" : "^2.6.1",
+        "tap" : "^10.3.2"
+      },
+      "license" : "ISC",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "email" : "kat@sykosomatic.org",
+        "name" : "zkat"
+      }, {
+        "email" : "i@izs.me",
+        "name" : "isaacs"
+      } ],
+      "directories" : {
+        "test" : "test"
+      },
+      "scripts" : {
+        "test" : "tap test/*.js --100 -J",
+        "preversion" : "npm test",
+        "postversion" : "npm publish",
+        "postpublish" : "git push origin --all; git push origin --tags"
+      },
+      "_npmVersion" : "5.4.1",
+      "_npmUser" : {
+        "name" : "isaacs",
+        "email" : "i@izs.me"
+      },
+      "_id" : "npm-packlist@1.1.9",
+      "gitHead" : "9fcd6d39ae3af45b63804a461b0ac41bb0ed52ab",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/npm-packlist-1.1.9.tgz_1504907532668_0.6420345930382609"
+      },
+      "_nodeVersion" : "8.2.1"
+    },
+    "1.4.6" : {
+      "name" : "npm-packlist",
+      "description" : "Get a list of the files to add from a folder into an npm package",
+      "version" : "1.4.6",
+      "author" : {
+        "name" : "Isaac Z. Schlueter",
+        "email" : "i@izs.me",
+        "url" : "http://blog.izs.me/"
+      },
+      "homepage" : "https://www.npmjs.com/package/npm-packlist",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/npm/npm-packlist.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/npm/npm-packlist/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/npm-packlist/-/npm-packlist-1.4.6.tgz",
+        "shasum" : "53ba3ed11f8523079f1457376dd379ee4ea42ff4"
+      },
+      "dependencies" : {
+        "ignore-walk" : "^3.0.1",
+        "npm-bundled" : "^1.0.1"
+      },
+      "devDependencies" : {
+        "mkdirp" : "^0.5.1",
+        "rimraf" : "^2.6.1",
+        "tap" : "^14.6.9"
+      },
+      "license" : "ISC",
+      "maintainers" : [ {
+        "email" : "evilpacket@gmail.com",
+        "name" : "adam_baldwin"
+      }, {
+        "email" : "ahmad@ahmadnassri.com",
+        "name" : "ahmadnassri"
+      }, {
+        "email" : "anne@npmjs.com",
+        "name" : "annekimsey"
+      }, {
+        "email" : "billatnpm@gmail.com",
+        "name" : "billatnpm"
+      }, {
+        "email" : "cghr1990@gmail.com",
+        "name" : "claudiahdz"
+      }, {
+        "email" : "darcy@darcyclarke.me",
+        "name" : "darcyclarke"
+      }, {
+        "email" : "i@izs.me",
+        "name" : "isaacs"
+      }, {
+        "email" : "mike@mikecorp.ca",
+        "name" : "mikemimik"
+      }, {
+        "email" : "ruyadorno@hotmail.com",
+        "name" : "ruyadorno"
+      } ],
+      "directories" : {
+        "test" : "test"
+      },
+      "scripts" : {
+        "test" : "tap",
+        "snap" : "tap",
+        "preversion" : "npm test",
+        "postversion" : "npm publish",
+        "postpublish" : "git push origin --follow-tags"
+      },
+      "_npmVersion" : "6.12.0",
+      "_npmUser" : {
+        "name" : "isaacs",
+        "email" : "i@izs.me"
+      },
+      "_id" : "npm-packlist@1.4.6",
+      "gitHead" : "c5c578770c5245c97170d15118b9d521342d0302",
+      "tap" : {
+        "jobs" : 1
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/npm-packlist_1.4.6_1570603698719_0.7438078071695851"
+      },
+      "_nodeVersion" : "12.11.1"
+    },
+    "1.0.0" : {
+      "name" : "npm-packlist",
+      "description" : "Get a list of the files to add from a folder into an npm package",
+      "version" : "1.0.0",
+      "author" : {
+        "name" : "Isaac Z. Schlueter",
+        "email" : "i@izs.me",
+        "url" : "http://blog.izs.me/"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/npm-packlist/-/npm-packlist-1.0.0.tgz",
+        "shasum" : "ad16a25dca099a8c4b362deb42aa49ff5f3d644f"
+      },
+      "dependencies" : {
+        "ignore-walk" : "^2.0.2"
+      },
+      "devDependencies" : {
+        "mkdirp" : "^0.5.1",
+        "rimraf" : "^2.6.1",
+        "tap" : "^10.3.2"
+      },
+      "license" : "ISC",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "isaacs",
+        "email" : "i@izs.me"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tap test/*.js --100 -J",
+        "preversion" : "npm test",
+        "postversion" : "npm publish",
+        "postpublish" : "git push origin --all; git push origin --tags"
+      },
+      "_npmVersion" : "5.0.0",
+      "_npmUser" : {
+        "name" : "isaacs",
+        "email" : "i@izs.me"
+      },
+      "_id" : "npm-packlist@1.0.0",
+      "gitHead" : "0ee1412a599f9059cf3f8ad2dac7e4ac86a5be50",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/npm-packlist-1.0.0.tgz_1495865512259_0.43060961994342506"
+      },
+      "_nodeVersion" : "8.0.0-pre"
+    },
+    "1.0.1" : {
+      "name" : "npm-packlist",
+      "description" : "Get a list of the files to add from a folder into an npm package",
+      "version" : "1.0.1",
+      "author" : {
+        "name" : "Isaac Z. Schlueter",
+        "email" : "i@izs.me",
+        "url" : "http://blog.izs.me/"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/npm-packlist/-/npm-packlist-1.0.1.tgz",
+        "shasum" : "9689d29fdc095c8b79bcf1a7ef89aceb2fb701a5"
+      },
+      "dependencies" : {
+        "ignore-walk" : "^2.0.2"
+      },
+      "devDependencies" : {
+        "mkdirp" : "^0.5.1",
+        "rimraf" : "^2.6.1",
+        "tap" : "^10.3.2"
+      },
+      "license" : "ISC",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "isaacs",
+        "email" : "i@izs.me"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tap test/*.js --100 -J",
+        "preversion" : "npm test",
+        "postversion" : "npm publish",
+        "postpublish" : "git push origin --all; git push origin --tags"
+      },
+      "_npmVersion" : "5.0.0",
+      "_npmUser" : {
+        "name" : "isaacs",
+        "email" : "i@izs.me"
+      },
+      "_id" : "npm-packlist@1.0.1",
+      "gitHead" : "72c5e68bff35f5c88fb075175b352e4ed7809385",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/npm-packlist-1.0.1.tgz_1495870340305_0.8008329498115927"
+      },
+      "_nodeVersion" : "8.0.0-pre"
+    },
+    "1.1.0" : {
+      "name" : "npm-packlist",
+      "description" : "Get a list of the files to add from a folder into an npm package",
+      "version" : "1.1.0",
+      "author" : {
+        "name" : "Isaac Z. Schlueter",
+        "email" : "i@izs.me",
+        "url" : "http://blog.izs.me/"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/npm-packlist/-/npm-packlist-1.1.0.tgz",
+        "shasum" : "540cf18bc56b892aeb5534cb1053da06f30b8252"
+      },
+      "dependencies" : {
+        "ignore-walk" : "^2.0.2",
+        "npm-bundled" : "^1.0.1"
+      },
+      "devDependencies" : {
+        "mkdirp" : "^0.5.1",
+        "rimraf" : "^2.6.1",
+        "tap" : "^10.3.2"
+      },
+      "license" : "ISC",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "isaacs",
+        "email" : "i@izs.me"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tap test/*.js --100 -J",
+        "preversion" : "npm test",
+        "postversion" : "npm publish",
+        "postpublish" : "git push origin --all; git push origin --tags"
+      },
+      "_npmVersion" : "5.0.0",
+      "_npmUser" : {
+        "name" : "isaacs",
+        "email" : "i@izs.me"
+      },
+      "_id" : "npm-packlist@1.1.0",
+      "gitHead" : "f4968f77db37809f08cbc7c8f85b69df6db7a818",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/npm-packlist-1.1.0.tgz_1496033731286_0.8805593037977815"
+      },
+      "_nodeVersion" : "8.0.0-pre"
+    },
+    "1.1.1" : {
+      "name" : "npm-packlist",
+      "description" : "Get a list of the files to add from a folder into an npm package",
+      "version" : "1.1.1",
+      "author" : {
+        "name" : "Isaac Z. Schlueter",
+        "email" : "i@izs.me",
+        "url" : "http://blog.izs.me/"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/npm-packlist/-/npm-packlist-1.1.1.tgz",
+        "shasum" : "39caf9f6b02d1b1329c8532ba7c8e4e62439ea65"
+      },
+      "dependencies" : {
+        "ignore-walk" : "^2.0.2",
+        "npm-bundled" : "^1.0.1"
+      },
+      "devDependencies" : {
+        "mkdirp" : "^0.5.1",
+        "rimraf" : "^2.6.1",
+        "tap" : "^10.3.2"
+      },
+      "license" : "ISC",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "isaacs",
+        "email" : "i@izs.me"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tap test/*.js --100 -J",
+        "preversion" : "npm test",
+        "postversion" : "npm publish",
+        "postpublish" : "git push origin --all; git push origin --tags"
+      },
+      "_npmVersion" : "5.0.0",
+      "_npmUser" : {
+        "name" : "isaacs",
+        "email" : "i@izs.me"
+      },
+      "_id" : "npm-packlist@1.1.1",
+      "gitHead" : "12facdf2693fe7bdc5aa07a7605a17950fc5d240",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/npm-packlist-1.1.1.tgz_1496074328788_0.014072102727368474"
+      },
+      "_nodeVersion" : "8.0.0-pre"
+    },
+    "1.2.0" : {
+      "name" : "npm-packlist",
+      "description" : "Get a list of the files to add from a folder into an npm package",
+      "version" : "1.2.0",
+      "author" : {
+        "name" : "Isaac Z. Schlueter",
+        "email" : "i@izs.me",
+        "url" : "http://blog.izs.me/"
+      },
+      "homepage" : "https://www.npmjs.com/package/npm-packlist",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/npm/npm-packlist.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/npm/npm-packlist/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/npm-packlist/-/npm-packlist-1.2.0.tgz",
+        "shasum" : "55a60e793e272f00862c7089274439a4cc31fc7f"
+      },
+      "dependencies" : {
+        "ignore-walk" : "^3.0.1",
+        "npm-bundled" : "^1.0.1"
+      },
+      "devDependencies" : {
+        "mkdirp" : "^0.5.1",
+        "rimraf" : "^2.6.1",
+        "tap" : "^12.0.1"
+      },
+      "license" : "ISC",
+      "maintainers" : [ {
+        "email" : "i@izs.me",
+        "name" : "isaacs"
+      }, {
+        "email" : "kat@sykosomatic.org",
+        "name" : "zkat"
+      } ],
+      "directories" : {
+        "test" : "test"
+      },
+      "scripts" : {
+        "test" : "tap test/*.js --100 -J",
+        "preversion" : "npm test",
+        "postversion" : "npm publish",
+        "postpublish" : "git push origin --all; git push origin --tags"
+      },
+      "_npmVersion" : "6.5.0",
+      "_npmUser" : {
+        "name" : "isaacs",
+        "email" : "i@izs.me"
+      },
+      "_id" : "npm-packlist@1.2.0",
+      "gitHead" : "e4280f98ddf6948abeb2482fc2eb63e912985b20",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/npm-packlist_1.2.0_1546628968890_0.5942136914411529"
+      },
+      "_nodeVersion" : "10.12.0"
+    }
+  },
+  "readme" : "# npm-packlist\n\n[![Build Status](https://travis-ci.com/npm/npm-packlist.svg?token=hHeDp9pQmz9kvsgRNVHy&branch=master)](https://travis-ci.com/npm/npm-packlist)\n\nGet a list of the files to add from a folder into an npm package.\n\nThese can be handed to [tar](http://npm.im/tar) like so to make an npm\npackage tarball:\n\n```js\nconst packlist = require('npm-packlist')\nconst tar = require('tar')\nconst packageDir = '/path/to/package'\nconst packageTarball = '/path/to/package.tgz'\n\npacklist({ path: packageDir })\n  .then(files => tar.create({\n    prefix: 'package/',\n    cwd: packageDir,\n    file: packageTarball,\n    gzip: true\n  }, files))\n  .then(_ => {\n    // tarball has been created, continue with your day\n  })\n```\n\nThis uses the following rules:\n\n1. If a `package.json` file is found, and it has a `files` list,\n   then ignore everything that isn't in `files`.  Always include the\n   readme, license, notice, changes, changelog, and history files, if\n   they exist, and the package.json file itself.\n2. If there's no `package.json` file (or it has no `files` list), and\n   there is a `.npmignore` file, then ignore all the files in the\n   `.npmignore` file.\n3. If there's no `package.json` with a `files` list, and there's no\n   `.npmignore` file, but there is a `.gitignore` file, then ignore\n   all the files in the `.gitignore` file.\n4. Everything in the root `node_modules` is ignored, unless it's a\n   bundled dependency.  If it IS a bundled dependency, and it's a\n   symbolic link, then the target of the link is included, not the\n   symlink itself.\n4. Unless they're explicitly included (by being in a `files` list, or\n   a `!negated` rule in a relevant `.npmignore` or `.gitignore`),\n   always ignore certain common cruft files:\n\n    1. .npmignore and .gitignore files (their effect is in the package\n       already, there's no need to include them in the package)\n    2. editor junk like `.*.swp`, `._*` and `.*.orig` files\n    3. `.npmrc` files (these may contain private configs)\n    4. The `node_modules/.bin` folder\n    5. Waf and gyp cruft like `/build/config.gypi` and `.lock-wscript`\n    6. Darwin's `.DS_Store` files because wtf are those even\n    7. `npm-debug.log` files at the root of a project\n\n    You can explicitly re-include any of these with a `files` list in\n    `package.json` or a negated ignore file rule.\n\nOnly the `package.json` file in the very root of the project is ever\ninspected for a `files` list.  Below the top level of the root package,\n`package.json` is treated as just another file, and no package-specific\nsemantics are applied.\n\n### Interaction between `package.json` and `.npmignore` rules\n\nFor simplicity, it is best to use _either_ a `files` list in `package.json`\n_or_ a `.npmignore` file, and not both.  If you only use one of these\nmethods, you can skip this documentation section.\n\nThe `files` list in `package.json` is used to direct the exploration of the\ntree.  In other words, that's all the walker will ever look at when\nexploring that level.\n\nIn some cases this can lead to a `.npmignore` file being ignored.  If a\n_directory_ is listed in `files`, then any rules in a root or nested\n`.npmignore` files will be honored.\n\nFor example, with this package.json:\n\n```json\n{\n  \"files\": [ \"dir\" ]\n}\n```\n\na `.npmignore` file at `dir/.npmignore` (and any subsequent\nsub-directories) will be honored.  However, a `.npmignore` at the root\nlevel will be skipped.\n\nConversely, with this package.json:\n\n```\n{\n  \"files\": [\"dir/subdir\"]\n}\n```\n\na `.npmignore` file at `dir/.npmignore` will not be honored.\n\nAny specific file matched by a glob or filename in the package.json `files`\nlist will be included, and cannot be excluded by any `.npmignore` files in\nnested directories, or by a `.npmignore` file in the root package\ndirectory, unless that root `.npmignore` file is also in the `files` list.\n\nThe previous (v1) implementation used in npm 6 and below treated\n`package.json` as a special sort of \"reverse ignore\" file.  That is, it was\nparsed and handled as if it was a `.npmignore` file with `!` prepended to\nall of the globs in the `files` list.  In order to include children of a\ndirectory listed in `files`, they would _also_ have `/**` appended to them.\n\nThis is tricky to explain, but is a significant improvement over the\nprevious (v1) implementation used in npm 6 and below, with the following\nbeneficial properties:\n\n- If you have `{\"files\":[\"lib\"]}` in `package.json`, then the walker will\n  still ignore files such as `lib/.DS_Store` and `lib/.foo.swp`.  The\n  previous implementation would include these files, as they'd be matched\n  by the computed `!lib/**` ignore rule.\n- If you have `{\"files\":[\"lib/a.js\",\"lib/b.js\"]}` in `package.json`, and a\n  `lib/.npmignore` containing `a.js`, then the walker will still include\n  the two files indicated in `package.json`, and ignore the\n  `lib/.npmignore` file.  The previous implementation would mark these\n  files for inclusion, but then _exclude_ them when it came to the nested\n  `.npmignore` file.  (Ignore file semantics dictate that a \"closer\" ignore\n  file always takes precedence.)\n- A file in `lib/pkg-template/package.json` will be included, and its\n  `files` list will not have any bearing on other files being included or\n  skipped.  When treating `package.json` as just Yet Another ignore file,\n  this was not the case, leading to difficulty for modules that aim to\n  initialize a project.\n\nIn general, this walk should work as a reasonable developer would expect.\nMatching human expectation is tricky business, and if you find cases where\nit violates those expectations, [please let us\nknow](https://github.com/npm/npm-packlist/issues).\n\n## API\n\nSame API as [ignore-walk](http://npm.im/ignore-walk), just hard-coded\nfile list and rule sets.\n\nThe `Walker` and `WalkerSync` classes take a `bundled` argument, which\nis a list of package names to include from node_modules.  When calling\nthe top-level `packlist()` and `packlist.sync()` functions, this\nmodule calls into `npm-bundled` directly.\n",
+  "maintainers" : [ {
+    "email" : "evilpacket@gmail.com",
+    "name" : "adam_baldwin"
+  }, {
+    "email" : "ahmad@ahmadnassri.com",
+    "name" : "ahmadnassri"
+  }, {
+    "email" : "anne@npmjs.com",
+    "name" : "annekimsey"
+  }, {
+    "email" : "billatnpm@gmail.com",
+    "name" : "billatnpm"
+  }, {
+    "email" : "cghr1990@gmail.com",
+    "name" : "claudiahdz"
+  }, {
+    "email" : "darcy@darcyclarke.me",
+    "name" : "darcyclarke"
+  }, {
+    "email" : "i@izs.me",
+    "name" : "isaacs"
+  }, {
+    "email" : "mike@mikecorp.ca",
+    "name" : "mikemimik"
+  }, {
+    "email" : "ruyadorno@hotmail.com",
+    "name" : "ruyadorno"
+  } ],
+  "author" : {
+    "name" : "Isaac Z. Schlueter",
+    "email" : "i@izs.me",
+    "url" : "http://blog.izs.me/"
+  },
+  "time" : {
+    "1.4.7" : "2019-12-09T23:55:02.924Z",
+    "modified" : "2019-12-17T04:14:28.493Z",
+    "2.0.0" : "2019-11-05T01:07:52.249Z",
+    "2.0.1" : "2019-11-16T00:20:33.190Z",
+    "1.1.10" : "2017-10-20T20:53:21.576Z",
+    "created" : "2017-05-27T06:11:52.379Z",
+    "1.1.11" : "2018-07-24T20:14:56.323Z",
+    "1.1.12" : "2018-10-08T17:58:53.491Z",
+    "2.0.2" : "2019-12-09T23:55:50.838Z",
+    "2.0.3" : "2019-12-17T04:14:26.165Z",
+    "1.1.2" : "2017-05-29T16:24:21.644Z",
+    "1.3.0" : "2019-02-05T21:52:06.642Z",
+    "1.1.3" : "2017-05-29T16:27:11.011Z",
+    "1.4.0" : "2019-02-19T20:06:48.212Z",
+    "1.1.4" : "2017-05-29T16:47:12.174Z",
+    "1.4.1" : "2019-02-20T19:14:25.004Z",
+    "1.1.5" : "2017-05-30T01:48:19.257Z",
+    "1.4.2" : "2019-06-27T23:09:13.106Z",
+    "1.1.6" : "2017-06-02T18:45:14.938Z",
+    "1.4.3" : "2019-06-28T22:28:55.274Z",
+    "1.1.7" : "2017-08-22T22:39:37.220Z",
+    "1.4.4" : "2019-06-29T22:20:46.160Z",
+    "1.1.8" : "2017-08-22T22:47:10.838Z",
+    "1.4.5" : "2019-10-09T06:22:28.057Z",
+    "1.1.9" : "2017-09-08T21:52:12.769Z",
+    "1.4.6" : "2019-10-09T06:48:18.866Z",
+    "1.0.0" : "2017-05-27T06:11:52.379Z",
+    "1.0.1" : "2017-05-27T07:32:20.448Z",
+    "1.1.0" : "2017-05-29T04:55:31.369Z",
+    "1.1.1" : "2017-05-29T16:12:08.852Z",
+    "1.2.0" : "2019-01-04T19:09:29.050Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "git+https://github.com/npm/npm-packlist.git"
+  },
+  "users" : {
+    "evocateur" : true
+  },
+  "readmeFilename" : "README.md",
+  "homepage" : "https://github.com/npm/npm-packlist#readme",
+  "bugs" : {
+    "url" : "https://github.com/npm/npm-packlist/issues"
+  },
+  "license" : "ISC"
+}

@@ -1,0 +1,292 @@
+{
+  "_id" : "parseuri",
+  "_rev" : "23-f16271af3d6662fcec395d73818a22c6",
+  "name" : "parseuri",
+  "description" : "Method that parses a URI and returns an array of its components",
+  "dist-tags" : {
+    "latest" : "0.0.6"
+  },
+  "versions" : {
+    "0.0.6" : {
+      "name" : "parseuri",
+      "description" : "Method that parses a URI and returns an array of its components",
+      "version" : "0.0.6",
+      "author" : {
+        "name" : "Gal Koren"
+      },
+      "homepage" : "https://github.com/get/parseuri",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/get/parseuri.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/get/parseuri/issues"
+      },
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/parseuri/-/parseuri-0.0.6.tgz",
+        "shasum" : "e1496e829e3ac2ff47f39a4dd044b32823c4a25a"
+      },
+      "devDependencies" : {
+        "better-assert" : "~1.0.0",
+        "mocha" : "1.17.1",
+        "expect.js" : "^0.3.1"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "gal",
+        "email" : "koren@mit.edu"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "make test"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "gal",
+        "email" : "koren@mit.edu"
+      },
+      "_id" : "parseuri@0.0.6",
+      "gitHead" : "ad9e2495173e763ab9edc46a5c15f89c324455d9",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/parseuri_0.0.6_1568820986115_0.7809546772297578"
+      },
+      "_nodeVersion" : "10.14.2"
+    },
+    "0.0.4" : {
+      "name" : "parseuri",
+      "description" : "Method that parses a URI and returns an array of its components",
+      "version" : "0.0.4",
+      "author" : "",
+      "homepage" : "https://github.com/get/parseuri",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/get/parseuri.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/get/parseuri/issues"
+      },
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/parseuri/-/parseuri-0.0.4.tgz",
+        "shasum" : "806582a39887e1ea18dd5e2fe0e01902268e9350"
+      },
+      "dependencies" : {
+        "better-assert" : "~1.0.0"
+      },
+      "devDependencies" : {
+        "mocha" : "1.17.1"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "gal",
+        "email" : "koren@mit.edu"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "make test"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.3.15",
+      "_npmUser" : {
+        "name" : "gal",
+        "email" : "koren@mit.edu"
+      },
+      "_id" : "parseuri@0.0.4"
+    },
+    "0.0.5" : {
+      "name" : "parseuri",
+      "description" : "Method that parses a URI and returns an array of its components",
+      "version" : "0.0.5",
+      "author" : "",
+      "homepage" : "https://github.com/get/parseuri",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/get/parseuri.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/get/parseuri/issues"
+      },
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/parseuri/-/parseuri-0.0.5.tgz",
+        "shasum" : "80204a50d4dbb779bfdc6ebe2778d90e4bce320a"
+      },
+      "dependencies" : {
+        "better-assert" : "~1.0.0"
+      },
+      "devDependencies" : {
+        "mocha" : "1.17.1",
+        "better-assert" : "1.0.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "gal",
+        "email" : "koren@mit.edu"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "make test"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.10.8",
+      "_npmUser" : {
+        "name" : "gal",
+        "email" : "koren@mit.edu"
+      },
+      "_id" : "parseuri@0.0.5",
+      "gitHead" : "792c9a63162a4484eb6b4f95fc611ccf224a24b6",
+      "_npmOperationalInternal" : {
+        "host" : "packages-18-east.internal.npmjs.com",
+        "tmp" : "tmp/parseuri-0.0.5.tgz_1477582137634_0.3768787120934576"
+      },
+      "_shasum" : "80204a50d4dbb779bfdc6ebe2778d90e4bce320a",
+      "_nodeVersion" : "6.9.1"
+    },
+    "0.0.2" : {
+      "name" : "parseuri",
+      "description" : "Method that parses a URI and returns an array of its components",
+      "version" : "0.0.2",
+      "author" : "",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/parseuri/-/parseuri-0.0.2.tgz",
+        "shasum" : "db41878f2d6964718be870b3140973d8093be156"
+      },
+      "dependencies" : {
+        "better-assert" : "~1.0.0"
+      },
+      "devDependencies" : {
+        "mocha" : "1.17.1"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "gal",
+        "email" : "koren@mit.edu"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "make test"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.3.15",
+      "_npmUser" : {
+        "name" : "gal",
+        "email" : "koren@mit.edu"
+      },
+      "_id" : "parseuri@0.0.2"
+    },
+    "0.0.3" : {
+      "name" : "parseuri",
+      "description" : "Method that parses a URI and returns an array of its components",
+      "version" : "0.0.3",
+      "author" : "",
+      "homepage" : "https://github.com/get/parseuri",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/get/parseuri.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/get/parseuri/issues"
+      },
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/parseuri/-/parseuri-0.0.3.tgz",
+        "shasum" : "28d442d488a8e218194f535f5040f451d4282b32"
+      },
+      "dependencies" : {
+        "better-assert" : "~1.0.0"
+      },
+      "devDependencies" : {
+        "mocha" : "1.17.1"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "gal",
+        "email" : "koren@mit.edu"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "make test"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.3.15",
+      "_npmUser" : {
+        "name" : "gal",
+        "email" : "koren@mit.edu"
+      },
+      "_id" : "parseuri@0.0.3"
+    },
+    "0.0.1" : {
+      "name" : "parseuri",
+      "description" : "Method that parses a URI and returns an array of its components",
+      "version" : "0.0.1",
+      "author" : "",
+      "main" : "./lib/parseuri.js",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/parseuri/-/parseuri-0.0.1.tgz",
+        "shasum" : "1f76aaa4a04cc927f872da463608fc12108eb9be"
+      },
+      "dependencies" : {
+      },
+      "optionalDependencies" : {
+      },
+      "devDependencies" : {
+      },
+      "license" : "MIT",
+      "bin" : {
+        "parseuri" : "./bin/parseuri"
+      },
+      "maintainers" : [ {
+        "name" : "gal",
+        "email" : "koren@mit.edu"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "echo \"Error: no test specified\" && exit 1"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.3.15",
+      "_npmUser" : {
+        "name" : "gal",
+        "email" : "koren@mit.edu"
+      },
+      "_id" : "parseuri@0.0.1"
+    }
+  },
+  "readme" : "# parseuri\nModule for parsing URI's in engine.io-client\n",
+  "maintainers" : [ {
+    "name" : "gal",
+    "email" : "koren@mit.edu"
+  } ],
+  "author" : {
+    "name" : "Gal Koren"
+  },
+  "time" : {
+    "0.0.6" : "2019-09-18T15:36:26.251Z",
+    "0.0.4" : "2014-07-20T00:10:40.568Z",
+    "0.0.5" : "2016-10-27T15:29:00.405Z",
+    "created" : "2014-02-09T18:38:17.833Z",
+    "modified" : "2019-09-18T15:36:28.705Z",
+    "0.0.2" : "2014-02-09T19:22:25.004Z",
+    "0.0.3" : "2014-07-04T03:39:01.363Z",
+    "0.0.1" : "2014-02-09T18:40:42.208Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "git+https://github.com/get/parseuri.git"
+  },
+  "users" : {
+    "h02e56" : true,
+    "zenanyoo" : true
+  },
+  "readmeFilename" : "README.md",
+  "homepage" : "https://github.com/get/parseuri",
+  "bugs" : {
+    "url" : "https://github.com/get/parseuri/issues"
+  },
+  "license" : "MIT"
+}

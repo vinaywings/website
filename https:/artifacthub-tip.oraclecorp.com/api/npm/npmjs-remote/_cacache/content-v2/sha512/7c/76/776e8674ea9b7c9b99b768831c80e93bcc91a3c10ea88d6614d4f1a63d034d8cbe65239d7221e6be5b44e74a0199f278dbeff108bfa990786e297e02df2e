@@ -1,0 +1,728 @@
+{
+  "_id" : "worker-plugin",
+  "_rev" : "9-4fe19cf91247efe7e6b1658e5d1a4b84",
+  "name" : "worker-plugin",
+  "description" : "Webpack plugin to bundle Workers automagically.",
+  "dist-tags" : {
+    "latest" : "3.2.0"
+  },
+  "versions" : {
+    "2.0.1" : {
+      "name" : "worker-plugin",
+      "description" : "Webpack plugin to bundle Workers automagically.",
+      "version" : "2.0.1",
+      "author" : {
+        "name" : "The Chromium Authors"
+      },
+      "homepage" : "https://github.com/GoogleChromeLabs/worker-plugin#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/GoogleChromeLabs/worker-plugin.git"
+      },
+      "contributors" : [ {
+        "name" : "Jason Miller",
+        "email" : "developit@google.com"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/GoogleChromeLabs/worker-plugin/issues"
+      },
+      "main" : "dist/worker-plugin.js",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/worker-plugin/-/worker-plugin-2.0.1.tgz",
+        "shasum" : "8cf9e01db678b55871832ffcff77a4097eed063a"
+      },
+      "dependencies" : {
+        "loader-utils" : "^1.1.0"
+      },
+      "devDependencies" : {
+        "babel-plugin-transform-es2015-modules-commonjs" : "^6.26.2",
+        "clean-webpack-plugin" : "^1.0.0",
+        "eslint" : "^5.9.0",
+        "eslint-config-standard" : "^12.0.0",
+        "eslint-plugin-import" : "^2.14.0",
+        "eslint-plugin-node" : "^8.0.0",
+        "eslint-plugin-promise" : "^4.0.1",
+        "eslint-plugin-standard" : "^4.0.0",
+        "jest" : "^23.6.0",
+        "microbundle" : "^0.8.2",
+        "puppeteer" : "^1.11.0",
+        "serve-handler" : "^5.0.7",
+        "terser-webpack-plugin" : "^1.1.0",
+        "webpack" : "^4.26.1"
+      },
+      "peerDependencies" : {
+        "webpack" : ">= 4"
+      },
+      "keywords" : [ "webpack", "plugin", "worker", "web worker", "thread" ],
+      "license" : "Apache-2.0",
+      "maintainers" : [ {
+        "name" : "developit",
+        "email" : "jason@developit.ca"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "microbundle --inline none --format cjs --no-compress src/*.js",
+        "prepack" : "npm run build",
+        "dev" : "jest --verbose --watchAll",
+        "test" : "npm run build && jest --verbose",
+        "release" : "npm t && git commit -am $npm_package_version && git tag $npm_package_version && git push && git push --tags && npm publish"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "developit",
+        "email" : "jason@developit.ca"
+      },
+      "_id" : "worker-plugin@2.0.1",
+      "gitHead" : "d93dabdea01df89472a8082f80701208d1687d53",
+      "babel" : {
+        "plugins" : [ "transform-es2015-modules-commonjs" ]
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/worker-plugin_2.0.1_1543894832352_0.7994679966861424"
+      },
+      "eslintConfig" : {
+        "extends" : "eslint-config-standard",
+        "env" : {
+          "browser" : true,
+          "jest" : true
+        },
+        "rules" : {
+          "indent" : [ "error", 2 ],
+          "semi" : [ "error", "always" ]
+        }
+      },
+      "jest" : {
+        "watchPathIgnorePatterns" : [ "<rootDir>/node_modules/", "<rootDir>/test/fixtures/.*?/dist/" ]
+      },
+      "_nodeVersion" : "10.9.0"
+    },
+    "3.0.0" : {
+      "name" : "worker-plugin",
+      "description" : "Webpack plugin to bundle Workers automagically.",
+      "version" : "3.0.0",
+      "author" : {
+        "name" : "The Chromium Authors"
+      },
+      "homepage" : "https://github.com/GoogleChromeLabs/worker-plugin#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/GoogleChromeLabs/worker-plugin.git"
+      },
+      "contributors" : [ {
+        "name" : "Jason Miller",
+        "email" : "developit@google.com"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/GoogleChromeLabs/worker-plugin/issues"
+      },
+      "main" : "dist/worker-plugin.js",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/worker-plugin/-/worker-plugin-3.0.0.tgz",
+        "shasum" : "70a64e732b3bf575ad5981071bc5f010dadd6f95"
+      },
+      "dependencies" : {
+        "loader-utils" : "^1.1.0"
+      },
+      "devDependencies" : {
+        "babel-plugin-transform-es2015-modules-commonjs" : "^6.26.2",
+        "clean-webpack-plugin" : "^1.0.0",
+        "eslint" : "^5.9.0",
+        "eslint-config-standard" : "^12.0.0",
+        "eslint-plugin-import" : "^2.14.0",
+        "eslint-plugin-node" : "^8.0.0",
+        "eslint-plugin-promise" : "^4.0.1",
+        "eslint-plugin-standard" : "^4.0.0",
+        "jest" : "^23.6.0",
+        "microbundle" : "^0.8.2",
+        "puppeteer" : "^1.11.0",
+        "serve-handler" : "^5.0.7",
+        "terser-webpack-plugin" : "^1.1.0",
+        "webpack" : "^4.26.1"
+      },
+      "peerDependencies" : {
+        "webpack" : ">= 4"
+      },
+      "keywords" : [ "webpack", "plugin", "worker", "web worker", "thread" ],
+      "license" : "Apache-2.0",
+      "maintainers" : [ {
+        "name" : "developit",
+        "email" : "jason@developit.ca"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "microbundle --inline none --format cjs --no-compress src/*.js",
+        "prepack" : "npm run build",
+        "dev" : "jest --verbose --watchAll",
+        "test" : "npm run build && jest --verbose",
+        "release" : "npm t && git commit -am $npm_package_version && git tag $npm_package_version && git push && git push --tags && npm publish"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "developit",
+        "email" : "jason@developit.ca"
+      },
+      "_id" : "worker-plugin@3.0.0",
+      "gitHead" : "023f466893d0c5c760c19007274cb7fead865262",
+      "babel" : {
+        "plugins" : [ "transform-es2015-modules-commonjs" ]
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/worker-plugin_3.0.0_1544802269710_0.6344072134842027"
+      },
+      "eslintConfig" : {
+        "extends" : "eslint-config-standard",
+        "env" : {
+          "browser" : true,
+          "jest" : true
+        },
+        "rules" : {
+          "indent" : [ "error", 2 ],
+          "semi" : [ "error", "always" ]
+        }
+      },
+      "jest" : {
+        "watchPathIgnorePatterns" : [ "<rootDir>/node_modules/", "<rootDir>/test/fixtures/.*?/dist/" ]
+      },
+      "_nodeVersion" : "10.9.0"
+    },
+    "3.1.0" : {
+      "name" : "worker-plugin",
+      "description" : "Webpack plugin to bundle Workers automagically.",
+      "version" : "3.1.0",
+      "author" : {
+        "name" : "The Chromium Authors"
+      },
+      "homepage" : "https://github.com/GoogleChromeLabs/worker-plugin#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/GoogleChromeLabs/worker-plugin.git"
+      },
+      "contributors" : [ {
+        "name" : "Jason Miller",
+        "email" : "developit@google.com"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/GoogleChromeLabs/worker-plugin/issues"
+      },
+      "main" : "dist/worker-plugin.js",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/worker-plugin/-/worker-plugin-3.1.0.tgz",
+        "shasum" : "6311778f3514a87c273510ee3f809cc3fe161e6f"
+      },
+      "dependencies" : {
+        "loader-utils" : "^1.1.0"
+      },
+      "devDependencies" : {
+        "babel-plugin-transform-es2015-modules-commonjs" : "^6.26.2",
+        "clean-webpack-plugin" : "^1.0.0",
+        "eslint" : "^5.9.0",
+        "eslint-config-standard" : "^12.0.0",
+        "eslint-plugin-import" : "^2.14.0",
+        "eslint-plugin-node" : "^8.0.0",
+        "eslint-plugin-promise" : "^4.0.1",
+        "eslint-plugin-standard" : "^4.0.0",
+        "jest" : "^23.6.0",
+        "microbundle" : "^0.8.2",
+        "puppeteer" : "^1.11.0",
+        "serve-handler" : "^5.0.7",
+        "terser-webpack-plugin" : "^1.1.0",
+        "webpack" : "^4.26.1"
+      },
+      "peerDependencies" : {
+        "webpack" : ">= 4"
+      },
+      "keywords" : [ "webpack", "plugin", "worker", "web worker", "thread" ],
+      "license" : "Apache-2.0",
+      "maintainers" : [ {
+        "name" : "developit",
+        "email" : "jason@developit.ca"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "microbundle --inline none --format cjs --no-compress src/*.js",
+        "prepack" : "npm run build",
+        "dev" : "jest --verbose --watchAll",
+        "test" : "npm run build && jest --verbose",
+        "release" : "npm t && git commit -am $npm_package_version && git tag $npm_package_version && git push && git push --tags && npm publish"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "developit",
+        "email" : "jason@developit.ca"
+      },
+      "_id" : "worker-plugin@3.1.0",
+      "gitHead" : "7ea61fb83a02170d0235e4590c4deb617874e70a",
+      "babel" : {
+        "plugins" : [ "transform-es2015-modules-commonjs" ]
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/worker-plugin_3.1.0_1550592086509_0.8302407882899967"
+      },
+      "eslintConfig" : {
+        "extends" : "eslint-config-standard",
+        "env" : {
+          "browser" : true,
+          "jest" : true
+        },
+        "rules" : {
+          "indent" : [ "error", 2 ],
+          "semi" : [ "error", "always" ]
+        }
+      },
+      "jest" : {
+        "watchPathIgnorePatterns" : [ "<rootDir>/node_modules/", "<rootDir>/test/fixtures/.*?/dist/" ]
+      },
+      "_nodeVersion" : "10.15.0"
+    },
+    "1.0.0" : {
+      "name" : "worker-plugin",
+      "description" : "Webpack plugin to bundle Workers automagically.",
+      "version" : "1.0.0",
+      "author" : {
+        "name" : "The Chromium Authors"
+      },
+      "homepage" : "https://github.com/GoogleChromeLabs/worker-plugin#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/GoogleChromeLabs/worker-plugin.git"
+      },
+      "contributors" : [ {
+        "name" : "Jason Miller",
+        "email" : "developit@google.com"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/GoogleChromeLabs/worker-plugin/issues"
+      },
+      "main" : "dist/worker-plugin.js",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/worker-plugin/-/worker-plugin-1.0.0.tgz",
+        "shasum" : "c91e1ead25ee58aef25577aac1097b943fa861eb"
+      },
+      "dependencies" : {
+        "loader-utils" : "^1.1.0"
+      },
+      "devDependencies" : {
+        "babel-plugin-transform-es2015-modules-commonjs" : "^6.26.2",
+        "clean-webpack-plugin" : "^0.1.19",
+        "eslint" : "^5.4.0",
+        "eslint-config-standard" : "^11.0.0",
+        "eslint-plugin-import" : "^2.14.0",
+        "eslint-plugin-node" : "^7.0.1",
+        "eslint-plugin-promise" : "^4.0.0",
+        "eslint-plugin-standard" : "^3.1.0",
+        "jest" : "^23.5.0",
+        "microbundle" : "^0.6.0",
+        "uglifyjs-webpack-plugin" : "^1.3.0",
+        "webpack" : "^4.17.1"
+      },
+      "peerDependencies" : {
+        "webpack" : ">= 3"
+      },
+      "keywords" : [ "webpack", "plugin", "worker", "web worker", "thread" ],
+      "license" : "Apache-2.0",
+      "maintainers" : [ {
+        "name" : "developit",
+        "email" : "jason@developit.ca"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "microbundle --inline none --format cjs --no-compress src/*.js",
+        "prepublishOnly" : "npm run build",
+        "dev" : "jest --verbose --watchAll",
+        "test" : "npm run build && jest --verbose",
+        "release" : "npm t && git commit -am $npm_package_version && git tag $npm_package_version && git push && git push --tags && npm publish"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "developit",
+        "email" : "jason@developit.ca"
+      },
+      "_id" : "worker-plugin@1.0.0",
+      "gitHead" : "7706c013d59378cda76eb1e9922f07af945fe7f1",
+      "babel" : {
+        "plugins" : [ "transform-es2015-modules-commonjs" ]
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/worker-plugin_1.0.0_1537285591043_0.832617256518754"
+      },
+      "eslintConfig" : {
+        "extends" : "eslint-config-standard",
+        "env" : {
+          "browser" : true,
+          "jest" : true
+        },
+        "rules" : {
+          "indent" : [ "error", 2 ],
+          "semi" : [ "error", "always" ]
+        }
+      },
+      "jest" : {
+        "watchPathIgnorePatterns" : [ "<rootDir>/node_modules/", "<rootDir>/test/fixtures/.*?/dist/" ]
+      },
+      "_nodeVersion" : "10.9.0"
+    },
+    "3.2.0" : {
+      "name" : "worker-plugin",
+      "description" : "Webpack plugin to bundle Workers automagically.",
+      "version" : "3.2.0",
+      "author" : {
+        "name" : "The Chromium Authors"
+      },
+      "homepage" : "https://github.com/GoogleChromeLabs/worker-plugin#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/GoogleChromeLabs/worker-plugin.git"
+      },
+      "contributors" : [ {
+        "name" : "Jason Miller",
+        "email" : "developit@google.com"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/GoogleChromeLabs/worker-plugin/issues"
+      },
+      "main" : "dist/worker-plugin.js",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/worker-plugin/-/worker-plugin-3.2.0.tgz",
+        "shasum" : "ddae9f161b76fcbaacf8f54ecd037844584e43e7"
+      },
+      "dependencies" : {
+        "loader-utils" : "^1.1.0"
+      },
+      "devDependencies" : {
+        "@file-services/memory" : "^1.0.3",
+        "@file-services/node" : "^1.0.3",
+        "@file-services/overlay" : "^1.0.3",
+        "babel-plugin-transform-es2015-modules-commonjs" : "^6.26.2",
+        "clean-webpack-plugin" : "^1.0.0",
+        "eslint" : "^5.9.0",
+        "eslint-config-standard" : "^12.0.0",
+        "eslint-plugin-import" : "^2.14.0",
+        "eslint-plugin-node" : "^8.0.0",
+        "eslint-plugin-promise" : "^4.0.1",
+        "eslint-plugin-standard" : "^4.0.0",
+        "jest" : "^23.6.0",
+        "memory-fs" : "^0.4.1",
+        "microbundle" : "^0.8.2",
+        "puppeteer" : "^1.11.0",
+        "serve-handler" : "^5.0.7",
+        "terser-webpack-plugin" : "^1.1.0",
+        "webpack" : "^4.26.1"
+      },
+      "peerDependencies" : {
+        "webpack" : ">= 4"
+      },
+      "keywords" : [ "webpack", "plugin", "worker", "web worker", "thread" ],
+      "license" : "Apache-2.0",
+      "maintainers" : [ {
+        "name" : "developit",
+        "email" : "jason@developit.ca"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "microbundle --inline none --format cjs --no-compress src/*.js",
+        "prepack" : "npm run build",
+        "dev" : "jest --verbose --watchAll",
+        "test" : "npm run build && jest --verbose",
+        "release" : "npm t && git commit -am $npm_package_version && git tag $npm_package_version && git push && git push --tags && npm publish"
+      },
+      "_npmVersion" : "6.9.0",
+      "_npmUser" : {
+        "name" : "developit",
+        "email" : "jason@developit.ca"
+      },
+      "_id" : "worker-plugin@3.2.0",
+      "gitHead" : "7c353d57605f3dd06f508f56325ea2cca3a591b8",
+      "babel" : {
+        "plugins" : [ "transform-es2015-modules-commonjs" ]
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/worker-plugin_3.2.0_1566923442808_0.08016807124522574"
+      },
+      "eslintConfig" : {
+        "extends" : "eslint-config-standard",
+        "env" : {
+          "browser" : true,
+          "jest" : true
+        },
+        "rules" : {
+          "indent" : [ "error", 2 ],
+          "semi" : [ "error", "always" ]
+        }
+      },
+      "jest" : {
+        "watchPathIgnorePatterns" : [ "<rootDir>/node_modules/", "<rootDir>/test/fixtures/" ]
+      },
+      "_nodeVersion" : "10.15.0"
+    },
+    "1.1.0" : {
+      "name" : "worker-plugin",
+      "description" : "Webpack plugin to bundle Workers automagically.",
+      "version" : "1.1.0",
+      "author" : {
+        "name" : "The Chromium Authors"
+      },
+      "homepage" : "https://github.com/GoogleChromeLabs/worker-plugin#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/GoogleChromeLabs/worker-plugin.git"
+      },
+      "contributors" : [ {
+        "name" : "Jason Miller",
+        "email" : "developit@google.com"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/GoogleChromeLabs/worker-plugin/issues"
+      },
+      "main" : "dist/worker-plugin.js",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/worker-plugin/-/worker-plugin-1.1.0.tgz",
+        "shasum" : "0c6e7c39c3e54689ec7fcaf24eb325750fa22587"
+      },
+      "dependencies" : {
+        "loader-utils" : "^1.1.0"
+      },
+      "devDependencies" : {
+        "babel-plugin-transform-es2015-modules-commonjs" : "^6.26.2",
+        "clean-webpack-plugin" : "^0.1.19",
+        "eslint" : "^5.4.0",
+        "eslint-config-standard" : "^11.0.0",
+        "eslint-plugin-import" : "^2.14.0",
+        "eslint-plugin-node" : "^7.0.1",
+        "eslint-plugin-promise" : "^4.0.0",
+        "eslint-plugin-standard" : "^3.1.0",
+        "jest" : "^23.5.0",
+        "microbundle" : "^0.6.0",
+        "puppeteer" : "^1.8.0",
+        "serve-handler" : "^5.0.5",
+        "uglifyjs-webpack-plugin" : "^1.3.0",
+        "webpack" : "^4.17.1"
+      },
+      "peerDependencies" : {
+        "webpack" : ">= 3"
+      },
+      "keywords" : [ "webpack", "plugin", "worker", "web worker", "thread" ],
+      "license" : "Apache-2.0",
+      "maintainers" : [ {
+        "name" : "developit",
+        "email" : "jason@developit.ca"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "microbundle --inline none --format cjs --no-compress src/*.js",
+        "prepack" : "npm run build",
+        "dev" : "jest --verbose --watchAll",
+        "test" : "npm run build && jest --verbose",
+        "release" : "npm t && git commit -am $npm_package_version && git tag $npm_package_version && git push && git push --tags && npm publish"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "developit",
+        "email" : "jason@developit.ca"
+      },
+      "_id" : "worker-plugin@1.1.0",
+      "gitHead" : "fd3267c83df4ede349fb41ad7f7c977d7622bc55",
+      "babel" : {
+        "plugins" : [ "transform-es2015-modules-commonjs" ]
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/worker-plugin_1.1.0_1539104008350_0.1467422624599759"
+      },
+      "eslintConfig" : {
+        "extends" : "eslint-config-standard",
+        "env" : {
+          "browser" : true,
+          "jest" : true
+        },
+        "rules" : {
+          "indent" : [ "error", 2 ],
+          "semi" : [ "error", "always" ]
+        }
+      },
+      "jest" : {
+        "watchPathIgnorePatterns" : [ "<rootDir>/node_modules/", "<rootDir>/test/fixtures/.*?/dist/" ]
+      },
+      "_nodeVersion" : "10.9.0"
+    },
+    "0.0.1" : {
+      "name" : "worker-plugin",
+      "description" : "",
+      "version" : "0.0.1",
+      "author" : "",
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/worker-plugin/-/worker-plugin-0.0.1.tgz",
+        "shasum" : "0f97a7066a468a659d314f58733e1e15db0d80d3"
+      },
+      "license" : "ISC",
+      "maintainers" : [ {
+        "name" : "developit",
+        "email" : "jason@developit.ca"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "echo \"Error: no test specified\" && exit 1"
+      },
+      "_npmVersion" : "6.2.0",
+      "_npmUser" : {
+        "name" : "developit",
+        "email" : "jason@developit.ca"
+      },
+      "_id" : "worker-plugin@0.0.1",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/worker-plugin_0.0.1_1535053651778_0.6938247821481662"
+      },
+      "_nodeVersion" : "10.9.0"
+    },
+    "1.1.1" : {
+      "name" : "worker-plugin",
+      "description" : "Webpack plugin to bundle Workers automagically.",
+      "version" : "1.1.1",
+      "author" : {
+        "name" : "The Chromium Authors"
+      },
+      "homepage" : "https://github.com/GoogleChromeLabs/worker-plugin#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/GoogleChromeLabs/worker-plugin.git"
+      },
+      "contributors" : [ {
+        "name" : "Jason Miller",
+        "email" : "developit@google.com"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/GoogleChromeLabs/worker-plugin/issues"
+      },
+      "main" : "dist/worker-plugin.js",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/worker-plugin/-/worker-plugin-1.1.1.tgz",
+        "shasum" : "46de4d2ec2444b346f5fdbe4686cd4aff7f90a5b"
+      },
+      "dependencies" : {
+        "loader-utils" : "^1.1.0"
+      },
+      "devDependencies" : {
+        "babel-plugin-transform-es2015-modules-commonjs" : "^6.26.2",
+        "clean-webpack-plugin" : "^0.1.19",
+        "eslint" : "^5.4.0",
+        "eslint-config-standard" : "^11.0.0",
+        "eslint-plugin-import" : "^2.14.0",
+        "eslint-plugin-node" : "^7.0.1",
+        "eslint-plugin-promise" : "^4.0.0",
+        "eslint-plugin-standard" : "^3.1.0",
+        "jest" : "^23.5.0",
+        "microbundle" : "^0.6.0",
+        "puppeteer" : "^1.8.0",
+        "serve-handler" : "^5.0.5",
+        "uglifyjs-webpack-plugin" : "^1.3.0",
+        "webpack" : "^4.17.1"
+      },
+      "peerDependencies" : {
+        "webpack" : ">= 3"
+      },
+      "keywords" : [ "webpack", "plugin", "worker", "web worker", "thread" ],
+      "license" : "Apache-2.0",
+      "maintainers" : [ {
+        "name" : "developit",
+        "email" : "jason@developit.ca"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "microbundle --inline none --format cjs --no-compress src/*.js",
+        "prepack" : "npm run build",
+        "dev" : "jest --verbose --watchAll",
+        "test" : "npm run build && jest --verbose",
+        "release" : "npm t && git commit -am $npm_package_version && git tag $npm_package_version && git push && git push --tags && npm publish"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "developit",
+        "email" : "jason@developit.ca"
+      },
+      "_id" : "worker-plugin@1.1.1",
+      "gitHead" : "fdb806c86762af815bda3d619d1f84fec6b92c5e",
+      "babel" : {
+        "plugins" : [ "transform-es2015-modules-commonjs" ]
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/worker-plugin_1.1.1_1539312521864_0.2364207918404062"
+      },
+      "eslintConfig" : {
+        "extends" : "eslint-config-standard",
+        "env" : {
+          "browser" : true,
+          "jest" : true
+        },
+        "rules" : {
+          "indent" : [ "error", 2 ],
+          "semi" : [ "error", "always" ]
+        }
+      },
+      "jest" : {
+        "watchPathIgnorePatterns" : [ "<rootDir>/node_modules/", "<rootDir>/test/fixtures/.*?/dist/" ]
+      },
+      "_nodeVersion" : "10.9.0"
+    }
+  },
+  "readme" : "<p align=\"center\">\n  <img src=\"https://i.imgur.com/MlrAQjl.jpg\" width=\"1000\" alt=\"worker-plugin\">\n</p>\n<h1 align=\"center\">\uD83D\uDC69‍\uD83C\uDFED worker-plugin</h1>\n<p align=\"center\">Automatically bundle & compile Web Workers within Webpack.</p>\n\n\n### Features\n\nAutomatically compiles modules loaded in Web Workers:\n\n```js\nconst worker = new Worker('./foo.js', { type: 'module' });\n                          ^^^^^^^^^^\n                          gets bundled using webpack\n```\n\nThe best part? That worker constructor works just fine without bundling turned on too.\n\nWorkers created from Blob & data URLs or without the `{ type:'module' }` option are left unchanged.\n\n## Installation\n\n```sh\nnpm install -D worker-plugin\n```\n\nThen drop it into your **webpack.config.js:**\n\n```diff\n+ const WorkerPlugin = require('worker-plugin');\n\nmodule.exports = {\n  <...>\n  plugins: [\n+    new WorkerPlugin()\n  ]\n  <...>\n}\n```\n\n## Usage\n\n**worker.js**: _(our worker module)_\n\n```js\n// This is a module worker, so we can use imports (in the browser too!)\nimport { calculatePi } from './some-other-module';\n\naddEventListener('message', event => {\n  postMessage(calculatePi(event.data));\n});\n```\n\n**main.js**: _(our demo, on the main thread)_\n\n```js\nconst piWorker = new Worker('./worker.js', { type: 'module' });\npiWorker.onmessage = event => {\n  console.log('pi: ' + event.data);\n};\npiWorker.postMessage(42);\n```\n\n## Options\n\nIn most cases, no options are necessary to use WorkerPlugin.\n\n### `globalObject`\n\nWorkerPlugin will warn you if your Webpack configuration has `output.globalObject` set to `window`, since doing so breaks Hot Module Replacement in web workers.\n\nIf you're not using HMR and want to disable this warning, pass `globalObject:false`:\n\n```js\nnew WorkerPlugin({\n  // disable warnings about \"window\" breaking HMR:\n  globalObject: false\n})\n```\n\nTo configure the value of `output.globalObject` for WorkerPlugin's internal Webpack Compiler, set `globalObject` to any String:\n\n```js\nnew WorkerPlugin({\n  // use \"self\" as the global object when receiving hot updates.\n  globalObject: 'self' // <-- this is the default value\n})\n```\n\n### `plugins`\n\nBy default, `WorkerPlugin` doesn't run any of your configured Webpack plugins when bundling worker code - this avoids running things like `html-webpack-plugin` twice. For cases where it's necessary to apply a plugin to Worker code, use the `plugins` option.\n\nHere you can specify the names of plugins to \"copy\" from your existing Webpack configuration, or provide specific plugins to apply only to worker code:\n\n```js\nmodule.exports = {\n  <...>\n  plugins: [\n    // an example of a plugin already being used:\n    new SomeExistingPlugin({ <...> }),\n\n    new WorkerPlugin({\n      plugins: [\n        // A string here will copy the named plugin from your configuration:\n        'SomeExistingPlugin',\n        \n        // Or you can specify a plugin directly, only applied to Worker code:\n        new SomePluginToApplyOnlyToWorkers({ <...> })\n      ]\n    })\n  ]\n  <...>\n}\n```\n\n## License\n\nApache-2.0\n",
+  "maintainers" : [ {
+    "name" : "developit",
+    "email" : "jason@developit.ca"
+  } ],
+  "author" : {
+    "name" : "The Chromium Authors"
+  },
+  "time" : {
+    "2.0.0" : "2018-12-03T22:52:27.386Z",
+    "2.0.1" : "2018-12-04T03:40:32.567Z",
+    "3.0.0" : "2018-12-14T15:44:29.818Z",
+    "created" : "2018-08-23T19:47:31.776Z",
+    "modified" : "2019-08-27T16:30:47.042Z",
+    "3.1.0" : "2019-02-19T16:01:26.662Z",
+    "1.0.0" : "2018-09-18T15:46:31.197Z",
+    "3.2.0" : "2019-08-27T16:30:42.910Z",
+    "1.1.0" : "2018-10-09T16:53:28.588Z",
+    "0.0.1" : "2018-08-23T19:47:31.944Z",
+    "1.1.1" : "2018-10-12T02:48:42.209Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "git+https://github.com/GoogleChromeLabs/worker-plugin.git"
+  },
+  "users" : {
+  },
+  "readmeFilename" : "README.md",
+  "homepage" : "https://github.com/GoogleChromeLabs/worker-plugin#readme",
+  "keywords" : [ "webpack", "plugin", "worker", "web worker", "thread" ],
+  "contributors" : [ {
+    "name" : "Jason Miller",
+    "email" : "developit@google.com"
+  } ],
+  "bugs" : {
+    "url" : "https://github.com/GoogleChromeLabs/worker-plugin/issues"
+  },
+  "license" : "Apache-2.0"
+}

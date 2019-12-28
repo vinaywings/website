@@ -1,0 +1,214 @@
+{
+  "_id" : "has-binary2",
+  "_rev" : "4-990fab293657fe911350484394fd74ab",
+  "name" : "has-binary2",
+  "description" : "A function that takes anything in javascript and returns true if its argument contains binary data.",
+  "dist-tags" : {
+    "latest" : "1.0.3"
+  },
+  "versions" : {
+    "1.0.3" : {
+      "name" : "has-binary2",
+      "description" : "A function that takes anything in javascript and returns true if its argument contains binary data.",
+      "version" : "1.0.3",
+      "author" : {
+        "name" : "Kevin Roark"
+      },
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/has-binary2/-/has-binary2-1.0.3.tgz",
+        "shasum" : "7776ac627f3ea77250cfc332dab7ddf5e4f5d11d"
+      },
+      "dependencies" : {
+        "isarray" : "2.0.1"
+      },
+      "devDependencies" : {
+        "better-assert" : "^1.0.2",
+        "mocha" : "^3.2.0",
+        "semistandard" : "^9.2.1"
+      },
+      "license" : "MIT",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "darrachequesne",
+        "email" : "damien.arrachequesne@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "checkstyle" : "semistandard",
+        "test" : "npm run checkstyle && mocha --bail"
+      },
+      "_npmVersion" : "5.5.1",
+      "_npmUser" : {
+        "name" : "darrachequesne",
+        "email" : "damien.arrachequesne@gmail.com"
+      },
+      "_id" : "has-binary2@1.0.3",
+      "gitHead" : "05adb9cbc2b45941cda22a2701238f81070a46ef",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/has-binary2_1.0.3_1526298738809_0.9961025411597733"
+      },
+      "_nodeVersion" : "9.2.0"
+    },
+    "1.0.0" : {
+      "name" : "has-binary2",
+      "description" : "A function that takes anything in javascript and returns true if its argument contains binary data.",
+      "version" : "1.0.0",
+      "author" : {
+        "name" : "Kevin Roark"
+      },
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/has-binary2/-/has-binary2-1.0.0.tgz",
+        "shasum" : "ccc6faa8b3115282776ce4a74ec59e3abfb33b9e"
+      },
+      "dependencies" : {
+        "isarray" : "2.0.1"
+      },
+      "devDependencies" : {
+        "better-assert" : "^1.0.2",
+        "mocha" : "^3.2.0",
+        "semistandard" : "^9.2.1"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "darrachequesne",
+        "email" : "damien.arrachequesne@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "checkstyle" : "semistandard",
+        "test" : "npm run checkstyle && mocha --bail"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.10.10",
+      "_npmUser" : {
+        "name" : "darrachequesne",
+        "email" : "damien.arrachequesne@gmail.com"
+      },
+      "_id" : "has-binary2@1.0.0",
+      "gitHead" : "06a768d435255ea03b7646fbac15594475eed8c7",
+      "_npmOperationalInternal" : {
+        "host" : "packages-18-east.internal.npmjs.com",
+        "tmp" : "tmp/has-binary2-1.0.0.tgz_1491422339582_0.9382193095516413"
+      },
+      "_shasum" : "ccc6faa8b3115282776ce4a74ec59e3abfb33b9e",
+      "_nodeVersion" : "6.9.4"
+    },
+    "1.0.1" : {
+      "name" : "has-binary2",
+      "description" : "A function that takes anything in javascript and returns true if its argument contains binary data.",
+      "version" : "1.0.1",
+      "author" : {
+        "name" : "Kevin Roark"
+      },
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/has-binary2/-/has-binary2-1.0.1.tgz",
+        "shasum" : "2599cf430297c7feae6b63f0a4d2d7deb66f07db"
+      },
+      "dependencies" : {
+        "isarray" : "2.0.1"
+      },
+      "devDependencies" : {
+        "better-assert" : "^1.0.2",
+        "mocha" : "^3.2.0",
+        "semistandard" : "^9.2.1"
+      },
+      "license" : "MIT",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "darrachequesne",
+        "email" : "damien.arrachequesne@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "checkstyle" : "semistandard",
+        "test" : "npm run checkstyle && mocha --bail"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.10.10",
+      "_npmUser" : {
+        "name" : "darrachequesne",
+        "email" : "damien.arrachequesne@gmail.com"
+      },
+      "_id" : "has-binary2@1.0.1",
+      "gitHead" : "93e27c38f286483016f395fa9bb5a99ab02f1c8c",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/has-binary2-1.0.1.tgz_1491423112354_0.5322538744658232"
+      },
+      "_shasum" : "2599cf430297c7feae6b63f0a4d2d7deb66f07db",
+      "_nodeVersion" : "6.9.4"
+    },
+    "1.0.2" : {
+      "name" : "has-binary2",
+      "description" : "A function that takes anything in javascript and returns true if its argument contains binary data.",
+      "version" : "1.0.2",
+      "author" : {
+        "name" : "Kevin Roark"
+      },
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/has-binary2/-/has-binary2-1.0.2.tgz",
+        "shasum" : "e83dba49f0b9be4d026d27365350d9f03f54be98"
+      },
+      "dependencies" : {
+        "isarray" : "2.0.1"
+      },
+      "devDependencies" : {
+        "better-assert" : "^1.0.2",
+        "mocha" : "^3.2.0",
+        "semistandard" : "^9.2.1"
+      },
+      "license" : "MIT",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "darrachequesne",
+        "email" : "damien.arrachequesne@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "checkstyle" : "semistandard",
+        "test" : "npm run checkstyle && mocha --bail"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.10.10",
+      "_npmUser" : {
+        "name" : "darrachequesne",
+        "email" : "damien.arrachequesne@gmail.com"
+      },
+      "_id" : "has-binary2@1.0.2",
+      "gitHead" : "02266c05a7b3edecf945343c26c1bc562f78bbd9",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/has-binary2-1.0.2.tgz_1493325765063_0.2403412840794772"
+      },
+      "_shasum" : "e83dba49f0b9be4d026d27365350d9f03f54be98",
+      "_nodeVersion" : "6.9.4"
+    }
+  },
+  "_attachments" : {
+  },
+  "readme" : "has-binarydata.js\n=================\n\nSimple module to test if an object contains binary data\n",
+  "maintainers" : [ {
+    "name" : "darrachequesne",
+    "email" : "damien.arrachequesne@gmail.com"
+  } ],
+  "author" : {
+    "name" : "Kevin Roark"
+  },
+  "time" : {
+    "1.0.3" : "2018-05-14T11:52:18.864Z",
+    "created" : "2017-04-05T19:59:00.166Z",
+    "modified" : "2018-05-14T11:52:21.990Z",
+    "1.0.0" : "2017-04-05T19:59:00.166Z",
+    "1.0.1" : "2017-04-05T20:11:54.165Z",
+    "1.0.2" : "2017-04-27T20:42:47.092Z"
+  },
+  "users" : {
+  },
+  "readmeFilename" : "README.md",
+  "license" : "MIT"
+}

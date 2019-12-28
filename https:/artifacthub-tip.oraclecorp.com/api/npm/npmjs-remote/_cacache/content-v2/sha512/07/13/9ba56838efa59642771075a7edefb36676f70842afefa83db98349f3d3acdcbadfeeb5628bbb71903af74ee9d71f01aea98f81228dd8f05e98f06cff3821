@@ -1,0 +1,143 @@
+{
+  "_id" : "custom-event",
+  "_rev" : "7-ac833a5a5fb706f40e80886c32cdaa85",
+  "name" : "custom-event",
+  "description" : "Cross-browser `CustomEvent` constructor",
+  "dist-tags" : {
+    "latest" : "1.0.1"
+  },
+  "versions" : {
+    "1.0.0" : {
+      "name" : "custom-event",
+      "description" : "Cross-browser `CustomEvent` constructor",
+      "version" : "1.0.0",
+      "author" : {
+        "name" : "Nathan Rajlich",
+        "email" : "nathan@tootallnate.net",
+        "url" : "http://n8.io/"
+      },
+      "homepage" : "https://github.com/webmodules/custom-event",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/webmodules/custom-event.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/webmodules/custom-event/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/custom-event/-/custom-event-1.0.0.tgz",
+        "shasum" : "2e4628be19dc4b214b5c02630c5971e811618062"
+      },
+      "devDependencies" : {
+        "zuul" : "~1.16.3"
+      },
+      "keywords" : [ "dom", "browser", "event", "custom", "customevent", "constructor" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "tootallnate",
+        "email" : "nathan@tootallnate.net"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "make test"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.28",
+      "_npmUser" : {
+        "name" : "tootallnate",
+        "email" : "nathan@tootallnate.net"
+      },
+      "_id" : "custom-event@1.0.0",
+      "gitHead" : "18ae1444a92b5eb02edaecaf79a64070f4458873",
+      "_shasum" : "2e4628be19dc4b214b5c02630c5971e811618062"
+    },
+    "1.0.1" : {
+      "name" : "custom-event",
+      "description" : "Cross-browser `CustomEvent` constructor",
+      "version" : "1.0.1",
+      "author" : {
+        "name" : "Nathan Rajlich",
+        "email" : "nathan@tootallnate.net",
+        "url" : "http://n8.io/"
+      },
+      "homepage" : "https://github.com/webmodules/custom-event",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/webmodules/custom-event.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/webmodules/custom-event/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/custom-event/-/custom-event-1.0.1.tgz",
+        "shasum" : "5d02a46850adf1b4a317946a3928fccb5bfd0425"
+      },
+      "devDependencies" : {
+        "zuul" : "~1.16.3"
+      },
+      "keywords" : [ "dom", "browser", "event", "custom", "customevent", "constructor" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "tootallnate",
+        "email" : "nathan@tootallnate.net"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "make test"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.10.3",
+      "_npmUser" : {
+        "name" : "tootallnate",
+        "email" : "nathan@tootallnate.net"
+      },
+      "_id" : "custom-event@1.0.1",
+      "gitHead" : "725c41146f970df345d57cd97b2bf5acd6c8e9f7",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/custom-event-1.0.1.tgz_1476381234013_0.7809502631425858"
+      },
+      "_shasum" : "5d02a46850adf1b4a317946a3928fccb5bfd0425",
+      "_nodeVersion" : "6.6.0"
+    }
+  },
+  "_attachments" : {
+  },
+  "readme" : "custom-event\n============\n### Cross-browser `CustomEvent` constructor\n\n[![Sauce Test Status](https://saucelabs.com/browser-matrix/custom-event.svg)](https://saucelabs.com/u/custom-event)\n\n[![Build Status](https://travis-ci.org/webmodules/custom-event.svg?branch=master)](https://travis-ci.org/webmodules/custom-event)\n\nhttps://developer.mozilla.org/en-US/docs/Web/API/CustomEvent.CustomEvent\n\n\nInstallation\n------------\n\n``` bash\n$ npm install custom-event\n```\n\n\nExample\n-------\n\n``` js\nvar CustomEvent = require('custom-event');\n\n// add an appropriate event listener\ntarget.addEventListener('cat', function(e) { process(e.detail) });\n\n// create and dispatch the event\nvar event = new CustomEvent('cat', {\n  detail: {\n    hazcheeseburger: true\n  }\n});\ntarget.dispatchEvent(event);\n```\n",
+  "maintainers" : [ {
+    "name" : "tootallnate",
+    "email" : "nathan@tootallnate.net"
+  } ],
+  "author" : {
+    "name" : "Nathan Rajlich",
+    "email" : "nathan@tootallnate.net",
+    "url" : "http://n8.io/"
+  },
+  "time" : {
+    "created" : "2015-01-07T22:33:23.794Z",
+    "modified" : "2017-08-23T07:03:50.864Z",
+    "1.0.0" : "2015-01-07T22:33:23.794Z",
+    "1.0.1" : "2016-10-13T17:53:54.245Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "git://github.com/webmodules/custom-event.git"
+  },
+  "users" : {
+    "xfloops" : true,
+    "sota1235" : true,
+    "xyyjk" : true,
+    "yikuo" : true
+  },
+  "readmeFilename" : "README.md",
+  "homepage" : "https://github.com/webmodules/custom-event",
+  "keywords" : [ "dom", "browser", "event", "custom", "customevent", "constructor" ],
+  "bugs" : {
+    "url" : "https://github.com/webmodules/custom-event/issues"
+  },
+  "license" : "MIT"
+}

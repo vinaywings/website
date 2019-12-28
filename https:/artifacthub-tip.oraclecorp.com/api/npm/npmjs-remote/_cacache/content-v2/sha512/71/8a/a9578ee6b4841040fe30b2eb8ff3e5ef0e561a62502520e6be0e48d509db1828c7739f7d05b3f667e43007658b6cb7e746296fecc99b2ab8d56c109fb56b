@@ -1,0 +1,450 @@
+{
+  "_id" : "err-code",
+  "_rev" : "13-44379748b6b7d03a112ee2e21aec746b",
+  "name" : "err-code",
+  "description" : "Create an error with a code",
+  "dist-tags" : {
+    "latest" : "2.0.0"
+  },
+  "versions" : {
+    "1.1.2" : {
+      "name" : "err-code",
+      "description" : "Create an error with a code",
+      "version" : "1.1.2",
+      "author" : {
+        "name" : "IndigoUnited",
+        "email" : "hello@indigounited.com",
+        "url" : "http://indigounited.com"
+      },
+      "homepage" : "https://github.com/IndigoUnited/js-err-code#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/IndigoUnited/js-err-code.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/IndigoUnited/js-err-code/issues/"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/err-code/-/err-code-1.1.2.tgz",
+        "shasum" : "06e0116d3028f6aef4806849eb0ea6a748ae6960"
+      },
+      "devDependencies" : {
+        "@satazor/eslint-config" : "^3.0.0",
+        "browserify" : "^14.0.0",
+        "eslint" : "^3.0.0",
+        "expect.js" : "^0.3.1",
+        "mocha" : "^3.0.2"
+      },
+      "keywords" : [ "error", "err", "code", "properties", "property" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "satazor",
+        "email" : "andremiguelcruz@msn.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "eslint '{*.js,test/**/*.js}' --ignore-pattern *.umd.js",
+        "test" : "mocha --bail",
+        "browserify" : "browserify -s err-code index.js > index.umd.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.10.10",
+      "_npmUser" : {
+        "name" : "satazor",
+        "email" : "andremiguelcruz@msn.com"
+      },
+      "_id" : "err-code@1.1.2",
+      "gitHead" : "af1a79e272c10e4daf38d75a3e91c85783b226a4",
+      "_npmOperationalInternal" : {
+        "host" : "packages-18-east.internal.npmjs.com",
+        "tmp" : "tmp/err-code-1.1.2.tgz_1491258166209_0.5635493844747543"
+      },
+      "_shasum" : "06e0116d3028f6aef4806849eb0ea6a748ae6960",
+      "_nodeVersion" : "6.10.1"
+    },
+    "2.0.0" : {
+      "name" : "err-code",
+      "description" : "Create an error with a code",
+      "version" : "2.0.0",
+      "author" : {
+        "name" : "IndigoUnited",
+        "email" : "hello@indigounited.com",
+        "url" : "http://indigounited.com"
+      },
+      "homepage" : "https://github.com/IndigoUnited/js-err-code#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/IndigoUnited/js-err-code.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/IndigoUnited/js-err-code/issues/"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/err-code/-/err-code-2.0.0.tgz",
+        "shasum" : "452dadddde12356b1dd5a85f33b28ddda377ef2a"
+      },
+      "devDependencies" : {
+        "@satazor/eslint-config" : "^3.0.0",
+        "browserify" : "^14.0.0",
+        "eslint" : "^3.0.0",
+        "expect.js" : "^0.3.1",
+        "mocha" : "^3.0.2"
+      },
+      "keywords" : [ "error", "err", "code", "properties", "property" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "satazor",
+        "email" : "andremiguelcruz@msn.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "eslint '{*.js,test/**/*.js}' --ignore-pattern *.umd.js",
+        "test" : "mocha --bail",
+        "browserify" : "browserify -s err-code index.js > index.umd.js"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "achingbrain",
+        "email" : "alex@achingbrain.net"
+      },
+      "_id" : "err-code@2.0.0",
+      "gitHead" : "6ae501a12b74a2088a1e11502ec64be8920db3fa",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/err-code_2.0.0_1563379823813_0.9193382197293369"
+      },
+      "_nodeVersion" : "10.15.3"
+    },
+    "0.1.1" : {
+      "name" : "err-code",
+      "description" : "Create an error with a code",
+      "version" : "0.1.1",
+      "author" : {
+        "name" : "IndigoUnited",
+        "email" : "hello@indigounited.com",
+        "url" : "http://indigounited.com"
+      },
+      "homepage" : "https://github.com/IndigoUnited/err-code",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/IndigoUnited/err-code.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/IndigoUnited/err-code/issues/"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/err-code/-/err-code-0.1.1.tgz",
+        "shasum" : "a710a2b4a5f1b7672616dcee2a1834fb2f4d4cd7"
+      },
+      "devDependencies" : {
+        "mocha" : "~1.8.1",
+        "expect.js" : "~0.2.0"
+      },
+      "keywords" : [ "error", "err", "code", "properties", "property" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "satazor",
+        "email" : "andremiguelcruz@msn.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha -R spec"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.9",
+      "_npmUser" : {
+        "name" : "satazor",
+        "email" : "andremiguelcruz@msn.com"
+      },
+      "_id" : "err-code@0.1.1",
+      "_shasum" : "a710a2b4a5f1b7672616dcee2a1834fb2f4d4cd7"
+    },
+    "0.1.2" : {
+      "name" : "err-code",
+      "description" : "Create an error with a code",
+      "version" : "0.1.2",
+      "author" : {
+        "name" : "IndigoUnited",
+        "email" : "hello@indigounited.com",
+        "url" : "http://indigounited.com"
+      },
+      "homepage" : "https://github.com/IndigoUnited/err-code",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/IndigoUnited/err-code.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/IndigoUnited/err-code/issues/"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/err-code/-/err-code-0.1.2.tgz",
+        "shasum" : "122a92b3342b9899da02b5ac994d30f95d4763ee"
+      },
+      "devDependencies" : {
+        "mocha" : "~1.8.1",
+        "expect.js" : "~0.2.0"
+      },
+      "keywords" : [ "error", "err", "code", "properties", "property" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "satazor",
+        "email" : "andremiguelcruz@msn.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha -R spec"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.9",
+      "_npmUser" : {
+        "name" : "satazor",
+        "email" : "andremiguelcruz@msn.com"
+      },
+      "_id" : "err-code@0.1.2",
+      "_shasum" : "122a92b3342b9899da02b5ac994d30f95d4763ee"
+    },
+    "1.0.0" : {
+      "name" : "err-code",
+      "description" : "Create an error with a code",
+      "version" : "1.0.0",
+      "author" : {
+        "name" : "IndigoUnited",
+        "email" : "hello@indigounited.com",
+        "url" : "http://indigounited.com"
+      },
+      "homepage" : "https://github.com/IndigoUnited/js-err-code#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/IndigoUnited/js-err-code.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/IndigoUnited/js-err-code/issues/"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/err-code/-/err-code-1.0.0.tgz",
+        "shasum" : "15d5aa25003c4ccbf9e09501ec5022fbb082a474"
+      },
+      "devDependencies" : {
+        "mocha" : "^2.3.4",
+        "expect.js" : "^0.3.1"
+      },
+      "keywords" : [ "error", "err", "code", "properties", "property" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "satazor",
+        "email" : "andremiguelcruz@msn.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha -R spec"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.14.7",
+      "_npmUser" : {
+        "name" : "satazor",
+        "email" : "andremiguelcruz@msn.com"
+      },
+      "_id" : "err-code@1.0.0",
+      "gitHead" : "346259a1a41e3688830a8f22f66419108b9b6e69",
+      "_shasum" : "15d5aa25003c4ccbf9e09501ec5022fbb082a474",
+      "_nodeVersion" : "4.2.3"
+    },
+    "1.1.0" : {
+      "name" : "err-code",
+      "description" : "Create an error with a code",
+      "version" : "1.1.0",
+      "author" : {
+        "name" : "IndigoUnited",
+        "email" : "hello@indigounited.com",
+        "url" : "http://indigounited.com"
+      },
+      "homepage" : "https://github.com/IndigoUnited/js-err-code#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/IndigoUnited/js-err-code.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/IndigoUnited/js-err-code/issues/"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/err-code/-/err-code-1.1.0.tgz",
+        "shasum" : "76d5e2c8b99f7fac89886e760883f6a4abe76463"
+      },
+      "devDependencies" : {
+        "@satazor/eslint-config" : "^1.0.8",
+        "browserify" : "^13.0.0",
+        "expect.js" : "^0.3.1",
+        "mocha" : "^2.3.4"
+      },
+      "keywords" : [ "error", "err", "code", "properties", "property" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "satazor",
+        "email" : "andremiguelcruz@msn.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha --bail",
+        "browserify" : "browserify -s err-code index.js > index.umd.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.14.7",
+      "_npmUser" : {
+        "name" : "satazor",
+        "email" : "andremiguelcruz@msn.com"
+      },
+      "_id" : "err-code@1.1.0",
+      "gitHead" : "60c1ff69fba79b90132248432089682837cfa992",
+      "_shasum" : "76d5e2c8b99f7fac89886e760883f6a4abe76463",
+      "_nodeVersion" : "4.2.3"
+    },
+    "0.1.0" : {
+      "name" : "err-code",
+      "description" : "Create an error with a code",
+      "version" : "0.1.0",
+      "author" : {
+        "name" : "IndigoUnited",
+        "email" : "hello@indigounited.com",
+        "url" : "http://indigounited.com"
+      },
+      "homepage" : "https://github.com/IndigoUnited/err-code",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/IndigoUnited/err-code.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/IndigoUnited/err-code/issues/"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/err-code/-/err-code-0.1.0.tgz",
+        "shasum" : "a5dc76c504d3fdd5875b59291265d1b7d0c67eac"
+      },
+      "devDependencies" : {
+        "mocha" : "~1.8.1",
+        "expect.js" : "~0.2.0"
+      },
+      "keywords" : [ "error", "err", "code", "properties", "property" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "satazor",
+        "email" : "andremiguelcruz@msn.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha -R spec"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.14",
+      "_npmUser" : {
+        "name" : "satazor",
+        "email" : "andremiguelcruz@msn.com"
+      },
+      "_id" : "err-code@0.1.0",
+      "gitHead" : "7994ebf8fab2f8449931fc168cb8afad86cb4ed0",
+      "_shasum" : "a5dc76c504d3fdd5875b59291265d1b7d0c67eac"
+    },
+    "1.1.1" : {
+      "name" : "err-code",
+      "description" : "Create an error with a code",
+      "version" : "1.1.1",
+      "author" : {
+        "name" : "IndigoUnited",
+        "email" : "hello@indigounited.com",
+        "url" : "http://indigounited.com"
+      },
+      "homepage" : "https://github.com/IndigoUnited/js-err-code#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/IndigoUnited/js-err-code.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/IndigoUnited/js-err-code/issues/"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/err-code/-/err-code-1.1.1.tgz",
+        "shasum" : "739d71b6851f24d050ea18c79a5b722420771d59"
+      },
+      "devDependencies" : {
+        "@satazor/eslint-config" : "^1.0.8",
+        "browserify" : "^13.0.0",
+        "expect.js" : "^0.3.1",
+        "mocha" : "^2.3.4"
+      },
+      "keywords" : [ "error", "err", "code", "properties", "property" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "satazor",
+        "email" : "andremiguelcruz@msn.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha --bail",
+        "browserify" : "browserify -s err-code index.js > index.umd.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.14.7",
+      "_npmUser" : {
+        "name" : "satazor",
+        "email" : "andremiguelcruz@msn.com"
+      },
+      "_id" : "err-code@1.1.1",
+      "gitHead" : "51cf8730f49dc6e12580e22ed714c7bc52238889",
+      "_shasum" : "739d71b6851f24d050ea18c79a5b722420771d59",
+      "_nodeVersion" : "4.2.3"
+    }
+  },
+  "readme" : "# err-code\n\n[![NPM version][npm-image]][npm-url] [![Downloads][downloads-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency status][david-dm-image]][david-dm-url] [![Dev Dependency status][david-dm-dev-image]][david-dm-dev-url] [![Greenkeeper badge][greenkeeper-image]][greenkeeper-url]\n\n[npm-url]:https://npmjs.org/package/err-code\n[downloads-image]:http://img.shields.io/npm/dm/err-code.svg\n[npm-image]:http://img.shields.io/npm/v/err-code.svg\n[travis-url]:https://travis-ci.org/IndigoUnited/js-err-code\n[travis-image]:http://img.shields.io/travis/IndigoUnited/js-err-code/master.svg\n[david-dm-url]:https://david-dm.org/IndigoUnited/js-err-code\n[david-dm-image]:https://img.shields.io/david/IndigoUnited/js-err-code.svg\n[david-dm-dev-url]:https://david-dm.org/IndigoUnited/js-err-code?type=dev\n[david-dm-dev-image]:https://img.shields.io/david/dev/IndigoUnited/js-err-code.svg\n[greenkeeper-image]:https://badges.greenkeeper.io/IndigoUnited/js-err-code.svg\n[greenkeeper-url]:https://greenkeeper.io/\n\nCreate new error instances with a code and additional properties.\n\n\n## Installation\n\n```console\n$ npm install err-code\n// or\n$ bower install err-code\n```\n\nThe browser file is named index.umd.js which supports CommonJS, AMD and globals (errCode).\n\n\n## Why\n\nI find myself doing this repeatedly:\n\n```js\nvar err = new Error('My message');\nerr.code = 'SOMECODE';\nerr.detail = 'Additional information about the error';\nthrow err;\n```\n\n\n## Usage\n\nSimple usage.\n\n```js\nvar errcode = require('err-code');\n\n// fill error with message + code\nthrow errcode(new Error('My message'), 'ESOMECODE');\n// fill error with message + code + props\nthrow errcode(new Error('My message'), 'ESOMECODE', { detail: 'Additional information about the error' });\n// fill error with message + props\nthrow errcode(new Error('My message'), { detail: 'Additional information about the error' });\n```\n\n\n## Tests\n\n`$ npm test`\n\n\n## License\n\nReleased under the [MIT License](http://www.opensource.org/licenses/mit-license.php).\n",
+  "maintainers" : [ {
+    "name" : "satazor",
+    "email" : "andremiguelcruz@msn.com"
+  } ],
+  "author" : {
+    "name" : "IndigoUnited",
+    "email" : "hello@indigounited.com",
+    "url" : "http://indigounited.com"
+  },
+  "time" : {
+    "1.1.2" : "2017-04-03T22:22:46.839Z",
+    "2.0.0" : "2019-07-17T16:10:23.999Z",
+    "created" : "2014-06-28T12:06:00.817Z",
+    "modified" : "2019-07-17T16:10:26.594Z",
+    "0.1.1" : "2014-07-17T10:05:01.874Z",
+    "0.1.2" : "2014-08-12T14:31:50.170Z",
+    "1.0.0" : "2016-01-02T16:49:59.672Z",
+    "1.1.0" : "2016-01-14T02:54:21.473Z",
+    "0.1.0" : "2014-06-28T12:06:00.817Z",
+    "1.1.1" : "2016-01-14T02:56:31.087Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "git://github.com/IndigoUnited/js-err-code.git"
+  },
+  "users" : {
+    "yonigoldberg" : true,
+    "jjvieira" : true
+  },
+  "readmeFilename" : "README.md",
+  "homepage" : "https://github.com/IndigoUnited/js-err-code#readme",
+  "keywords" : [ "error", "err", "code", "properties", "property" ],
+  "bugs" : {
+    "url" : "https://github.com/IndigoUnited/js-err-code/issues/"
+  },
+  "license" : "MIT"
+}

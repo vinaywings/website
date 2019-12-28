@@ -1,0 +1,2712 @@
+{
+  "_id" : "@types/selenium-webdriver",
+  "_rev" : "475-a1fba1b313c7fc58ed67a1de19ef13d5",
+  "name" : "@types/selenium-webdriver",
+  "description" : "TypeScript definitions for Selenium WebDriverJS",
+  "dist-tags" : {
+    "ts2.2" : "3.0.4",
+    "ts3.1" : "4.0.6",
+    "ts2.1" : "3.0.4",
+    "ts3.0" : "4.0.6",
+    "ts2.0" : "2.53.40",
+    "ts2.9" : "4.0.6",
+    "ts3.8" : "4.0.6",
+    "ts2.8" : "4.0.6",
+    "ts3.7" : "4.0.6",
+    "ts2.7" : "4.0.5",
+    "ts3.6" : "4.0.6",
+    "ts2.6" : "4.0.5",
+    "ts3.5" : "4.0.6",
+    "ts2.5" : "4.0.5",
+    "ts3.4" : "4.0.6",
+    "ts2.4" : "4.0.5",
+    "ts3.3" : "4.0.6",
+    "ts2.3" : "3.0.15",
+    "ts3.2" : "4.0.6",
+    "latest" : "4.0.6"
+  },
+  "versions" : {
+    "2.53.38" : {
+      "name" : "@types/selenium-webdriver",
+      "description" : "TypeScript definitions for Selenium WebDriverJS",
+      "version" : "2.53.38",
+      "author" : "Bill Armstrong <https://github.com/BillArmstrong>, Yuki Kokubun <https://github.com/Kuniwak>, Craig Nishina <https://github.com/cnishina>",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+      },
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/@types/selenium-webdriver/-/selenium-webdriver-2.53.38.tgz",
+        "shasum" : "3f06050584e8017f48ef411387852179df096408"
+      },
+      "dependencies" : {
+      },
+      "peerDependencies" : {
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ryan.cavanaugh@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/selenium-webdriver@2.53.38",
+      "typeScriptVersion" : "2.0",
+      "typesPublisherContentHash" : "ae7a4056f52645f8a1c40e06afa35b2dbfe8a481ad013491cd88916a4b01a45d",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/selenium-webdriver-2.53.38.tgz_1482502591909_0.33610998187214136"
+      }
+    },
+    "2.53.37" : {
+      "name" : "@types/selenium-webdriver",
+      "description" : "TypeScript definitions for Selenium WebDriverJS",
+      "version" : "2.53.37",
+      "author" : "Bill Armstrong <https://github.com/BillArmstrong>, Yuki Kokubun <https://github.com/Kuniwak>, Craig Nishina <https://github.com/cnishina>",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+      },
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/@types/selenium-webdriver/-/selenium-webdriver-2.53.37.tgz",
+        "shasum" : "34f743c20e53ae7100ede90870fde554df2447f8"
+      },
+      "dependencies" : {
+      },
+      "peerDependencies" : {
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ryan.cavanaugh@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/selenium-webdriver@2.53.37",
+      "typesPublisherContentHash" : "bd4760bfc61f70ccb4cbbdcade1de0433a4d4d4e60667229840cda16fe9fafc1",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/selenium-webdriver-2.53.37.tgz_1482184490763_0.7292482019402087"
+      }
+    },
+    "2.53.39" : {
+      "name" : "@types/selenium-webdriver",
+      "description" : "TypeScript definitions for Selenium WebDriverJS",
+      "version" : "2.53.39",
+      "author" : "Bill Armstrong <https://github.com/BillArmstrong>, Yuki Kokubun <https://github.com/Kuniwak>, Craig Nishina <https://github.com/cnishina>",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+      },
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/@types/selenium-webdriver/-/selenium-webdriver-2.53.39.tgz",
+        "shasum" : "15ff93392c339abd39d6d3a04e715faa9a263cf3"
+      },
+      "dependencies" : {
+      },
+      "peerDependencies" : {
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ryan.cavanaugh@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/selenium-webdriver@2.53.39",
+      "typeScriptVersion" : "2.0",
+      "typesPublisherContentHash" : "44e78a4db055fdfee7e79b7a44c86a3ba13742f3dd1a97dc7d41f3c14bd83e23",
+      "_npmOperationalInternal" : {
+        "host" : "packages-18-east.internal.npmjs.com",
+        "tmp" : "tmp/selenium-webdriver-2.53.39.tgz_1483646448432_0.8664033019449562"
+      }
+    },
+    "2.53.30" : {
+      "name" : "@types/selenium-webdriver",
+      "description" : "TypeScript definitions for Selenium WebDriverJS 2.53.1",
+      "version" : "2.53.30",
+      "author" : "Bill Armstrong <https://github.com/BillArmstrong>, Yuki Kokubun <https://github.com/Kuniwak>, Craig Nishina <https://github.com/cnishina>",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+      },
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/@types/selenium-webdriver/-/selenium-webdriver-2.53.30.tgz",
+        "shasum" : "0c814ae15f17e7fbd3ca2c2c4c2db3985fdcdae5"
+      },
+      "dependencies" : {
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ryan.cavanaugh@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/selenium-webdriver@2.53.30",
+      "typings" : "index.d.ts",
+      "typesPublisherContentHash" : "3f9098e3385e053a81b47b523c0b487aa119c1da4d90da91641e16ba72d77ae2",
+      "_npmOperationalInternal" : {
+        "host" : "packages-16-east.internal.npmjs.com",
+        "tmp" : "tmp/selenium-webdriver-2.53.30.tgz_1474406172371_0.2622859035618603"
+      }
+    },
+    "2.53.32" : {
+      "name" : "@types/selenium-webdriver",
+      "description" : "TypeScript definitions for Selenium WebDriverJS 2.53.1",
+      "version" : "2.53.32",
+      "author" : "Bill Armstrong <https://github.com/BillArmstrong>, Yuki Kokubun <https://github.com/Kuniwak>, Craig Nishina <https://github.com/cnishina>",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+      },
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/@types/selenium-webdriver/-/selenium-webdriver-2.53.32.tgz",
+        "shasum" : "bf3b40fa3d7da83ffdfbecd11d5f9ab59146145a"
+      },
+      "dependencies" : {
+      },
+      "peerDependencies" : {
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ryan.cavanaugh@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/selenium-webdriver@2.53.32",
+      "typings" : "index.d.ts",
+      "typesPublisherContentHash" : "514008aad028e45ea0b0a81527e48ec3f1064bfa9113173a8254b1d612a36263",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/selenium-webdriver-2.53.32.tgz_1475731284097_0.034328092355281115"
+      }
+    },
+    "2.53.31" : {
+      "name" : "@types/selenium-webdriver",
+      "description" : "TypeScript definitions for Selenium WebDriverJS 2.53.1",
+      "version" : "2.53.31",
+      "author" : "Bill Armstrong <https://github.com/BillArmstrong>, Yuki Kokubun <https://github.com/Kuniwak>, Craig Nishina <https://github.com/cnishina>",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+      },
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/@types/selenium-webdriver/-/selenium-webdriver-2.53.31.tgz",
+        "shasum" : "5e456de8f32950338e8c4d1985a2479adca333fd"
+      },
+      "dependencies" : {
+      },
+      "peerDependencies" : {
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ryan.cavanaugh@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/selenium-webdriver@2.53.31",
+      "typings" : "index.d.ts",
+      "typesPublisherContentHash" : "357bebb3dd6f2c46575cf7fa897003ab452a16e55cb24e7b0a94c6d9813c7ef6",
+      "_npmOperationalInternal" : {
+        "host" : "packages-16-east.internal.npmjs.com",
+        "tmp" : "tmp/selenium-webdriver-2.53.31.tgz_1475701379896_0.4107896687928587"
+      }
+    },
+    "2.53.34" : {
+      "name" : "@types/selenium-webdriver",
+      "description" : "TypeScript definitions for Selenium WebDriverJS 2.53.1",
+      "version" : "2.53.34",
+      "author" : "Bill Armstrong <https://github.com/BillArmstrong>, Yuki Kokubun <https://github.com/Kuniwak>, Craig Nishina <https://github.com/cnishina>",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+      },
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/@types/selenium-webdriver/-/selenium-webdriver-2.53.34.tgz",
+        "shasum" : "bf8afebf24b640c2cb1aff0a6390b1cb0da1c476"
+      },
+      "dependencies" : {
+      },
+      "peerDependencies" : {
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ryan.cavanaugh@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/selenium-webdriver@2.53.34",
+      "typings" : "index.d.ts",
+      "typesPublisherContentHash" : "56a677f52149906b680daf47264d946c33754e29f6c93bec20643146f2b856ea",
+      "_npmOperationalInternal" : {
+        "host" : "packages-18-east.internal.npmjs.com",
+        "tmp" : "tmp/selenium-webdriver-2.53.34.tgz_1478276383444_0.6230588289909065"
+      }
+    },
+    "2.53.33" : {
+      "name" : "@types/selenium-webdriver",
+      "description" : "TypeScript definitions for Selenium WebDriverJS 2.53.1",
+      "version" : "2.53.33",
+      "author" : "Bill Armstrong <https://github.com/BillArmstrong>, Yuki Kokubun <https://github.com/Kuniwak>, Craig Nishina <https://github.com/cnishina>",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+      },
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/@types/selenium-webdriver/-/selenium-webdriver-2.53.33.tgz",
+        "shasum" : "64672bae3acedf9d9e6bcfa8bdb7c37497751c3d"
+      },
+      "dependencies" : {
+      },
+      "peerDependencies" : {
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ryan.cavanaugh@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/selenium-webdriver@2.53.33",
+      "typings" : "index.d.ts",
+      "typesPublisherContentHash" : "d2c500e3b8dc0ba2a222c0b753cbf14427cdc338c6156fd0ca8541e7de7b8b0d",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/selenium-webdriver-2.53.33.tgz_1475861781338_0.04925332870334387"
+      }
+    },
+    "2.53.36" : {
+      "name" : "@types/selenium-webdriver",
+      "description" : "TypeScript definitions for Selenium WebDriverJS",
+      "version" : "2.53.36",
+      "author" : "Bill Armstrong <https://github.com/BillArmstrong>, Yuki Kokubun <https://github.com/Kuniwak>, Craig Nishina <https://github.com/cnishina>",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+      },
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/@types/selenium-webdriver/-/selenium-webdriver-2.53.36.tgz",
+        "shasum" : "a2d27d0709b368ae0894fc30c0e40af827d6e851"
+      },
+      "dependencies" : {
+      },
+      "peerDependencies" : {
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ryan.cavanaugh@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/selenium-webdriver@2.53.36",
+      "typesPublisherContentHash" : "ccbc684db3ad491d9918dbe4436c211af05714c51f00ffad3bdce1eb708723ab",
+      "_npmOperationalInternal" : {
+        "host" : "packages-18-east.internal.npmjs.com",
+        "tmp" : "tmp/selenium-webdriver-2.53.36.tgz_1480550235957_0.9064021320082247"
+      }
+    },
+    "2.53.35" : {
+      "name" : "@types/selenium-webdriver",
+      "description" : "TypeScript definitions for Selenium WebDriverJS 2.53.1",
+      "version" : "2.53.35",
+      "author" : "Bill Armstrong <https://github.com/BillArmstrong>, Yuki Kokubun <https://github.com/Kuniwak>, Craig Nishina <https://github.com/cnishina>",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+      },
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/@types/selenium-webdriver/-/selenium-webdriver-2.53.35.tgz",
+        "shasum" : "a0c4b5f090bde48ba9ed16e4d43a5b99112c72fb"
+      },
+      "dependencies" : {
+      },
+      "peerDependencies" : {
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ryan.cavanaugh@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/selenium-webdriver@2.53.35",
+      "typings" : "index.d.ts",
+      "typesPublisherContentHash" : "52267bb4ce3bffd537cfa1d408323ea2cfa65d439b413b5644ee3ea523cbabe1",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/selenium-webdriver-2.53.35.tgz_1478544394466_0.7562958779744804"
+      }
+    },
+    "2.44.13-alpha" : {
+      "name" : "@types/selenium-webdriver",
+      "description" : "Type definitions for Selenium WebDriverJS 2.44.0 from https://www.github.com/DefinitelyTyped/DefinitelyTyped",
+      "version" : "2.44.13-alpha",
+      "author" : {
+        "name" : "Bill Armstrong",
+        "email" : "https://github.com/BillArmstrong"
+      },
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/@types/selenium-webdriver/-/selenium-webdriver-2.44.13-alpha.tgz",
+        "shasum" : "7a73a0a1d823e390cf982a9fb7052168e96d3f59"
+      },
+      "dependencies" : {
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ryan.cavanaugh@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_from" : "output\\selenium-webdriver",
+      "_npmVersion" : "3.8.2",
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ryan.cavanaugh@microsoft.com"
+      },
+      "_id" : "@types/selenium-webdriver@2.44.13-alpha",
+      "typings" : "index.d.ts",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/selenium-webdriver-2.44.13-alpha.tgz_1463511237742_0.3162666626740247"
+      },
+      "_shasum" : "7a73a0a1d823e390cf982a9fb7052168e96d3f59",
+      "_resolved" : "file:output\\selenium-webdriver",
+      "_nodeVersion" : "5.5.0"
+    },
+    "2.44.23-alpha" : {
+      "name" : "@types/selenium-webdriver",
+      "description" : "TypeScript definitions for Selenium WebDriverJS 2.44.0",
+      "version" : "2.44.23-alpha",
+      "author" : {
+        "name" : "Bill Armstrong",
+        "email" : "https://github.com/BillArmstrong"
+      },
+      "repository" : {
+        "type" : "git",
+        "url" : "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+      },
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/@types/selenium-webdriver/-/selenium-webdriver-2.44.23-alpha.tgz",
+        "shasum" : "f83bcb80b020c9a1ff78644cbb75f016ac48399e"
+      },
+      "dependencies" : {
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ryan.cavanaugh@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_from" : "output\\selenium-webdriver",
+      "_npmVersion" : "3.7.2",
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ryan.cavanaugh@microsoft.com"
+      },
+      "_id" : "@types/selenium-webdriver@2.44.23-alpha",
+      "typings" : "index.d.ts",
+      "_npmOperationalInternal" : {
+        "host" : "packages-16-east.internal.npmjs.com",
+        "tmp" : "tmp/selenium-webdriver-2.44.23-alpha.tgz_1467429958683_0.5117088095284998"
+      },
+      "_shasum" : "f83bcb80b020c9a1ff78644cbb75f016ac48399e",
+      "_resolved" : "file:output\\selenium-webdriver",
+      "_nodeVersion" : "6.2.1"
+    },
+    "3.0.9" : {
+      "name" : "@types/selenium-webdriver",
+      "description" : "TypeScript definitions for Selenium WebDriverJS",
+      "version" : "3.0.9",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/DefinitelyTyped/DefinitelyTyped.git"
+      },
+      "contributors" : [ {
+        "name" : "Bill Armstrong",
+        "url" : "https://github.com/BillArmstrong",
+        "githubUsername" : "BillArmstrong"
+      }, {
+        "name" : "Yuki Kokubun",
+        "url" : "https://github.com/Kuniwak",
+        "githubUsername" : "Kuniwak"
+      }, {
+        "name" : "Craig Nishina",
+        "url" : "https://github.com/cnishina",
+        "githubUsername" : "cnishina"
+      }, {
+        "name" : "Simon Gellis",
+        "url" : "https://github.com/SupernaviX",
+        "githubUsername" : "SupernaviX"
+      }, {
+        "name" : "Ben Dixon",
+        "url" : "https://github.com/bendxn",
+        "githubUsername" : "bendxn"
+      } ],
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/@types/selenium-webdriver/-/selenium-webdriver-3.0.9.tgz",
+        "shasum" : "2c03bb00c9fe5660c14c3bf89cb16364d5965849"
+      },
+      "dependencies" : {
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/selenium-webdriver@3.0.9",
+      "typeScriptVersion" : "2.3",
+      "_hasShrinkwrap" : false,
+      "typesPublisherContentHash" : "24c307d12fa30e665f080ff472af2f1d48568d4283085968e9caa23b7a20ca8e",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/selenium-webdriver_3.0.9_1527870763657_0.06969265126675461"
+      }
+    },
+    "2.44.20-alpha" : {
+      "name" : "@types/selenium-webdriver",
+      "description" : "TypeScript definitions for Selenium WebDriverJS 2.44.0",
+      "version" : "2.44.20-alpha",
+      "author" : {
+        "name" : "Bill Armstrong",
+        "email" : "https://github.com/BillArmstrong"
+      },
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/@types/selenium-webdriver/-/selenium-webdriver-2.44.20-alpha.tgz",
+        "shasum" : "74ff7ad7514957190fb9f3da444077fd83ed9d0a"
+      },
+      "dependencies" : {
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ryan.cavanaugh@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_from" : "output\\selenium-webdriver",
+      "_npmVersion" : "3.8.2",
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ryan.cavanaugh@microsoft.com"
+      },
+      "_id" : "@types/selenium-webdriver@2.44.20-alpha",
+      "typings" : "index.d.ts",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/selenium-webdriver-2.44.20-alpha.tgz_1464155700435_0.686945617897436"
+      },
+      "_shasum" : "74ff7ad7514957190fb9f3da444077fd83ed9d0a",
+      "_resolved" : "file:output\\selenium-webdriver",
+      "_nodeVersion" : "5.5.0"
+    },
+    "2.44.19-alpha" : {
+      "name" : "@types/selenium-webdriver",
+      "description" : "TypeScript definitions for Selenium WebDriverJS 2.44.0",
+      "version" : "2.44.19-alpha",
+      "author" : {
+        "name" : "Bill Armstrong",
+        "email" : "https://github.com/BillArmstrong"
+      },
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/@types/selenium-webdriver/-/selenium-webdriver-2.44.19-alpha.tgz",
+        "shasum" : "bea38c25463276f4e8669f3c992d81748e0a9848"
+      },
+      "dependencies" : {
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ryan.cavanaugh@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_from" : "output\\selenium-webdriver",
+      "_npmVersion" : "3.8.2",
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ryan.cavanaugh@microsoft.com"
+      },
+      "_id" : "@types/selenium-webdriver@2.44.19-alpha",
+      "typings" : "index.d.ts",
+      "_npmOperationalInternal" : {
+        "host" : "packages-16-east.internal.npmjs.com",
+        "tmp" : "tmp/selenium-webdriver-2.44.19-alpha.tgz_1463776757294_0.2778122073505074"
+      },
+      "_shasum" : "bea38c25463276f4e8669f3c992d81748e0a9848",
+      "_resolved" : "file:output\\selenium-webdriver",
+      "_nodeVersion" : "5.5.0"
+    },
+    "2.44.24-alpha" : {
+      "name" : "@types/selenium-webdriver",
+      "description" : "TypeScript definitions for Selenium WebDriverJS 2.44.0",
+      "version" : "2.44.24-alpha",
+      "author" : {
+        "name" : "Bill Armstrong",
+        "email" : "https://github.com/BillArmstrong"
+      },
+      "repository" : {
+        "type" : "git",
+        "url" : "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+      },
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/@types/selenium-webdriver/-/selenium-webdriver-2.44.24-alpha.tgz",
+        "shasum" : "abc7076742c81ca3a289bd06d0a2228778f0754a"
+      },
+      "dependencies" : {
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ryan.cavanaugh@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_from" : "output\\selenium-webdriver",
+      "_npmVersion" : "3.7.2",
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ryan.cavanaugh@microsoft.com"
+      },
+      "_id" : "@types/selenium-webdriver@2.44.24-alpha",
+      "typings" : "index.d.ts",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/selenium-webdriver-2.44.24-alpha.tgz_1467594943313_0.4785064272582531"
+      },
+      "_shasum" : "abc7076742c81ca3a289bd06d0a2228778f0754a",
+      "_resolved" : "file:output\\selenium-webdriver",
+      "_nodeVersion" : "6.2.1"
+    },
+    "4.0.2" : {
+      "name" : "@types/selenium-webdriver",
+      "description" : "TypeScript definitions for Selenium WebDriverJS",
+      "version" : "4.0.2",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+        "directory" : "types/selenium-webdriver"
+      },
+      "contributors" : [ {
+        "name" : "Bill Armstrong",
+        "url" : "https://github.com/BillArmstrong",
+        "githubUsername" : "BillArmstrong"
+      }, {
+        "name" : "Yuki Kokubun",
+        "url" : "https://github.com/Kuniwak",
+        "githubUsername" : "Kuniwak"
+      }, {
+        "name" : "Craig Nishina",
+        "url" : "https://github.com/cnishina",
+        "githubUsername" : "cnishina"
+      }, {
+        "name" : "Simon Gellis",
+        "url" : "https://github.com/SupernaviX",
+        "githubUsername" : "SupernaviX"
+      }, {
+        "name" : "Ben Dixon",
+        "url" : "https://github.com/bendxn",
+        "githubUsername" : "bendxn"
+      }, {
+        "name" : "Ziyu",
+        "url" : "https://github.com/oddui",
+        "githubUsername" : "oddui"
+      }, {
+        "name" : "Johann Wolf",
+        "url" : "https://github.com/beta-vulgaris",
+        "githubUsername" : "beta-vulgaris"
+      } ],
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/@types/selenium-webdriver/-/selenium-webdriver-4.0.2.tgz",
+        "shasum" : "620419110e545bf54237a91161a8356bc4c65db3"
+      },
+      "dependencies" : {
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/selenium-webdriver@4.0.2",
+      "types" : "index",
+      "typeScriptVersion" : "2.4",
+      "_hasShrinkwrap" : false,
+      "typesPublisherContentHash" : "947b3a62fe64b84010d58804a5c8fc2c6f673041c69bda0e533be009243e3dec",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/selenium-webdriver_4.0.2_1566253491571_0.2849142803845923"
+      }
+    },
+    "4.0.3" : {
+      "name" : "@types/selenium-webdriver",
+      "description" : "TypeScript definitions for Selenium WebDriverJS",
+      "version" : "4.0.3",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+        "directory" : "types/selenium-webdriver"
+      },
+      "contributors" : [ {
+        "name" : "Bill Armstrong",
+        "url" : "https://github.com/BillArmstrong",
+        "githubUsername" : "BillArmstrong"
+      }, {
+        "name" : "Yuki Kokubun",
+        "url" : "https://github.com/Kuniwak",
+        "githubUsername" : "Kuniwak"
+      }, {
+        "name" : "Craig Nishina",
+        "url" : "https://github.com/cnishina",
+        "githubUsername" : "cnishina"
+      }, {
+        "name" : "Simon Gellis",
+        "url" : "https://github.com/SupernaviX",
+        "githubUsername" : "SupernaviX"
+      }, {
+        "name" : "Ben Dixon",
+        "url" : "https://github.com/bendxn",
+        "githubUsername" : "bendxn"
+      }, {
+        "name" : "Ziyu",
+        "url" : "https://github.com/oddui",
+        "githubUsername" : "oddui"
+      }, {
+        "name" : "Johann Wolf",
+        "url" : "https://github.com/beta-vulgaris",
+        "githubUsername" : "beta-vulgaris"
+      } ],
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/@types/selenium-webdriver/-/selenium-webdriver-4.0.3.tgz",
+        "shasum" : "388f12c464cc1fff5d4c84cb372f19b9ab9b5c81"
+      },
+      "dependencies" : {
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/selenium-webdriver@4.0.3",
+      "types" : "index",
+      "typeScriptVersion" : "2.4",
+      "_hasShrinkwrap" : false,
+      "typesPublisherContentHash" : "9ffcc20968828e4f312f00a343c78886a469ac14502974078e82bda496fce3c0",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/selenium-webdriver_4.0.3_1569362069207_0.21729356712591752"
+      }
+    },
+    "4.0.0" : {
+      "name" : "@types/selenium-webdriver",
+      "description" : "TypeScript definitions for Selenium WebDriverJS",
+      "version" : "4.0.0",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+        "directory" : "types/selenium-webdriver"
+      },
+      "contributors" : [ {
+        "name" : "Bill Armstrong",
+        "url" : "https://github.com/BillArmstrong",
+        "githubUsername" : "BillArmstrong"
+      }, {
+        "name" : "Yuki Kokubun",
+        "url" : "https://github.com/Kuniwak",
+        "githubUsername" : "Kuniwak"
+      }, {
+        "name" : "Craig Nishina",
+        "url" : "https://github.com/cnishina",
+        "githubUsername" : "cnishina"
+      }, {
+        "name" : "Simon Gellis",
+        "url" : "https://github.com/SupernaviX",
+        "githubUsername" : "SupernaviX"
+      }, {
+        "name" : "Ben Dixon",
+        "url" : "https://github.com/bendxn",
+        "githubUsername" : "bendxn"
+      }, {
+        "name" : "Ziyu",
+        "url" : "https://github.com/oddui",
+        "githubUsername" : "oddui"
+      } ],
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/@types/selenium-webdriver/-/selenium-webdriver-4.0.0.tgz",
+        "shasum" : "21aa550f08d2cca49f8537f6697288a0d4300f28"
+      },
+      "dependencies" : {
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/selenium-webdriver@4.0.0",
+      "types" : "index",
+      "typeScriptVersion" : "2.4",
+      "_hasShrinkwrap" : false,
+      "typesPublisherContentHash" : "8f405a034bfe48d62921e30d94eb30ed1573639f81a8b8b023468861905968a9",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/selenium-webdriver_4.0.0_1554254867294_0.38970333252289957"
+      }
+    },
+    "4.0.1" : {
+      "name" : "@types/selenium-webdriver",
+      "description" : "TypeScript definitions for Selenium WebDriverJS",
+      "version" : "4.0.1",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+        "directory" : "types/selenium-webdriver"
+      },
+      "contributors" : [ {
+        "name" : "Bill Armstrong",
+        "url" : "https://github.com/BillArmstrong",
+        "githubUsername" : "BillArmstrong"
+      }, {
+        "name" : "Yuki Kokubun",
+        "url" : "https://github.com/Kuniwak",
+        "githubUsername" : "Kuniwak"
+      }, {
+        "name" : "Craig Nishina",
+        "url" : "https://github.com/cnishina",
+        "githubUsername" : "cnishina"
+      }, {
+        "name" : "Simon Gellis",
+        "url" : "https://github.com/SupernaviX",
+        "githubUsername" : "SupernaviX"
+      }, {
+        "name" : "Ben Dixon",
+        "url" : "https://github.com/bendxn",
+        "githubUsername" : "bendxn"
+      }, {
+        "name" : "Ziyu",
+        "url" : "https://github.com/oddui",
+        "githubUsername" : "oddui"
+      }, {
+        "name" : "Johann Wolf",
+        "url" : "https://github.com/beta-vulgaris",
+        "githubUsername" : "beta-vulgaris"
+      } ],
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/@types/selenium-webdriver/-/selenium-webdriver-4.0.1.tgz",
+        "shasum" : "3bc36110061ff180a5a6d1ff3bf2cb0802b5ff60"
+      },
+      "dependencies" : {
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/selenium-webdriver@4.0.1",
+      "types" : "index",
+      "typeScriptVersion" : "2.4",
+      "_hasShrinkwrap" : false,
+      "typesPublisherContentHash" : "cf25f05ad4e0f4469f87fdc0eca0f123e4cc23e3c264218317b15bb2e11ac678",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/selenium-webdriver_4.0.1_1561743445024_0.787556527184982"
+      }
+    },
+    "2.44.21-alpha" : {
+      "name" : "@types/selenium-webdriver",
+      "description" : "TypeScript definitions for Selenium WebDriverJS 2.44.0",
+      "version" : "2.44.21-alpha",
+      "author" : {
+        "name" : "Bill Armstrong",
+        "email" : "https://github.com/BillArmstrong"
+      },
+      "repository" : {
+        "type" : "git",
+        "url" : "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+      },
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/@types/selenium-webdriver/-/selenium-webdriver-2.44.21-alpha.tgz",
+        "shasum" : "86c711d6fa70ca54e06bd8994cb6f644e84493ad"
+      },
+      "dependencies" : {
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ryan.cavanaugh@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_from" : "output\\selenium-webdriver",
+      "_npmVersion" : "3.9.5",
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ryan.cavanaugh@microsoft.com"
+      },
+      "_id" : "@types/selenium-webdriver@2.44.21-alpha",
+      "typings" : "index.d.ts",
+      "_npmOperationalInternal" : {
+        "host" : "packages-16-east.internal.npmjs.com",
+        "tmp" : "tmp/selenium-webdriver-2.44.21-alpha.tgz_1467405132749_0.10927349212579429"
+      },
+      "_shasum" : "86c711d6fa70ca54e06bd8994cb6f644e84493ad",
+      "_resolved" : "file:output\\selenium-webdriver",
+      "_nodeVersion" : "6.2.2"
+    },
+    "4.0.6" : {
+      "name" : "@types/selenium-webdriver",
+      "description" : "TypeScript definitions for Selenium WebDriverJS",
+      "version" : "4.0.6",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+        "directory" : "types/selenium-webdriver"
+      },
+      "contributors" : [ {
+        "name" : "Bill Armstrong",
+        "url" : "https://github.com/BillArmstrong",
+        "githubUsername" : "BillArmstrong"
+      }, {
+        "name" : "Yuki Kokubun",
+        "url" : "https://github.com/Kuniwak",
+        "githubUsername" : "Kuniwak"
+      }, {
+        "name" : "Craig Nishina",
+        "url" : "https://github.com/cnishina",
+        "githubUsername" : "cnishina"
+      }, {
+        "name" : "Simon Gellis",
+        "url" : "https://github.com/SupernaviX",
+        "githubUsername" : "SupernaviX"
+      }, {
+        "name" : "Ben Dixon",
+        "url" : "https://github.com/bendxn",
+        "githubUsername" : "bendxn"
+      }, {
+        "name" : "Ziyu",
+        "url" : "https://github.com/oddui",
+        "githubUsername" : "oddui"
+      }, {
+        "name" : "Johann Wolf",
+        "url" : "https://github.com/beta-vulgaris",
+        "githubUsername" : "beta-vulgaris"
+      }, {
+        "name" : "Aleksey Chemakin",
+        "url" : "https://github.com/Dzenly",
+        "githubUsername" : "Dzenly"
+      }, {
+        "name" : "thislooksfun",
+        "url" : "https://github.com/thislooksfun",
+        "githubUsername" : "thislooksfun"
+      } ],
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/@types/selenium-webdriver/-/selenium-webdriver-4.0.6.tgz",
+        "shasum" : "c5d595de4b0b348020c370c8d335660d290dc877"
+      },
+      "dependencies" : {
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/selenium-webdriver@4.0.6",
+      "types" : "index.d.ts",
+      "typeScriptVersion" : "2.8",
+      "_hasShrinkwrap" : false,
+      "typesPublisherContentHash" : "fddb6ab9a0f4573caa171248f5f7da1a181c9778e35259c5f9d4f366e04e53aa",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/selenium-webdriver_4.0.6_1576496101161_0.5099974799556162"
+      }
+    },
+    "4.0.4" : {
+      "name" : "@types/selenium-webdriver",
+      "description" : "TypeScript definitions for Selenium WebDriverJS",
+      "version" : "4.0.4",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+        "directory" : "types/selenium-webdriver"
+      },
+      "contributors" : [ {
+        "name" : "Bill Armstrong",
+        "url" : "https://github.com/BillArmstrong",
+        "githubUsername" : "BillArmstrong"
+      }, {
+        "name" : "Yuki Kokubun",
+        "url" : "https://github.com/Kuniwak",
+        "githubUsername" : "Kuniwak"
+      }, {
+        "name" : "Craig Nishina",
+        "url" : "https://github.com/cnishina",
+        "githubUsername" : "cnishina"
+      }, {
+        "name" : "Simon Gellis",
+        "url" : "https://github.com/SupernaviX",
+        "githubUsername" : "SupernaviX"
+      }, {
+        "name" : "Ben Dixon",
+        "url" : "https://github.com/bendxn",
+        "githubUsername" : "bendxn"
+      }, {
+        "name" : "Ziyu",
+        "url" : "https://github.com/oddui",
+        "githubUsername" : "oddui"
+      }, {
+        "name" : "Johann Wolf",
+        "url" : "https://github.com/beta-vulgaris",
+        "githubUsername" : "beta-vulgaris"
+      }, {
+        "name" : "Aleksey Chemakin",
+        "url" : "https://github.com/Dzenly",
+        "githubUsername" : "Dzenly"
+      } ],
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/@types/selenium-webdriver/-/selenium-webdriver-4.0.4.tgz",
+        "shasum" : "b7a24b6d4d942d513045f947f76500b61b6470de"
+      },
+      "dependencies" : {
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/selenium-webdriver@4.0.4",
+      "types" : "index",
+      "typeScriptVersion" : "2.4",
+      "_hasShrinkwrap" : false,
+      "typesPublisherContentHash" : "6fdf627029dd0baa42c90858649d33db0c869e2f66883ec598843d01265f3109",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/selenium-webdriver_4.0.4_1571094553896_0.5876349808833929"
+      }
+    },
+    "4.0.5" : {
+      "name" : "@types/selenium-webdriver",
+      "description" : "TypeScript definitions for Selenium WebDriverJS",
+      "version" : "4.0.5",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+        "directory" : "types/selenium-webdriver"
+      },
+      "contributors" : [ {
+        "name" : "Bill Armstrong",
+        "url" : "https://github.com/BillArmstrong",
+        "githubUsername" : "BillArmstrong"
+      }, {
+        "name" : "Yuki Kokubun",
+        "url" : "https://github.com/Kuniwak",
+        "githubUsername" : "Kuniwak"
+      }, {
+        "name" : "Craig Nishina",
+        "url" : "https://github.com/cnishina",
+        "githubUsername" : "cnishina"
+      }, {
+        "name" : "Simon Gellis",
+        "url" : "https://github.com/SupernaviX",
+        "githubUsername" : "SupernaviX"
+      }, {
+        "name" : "Ben Dixon",
+        "url" : "https://github.com/bendxn",
+        "githubUsername" : "bendxn"
+      }, {
+        "name" : "Ziyu",
+        "url" : "https://github.com/oddui",
+        "githubUsername" : "oddui"
+      }, {
+        "name" : "Johann Wolf",
+        "url" : "https://github.com/beta-vulgaris",
+        "githubUsername" : "beta-vulgaris"
+      }, {
+        "name" : "Aleksey Chemakin",
+        "url" : "https://github.com/Dzenly",
+        "githubUsername" : "Dzenly"
+      }, {
+        "name" : "thislooksfun",
+        "url" : "https://github.com/thislooksfun",
+        "githubUsername" : "thislooksfun"
+      } ],
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/@types/selenium-webdriver/-/selenium-webdriver-4.0.5.tgz",
+        "shasum" : "23041a4948c82daf2df9836e4d2358fec10d3e24"
+      },
+      "dependencies" : {
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/selenium-webdriver@4.0.5",
+      "types" : "index",
+      "typeScriptVersion" : "2.4",
+      "_hasShrinkwrap" : false,
+      "typesPublisherContentHash" : "2ffbc30fe02c8fc600cc2a41d32813fd3afca846dc8284f894d95d527db5d17b",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/selenium-webdriver_4.0.5_1571096118561_0.820608916399304"
+      }
+    },
+    "2.44.29" : {
+      "name" : "@types/selenium-webdriver",
+      "description" : "TypeScript definitions for Selenium WebDriverJS 2.44.0",
+      "version" : "2.44.29",
+      "author" : "Bill Armstrong <https://github.com/BillArmstrong>, Yuki Kokubun <https://github.com/Kuniwak>",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+      },
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/@types/selenium-webdriver/-/selenium-webdriver-2.44.29.tgz",
+        "shasum" : "5be245a74e9aa3336429ab853e93ddbdce86a717"
+      },
+      "dependencies" : {
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ryan.cavanaugh@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/selenium-webdriver@2.44.29",
+      "typings" : "index.d.ts",
+      "typesPublisherContentHash" : "aa63bea88a34141c1185d8d25796781fe03f57d2f654fc88bfed9936bb7276dd",
+      "_npmOperationalInternal" : {
+        "host" : "packages-16-east.internal.npmjs.com",
+        "tmp" : "tmp/selenium-webdriver-2.44.29.tgz_1474308660692_0.5107136575970799"
+      }
+    },
+    "2.44.28" : {
+      "name" : "@types/selenium-webdriver",
+      "description" : "TypeScript definitions for Selenium WebDriverJS 2.44.0",
+      "version" : "2.44.28",
+      "author" : "Bill Armstrong <https://github.com/BillArmstrong>, Yuki Kokubun <https://github.com/Kuniwak>",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+      },
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/@types/selenium-webdriver/-/selenium-webdriver-2.44.28.tgz",
+        "shasum" : "d9c12068bf06d1de95fa31a65a0abcba1aa9fcbc"
+      },
+      "dependencies" : {
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ryan.cavanaugh@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/selenium-webdriver@2.44.28",
+      "typings" : "index.d.ts",
+      "_npmOperationalInternal" : {
+        "host" : "packages-16-east.internal.npmjs.com",
+        "tmp" : "tmp/selenium-webdriver-2.44.28.tgz_1472151546823_0.4529266110621393"
+      }
+    },
+    "3.0.0" : {
+      "name" : "@types/selenium-webdriver",
+      "description" : "TypeScript definitions for Selenium WebDriverJS",
+      "version" : "3.0.0",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+      },
+      "contributors" : [ {
+        "name" : "Bill Armstrong",
+        "url" : "https://github.com/BillArmstrong"
+      }, {
+        "name" : "Yuki Kokubun",
+        "url" : "https://github.com/Kuniwak"
+      }, {
+        "name" : "Craig Nishina",
+        "url" : "https://github.com/cnishina"
+      }, {
+        "name" : "Simon Gellis",
+        "url" : "https://github.com/SupernaviX"
+      } ],
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/@types/selenium-webdriver/-/selenium-webdriver-3.0.0.tgz",
+        "shasum" : "d403bad45512bc6b8acdcb6c3305d23cfc5a2c36"
+      },
+      "dependencies" : {
+      },
+      "peerDependencies" : {
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ryan.cavanaugh@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/selenium-webdriver@3.0.0",
+      "typeScriptVersion" : "2.1",
+      "typesPublisherContentHash" : "b17277342236c38f18b6e0acc8af9f15f8f4ffb1283ec57bb7c3a252227b3ebf",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/selenium-webdriver-3.0.0.tgz_1488961828439_0.38809989392757416"
+      }
+    },
+    "3.0.5" : {
+      "name" : "@types/selenium-webdriver",
+      "description" : "TypeScript definitions for Selenium WebDriverJS",
+      "version" : "3.0.5",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+      },
+      "contributors" : [ {
+        "name" : "Bill Armstrong",
+        "url" : "https://github.com/BillArmstrong",
+        "githubUsername" : "BillArmstrong"
+      }, {
+        "name" : "Yuki Kokubun",
+        "url" : "https://github.com/Kuniwak",
+        "githubUsername" : "Kuniwak"
+      }, {
+        "name" : "Craig Nishina",
+        "url" : "https://github.com/cnishina",
+        "githubUsername" : "cnishina"
+      }, {
+        "name" : "Simon Gellis",
+        "url" : "https://github.com/SupernaviX",
+        "githubUsername" : "SupernaviX"
+      }, {
+        "name" : "Ben Dixon",
+        "url" : "https://github.com/bendxn",
+        "githubUsername" : "bendxn"
+      } ],
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/@types/selenium-webdriver/-/selenium-webdriver-3.0.5.tgz",
+        "shasum" : "d6b98d018844d2a5e8498add320e795bebcfe7ee"
+      },
+      "dependencies" : {
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/selenium-webdriver@3.0.5",
+      "typeScriptVersion" : "2.3",
+      "typesPublisherContentHash" : "844e8df993b2b01a47fc412a1a65f5f3772cd337d10695c9c81029d9d28e8d5b",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/selenium-webdriver-3.0.5.tgz_1504042440221_0.5996781783178449"
+      }
+    },
+    "3.0.15" : {
+      "name" : "@types/selenium-webdriver",
+      "description" : "TypeScript definitions for Selenium WebDriverJS",
+      "version" : "3.0.15",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/DefinitelyTyped/DefinitelyTyped.git"
+      },
+      "contributors" : [ {
+        "name" : "Bill Armstrong",
+        "url" : "https://github.com/BillArmstrong",
+        "githubUsername" : "BillArmstrong"
+      }, {
+        "name" : "Yuki Kokubun",
+        "url" : "https://github.com/Kuniwak",
+        "githubUsername" : "Kuniwak"
+      }, {
+        "name" : "Craig Nishina",
+        "url" : "https://github.com/cnishina",
+        "githubUsername" : "cnishina"
+      }, {
+        "name" : "Simon Gellis",
+        "url" : "https://github.com/SupernaviX",
+        "githubUsername" : "SupernaviX"
+      }, {
+        "name" : "Ben Dixon",
+        "url" : "https://github.com/bendxn",
+        "githubUsername" : "bendxn"
+      }, {
+        "name" : "Ziyu",
+        "url" : "https://github.com/oddui",
+        "githubUsername" : "oddui"
+      } ],
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/@types/selenium-webdriver/-/selenium-webdriver-3.0.15.tgz",
+        "shasum" : "024c24051c3798e9a0cf5cceb1c893140df1bc31"
+      },
+      "dependencies" : {
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/selenium-webdriver@3.0.15",
+      "types" : "index",
+      "typeScriptVersion" : "2.3",
+      "_hasShrinkwrap" : false,
+      "typesPublisherContentHash" : "29b1f873c17d1f212dda5e5b693fa0a73c42b3eba34fc7a2d0dc47f438c911da",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/selenium-webdriver_3.0.15_1550098016410_0.8447643437402599"
+      }
+    },
+    "3.0.6" : {
+      "name" : "@types/selenium-webdriver",
+      "description" : "TypeScript definitions for Selenium WebDriverJS",
+      "version" : "3.0.6",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+      },
+      "contributors" : [ {
+        "name" : "Bill Armstrong",
+        "url" : "https://github.com/BillArmstrong",
+        "githubUsername" : "BillArmstrong"
+      }, {
+        "name" : "Yuki Kokubun",
+        "url" : "https://github.com/Kuniwak",
+        "githubUsername" : "Kuniwak"
+      }, {
+        "name" : "Craig Nishina",
+        "url" : "https://github.com/cnishina",
+        "githubUsername" : "cnishina"
+      }, {
+        "name" : "Simon Gellis",
+        "url" : "https://github.com/SupernaviX",
+        "githubUsername" : "SupernaviX"
+      }, {
+        "name" : "Ben Dixon",
+        "url" : "https://github.com/bendxn",
+        "githubUsername" : "bendxn"
+      } ],
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/@types/selenium-webdriver/-/selenium-webdriver-3.0.6.tgz",
+        "shasum" : "9a1ced81207eecb86ef3edbd014544cd537413a8"
+      },
+      "dependencies" : {
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/selenium-webdriver@3.0.6",
+      "typeScriptVersion" : "2.3",
+      "typesPublisherContentHash" : "2fc504ec0efce74be3ae09e711cf28c73222d527440505d2e919d4cd03139ec2",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/selenium-webdriver-3.0.6.tgz_1504188410549_0.5609024672303349"
+      }
+    },
+    "3.0.14" : {
+      "name" : "@types/selenium-webdriver",
+      "description" : "TypeScript definitions for Selenium WebDriverJS",
+      "version" : "3.0.14",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/DefinitelyTyped/DefinitelyTyped.git"
+      },
+      "contributors" : [ {
+        "name" : "Bill Armstrong",
+        "url" : "https://github.com/BillArmstrong",
+        "githubUsername" : "BillArmstrong"
+      }, {
+        "name" : "Yuki Kokubun",
+        "url" : "https://github.com/Kuniwak",
+        "githubUsername" : "Kuniwak"
+      }, {
+        "name" : "Craig Nishina",
+        "url" : "https://github.com/cnishina",
+        "githubUsername" : "cnishina"
+      }, {
+        "name" : "Simon Gellis",
+        "url" : "https://github.com/SupernaviX",
+        "githubUsername" : "SupernaviX"
+      }, {
+        "name" : "Ben Dixon",
+        "url" : "https://github.com/bendxn",
+        "githubUsername" : "bendxn"
+      }, {
+        "name" : "Ziyu",
+        "url" : "https://github.com/oddui",
+        "githubUsername" : "oddui"
+      } ],
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/@types/selenium-webdriver/-/selenium-webdriver-3.0.14.tgz",
+        "shasum" : "0b20a2370e6b1b8322c9c3dfcaa409e6c7c0c0a9"
+      },
+      "dependencies" : {
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/selenium-webdriver@3.0.14",
+      "types" : "index",
+      "typeScriptVersion" : "2.3",
+      "_hasShrinkwrap" : false,
+      "typesPublisherContentHash" : "d843f2c9e55b9a205ff5222e7ca8c8a51c37daac845030f46adb20e6646a876e",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/selenium-webdriver_3.0.14_1544668760100_0.21278157660858676"
+      }
+    },
+    "3.0.7" : {
+      "name" : "@types/selenium-webdriver",
+      "description" : "TypeScript definitions for Selenium WebDriverJS",
+      "version" : "3.0.7",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+      },
+      "contributors" : [ {
+        "name" : "Bill Armstrong",
+        "url" : "https://github.com/BillArmstrong",
+        "githubUsername" : "BillArmstrong"
+      }, {
+        "name" : "Yuki Kokubun",
+        "url" : "https://github.com/Kuniwak",
+        "githubUsername" : "Kuniwak"
+      }, {
+        "name" : "Craig Nishina",
+        "url" : "https://github.com/cnishina",
+        "githubUsername" : "cnishina"
+      }, {
+        "name" : "Simon Gellis",
+        "url" : "https://github.com/SupernaviX",
+        "githubUsername" : "SupernaviX"
+      }, {
+        "name" : "Ben Dixon",
+        "url" : "https://github.com/bendxn",
+        "githubUsername" : "bendxn"
+      } ],
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/@types/selenium-webdriver/-/selenium-webdriver-3.0.7.tgz",
+        "shasum" : "5d3613d1ab3ca08b74d19683a3a7c573129ab18f"
+      },
+      "dependencies" : {
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/selenium-webdriver@3.0.7",
+      "typeScriptVersion" : "2.3",
+      "typesPublisherContentHash" : "a96552b78cef1864f38284d1fedee314164402d17a05cfc1973ad71c5a7862fc",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/selenium-webdriver-3.0.7.tgz_1505744221151_0.4092375338077545"
+      }
+    },
+    "3.0.8" : {
+      "name" : "@types/selenium-webdriver",
+      "description" : "TypeScript definitions for Selenium WebDriverJS",
+      "version" : "3.0.8",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+      },
+      "contributors" : [ {
+        "name" : "Bill Armstrong",
+        "url" : "https://github.com/BillArmstrong",
+        "githubUsername" : "BillArmstrong"
+      }, {
+        "name" : "Yuki Kokubun",
+        "url" : "https://github.com/Kuniwak",
+        "githubUsername" : "Kuniwak"
+      }, {
+        "name" : "Craig Nishina",
+        "url" : "https://github.com/cnishina",
+        "githubUsername" : "cnishina"
+      }, {
+        "name" : "Simon Gellis",
+        "url" : "https://github.com/SupernaviX",
+        "githubUsername" : "SupernaviX"
+      }, {
+        "name" : "Ben Dixon",
+        "url" : "https://github.com/bendxn",
+        "githubUsername" : "bendxn"
+      } ],
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/@types/selenium-webdriver/-/selenium-webdriver-3.0.8.tgz",
+        "shasum" : "83de9dd7aaf25f7fbd967c0d4fcc8112746dbf31"
+      },
+      "dependencies" : {
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/selenium-webdriver@3.0.8",
+      "typeScriptVersion" : "2.3",
+      "typesPublisherContentHash" : "66c914558aba3b95096b60599fce198afd83e7fa9a65a04aa1d16c4d77a7838e",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/selenium-webdriver-3.0.8.tgz_1508357391002_0.5601123124361038"
+      }
+    },
+    "3.0.16" : {
+      "name" : "@types/selenium-webdriver",
+      "description" : "TypeScript definitions for Selenium WebDriverJS",
+      "version" : "3.0.16",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+        "directory" : "types/selenium-webdriver"
+      },
+      "contributors" : [ {
+        "name" : "Bill Armstrong",
+        "url" : "https://github.com/BillArmstrong",
+        "githubUsername" : "BillArmstrong"
+      }, {
+        "name" : "Yuki Kokubun",
+        "url" : "https://github.com/Kuniwak",
+        "githubUsername" : "Kuniwak"
+      }, {
+        "name" : "Craig Nishina",
+        "url" : "https://github.com/cnishina",
+        "githubUsername" : "cnishina"
+      }, {
+        "name" : "Simon Gellis",
+        "url" : "https://github.com/SupernaviX",
+        "githubUsername" : "SupernaviX"
+      }, {
+        "name" : "Ben Dixon",
+        "url" : "https://github.com/bendxn",
+        "githubUsername" : "bendxn"
+      }, {
+        "name" : "Ziyu",
+        "url" : "https://github.com/oddui",
+        "githubUsername" : "oddui"
+      } ],
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/@types/selenium-webdriver/-/selenium-webdriver-3.0.16.tgz",
+        "shasum" : "50a4755f8e33edacd9c406729e9b930d2451902a"
+      },
+      "dependencies" : {
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/selenium-webdriver@3.0.16",
+      "types" : "index",
+      "typeScriptVersion" : "2.3",
+      "_hasShrinkwrap" : false,
+      "typesPublisherContentHash" : "90e88e54086117798ce09ad8b1c69595d945820f3f0a14d146b3bb15971abd94",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/selenium-webdriver_3.0.16_1554254887005_0.8981395201995348"
+      }
+    },
+    "2.44.27" : {
+      "name" : "@types/selenium-webdriver",
+      "description" : "TypeScript definitions for Selenium WebDriverJS 2.44.0",
+      "version" : "2.44.27",
+      "author" : "Bill Armstrong <https://github.com/BillArmstrong>, Yuki Kokubun <https://github.com/Kuniwak>",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+      },
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/@types/selenium-webdriver/-/selenium-webdriver-2.44.27.tgz",
+        "shasum" : "6e384c8c0c0602ce37bd572a0df7c5e6e9780a1d"
+      },
+      "dependencies" : {
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ryan.cavanaugh@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/selenium-webdriver@2.44.27",
+      "typings" : "index.d.ts",
+      "_npmOperationalInternal" : {
+        "host" : "packages-16-east.internal.npmjs.com",
+        "tmp" : "tmp/selenium-webdriver-2.44.27.tgz_1471621311248_0.8161313124001026"
+      }
+    },
+    "3.0.1" : {
+      "name" : "@types/selenium-webdriver",
+      "description" : "TypeScript definitions for Selenium WebDriverJS",
+      "version" : "3.0.1",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+      },
+      "contributors" : [ {
+        "name" : "Bill Armstrong",
+        "url" : "https://github.com/BillArmstrong"
+      }, {
+        "name" : "Yuki Kokubun",
+        "url" : "https://github.com/Kuniwak"
+      }, {
+        "name" : "Craig Nishina",
+        "url" : "https://github.com/cnishina"
+      }, {
+        "name" : "Simon Gellis",
+        "url" : "https://github.com/SupernaviX"
+      } ],
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/@types/selenium-webdriver/-/selenium-webdriver-3.0.1.tgz",
+        "shasum" : "dfaf9f881aade430c036e89f53181dad5c0989c2"
+      },
+      "dependencies" : {
+      },
+      "peerDependencies" : {
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ryan.cavanaugh@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/selenium-webdriver@3.0.1",
+      "typeScriptVersion" : "2.1",
+      "typesPublisherContentHash" : "2764e8ff81d494fa40847b8ec9fa1fac507ceab233496e30c5ec17745b7deeba",
+      "_npmOperationalInternal" : {
+        "host" : "packages-18-east.internal.npmjs.com",
+        "tmp" : "tmp/selenium-webdriver-3.0.1.tgz_1490830023422_0.27577107050456107"
+      }
+    },
+    "3.0.11" : {
+      "name" : "@types/selenium-webdriver",
+      "description" : "TypeScript definitions for Selenium WebDriverJS",
+      "version" : "3.0.11",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/DefinitelyTyped/DefinitelyTyped.git"
+      },
+      "contributors" : [ {
+        "name" : "Bill Armstrong",
+        "url" : "https://github.com/BillArmstrong",
+        "githubUsername" : "BillArmstrong"
+      }, {
+        "name" : "Yuki Kokubun",
+        "url" : "https://github.com/Kuniwak",
+        "githubUsername" : "Kuniwak"
+      }, {
+        "name" : "Craig Nishina",
+        "url" : "https://github.com/cnishina",
+        "githubUsername" : "cnishina"
+      }, {
+        "name" : "Simon Gellis",
+        "url" : "https://github.com/SupernaviX",
+        "githubUsername" : "SupernaviX"
+      }, {
+        "name" : "Ben Dixon",
+        "url" : "https://github.com/bendxn",
+        "githubUsername" : "bendxn"
+      } ],
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/@types/selenium-webdriver/-/selenium-webdriver-3.0.11.tgz",
+        "shasum" : "85e0a09307b7616e063ffc22558a26be3b090eaf"
+      },
+      "dependencies" : {
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/selenium-webdriver@3.0.11",
+      "typeScriptVersion" : "2.3",
+      "_hasShrinkwrap" : false,
+      "typesPublisherContentHash" : "5403afeba45e5060252364a4f589432281e84ee00c3358261f6da5c4ab81eb99",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/selenium-webdriver_3.0.11_1538090839711_0.23967187771177345"
+      }
+    },
+    "2.44.26" : {
+      "name" : "@types/selenium-webdriver",
+      "description" : "TypeScript definitions for Selenium WebDriverJS 2.44.0",
+      "version" : "2.44.26",
+      "author" : {
+        "name" : "Bill Armstrong",
+        "email" : "https://github.com/BillArmstrong"
+      },
+      "repository" : {
+        "type" : "git",
+        "url" : "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+      },
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/@types/selenium-webdriver/-/selenium-webdriver-2.44.26.tgz",
+        "shasum" : "a397da7cc04c955e4ac1031563a5c55c23f61489"
+      },
+      "dependencies" : {
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ryan.cavanaugh@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_from" : "output\\selenium-webdriver",
+      "_npmVersion" : "3.10.3",
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/selenium-webdriver@2.44.26",
+      "typings" : "index.d.ts",
+      "_npmOperationalInternal" : {
+        "host" : "packages-16-east.internal.npmjs.com",
+        "tmp" : "tmp/selenium-webdriver-2.44.26.tgz_1468512055726_0.42517032544128597"
+      },
+      "_shasum" : "a397da7cc04c955e4ac1031563a5c55c23f61489",
+      "_resolved" : "file:output\\selenium-webdriver",
+      "_nodeVersion" : "6.3.0"
+    },
+    "3.0.2" : {
+      "name" : "@types/selenium-webdriver",
+      "description" : "TypeScript definitions for Selenium WebDriverJS",
+      "version" : "3.0.2",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+      },
+      "contributors" : [ {
+        "name" : "Bill Armstrong",
+        "url" : "https://github.com/BillArmstrong"
+      }, {
+        "name" : "Yuki Kokubun",
+        "url" : "https://github.com/Kuniwak"
+      }, {
+        "name" : "Craig Nishina",
+        "url" : "https://github.com/cnishina"
+      }, {
+        "name" : "Simon Gellis",
+        "url" : "https://github.com/SupernaviX"
+      } ],
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/@types/selenium-webdriver/-/selenium-webdriver-3.0.2.tgz",
+        "shasum" : "12a13a1271b9257cb5f6d65735c778941f3adfa3"
+      },
+      "dependencies" : {
+      },
+      "peerDependencies" : {
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ryan.cavanaugh@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/selenium-webdriver@3.0.2",
+      "typeScriptVersion" : "2.1",
+      "typesPublisherContentHash" : "04eee8e400f981e3269978e72046c130ca729aa558cebc92dfafc330e960346a",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/selenium-webdriver-3.0.2.tgz_1492451888007_0.3049899828620255"
+      }
+    },
+    "3.0.10" : {
+      "name" : "@types/selenium-webdriver",
+      "description" : "TypeScript definitions for Selenium WebDriverJS",
+      "version" : "3.0.10",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/DefinitelyTyped/DefinitelyTyped.git"
+      },
+      "contributors" : [ {
+        "name" : "Bill Armstrong",
+        "url" : "https://github.com/BillArmstrong",
+        "githubUsername" : "BillArmstrong"
+      }, {
+        "name" : "Yuki Kokubun",
+        "url" : "https://github.com/Kuniwak",
+        "githubUsername" : "Kuniwak"
+      }, {
+        "name" : "Craig Nishina",
+        "url" : "https://github.com/cnishina",
+        "githubUsername" : "cnishina"
+      }, {
+        "name" : "Simon Gellis",
+        "url" : "https://github.com/SupernaviX",
+        "githubUsername" : "SupernaviX"
+      }, {
+        "name" : "Ben Dixon",
+        "url" : "https://github.com/bendxn",
+        "githubUsername" : "bendxn"
+      } ],
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/@types/selenium-webdriver/-/selenium-webdriver-3.0.10.tgz",
+        "shasum" : "e98cc6f05b4b436277671c784ee2f9d05a634f9b"
+      },
+      "dependencies" : {
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/selenium-webdriver@3.0.10",
+      "typeScriptVersion" : "2.3",
+      "_hasShrinkwrap" : false,
+      "typesPublisherContentHash" : "cfc83298a61a4d7cc7a75c0e8c40a175e1b6b985ded90a44f8d0167680234299",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/selenium-webdriver_3.0.10_1529112966958_0.4152619557692536"
+      }
+    },
+    "3.0.3" : {
+      "name" : "@types/selenium-webdriver",
+      "description" : "TypeScript definitions for Selenium WebDriverJS",
+      "version" : "3.0.3",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+      },
+      "contributors" : [ {
+        "name" : "Bill Armstrong",
+        "url" : "https://github.com/BillArmstrong"
+      }, {
+        "name" : "Yuki Kokubun",
+        "url" : "https://github.com/Kuniwak"
+      }, {
+        "name" : "Craig Nishina",
+        "url" : "https://github.com/cnishina"
+      }, {
+        "name" : "Simon Gellis",
+        "url" : "https://github.com/SupernaviX"
+      }, {
+        "name" : "Ben Dixon",
+        "url" : "https://github.com/bendxn"
+      } ],
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/@types/selenium-webdriver/-/selenium-webdriver-3.0.3.tgz",
+        "shasum" : "1d762bd57b529347f6323e33b6b52cfe8fd8623a"
+      },
+      "dependencies" : {
+      },
+      "peerDependencies" : {
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ryan.cavanaugh@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/selenium-webdriver@3.0.3",
+      "typeScriptVersion" : "2.1",
+      "typesPublisherContentHash" : "badfb99b447ee5a514a87164c812c4028d7e2a8baa94483028bb9857b333eefb",
+      "_npmOperationalInternal" : {
+        "host" : "packages-18-east.internal.npmjs.com",
+        "tmp" : "tmp/selenium-webdriver-3.0.3.tgz_1492790478446_0.8545695175416768"
+      }
+    },
+    "3.0.13" : {
+      "name" : "@types/selenium-webdriver",
+      "description" : "TypeScript definitions for Selenium WebDriverJS",
+      "version" : "3.0.13",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/DefinitelyTyped/DefinitelyTyped.git"
+      },
+      "contributors" : [ {
+        "name" : "Bill Armstrong",
+        "url" : "https://github.com/BillArmstrong",
+        "githubUsername" : "BillArmstrong"
+      }, {
+        "name" : "Yuki Kokubun",
+        "url" : "https://github.com/Kuniwak",
+        "githubUsername" : "Kuniwak"
+      }, {
+        "name" : "Craig Nishina",
+        "url" : "https://github.com/cnishina",
+        "githubUsername" : "cnishina"
+      }, {
+        "name" : "Simon Gellis",
+        "url" : "https://github.com/SupernaviX",
+        "githubUsername" : "SupernaviX"
+      }, {
+        "name" : "Ben Dixon",
+        "url" : "https://github.com/bendxn",
+        "githubUsername" : "bendxn"
+      } ],
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/@types/selenium-webdriver/-/selenium-webdriver-3.0.13.tgz",
+        "shasum" : "deb799c641773c5e367abafc92d1e733d62cddd7"
+      },
+      "dependencies" : {
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/selenium-webdriver@3.0.13",
+      "types" : "index",
+      "typeScriptVersion" : "2.3",
+      "_hasShrinkwrap" : false,
+      "typesPublisherContentHash" : "67f4bf7d8020790314e415ef36dafa09f5fac1536db5f198cd57ce9348b4ac1c",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/selenium-webdriver_3.0.13_1541637508377_0.6332055859404035"
+      }
+    },
+    "3.0.4" : {
+      "name" : "@types/selenium-webdriver",
+      "description" : "TypeScript definitions for Selenium WebDriverJS",
+      "version" : "3.0.4",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+      },
+      "contributors" : [ {
+        "name" : "Bill Armstrong",
+        "url" : "https://github.com/BillArmstrong"
+      }, {
+        "name" : "Yuki Kokubun",
+        "url" : "https://github.com/Kuniwak"
+      }, {
+        "name" : "Craig Nishina",
+        "url" : "https://github.com/cnishina"
+      }, {
+        "name" : "Simon Gellis",
+        "url" : "https://github.com/SupernaviX"
+      }, {
+        "name" : "Ben Dixon",
+        "url" : "https://github.com/bendxn"
+      } ],
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/@types/selenium-webdriver/-/selenium-webdriver-3.0.4.tgz",
+        "shasum" : "8a6c33c7216f8a8b0962028bf9b868540fdcba47"
+      },
+      "dependencies" : {
+      },
+      "peerDependencies" : {
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/selenium-webdriver@3.0.4",
+      "typeScriptVersion" : "2.1",
+      "typesPublisherContentHash" : "445e6900141d9f4ce43aa96d4b5153bf2eb81bb393ba05399179e4fa30ab6964",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/selenium-webdriver-3.0.4.tgz_1494967556083_0.1968449440319091"
+      }
+    },
+    "3.0.12" : {
+      "name" : "@types/selenium-webdriver",
+      "description" : "TypeScript definitions for Selenium WebDriverJS",
+      "version" : "3.0.12",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/DefinitelyTyped/DefinitelyTyped.git"
+      },
+      "contributors" : [ {
+        "name" : "Bill Armstrong",
+        "url" : "https://github.com/BillArmstrong",
+        "githubUsername" : "BillArmstrong"
+      }, {
+        "name" : "Yuki Kokubun",
+        "url" : "https://github.com/Kuniwak",
+        "githubUsername" : "Kuniwak"
+      }, {
+        "name" : "Craig Nishina",
+        "url" : "https://github.com/cnishina",
+        "githubUsername" : "cnishina"
+      }, {
+        "name" : "Simon Gellis",
+        "url" : "https://github.com/SupernaviX",
+        "githubUsername" : "SupernaviX"
+      }, {
+        "name" : "Ben Dixon",
+        "url" : "https://github.com/bendxn",
+        "githubUsername" : "bendxn"
+      } ],
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/@types/selenium-webdriver/-/selenium-webdriver-3.0.12.tgz",
+        "shasum" : "6affe5aed1ba379175075a889adbe2bc3aa62159"
+      },
+      "dependencies" : {
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/selenium-webdriver@3.0.12",
+      "typeScriptVersion" : "2.3",
+      "_hasShrinkwrap" : false,
+      "typesPublisherContentHash" : "7234958e25d12bf11f9b5a0bab14bd46a0020ae192b5a3e8ce479b79a7cd3741",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/selenium-webdriver_3.0.12_1538589953267_0.09861543734226363"
+      }
+    },
+    "2.44.25-alpha" : {
+      "name" : "@types/selenium-webdriver",
+      "description" : "TypeScript definitions for Selenium WebDriverJS 2.44.0",
+      "version" : "2.44.25-alpha",
+      "author" : {
+        "name" : "Bill Armstrong",
+        "email" : "https://github.com/BillArmstrong"
+      },
+      "repository" : {
+        "type" : "git",
+        "url" : "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+      },
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/@types/selenium-webdriver/-/selenium-webdriver-2.44.25-alpha.tgz",
+        "shasum" : "588d4c74d2abb561e7b7a1d940453767f3c39c7c"
+      },
+      "dependencies" : {
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ryan.cavanaugh@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_from" : "output\\selenium-webdriver",
+      "_npmVersion" : "3.10.3",
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ryan.cavanaugh@microsoft.com"
+      },
+      "_id" : "@types/selenium-webdriver@2.44.25-alpha",
+      "typings" : "index.d.ts",
+      "_npmOperationalInternal" : {
+        "host" : "packages-16-east.internal.npmjs.com",
+        "tmp" : "tmp/selenium-webdriver-2.44.25-alpha.tgz_1468012990651_0.3450177477207035"
+      },
+      "_shasum" : "588d4c74d2abb561e7b7a1d940453767f3c39c7c",
+      "_resolved" : "file:output\\selenium-webdriver",
+      "_nodeVersion" : "6.3.0"
+    },
+    "2.53.41" : {
+      "name" : "@types/selenium-webdriver",
+      "description" : "TypeScript definitions for Selenium WebDriverJS",
+      "version" : "2.53.41",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+      },
+      "contributors" : [ {
+        "name" : "Bill Armstrong",
+        "url" : "https://github.com/BillArmstrong"
+      }, {
+        "name" : "Yuki Kokubun",
+        "url" : "https://github.com/Kuniwak"
+      }, {
+        "name" : "Craig Nishina",
+        "url" : "https://github.com/cnishina"
+      } ],
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/@types/selenium-webdriver/-/selenium-webdriver-2.53.41.tgz",
+        "shasum" : "3b88eaa19b3c2db6ede7f57d7c8aeaf81a630e64"
+      },
+      "dependencies" : {
+      },
+      "peerDependencies" : {
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ryan.cavanaugh@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/selenium-webdriver@2.53.41",
+      "typeScriptVersion" : "2.1",
+      "typesPublisherContentHash" : "6e5e6beeb017a9f6a1f1424e3c4358db4ead6bf8b7b2f64e223616b8dd968ee0",
+      "_npmOperationalInternal" : {
+        "host" : "packages-18-east.internal.npmjs.com",
+        "tmp" : "tmp/selenium-webdriver-2.53.41.tgz_1488917692721_0.008234712295234203"
+      }
+    },
+    "2.53.40" : {
+      "name" : "@types/selenium-webdriver",
+      "description" : "TypeScript definitions for Selenium WebDriverJS",
+      "version" : "2.53.40",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+      },
+      "contributors" : [ {
+        "name" : "Bill Armstrong",
+        "url" : "https://github.com/BillArmstrong"
+      }, {
+        "name" : "Yuki Kokubun",
+        "url" : "https://github.com/Kuniwak"
+      }, {
+        "name" : "Craig Nishina",
+        "url" : "https://github.com/cnishina"
+      } ],
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/@types/selenium-webdriver/-/selenium-webdriver-2.53.40.tgz",
+        "shasum" : "fdbb796fb77fdf8ebaf6f5d4bd0bfd9ff7215b02"
+      },
+      "dependencies" : {
+      },
+      "peerDependencies" : {
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ryan.cavanaugh@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/selenium-webdriver@2.53.40",
+      "typeScriptVersion" : "2.0",
+      "typesPublisherContentHash" : "553659b7d8d0abe52f0606a0ba703153a043a3d282acc732d38e863c485034d5",
+      "_npmOperationalInternal" : {
+        "host" : "packages-18-east.internal.npmjs.com",
+        "tmp" : "tmp/selenium-webdriver-2.53.40.tgz_1487875225908_0.28634722088463604"
+      }
+    },
+    "2.53.43" : {
+      "name" : "@types/selenium-webdriver",
+      "description" : "TypeScript definitions for Selenium WebDriverJS",
+      "version" : "2.53.43",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+      },
+      "contributors" : [ {
+        "name" : "Bill Armstrong",
+        "url" : "https://github.com/BillArmstrong",
+        "githubUsername" : "BillArmstrong"
+      }, {
+        "name" : "Yuki Kokubun",
+        "url" : "https://github.com/Kuniwak",
+        "githubUsername" : "Kuniwak"
+      }, {
+        "name" : "Craig Nishina",
+        "url" : "https://github.com/cnishina",
+        "githubUsername" : "cnishina"
+      } ],
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/@types/selenium-webdriver/-/selenium-webdriver-2.53.43.tgz",
+        "shasum" : "2de3d718819bc20165754c4a59afb7e9833f6707"
+      },
+      "dependencies" : {
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/selenium-webdriver@2.53.43",
+      "typeScriptVersion" : "2.1",
+      "typesPublisherContentHash" : "956746656f6876bda792200fe51af95515483bc128b1f69e2ce0bc0df2024b3a",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/selenium-webdriver-2.53.43.tgz_1510076996045_0.20233174529857934"
+      }
+    },
+    "2.53.42" : {
+      "name" : "@types/selenium-webdriver",
+      "description" : "TypeScript definitions for Selenium WebDriverJS",
+      "version" : "2.53.42",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+      },
+      "contributors" : [ {
+        "name" : "Bill Armstrong",
+        "url" : "https://github.com/BillArmstrong"
+      }, {
+        "name" : "Yuki Kokubun",
+        "url" : "https://github.com/Kuniwak"
+      }, {
+        "name" : "Craig Nishina",
+        "url" : "https://github.com/cnishina"
+      } ],
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/@types/selenium-webdriver/-/selenium-webdriver-2.53.42.tgz",
+        "shasum" : "74cb77fb6052edaff2a8984ddafd88d419f25cac"
+      },
+      "dependencies" : {
+      },
+      "peerDependencies" : {
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ryan.cavanaugh@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/selenium-webdriver@2.53.42",
+      "typeScriptVersion" : "2.1",
+      "typesPublisherContentHash" : "90291f2d0499e824d20917259b981a283efa8d5b7cf100c2d7d9a2b9a1f5c07c",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/selenium-webdriver-2.53.42.tgz_1488949199364_0.44359005708247423"
+      }
+    },
+    "2.44.22-alpha" : {
+      "name" : "@types/selenium-webdriver",
+      "description" : "TypeScript definitions for Selenium WebDriverJS 2.44.0",
+      "version" : "2.44.22-alpha",
+      "author" : {
+        "name" : "Bill Armstrong",
+        "email" : "https://github.com/BillArmstrong"
+      },
+      "repository" : {
+        "type" : "git",
+        "url" : "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+      },
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/@types/selenium-webdriver/-/selenium-webdriver-2.44.22-alpha.tgz",
+        "shasum" : "7aad3d940e601950194172d0855db4377f6da4fc"
+      },
+      "dependencies" : {
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ryan.cavanaugh@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_from" : "output\\selenium-webdriver",
+      "_npmVersion" : "3.7.2",
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ryan.cavanaugh@microsoft.com"
+      },
+      "_id" : "@types/selenium-webdriver@2.44.22-alpha",
+      "typings" : "index.d.ts",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/selenium-webdriver-2.44.22-alpha.tgz_1467417649316_0.6200517604593188"
+      },
+      "_shasum" : "7aad3d940e601950194172d0855db4377f6da4fc",
+      "_resolved" : "file:output\\selenium-webdriver",
+      "_nodeVersion" : "6.2.1"
+    },
+    "2.44.14-alpha" : {
+      "name" : "@types/selenium-webdriver",
+      "description" : "Type definitions for Selenium WebDriverJS 2.44.0 from https://www.github.com/DefinitelyTyped/DefinitelyTyped",
+      "version" : "2.44.14-alpha",
+      "author" : {
+        "name" : "Bill Armstrong",
+        "email" : "https://github.com/BillArmstrong"
+      },
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/@types/selenium-webdriver/-/selenium-webdriver-2.44.14-alpha.tgz",
+        "shasum" : "90d15e4586d06b2fc9a9486a4f622ca9fe125cce"
+      },
+      "dependencies" : {
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ryan.cavanaugh@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_from" : "output\\selenium-webdriver",
+      "_npmVersion" : "3.8.2",
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ryan.cavanaugh@microsoft.com"
+      },
+      "_id" : "@types/selenium-webdriver@2.44.14-alpha",
+      "typings" : "index.d.ts",
+      "_npmOperationalInternal" : {
+        "host" : "packages-16-east.internal.npmjs.com",
+        "tmp" : "tmp/selenium-webdriver-2.44.14-alpha.tgz_1463696453897_0.15756253921426833"
+      },
+      "_shasum" : "90d15e4586d06b2fc9a9486a4f622ca9fe125cce",
+      "_resolved" : "file:output\\selenium-webdriver",
+      "_nodeVersion" : "5.5.0"
+    }
+  },
+  "readme" : "# Installation\r\n> `npm install --save @types/selenium-webdriver`\r\n\r\n# Summary\r\nThis package contains type definitions for Selenium WebDriverJS (https://github.com/SeleniumHQ/selenium).\r\n\r\n# Details\r\nFiles were exported from https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/selenium-webdriver.\r\n\r\n### Additional Details\r\n * Last updated: Mon, 16 Dec 2019 11:34:48 GMT\r\n * Dependencies: none\r\n * Global values: none\r\n\r\n# Credits\r\nThese definitions were written by Bill Armstrong (https://github.com/BillArmstrong), Yuki Kokubun (https://github.com/Kuniwak), Craig Nishina (https://github.com/cnishina), Simon Gellis (https://github.com/SupernaviX), Ben Dixon (https://github.com/bendxn), Ziyu (https://github.com/oddui), Johann Wolf (https://github.com/beta-vulgaris), Aleksey Chemakin (https://github.com/Dzenly), and thislooksfun (https://github.com/thislooksfun).\r\n",
+  "maintainers" : [ {
+    "name" : "types",
+    "email" : "ts-npm-types@microsoft.com"
+  } ],
+  "time" : {
+    "2.53.38" : "2016-12-23T14:16:32.132Z",
+    "2.53.37" : "2016-12-19T21:54:51.007Z",
+    "2.53.39" : "2017-01-05T20:00:50.535Z",
+    "2.53.30" : "2016-09-20T21:16:15.928Z",
+    "2.53.32" : "2016-10-06T05:21:24.354Z",
+    "2.53.31" : "2016-10-05T21:03:03.346Z",
+    "2.53.34" : "2016-11-04T16:19:45.125Z",
+    "2.53.33" : "2016-10-07T17:36:21.586Z",
+    "2.53.36" : "2016-11-30T23:57:17.846Z",
+    "2.53.35" : "2016-11-07T18:46:34.709Z",
+    "modified" : "2019-12-16T11:35:10.313Z",
+    "2.44.13-alpha" : "2016-05-17T18:53:58.338Z",
+    "2.44.23-alpha" : "2016-07-02T03:26:02.279Z",
+    "3.0.9" : "2018-06-01T16:32:43.767Z",
+    "created" : "2016-05-17T18:53:58.338Z",
+    "2.44.20-alpha" : "2016-05-25T05:55:00.906Z",
+    "2.44.19-alpha" : "2016-05-20T20:39:19.467Z",
+    "2.44.24-alpha" : "2016-07-04T01:15:43.880Z",
+    "4.0.2" : "2019-08-19T22:24:51.706Z",
+    "4.0.3" : "2019-09-24T21:54:29.512Z",
+    "4.0.0" : "2019-04-03T01:27:47.513Z",
+    "4.0.1" : "2019-06-28T17:37:25.216Z",
+    "2.44.21-alpha" : "2016-07-01T20:32:14.880Z",
+    "4.0.6" : "2019-12-16T11:35:01.312Z",
+    "4.0.4" : "2019-10-14T23:09:14.058Z",
+    "4.0.5" : "2019-10-14T23:35:18.678Z",
+    "2.44.29" : "2016-09-19T18:11:04.054Z",
+    "2.44.28" : "2016-08-25T18:59:08.881Z",
+    "3.0.0" : "2017-03-08T08:30:28.704Z",
+    "3.0.5" : "2017-08-29T21:34:00.335Z",
+    "3.0.15" : "2019-02-13T22:46:56.594Z",
+    "3.0.6" : "2017-08-31T14:06:50.641Z",
+    "3.0.14" : "2018-12-13T02:39:20.283Z",
+    "3.0.7" : "2017-09-18T14:17:02.313Z",
+    "3.0.8" : "2017-10-18T20:09:51.116Z",
+    "3.0.16" : "2019-04-03T01:28:07.153Z",
+    "2.44.27" : "2016-08-19T15:41:52.477Z",
+    "3.0.1" : "2017-03-29T23:27:05.326Z",
+    "3.0.11" : "2018-09-27T23:27:19.814Z",
+    "2.44.26" : "2016-07-14T16:00:57.902Z",
+    "3.0.2" : "2017-04-17T17:58:08.250Z",
+    "3.0.10" : "2018-06-16T01:36:07.093Z",
+    "3.0.3" : "2017-04-21T16:01:20.706Z",
+    "3.0.13" : "2018-11-08T00:38:28.483Z",
+    "3.0.4" : "2017-05-16T20:45:56.337Z",
+    "3.0.12" : "2018-10-03T18:05:53.402Z",
+    "2.44.25-alpha" : "2016-07-08T21:23:12.083Z",
+    "2.53.41" : "2017-03-07T20:14:54.664Z",
+    "2.53.40" : "2017-02-23T18:40:27.900Z",
+    "2.53.43" : "2017-11-07T17:49:56.158Z",
+    "2.53.42" : "2017-03-08T04:59:59.633Z",
+    "2.44.22-alpha" : "2016-07-02T00:00:49.846Z",
+    "2.44.14-alpha" : "2016-05-19T22:20:58.618Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+    "directory" : "types/selenium-webdriver"
+  },
+  "users" : {
+    "andrej-k" : true,
+    "miadzadfallah" : true
+  },
+  "readmeFilename" : "",
+  "contributors" : [ {
+    "name" : "Bill Armstrong",
+    "url" : "https://github.com/BillArmstrong",
+    "githubUsername" : "BillArmstrong"
+  }, {
+    "name" : "Yuki Kokubun",
+    "url" : "https://github.com/Kuniwak",
+    "githubUsername" : "Kuniwak"
+  }, {
+    "name" : "Craig Nishina",
+    "url" : "https://github.com/cnishina",
+    "githubUsername" : "cnishina"
+  }, {
+    "name" : "Simon Gellis",
+    "url" : "https://github.com/SupernaviX",
+    "githubUsername" : "SupernaviX"
+  }, {
+    "name" : "Ben Dixon",
+    "url" : "https://github.com/bendxn",
+    "githubUsername" : "bendxn"
+  }, {
+    "name" : "Ziyu",
+    "url" : "https://github.com/oddui",
+    "githubUsername" : "oddui"
+  }, {
+    "name" : "Johann Wolf",
+    "url" : "https://github.com/beta-vulgaris",
+    "githubUsername" : "beta-vulgaris"
+  }, {
+    "name" : "Aleksey Chemakin",
+    "url" : "https://github.com/Dzenly",
+    "githubUsername" : "Dzenly"
+  }, {
+    "name" : "thislooksfun",
+    "url" : "https://github.com/thislooksfun",
+    "githubUsername" : "thislooksfun"
+  } ],
+  "license" : "MIT"
+}

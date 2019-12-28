@@ -1,0 +1,1086 @@
+{
+  "_id" : "karma-jasmine-html-reporter",
+  "_rev" : "43-34b619991da06815c4a51cb69756727e",
+  "name" : "karma-jasmine-html-reporter",
+  "description" : "A Karma plugin. Dynamically displays tests results at debug.html page",
+  "dist-tags" : {
+    "latest" : "1.5.1"
+  },
+  "versions" : {
+    "0.1.5" : {
+      "name" : "karma-jasmine-html-reporter",
+      "description" : "A Karma plugin. Dynamically displays tests results at debug.html page",
+      "version" : "0.1.5",
+      "author" : "",
+      "repository" : {
+        "url" : ""
+      },
+      "main" : "./src/index.js",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/karma-jasmine-html-reporter/-/karma-jasmine-html-reporter-0.1.5.tgz",
+        "shasum" : "8e342cf02a02012d459d2c5520dfcb09654bd8ef"
+      },
+      "dependencies" : {
+        "karma-jasmine" : "~0.2"
+      },
+      "devDependencies" : {
+      },
+      "peerDependencies" : {
+        "karma" : ">=0.9"
+      },
+      "keywords" : [ "karma-plugin", "karma-reporter", "html" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "testaccount",
+        "email" : "taras.bidyuk@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.3",
+      "_npmUser" : {
+        "name" : "testaccount",
+        "email" : "taras.bidyuk@gmail.com"
+      },
+      "_id" : "karma-jasmine-html-reporter@0.1.5"
+    },
+    "0.1.6" : {
+      "name" : "karma-jasmine-html-reporter",
+      "description" : "A Karma plugin. Dynamically displays tests results at debug.html page",
+      "version" : "0.1.6",
+      "author" : "",
+      "homepage" : "https://github.com/taras42/karma-jasmine-html-reporter",
+      "repository" : {
+        "url" : "https://github.com/taras42/karma-jasmine-html-reporter"
+      },
+      "bugs" : {
+        "url" : "https://github.com/taras42/karma-jasmine-html-reporter/issues"
+      },
+      "main" : "./src/index.js",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/karma-jasmine-html-reporter/-/karma-jasmine-html-reporter-0.1.6.tgz",
+        "shasum" : "e29f97b101b193d7425af005429238366b6ae747"
+      },
+      "dependencies" : {
+        "karma-jasmine" : "~0.2"
+      },
+      "devDependencies" : {
+      },
+      "peerDependencies" : {
+        "karma" : ">=0.9"
+      },
+      "keywords" : [ "karma-plugin", "karma-reporter", "html" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "testaccount",
+        "email" : "taras.bidyuk@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.3",
+      "_npmUser" : {
+        "name" : "testaccount",
+        "email" : "taras.bidyuk@gmail.com"
+      },
+      "_id" : "karma-jasmine-html-reporter@0.1.6"
+    },
+    "0.2.2" : {
+      "name" : "karma-jasmine-html-reporter",
+      "description" : "A Karma plugin. Dynamically displays tests results at debug.html page",
+      "version" : "0.2.2",
+      "author" : "",
+      "homepage" : "https://github.com/taras42/karma-jasmine-html-reporter",
+      "repository" : {
+        "url" : "https://github.com/taras42/karma-jasmine-html-reporter"
+      },
+      "contributors" : [ {
+        "name" : "Yudha Setiawan",
+        "url" : "https://github.com/yudhasetiawan"
+      }, {
+        "name" : "Brian Thompson",
+        "url" : "https://github.com/dachibro"
+      }, {
+        "name" : "protazy",
+        "url" : "https://github.com/protazy"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/taras42/karma-jasmine-html-reporter/issues"
+      },
+      "main" : "./src/index.js",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/karma-jasmine-html-reporter/-/karma-jasmine-html-reporter-0.2.2.tgz",
+        "shasum" : "48a8e5ef18807617ee2b5e33c1194c35b439524c"
+      },
+      "dependencies" : {
+        "karma-jasmine" : "^1.0.2"
+      },
+      "devDependencies" : {
+      },
+      "peerDependencies" : {
+        "karma" : ">=0.9"
+      },
+      "keywords" : [ "karma-plugin", "karma-reporter", "html" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "testaccount",
+        "email" : "taras.bidyuk@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.28",
+      "_npmUser" : {
+        "name" : "testaccount",
+        "email" : "taras.bidyuk@gmail.com"
+      },
+      "_id" : "karma-jasmine-html-reporter@0.2.2",
+      "gitHead" : "c9cf704ec3d9de5f859b123f0fb853a4dfb8a615",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/karma-jasmine-html-reporter-0.2.2.tgz_1471685391384_0.14451330108568072"
+      },
+      "_shasum" : "48a8e5ef18807617ee2b5e33c1194c35b439524c"
+    },
+    "0.1.4" : {
+      "name" : "karma-jasmine-html-reporter",
+      "description" : "A Karma plugin. Dynamically displays tests results at debug.html page",
+      "version" : "0.1.4",
+      "author" : "",
+      "repository" : {
+        "url" : ""
+      },
+      "main" : "./src/index.js",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/karma-jasmine-html-reporter/-/karma-jasmine-html-reporter-0.1.4.tgz",
+        "shasum" : "506fb8d6b86ae266f6e4943da327e2139b009cde"
+      },
+      "dependencies" : {
+        "karma-jasmine" : "~0.2"
+      },
+      "devDependencies" : {
+      },
+      "peerDependencies" : {
+        "karma" : ">=0.9"
+      },
+      "keywords" : [ "karma-plugin", "karma-reporter", "html" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "testaccount",
+        "email" : "taras.bidyuk@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.3",
+      "_npmUser" : {
+        "name" : "testaccount",
+        "email" : "taras.bidyuk@gmail.com"
+      },
+      "_id" : "karma-jasmine-html-reporter@0.1.4"
+    },
+    "0.1.7" : {
+      "name" : "karma-jasmine-html-reporter",
+      "description" : "A Karma plugin. Dynamically displays tests results at debug.html page",
+      "version" : "0.1.7",
+      "author" : "",
+      "homepage" : "https://github.com/taras42/karma-jasmine-html-reporter",
+      "repository" : {
+        "url" : "https://github.com/taras42/karma-jasmine-html-reporter"
+      },
+      "bugs" : {
+        "url" : "https://github.com/taras42/karma-jasmine-html-reporter/issues"
+      },
+      "main" : "./src/index.js",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/karma-jasmine-html-reporter/-/karma-jasmine-html-reporter-0.1.7.tgz",
+        "shasum" : "f22c687842c83cb9566e37a1439d52707bf3f920"
+      },
+      "dependencies" : {
+        "karma-jasmine" : "~0.2"
+      },
+      "devDependencies" : {
+      },
+      "peerDependencies" : {
+        "karma" : ">=0.9"
+      },
+      "keywords" : [ "karma-plugin", "karma-reporter", "html" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "testaccount",
+        "email" : "taras.bidyuk@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.3",
+      "_npmUser" : {
+        "name" : "testaccount",
+        "email" : "taras.bidyuk@gmail.com"
+      },
+      "_id" : "karma-jasmine-html-reporter@0.1.7"
+    },
+    "0.1.8" : {
+      "name" : "karma-jasmine-html-reporter",
+      "description" : "A Karma plugin. Dynamically displays tests results at debug.html page",
+      "version" : "0.1.8",
+      "author" : "",
+      "homepage" : "https://github.com/taras42/karma-jasmine-html-reporter",
+      "repository" : {
+        "url" : "https://github.com/taras42/karma-jasmine-html-reporter"
+      },
+      "bugs" : {
+        "url" : "https://github.com/taras42/karma-jasmine-html-reporter/issues"
+      },
+      "main" : "./src/index.js",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/karma-jasmine-html-reporter/-/karma-jasmine-html-reporter-0.1.8.tgz",
+        "shasum" : "6384f5b18eadb2700b07c8b152416eb9d64beda1"
+      },
+      "dependencies" : {
+        "karma-jasmine" : "~0.2"
+      },
+      "devDependencies" : {
+      },
+      "peerDependencies" : {
+        "karma" : ">=0.9"
+      },
+      "keywords" : [ "karma-plugin", "karma-reporter", "html" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "testaccount",
+        "email" : "taras.bidyuk@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.3",
+      "_npmUser" : {
+        "name" : "testaccount",
+        "email" : "taras.bidyuk@gmail.com"
+      },
+      "_id" : "karma-jasmine-html-reporter@0.1.8"
+    },
+    "0.2.0" : {
+      "name" : "karma-jasmine-html-reporter",
+      "description" : "A Karma plugin. Dynamically displays tests results at debug.html page",
+      "version" : "0.2.0",
+      "author" : "",
+      "homepage" : "https://github.com/taras42/karma-jasmine-html-reporter",
+      "repository" : {
+        "url" : "https://github.com/taras42/karma-jasmine-html-reporter"
+      },
+      "bugs" : {
+        "url" : "https://github.com/taras42/karma-jasmine-html-reporter/issues"
+      },
+      "main" : "./src/index.js",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/karma-jasmine-html-reporter/-/karma-jasmine-html-reporter-0.2.0.tgz",
+        "shasum" : "8ff2b4dec9be7b15fb461b731cbef3e6ce78b735"
+      },
+      "dependencies" : {
+        "karma-jasmine" : "~0.2"
+      },
+      "devDependencies" : {
+      },
+      "peerDependencies" : {
+        "karma" : ">=0.9"
+      },
+      "keywords" : [ "karma-plugin", "karma-reporter", "html" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "testaccount",
+        "email" : "taras.bidyuk@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.28",
+      "_npmUser" : {
+        "name" : "testaccount",
+        "email" : "taras.bidyuk@gmail.com"
+      },
+      "_id" : "karma-jasmine-html-reporter@0.2.0",
+      "gitHead" : "a667ce33f1a40de70dbe6013c72c4c3cbd925cb9",
+      "_shasum" : "8ff2b4dec9be7b15fb461b731cbef3e6ce78b735"
+    },
+    "0.2.1" : {
+      "name" : "karma-jasmine-html-reporter",
+      "description" : "A Karma plugin. Dynamically displays tests results at debug.html page",
+      "version" : "0.2.1",
+      "author" : "",
+      "homepage" : "https://github.com/taras42/karma-jasmine-html-reporter",
+      "repository" : {
+        "url" : "https://github.com/taras42/karma-jasmine-html-reporter"
+      },
+      "contributors" : [ {
+        "name" : "Yudha Setiawan",
+        "url" : "https://github.com/yudhasetiawan"
+      }, {
+        "name" : "Brian Thompson",
+        "url" : "https://github.com/dachibro"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/taras42/karma-jasmine-html-reporter/issues"
+      },
+      "main" : "./src/index.js",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/karma-jasmine-html-reporter/-/karma-jasmine-html-reporter-0.2.1.tgz",
+        "shasum" : "a00febc5e8b614211eb946179fc26e88296bd5ac"
+      },
+      "dependencies" : {
+        "karma-jasmine" : "^1.0.2"
+      },
+      "devDependencies" : {
+      },
+      "peerDependencies" : {
+        "karma" : ">=0.9"
+      },
+      "keywords" : [ "karma-plugin", "karma-reporter", "html" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "testaccount",
+        "email" : "taras.bidyuk@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.28",
+      "_npmUser" : {
+        "name" : "testaccount",
+        "email" : "taras.bidyuk@gmail.com"
+      },
+      "_id" : "karma-jasmine-html-reporter@0.2.1",
+      "gitHead" : "ecfcd7e2dc0703fc8dd31bd3568b568929ff18ff",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/karma-jasmine-html-reporter-0.2.1.tgz_1469264352124_0.46090673631988466"
+      },
+      "_shasum" : "a00febc5e8b614211eb946179fc26e88296bd5ac"
+    },
+    "1.3.0" : {
+      "name" : "karma-jasmine-html-reporter",
+      "description" : "A Karma plugin. Dynamically displays tests results at debug.html page",
+      "version" : "1.3.0",
+      "author" : "",
+      "homepage" : "https://github.com/dfederm/karma-jasmine-html-reporter#readme",
+      "repository" : {
+        "url" : "git+https://github.com/dfederm/karma-jasmine-html-reporter.git"
+      },
+      "contributors" : [ {
+        "name" : "David Federman",
+        "url" : "https://github.com/dfederm"
+      }, {
+        "name" : "Yudha Setiawan",
+        "url" : "https://github.com/yudhasetiawan"
+      }, {
+        "name" : "Brian Thompson",
+        "url" : "https://github.com/dachibro"
+      }, {
+        "name" : "protazy",
+        "url" : "https://github.com/protazy"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/dfederm/karma-jasmine-html-reporter/issues"
+      },
+      "main" : "./src/index.js",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/karma-jasmine-html-reporter/-/karma-jasmine-html-reporter-1.3.0.tgz",
+        "shasum" : "e34768cdb6e6b47ad3190b81d12fb597001bfcda"
+      },
+      "devDependencies" : {
+        "chalk" : "*",
+        "jasmine-core" : ">=3"
+      },
+      "peerDependencies" : {
+        "karma" : ">=0.9",
+        "karma-jasmine" : ">=1.1",
+        "jasmine-core" : ">=3"
+      },
+      "keywords" : [ "karma-plugin", "karma-reporter", "html" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "david.federman@outlook.com",
+        "name" : "dfederm"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "node build/build.js"
+      },
+      "_npmVersion" : "6.3.0",
+      "_npmUser" : {
+        "name" : "dfederm",
+        "email" : "david.federman@outlook.com"
+      },
+      "_id" : "karma-jasmine-html-reporter@1.3.0",
+      "gitHead" : "28f85d65b614e43d4117b46e935b3fd44ef78522",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/karma-jasmine-html-reporter_1.3.0_1534215738034_0.19835165605965477"
+      },
+      "_nodeVersion" : "8.11.3"
+    },
+    "1.3.1" : {
+      "name" : "karma-jasmine-html-reporter",
+      "description" : "A Karma plugin. Dynamically displays tests results at debug.html page",
+      "version" : "1.3.1",
+      "author" : "",
+      "homepage" : "https://github.com/dfederm/karma-jasmine-html-reporter#readme",
+      "repository" : {
+        "url" : "git+https://github.com/dfederm/karma-jasmine-html-reporter.git"
+      },
+      "contributors" : [ {
+        "name" : "David Federman",
+        "url" : "https://github.com/dfederm"
+      }, {
+        "name" : "Yudha Setiawan",
+        "url" : "https://github.com/yudhasetiawan"
+      }, {
+        "name" : "Brian Thompson",
+        "url" : "https://github.com/dachibro"
+      }, {
+        "name" : "protazy",
+        "url" : "https://github.com/protazy"
+      }, {
+        "name" : "footballencarta",
+        "url" : "https://github.com/footballencarta"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/dfederm/karma-jasmine-html-reporter/issues"
+      },
+      "main" : "./src/index.js",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/karma-jasmine-html-reporter/-/karma-jasmine-html-reporter-1.3.1.tgz",
+        "shasum" : "17db92e76ecbce97b281c97c9ac3d8b1723848f9"
+      },
+      "devDependencies" : {
+        "chalk" : "*",
+        "jasmine-core" : ">=3.2"
+      },
+      "peerDependencies" : {
+        "karma" : ">=0.9",
+        "karma-jasmine" : ">=1.1",
+        "jasmine-core" : ">=3.2"
+      },
+      "keywords" : [ "karma-plugin", "karma-reporter", "html" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "david.federman@outlook.com",
+        "name" : "dfederm"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "node build/build.js"
+      },
+      "_npmVersion" : "6.4.0",
+      "_npmUser" : {
+        "name" : "dfederm",
+        "email" : "david.federman@outlook.com"
+      },
+      "_id" : "karma-jasmine-html-reporter@1.3.1",
+      "gitHead" : "1a9ea67ee5d30c6f9a26bb71b34d552f2ccd8e80",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/karma-jasmine-html-reporter_1.3.1_1534781771888_0.16833786710837528"
+      },
+      "_nodeVersion" : "8.9.4"
+    },
+    "1.4.0" : {
+      "name" : "karma-jasmine-html-reporter",
+      "description" : "A Karma plugin. Dynamically displays tests results at debug.html page",
+      "version" : "1.4.0",
+      "author" : "",
+      "homepage" : "https://github.com/dfederm/karma-jasmine-html-reporter#readme",
+      "repository" : {
+        "url" : "git+https://github.com/dfederm/karma-jasmine-html-reporter.git"
+      },
+      "contributors" : [ {
+        "name" : "David Federman",
+        "url" : "https://github.com/dfederm"
+      }, {
+        "name" : "Yudha Setiawan",
+        "url" : "https://github.com/yudhasetiawan"
+      }, {
+        "name" : "Brian Thompson",
+        "url" : "https://github.com/dachibro"
+      }, {
+        "name" : "protazy",
+        "url" : "https://github.com/protazy"
+      }, {
+        "name" : "footballencarta",
+        "url" : "https://github.com/footballencarta"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/dfederm/karma-jasmine-html-reporter/issues"
+      },
+      "main" : "./src/index.js",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/karma-jasmine-html-reporter/-/karma-jasmine-html-reporter-1.4.0.tgz",
+        "shasum" : "1abbd30d4509a8c82b96707ae7d2fa4da459ca19"
+      },
+      "devDependencies" : {
+        "chalk" : "*",
+        "jasmine-core" : ">=3.3"
+      },
+      "peerDependencies" : {
+        "karma" : ">=0.9",
+        "karma-jasmine" : ">=1.1",
+        "jasmine-core" : ">=3.3"
+      },
+      "keywords" : [ "karma-plugin", "karma-reporter", "html" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "david.federman@outlook.com",
+        "name" : "dfederm"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "node build/build.js"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "dfederm",
+        "email" : "david.federman@outlook.com"
+      },
+      "_id" : "karma-jasmine-html-reporter@1.4.0",
+      "gitHead" : "baa99b59a811b171b621bf19d2349d38551c51b6",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/karma-jasmine-html-reporter_1.4.0_1540686843117_0.9193680616820235"
+      },
+      "_nodeVersion" : "8.11.3"
+    },
+    "1.4.1" : {
+      "name" : "karma-jasmine-html-reporter",
+      "description" : "A Karma plugin. Dynamically displays tests results at debug.html page",
+      "version" : "1.4.1",
+      "author" : "",
+      "homepage" : "https://github.com/dfederm/karma-jasmine-html-reporter#readme",
+      "repository" : {
+        "url" : "git+https://github.com/dfederm/karma-jasmine-html-reporter.git"
+      },
+      "contributors" : [ {
+        "name" : "David Federman",
+        "url" : "https://github.com/dfederm"
+      }, {
+        "name" : "Yudha Setiawan",
+        "url" : "https://github.com/yudhasetiawan"
+      }, {
+        "name" : "Brian Thompson",
+        "url" : "https://github.com/dachibro"
+      }, {
+        "name" : "protazy",
+        "url" : "https://github.com/protazy"
+      }, {
+        "name" : "footballencarta",
+        "url" : "https://github.com/footballencarta"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/dfederm/karma-jasmine-html-reporter/issues"
+      },
+      "main" : "./src/index.js",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/karma-jasmine-html-reporter/-/karma-jasmine-html-reporter-1.4.1.tgz",
+        "shasum" : "cdd39800f6b871047b97c8a0ea585808693f699b"
+      },
+      "devDependencies" : {
+        "chalk" : "*",
+        "jasmine-core" : ">=3.3"
+      },
+      "peerDependencies" : {
+        "karma" : ">=0.9",
+        "karma-jasmine" : ">=1.1",
+        "jasmine-core" : ">=3.3"
+      },
+      "keywords" : [ "karma-plugin", "karma-reporter", "html" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "david.federman@outlook.com",
+        "name" : "dfederm"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "node build/build.js"
+      },
+      "_npmVersion" : "6.9.0",
+      "_npmUser" : {
+        "name" : "dfederm",
+        "email" : "david.federman@outlook.com"
+      },
+      "_id" : "karma-jasmine-html-reporter@1.4.1",
+      "gitHead" : "83f51f0d20d1a5e2d024f4b58bf136f35257719e",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/karma-jasmine-html-reporter_1.4.1_1556136030135_0.5130814865289592"
+      },
+      "_nodeVersion" : "11.13.0"
+    },
+    "1.5.0" : {
+      "name" : "karma-jasmine-html-reporter",
+      "description" : "A Karma plugin. Dynamically displays tests results at debug.html page",
+      "version" : "1.5.0",
+      "author" : "",
+      "homepage" : "https://github.com/dfederm/karma-jasmine-html-reporter#readme",
+      "repository" : {
+        "url" : "git+https://github.com/dfederm/karma-jasmine-html-reporter.git"
+      },
+      "contributors" : [ {
+        "name" : "David Federman",
+        "url" : "https://github.com/dfederm"
+      }, {
+        "name" : "Yudha Setiawan",
+        "url" : "https://github.com/yudhasetiawan"
+      }, {
+        "name" : "Brian Thompson",
+        "url" : "https://github.com/dachibro"
+      }, {
+        "name" : "protazy",
+        "url" : "https://github.com/protazy"
+      }, {
+        "name" : "footballencarta",
+        "url" : "https://github.com/footballencarta"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/dfederm/karma-jasmine-html-reporter/issues"
+      },
+      "main" : "./src/index.js",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/karma-jasmine-html-reporter/-/karma-jasmine-html-reporter-1.5.0.tgz",
+        "shasum" : "bbc2aa47ecc3fbd51633d73b84250c7063489e44"
+      },
+      "devDependencies" : {
+        "chalk" : "*",
+        "jasmine-core" : ">=3.5"
+      },
+      "peerDependencies" : {
+        "karma" : ">=0.9",
+        "karma-jasmine" : ">=1.1",
+        "jasmine-core" : ">=3.5"
+      },
+      "keywords" : [ "karma-plugin", "karma-reporter", "html" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "david.federman@outlook.com",
+        "name" : "dfederm"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "node build/build.js"
+      },
+      "_npmVersion" : "6.13.4",
+      "_npmUser" : {
+        "name" : "dfederm",
+        "email" : "david.federman@outlook.com"
+      },
+      "_id" : "karma-jasmine-html-reporter@1.5.0",
+      "gitHead" : "83f51f0d20d1a5e2d024f4b58bf136f35257719e",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/karma-jasmine-html-reporter_1.5.0_1577248334314_0.8254751565335263"
+      },
+      "_nodeVersion" : "13.5.0"
+    },
+    "1.4.2" : {
+      "name" : "karma-jasmine-html-reporter",
+      "description" : "A Karma plugin. Dynamically displays tests results at debug.html page",
+      "version" : "1.4.2",
+      "author" : "",
+      "homepage" : "https://github.com/dfederm/karma-jasmine-html-reporter#readme",
+      "repository" : {
+        "url" : "git+https://github.com/dfederm/karma-jasmine-html-reporter.git"
+      },
+      "contributors" : [ {
+        "name" : "David Federman",
+        "url" : "https://github.com/dfederm"
+      }, {
+        "name" : "Yudha Setiawan",
+        "url" : "https://github.com/yudhasetiawan"
+      }, {
+        "name" : "Brian Thompson",
+        "url" : "https://github.com/dachibro"
+      }, {
+        "name" : "protazy",
+        "url" : "https://github.com/protazy"
+      }, {
+        "name" : "footballencarta",
+        "url" : "https://github.com/footballencarta"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/dfederm/karma-jasmine-html-reporter/issues"
+      },
+      "main" : "./src/index.js",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/karma-jasmine-html-reporter/-/karma-jasmine-html-reporter-1.4.2.tgz",
+        "shasum" : "16d100fd701271192d27fd28ddc90b710ad36fff"
+      },
+      "devDependencies" : {
+        "chalk" : "*",
+        "jasmine-core" : ">=3.3"
+      },
+      "peerDependencies" : {
+        "karma" : ">=0.9",
+        "karma-jasmine" : ">=1.1",
+        "jasmine-core" : ">=3.3"
+      },
+      "keywords" : [ "karma-plugin", "karma-reporter", "html" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "david.federman@outlook.com",
+        "name" : "dfederm"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "node build/build.js"
+      },
+      "_npmVersion" : "6.9.0",
+      "_npmUser" : {
+        "name" : "dfederm",
+        "email" : "david.federman@outlook.com"
+      },
+      "_id" : "karma-jasmine-html-reporter@1.4.2",
+      "gitHead" : "dfe32de71a087e29cdc4173b9bb28bd02f58c71e",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/karma-jasmine-html-reporter_1.4.2_1556230528225_0.35504336734490205"
+      },
+      "_nodeVersion" : "8.9.4"
+    },
+    "1.5.1" : {
+      "name" : "karma-jasmine-html-reporter",
+      "description" : "A Karma plugin. Dynamically displays tests results at debug.html page",
+      "version" : "1.5.1",
+      "author" : "",
+      "homepage" : "https://github.com/dfederm/karma-jasmine-html-reporter#readme",
+      "repository" : {
+        "url" : "git+https://github.com/dfederm/karma-jasmine-html-reporter.git"
+      },
+      "contributors" : [ {
+        "name" : "David Federman",
+        "url" : "https://github.com/dfederm"
+      }, {
+        "name" : "Yudha Setiawan",
+        "url" : "https://github.com/yudhasetiawan"
+      }, {
+        "name" : "Brian Thompson",
+        "url" : "https://github.com/dachibro"
+      }, {
+        "name" : "protazy",
+        "url" : "https://github.com/protazy"
+      }, {
+        "name" : "footballencarta",
+        "url" : "https://github.com/footballencarta"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/dfederm/karma-jasmine-html-reporter/issues"
+      },
+      "main" : "./src/index.js",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/karma-jasmine-html-reporter/-/karma-jasmine-html-reporter-1.5.1.tgz",
+        "shasum" : "0fad2d2ac416bc04724318aad29b89bd86f7bfbc"
+      },
+      "devDependencies" : {
+        "chalk" : "*",
+        "jasmine-core" : ">=3.5"
+      },
+      "peerDependencies" : {
+        "karma" : ">=0.9",
+        "karma-jasmine" : ">=1.1",
+        "jasmine-core" : ">=3.5"
+      },
+      "keywords" : [ "karma-plugin", "karma-reporter", "html" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "david.federman@outlook.com",
+        "name" : "dfederm"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "node build/build.js"
+      },
+      "_npmVersion" : "6.13.4",
+      "_npmUser" : {
+        "name" : "dfederm",
+        "email" : "david.federman@outlook.com"
+      },
+      "_id" : "karma-jasmine-html-reporter@1.5.1",
+      "gitHead" : "5c422fa3a711d71291b9259cfebf3f35c95416e6",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/karma-jasmine-html-reporter_1.5.1_1577248593918_0.7477476911377055"
+      },
+      "_nodeVersion" : "13.5.0"
+    },
+    "1.0.0" : {
+      "name" : "karma-jasmine-html-reporter",
+      "description" : "A Karma plugin. Dynamically displays tests results at debug.html page",
+      "version" : "1.0.0",
+      "author" : "",
+      "homepage" : "https://github.com/dfederm/karma-jasmine-html-reporter#readme",
+      "repository" : {
+        "url" : "git+https://github.com/dfederm/karma-jasmine-html-reporter.git"
+      },
+      "contributors" : [ {
+        "name" : "David Federman",
+        "url" : "https://github.com/dfederm"
+      }, {
+        "name" : "Yudha Setiawan",
+        "url" : "https://github.com/yudhasetiawan"
+      }, {
+        "name" : "Brian Thompson",
+        "url" : "https://github.com/dachibro"
+      }, {
+        "name" : "protazy",
+        "url" : "https://github.com/protazy"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/dfederm/karma-jasmine-html-reporter/issues"
+      },
+      "main" : "./src/index.js",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/karma-jasmine-html-reporter/-/karma-jasmine-html-reporter-1.0.0.tgz",
+        "shasum" : "0515b9ea0440c038c2091b13802c8ea638cc847a"
+      },
+      "dependencies" : {
+        "karma-jasmine" : "^1.0.2"
+      },
+      "devDependencies" : {
+      },
+      "peerDependencies" : {
+        "karma" : ">=0.9",
+        "jasmine" : "^3.0.0"
+      },
+      "keywords" : [ "karma-plugin", "karma-reporter", "html" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "david.federman@outlook.com",
+        "name" : "dfederm"
+      } ],
+      "directories" : {
+      },
+      "_npmVersion" : "5.7.1",
+      "_npmUser" : {
+        "name" : "dfederm",
+        "email" : "david.federman@outlook.com"
+      },
+      "_id" : "karma-jasmine-html-reporter@1.0.0",
+      "gitHead" : "f0132fa147947855727e87ef1eb8e2addf7d6d0b",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/karma-jasmine-html-reporter_1.0.0_1521084973022_0.6401748509469414"
+      },
+      "_nodeVersion" : "8.9.4"
+    },
+    "1.1.0" : {
+      "name" : "karma-jasmine-html-reporter",
+      "description" : "A Karma plugin. Dynamically displays tests results at debug.html page",
+      "version" : "1.1.0",
+      "author" : "",
+      "homepage" : "https://github.com/dfederm/karma-jasmine-html-reporter#readme",
+      "repository" : {
+        "url" : "git+https://github.com/dfederm/karma-jasmine-html-reporter.git"
+      },
+      "contributors" : [ {
+        "name" : "David Federman",
+        "url" : "https://github.com/dfederm"
+      }, {
+        "name" : "Yudha Setiawan",
+        "url" : "https://github.com/yudhasetiawan"
+      }, {
+        "name" : "Brian Thompson",
+        "url" : "https://github.com/dachibro"
+      }, {
+        "name" : "protazy",
+        "url" : "https://github.com/protazy"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/dfederm/karma-jasmine-html-reporter/issues"
+      },
+      "main" : "./src/index.js",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/karma-jasmine-html-reporter/-/karma-jasmine-html-reporter-1.1.0.tgz",
+        "shasum" : "e6ce732fac43cb3907d927d5a6b3ed6ee7e95486"
+      },
+      "devDependencies" : {
+        "chalk" : "*",
+        "jasmine-core" : ">=3"
+      },
+      "peerDependencies" : {
+        "karma" : ">=0.9",
+        "karma-jasmine" : ">=1.1",
+        "jasmine" : ">=3"
+      },
+      "keywords" : [ "karma-plugin", "karma-reporter", "html" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "david.federman@outlook.com",
+        "name" : "dfederm"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "node build/build.js"
+      },
+      "_npmVersion" : "6.0.0",
+      "_npmUser" : {
+        "name" : "dfederm",
+        "email" : "david.federman@outlook.com"
+      },
+      "_id" : "karma-jasmine-html-reporter@1.1.0",
+      "gitHead" : "b7d2c1342121ece45c52d17fddf4ae504191853c",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/karma-jasmine-html-reporter_1.1.0_1525923139822_0.9844126625855829"
+      },
+      "_nodeVersion" : "8.11.1"
+    },
+    "1.2.0" : {
+      "name" : "karma-jasmine-html-reporter",
+      "description" : "A Karma plugin. Dynamically displays tests results at debug.html page",
+      "version" : "1.2.0",
+      "author" : "",
+      "homepage" : "https://github.com/dfederm/karma-jasmine-html-reporter#readme",
+      "repository" : {
+        "url" : "git+https://github.com/dfederm/karma-jasmine-html-reporter.git"
+      },
+      "contributors" : [ {
+        "name" : "David Federman",
+        "url" : "https://github.com/dfederm"
+      }, {
+        "name" : "Yudha Setiawan",
+        "url" : "https://github.com/yudhasetiawan"
+      }, {
+        "name" : "Brian Thompson",
+        "url" : "https://github.com/dachibro"
+      }, {
+        "name" : "protazy",
+        "url" : "https://github.com/protazy"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/dfederm/karma-jasmine-html-reporter/issues"
+      },
+      "main" : "./src/index.js",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/karma-jasmine-html-reporter/-/karma-jasmine-html-reporter-1.2.0.tgz",
+        "shasum" : "ddedfb40f0c0be2992d8b1367581e464d0472d15"
+      },
+      "devDependencies" : {
+        "chalk" : "*",
+        "jasmine-core" : ">=3"
+      },
+      "peerDependencies" : {
+        "karma" : ">=0.9",
+        "karma-jasmine" : ">=1.1",
+        "jasmine-core" : ">=3"
+      },
+      "keywords" : [ "karma-plugin", "karma-reporter", "html" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "david.federman@outlook.com",
+        "name" : "dfederm"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "node build/build.js"
+      },
+      "_npmVersion" : "6.1.0",
+      "_npmUser" : {
+        "name" : "dfederm",
+        "email" : "david.federman@outlook.com"
+      },
+      "_id" : "karma-jasmine-html-reporter@1.2.0",
+      "gitHead" : "c61d20f8a8c51665c6c123b9f1627c91f3ae60f8",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/karma-jasmine-html-reporter_1.2.0_1530366624611_0.8063695568688602"
+      },
+      "_nodeVersion" : "8.11.1"
+    }
+  },
+  "readme" : "# karma-jasmine-html-reporter\r\n\r\n[![npm version](https://img.shields.io/npm/v/karma-jasmine-html-reporter.svg)](https://www.npmjs.com/package/karma-jasmine-html-reporter) [![npm downloads](https://img.shields.io/npm/dm/karma-jasmine-html-reporter.svg)](https://www.npmjs.com/package/karma-jasmine-html-reporter)\r\n\r\nReporter that dynamically shows tests results at debug.html page.\r\n\r\nJasmine 1.3 is not supported. For Jasmine < 3.0.0, use version 0.2.2\r\n\r\n![alt tag](/screenshots/reporter_1.png)\r\n\r\nYou can also run a describe block, or a single test.\r\n\r\n![alt tag](/screenshots/reporter_2.png)\r\n\r\n## Installation\r\n\r\nYou can simply install `karma-jasmine-html-reporter` as a devDependency by:\r\n```bash\r\nnpm install karma-jasmine-html-reporter --save-dev\r\n```\r\n\r\n## Configuration\r\n```js\r\n// karma.conf.js\r\nmodule.exports = function(config) {\r\n  config.set({\r\n    reporters: ['kjhtml']\r\n  });\r\n};\r\n```\r\n\r\nYou can pass a list of reporters as a CLI argument too:\r\n```bash\r\nkarma start --reporters kjhtml\r\n```\r\n\r\n## Develop\r\n\r\nThere's not much to this package.\r\n\r\n[`adapter.js`](src/lib/adapter.js), [`html.jasmine.reporter.js`](src/lib/html.jasmine.reporter.js), and [`jasmine.css`](src/css/jasmine.css) are copied with small adjustments from [`jasmine/lib/jasmine-core/boot.js`](https://github.com/jasmine/jasmine/blob/master/lib/jasmine-core/boot.js) and [`jasmine/lib/jasmine-core/jasmine-html.js`](https://github.com/jasmine/jasmine/blob/master/lib/jasmine-core/jasmine-html.js), and [`jasmine/lib/jasmine-core/jasmine.css`](https://github.com/jasmine/jasmine/blob/master/lib/jasmine-core/jasmine.css) respectively.\r\n\r\nJust pull over changes from Jasmine as needed. There is a script to help with that; just run `npm run build` and review the changes. Specifically, [`adapter.js`](src/lib/adapter.js) needs a lot of manual removals.\r\n",
+  "maintainers" : [ {
+    "email" : "david.federman@outlook.com",
+    "name" : "dfederm"
+  } ],
+  "time" : {
+    "0.1.5" : "2014-05-26T13:04:58.806Z",
+    "0.1.6" : "2015-01-16T11:22:26.768Z",
+    "0.1.3" : "2014-04-17T14:20:18.971Z",
+    "0.2.2" : "2016-08-20T09:29:53.005Z",
+    "0.1.4" : "2014-04-17T14:44:11.118Z",
+    "created" : "2014-04-17T12:30:08.105Z",
+    "0.1.7" : "2015-03-16T13:58:26.221Z",
+    "0.1.8" : "2015-04-02T16:22:42.654Z",
+    "0.1.1" : "2014-04-17T12:35:46.033Z",
+    "0.2.0" : "2016-01-11T12:05:06.645Z",
+    "0.1.2" : "2014-04-17T13:29:37.939Z",
+    "0.2.1" : "2016-07-23T08:59:14.444Z",
+    "0.1.0" : "2014-04-17T12:30:08.105Z",
+    "1.3.0" : "2018-08-14T03:02:18.152Z",
+    "1.3.1" : "2018-08-20T16:16:12.051Z",
+    "1.4.0" : "2018-10-28T00:34:03.244Z",
+    "1.4.1" : "2019-04-24T20:00:30.283Z",
+    "1.5.0" : "2019-12-25T04:32:14.508Z",
+    "1.4.2" : "2019-04-25T22:15:28.363Z",
+    "1.5.1" : "2019-12-25T04:36:34.045Z",
+    "modified" : "2019-12-25T04:36:36.324Z",
+    "1.0.0" : "2018-03-15T03:36:13.251Z",
+    "1.1.0" : "2018-05-10T03:32:19.888Z",
+    "1.2.0" : "2018-06-30T13:50:24.721Z"
+  },
+  "repository" : {
+    "url" : "git+https://github.com/dfederm/karma-jasmine-html-reporter.git"
+  },
+  "users" : {
+    "firerishi" : true,
+    "rollg" : true,
+    "hipsterzipster" : true,
+    "julienberube" : true
+  },
+  "readmeFilename" : "README.md",
+  "homepage" : "https://github.com/dfederm/karma-jasmine-html-reporter#readme",
+  "keywords" : [ "karma-plugin", "karma-reporter", "html" ],
+  "contributors" : [ {
+    "name" : "David Federman",
+    "url" : "https://github.com/dfederm"
+  }, {
+    "name" : "Yudha Setiawan",
+    "url" : "https://github.com/yudhasetiawan"
+  }, {
+    "name" : "Brian Thompson",
+    "url" : "https://github.com/dachibro"
+  }, {
+    "name" : "protazy",
+    "url" : "https://github.com/protazy"
+  }, {
+    "name" : "footballencarta",
+    "url" : "https://github.com/footballencarta"
+  } ],
+  "bugs" : {
+    "url" : "https://github.com/dfederm/karma-jasmine-html-reporter/issues"
+  },
+  "license" : "MIT"
+}

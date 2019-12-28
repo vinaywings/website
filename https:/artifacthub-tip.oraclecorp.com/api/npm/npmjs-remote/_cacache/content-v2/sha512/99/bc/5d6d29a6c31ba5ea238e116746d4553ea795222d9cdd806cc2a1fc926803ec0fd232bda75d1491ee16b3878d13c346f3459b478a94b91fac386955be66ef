@@ -1,0 +1,5580 @@
+{
+  "_id" : "@types/jasmine",
+  "_rev" : "697-57d32f63119b920a00707beb0366f98a",
+  "name" : "@types/jasmine",
+  "description" : "TypeScript definitions for Jasmine",
+  "dist-tags" : {
+    "ts2.2" : "2.8.8",
+    "ts3.1" : "3.5.0",
+    "ts2.1" : "2.8.8",
+    "ts3.0" : "3.5.0",
+    "ts2.0" : "2.5.41",
+    "ts2.9" : "3.5.0",
+    "ts3.8" : "3.5.0",
+    "ts2.8" : "3.5.0",
+    "ts3.7" : "3.5.0",
+    "ts2.7" : "2.8.9",
+    "ts3.6" : "3.5.0",
+    "ts2.6" : "2.8.9",
+    "ts3.5" : "3.5.0",
+    "ts2.5" : "2.8.9",
+    "ts3.4" : "3.5.0",
+    "ts2.4" : "2.8.9",
+    "ts3.3" : "3.5.0",
+    "ts2.3" : "2.8.9",
+    "ts3.2" : "3.5.0",
+    "latest" : "3.5.0"
+  },
+  "versions" : {
+    "2.5.35" : {
+      "name" : "@types/jasmine",
+      "description" : "TypeScript definitions for Jasmine 2.5",
+      "version" : "2.5.35",
+      "author" : "Boris Yankov <https://github.com/borisyankov/>, Theodore Brown <https://github.com/theodorejb>, David Pärsson <https://github.com/davidparsson/>",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+      },
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/@types/jasmine/-/jasmine-2.5.35.tgz",
+        "shasum" : "5566406dc8417d380d6c2f9562ec3c71ec28ef78"
+      },
+      "dependencies" : {
+      },
+      "peerDependencies" : {
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ryan.cavanaugh@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/jasmine@2.5.35",
+      "typings" : "index.d.ts",
+      "typesPublisherContentHash" : "342ad787ae1d9085f9cb2f352460449c601a7fbda833a19bb87aa2787dbc9ec3",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/jasmine-2.5.35.tgz_1475701072568_0.32000348763540387"
+      }
+    },
+    "2.2.21-alpha" : {
+      "name" : "@types/jasmine",
+      "description" : "TypeScript definitions for Jasmine 2.2",
+      "version" : "2.2.21-alpha",
+      "author" : {
+        "name" : "Boris Yankov",
+        "email" : "https://github.com/borisyankov/"
+      },
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/@types/jasmine/-/jasmine-2.2.21-alpha.tgz",
+        "shasum" : "cb702e8c6030c49693149a87b878120260310b53"
+      },
+      "dependencies" : {
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ryan.cavanaugh@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_from" : "output\\jasmine",
+      "_npmVersion" : "3.8.2",
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ryan.cavanaugh@microsoft.com"
+      },
+      "_id" : "@types/jasmine@2.2.21-alpha",
+      "typings" : "index.d.ts",
+      "_npmOperationalInternal" : {
+        "host" : "packages-16-east.internal.npmjs.com",
+        "tmp" : "tmp/jasmine-2.2.21-alpha.tgz_1463773850683_0.6373201424721628"
+      },
+      "_shasum" : "cb702e8c6030c49693149a87b878120260310b53",
+      "_resolved" : "file:output\\jasmine",
+      "_nodeVersion" : "5.5.0"
+    },
+    "2.5.39" : {
+      "name" : "@types/jasmine",
+      "description" : "TypeScript definitions for Jasmine",
+      "version" : "2.5.39",
+      "author" : "Boris Yankov <https://github.com/borisyankov/>, Theodore Brown <https://github.com/theodorejb>, David Pärsson <https://github.com/davidparsson/>",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+      },
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/@types/jasmine/-/jasmine-2.5.39.tgz",
+        "shasum" : "064aaf238cc745d7d6e2e2430e188719051ca9c4"
+      },
+      "dependencies" : {
+      },
+      "peerDependencies" : {
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ryan.cavanaugh@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/jasmine@2.5.39",
+      "typeScriptVersion" : "2.0",
+      "typesPublisherContentHash" : "4eb6a8c85d0b55a464c5579490ca5ba75020b8c93b24a576f515c7377dfb442e",
+      "_npmOperationalInternal" : {
+        "host" : "packages-18-east.internal.npmjs.com",
+        "tmp" : "tmp/jasmine-2.5.39.tgz_1482959493755_0.018848775885999203"
+      }
+    },
+    "2.5.38" : {
+      "name" : "@types/jasmine",
+      "description" : "TypeScript definitions for Jasmine 2.5",
+      "version" : "2.5.38",
+      "author" : "Boris Yankov <https://github.com/borisyankov/>, Theodore Brown <https://github.com/theodorejb>, David Pärsson <https://github.com/davidparsson/>",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+      },
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/@types/jasmine/-/jasmine-2.5.38.tgz",
+        "shasum" : "a4379124c4921d4e21de54ec74669c9e9b356717"
+      },
+      "dependencies" : {
+      },
+      "peerDependencies" : {
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ryan.cavanaugh@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/jasmine@2.5.38",
+      "typings" : "index.d.ts",
+      "typesPublisherContentHash" : "deae5b77cefabcb3a692eff958b0cfe55516a87b535b4247349dbe4fc5f835f6",
+      "_npmOperationalInternal" : {
+        "host" : "packages-18-east.internal.npmjs.com",
+        "tmp" : "tmp/jasmine-2.5.38.tgz_1479152172228_0.4748733174055815"
+      }
+    },
+    "2.2.24-alpha" : {
+      "name" : "@types/jasmine",
+      "description" : "TypeScript definitions for Jasmine 2.2",
+      "version" : "2.2.24-alpha",
+      "author" : {
+        "name" : "Boris Yankov",
+        "email" : "https://github.com/borisyankov/"
+      },
+      "repository" : {
+        "type" : "git",
+        "url" : "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+      },
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/@types/jasmine/-/jasmine-2.2.24-alpha.tgz",
+        "shasum" : "4301d41fd1d43a20ead6d8fdf3d40b3fbbfe018f"
+      },
+      "dependencies" : {
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ryan.cavanaugh@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_from" : "output\\jasmine",
+      "_npmVersion" : "3.7.2",
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ryan.cavanaugh@microsoft.com"
+      },
+      "_id" : "@types/jasmine@2.2.24-alpha",
+      "typings" : "index.d.ts",
+      "_npmOperationalInternal" : {
+        "host" : "packages-16-east.internal.npmjs.com",
+        "tmp" : "tmp/jasmine-2.2.24-alpha.tgz_1467414481231_0.7402509655803442"
+      },
+      "_shasum" : "4301d41fd1d43a20ead6d8fdf3d40b3fbbfe018f",
+      "_resolved" : "file:output\\jasmine",
+      "_nodeVersion" : "6.2.1"
+    },
+    "2.5.37" : {
+      "name" : "@types/jasmine",
+      "description" : "TypeScript definitions for Jasmine 2.5",
+      "version" : "2.5.37",
+      "author" : "Boris Yankov <https://github.com/borisyankov/>, Theodore Brown <https://github.com/theodorejb>, David Pärsson <https://github.com/davidparsson/>",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+      },
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/@types/jasmine/-/jasmine-2.5.37.tgz",
+        "shasum" : "15f16040b1106941ec4aeefa3cd9c55342a0dcbb"
+      },
+      "dependencies" : {
+      },
+      "peerDependencies" : {
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ryan.cavanaugh@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/jasmine@2.5.37",
+      "typings" : "index.d.ts",
+      "typesPublisherContentHash" : "342ad787ae1d9085f9cb2f352460449c601a7fbda833a19bb87aa2787dbc9ec3",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/jasmine-2.5.37.tgz_1478005079042_0.7982070264406502"
+      }
+    },
+    "2.5.36" : {
+      "name" : "@types/jasmine",
+      "description" : "TypeScript definitions for Jasmine 2.5",
+      "version" : "2.5.36",
+      "author" : "Boris Yankov <https://github.com/borisyankov/>, Theodore Brown <https://github.com/theodorejb>, David Pärsson <https://github.com/davidparsson/>",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+      },
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/@types/jasmine/-/jasmine-2.5.36.tgz",
+        "shasum" : "6d804b79a57e9380d766a2680e9362c17d9556d2"
+      },
+      "dependencies" : {
+      },
+      "peerDependencies" : {
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ryan.cavanaugh@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/jasmine@2.5.36",
+      "typings" : "index.d.ts",
+      "typesPublisherContentHash" : "d2a77e4310c9932a29263b22c9dad935fa4da77f10e09b7e7d131e69ffffd714",
+      "_npmOperationalInternal" : {
+        "host" : "packages-18-east.internal.npmjs.com",
+        "tmp" : "tmp/jasmine-2.5.36.tgz_1477509990141_0.646436360431835"
+      }
+    },
+    "2.8.8" : {
+      "name" : "@types/jasmine",
+      "description" : "TypeScript definitions for Jasmine",
+      "version" : "2.8.8",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/DefinitelyTyped/DefinitelyTyped.git"
+      },
+      "contributors" : [ {
+        "name" : "Boris Yankov",
+        "url" : "https://github.com/borisyankov",
+        "githubUsername" : "borisyankov"
+      }, {
+        "name" : "Theodore Brown",
+        "url" : "https://github.com/theodorejb",
+        "githubUsername" : "theodorejb"
+      }, {
+        "name" : "David Pärsson",
+        "url" : "https://github.com/davidparsson",
+        "githubUsername" : "davidparsson"
+      }, {
+        "name" : "Gabe Moothart",
+        "url" : "https://github.com/gmoothart",
+        "githubUsername" : "gmoothart"
+      }, {
+        "name" : "Lukas Zech",
+        "url" : "https://github.com/lukas-zech-software",
+        "githubUsername" : "lukas-zech-software"
+      }, {
+        "name" : "Boris Breuer",
+        "url" : "https://github.com/Engineer2B",
+        "githubUsername" : "Engineer2B"
+      } ],
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/@types/jasmine/-/jasmine-2.8.8.tgz",
+        "shasum" : "bf53a7d193ea8b03867a38bfdb4fbb0e0bf066c9"
+      },
+      "dependencies" : {
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/jasmine@2.8.8",
+      "typeScriptVersion" : "2.1",
+      "_hasShrinkwrap" : false,
+      "typesPublisherContentHash" : "af1f6aa3243e31a4253ec39bad706b4ee4ea462caa090f1942ccba30a7da99b7",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/jasmine_2.8.8_1527810704496_0.2903761244210157"
+      }
+    },
+    "2.8.9" : {
+      "name" : "@types/jasmine",
+      "description" : "TypeScript definitions for Jasmine",
+      "version" : "2.8.9",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/DefinitelyTyped/DefinitelyTyped.git"
+      },
+      "contributors" : [ {
+        "name" : "Boris Yankov",
+        "url" : "https://github.com/borisyankov",
+        "githubUsername" : "borisyankov"
+      }, {
+        "name" : "Theodore Brown",
+        "url" : "https://github.com/theodorejb",
+        "githubUsername" : "theodorejb"
+      }, {
+        "name" : "David Pärsson",
+        "url" : "https://github.com/davidparsson",
+        "githubUsername" : "davidparsson"
+      }, {
+        "name" : "Gabe Moothart",
+        "url" : "https://github.com/gmoothart",
+        "githubUsername" : "gmoothart"
+      }, {
+        "name" : "Lukas Zech",
+        "url" : "https://github.com/lukas-zech-software",
+        "githubUsername" : "lukas-zech-software"
+      }, {
+        "name" : "Boris Breuer",
+        "url" : "https://github.com/Engineer2B",
+        "githubUsername" : "Engineer2B"
+      } ],
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/@types/jasmine/-/jasmine-2.8.9.tgz",
+        "shasum" : "e028c891e8551fdf6de905d959581fc4fa0b5509"
+      },
+      "dependencies" : {
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/jasmine@2.8.9",
+      "typeScriptVersion" : "2.3",
+      "_hasShrinkwrap" : false,
+      "typesPublisherContentHash" : "312699aefa00417491cbfec68de1a8eab1794e74c7ada8e14306e61a234c8045",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/jasmine_2.8.9_1538589494286_0.45213523434698266"
+      }
+    },
+    "2.8.6" : {
+      "name" : "@types/jasmine",
+      "description" : "TypeScript definitions for Jasmine",
+      "version" : "2.8.6",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+      },
+      "contributors" : [ {
+        "name" : "Boris Yankov",
+        "url" : "https://github.com/borisyankov",
+        "githubUsername" : "borisyankov"
+      }, {
+        "name" : "Theodore Brown",
+        "url" : "https://github.com/theodorejb",
+        "githubUsername" : "theodorejb"
+      }, {
+        "name" : "David Pärsson",
+        "url" : "https://github.com/davidparsson",
+        "githubUsername" : "davidparsson"
+      }, {
+        "name" : "Gabe Moothart",
+        "url" : "https://github.com/gmoothart",
+        "githubUsername" : "gmoothart"
+      }, {
+        "name" : "Lukas Zech",
+        "url" : "https://github.com/lukas-zech-software",
+        "githubUsername" : "lukas-zech-software"
+      }, {
+        "name" : "Boris Breuer",
+        "url" : "https://github.com/Engineer2B",
+        "githubUsername" : "Engineer2B"
+      } ],
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/@types/jasmine/-/jasmine-2.8.6.tgz",
+        "shasum" : "14445b6a1613cf4e05dd61c3c3256d0e95c0421e"
+      },
+      "dependencies" : {
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/jasmine@2.8.6",
+      "typeScriptVersion" : "2.1",
+      "typesPublisherContentHash" : "92179f70f2b38380da53ee5f83cfc48a962e1ba600e3611a98509bfda63ac3af",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/jasmine-2.8.6.tgz_1516987303500_0.7104015576187521"
+      }
+    },
+    "2.8.7" : {
+      "name" : "@types/jasmine",
+      "description" : "TypeScript definitions for Jasmine",
+      "version" : "2.8.7",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+      },
+      "contributors" : [ {
+        "name" : "Boris Yankov",
+        "url" : "https://github.com/borisyankov",
+        "githubUsername" : "borisyankov"
+      }, {
+        "name" : "Theodore Brown",
+        "url" : "https://github.com/theodorejb",
+        "githubUsername" : "theodorejb"
+      }, {
+        "name" : "David Pärsson",
+        "url" : "https://github.com/davidparsson",
+        "githubUsername" : "davidparsson"
+      }, {
+        "name" : "Gabe Moothart",
+        "url" : "https://github.com/gmoothart",
+        "githubUsername" : "gmoothart"
+      }, {
+        "name" : "Lukas Zech",
+        "url" : "https://github.com/lukas-zech-software",
+        "githubUsername" : "lukas-zech-software"
+      }, {
+        "name" : "Boris Breuer",
+        "url" : "https://github.com/Engineer2B",
+        "githubUsername" : "Engineer2B"
+      } ],
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/@types/jasmine/-/jasmine-2.8.7.tgz",
+        "shasum" : "3fe583928ae0a22cdd34cedf930eeffeda2602fd"
+      },
+      "dependencies" : {
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/jasmine@2.8.7",
+      "typeScriptVersion" : "2.1",
+      "_hasShrinkwrap" : false,
+      "typesPublisherContentHash" : "78baaa1b82fee2a2a306b8f4b71208c959aa09cab339b508c8cf1a222c071a10",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/jasmine_2.8.7_1525363948928_0.5358191997454782"
+      }
+    },
+    "2.8.4" : {
+      "name" : "@types/jasmine",
+      "description" : "TypeScript definitions for Jasmine",
+      "version" : "2.8.4",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+      },
+      "contributors" : [ {
+        "name" : "Boris Yankov",
+        "url" : "https://github.com/borisyankov",
+        "githubUsername" : "borisyankov"
+      }, {
+        "name" : "Theodore Brown",
+        "url" : "https://github.com/theodorejb",
+        "githubUsername" : "theodorejb"
+      }, {
+        "name" : "David Pärsson",
+        "url" : "https://github.com/davidparsson",
+        "githubUsername" : "davidparsson"
+      }, {
+        "name" : "Gabe Moothart",
+        "url" : "https://github.com/gmoothart",
+        "githubUsername" : "gmoothart"
+      }, {
+        "name" : "Lukas Zech",
+        "url" : "https://github.com/lukas-zech-software",
+        "githubUsername" : "lukas-zech-software"
+      } ],
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/@types/jasmine/-/jasmine-2.8.4.tgz",
+        "shasum" : "5528fb5e53f1b27594f81f18debb7eab8dc532cb"
+      },
+      "dependencies" : {
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/jasmine@2.8.4",
+      "typeScriptVersion" : "2.1",
+      "typesPublisherContentHash" : "c9ebd1b20f1988c9f879e7e03d3fc4042c6e12ec65147f8ee36ec39e9a0f341a",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/jasmine-2.8.4.tgz_1515783145734_0.5414126885589212"
+      }
+    },
+    "2.8.5" : {
+      "name" : "@types/jasmine",
+      "description" : "TypeScript definitions for Jasmine",
+      "version" : "2.8.5",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+      },
+      "contributors" : [ {
+        "name" : "Boris Yankov",
+        "url" : "https://github.com/borisyankov",
+        "githubUsername" : "borisyankov"
+      }, {
+        "name" : "Theodore Brown",
+        "url" : "https://github.com/theodorejb",
+        "githubUsername" : "theodorejb"
+      }, {
+        "name" : "David Pärsson",
+        "url" : "https://github.com/davidparsson",
+        "githubUsername" : "davidparsson"
+      }, {
+        "name" : "Gabe Moothart",
+        "url" : "https://github.com/gmoothart",
+        "githubUsername" : "gmoothart"
+      }, {
+        "name" : "Lukas Zech",
+        "url" : "https://github.com/lukas-zech-software",
+        "githubUsername" : "lukas-zech-software"
+      }, {
+        "name" : "Boris Breuer",
+        "url" : "https://github.com/Engineer2B",
+        "githubUsername" : "Engineer2B"
+      } ],
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/@types/jasmine/-/jasmine-2.8.5.tgz",
+        "shasum" : "96e58872583fa80c7ea0dd29024b180d5e133678"
+      },
+      "dependencies" : {
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/jasmine@2.8.5",
+      "typeScriptVersion" : "2.1",
+      "typesPublisherContentHash" : "9c4d7bae2152d8cf3387181348c20c4ee1d4abda27f70f4a47f7f6360e8b4340",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/jasmine-2.8.5.tgz_1516662903624_0.19811859540641308"
+      }
+    },
+    "2.2.28-alpha" : {
+      "name" : "@types/jasmine",
+      "description" : "TypeScript definitions for Jasmine 2.2",
+      "version" : "2.2.28-alpha",
+      "author" : {
+        "name" : "Boris Yankov",
+        "email" : "https://github.com/borisyankov/"
+      },
+      "repository" : {
+        "type" : "git",
+        "url" : "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+      },
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/@types/jasmine/-/jasmine-2.2.28-alpha.tgz",
+        "shasum" : "9f4d5b2d38dedc13ed0c8eb89b3b38b6262cbd29"
+      },
+      "dependencies" : {
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ryan.cavanaugh@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_from" : "output\\jasmine",
+      "_npmVersion" : "3.10.3",
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ryan.cavanaugh@microsoft.com"
+      },
+      "_id" : "@types/jasmine@2.2.28-alpha",
+      "typings" : "index.d.ts",
+      "_npmOperationalInternal" : {
+        "host" : "packages-16-east.internal.npmjs.com",
+        "tmp" : "tmp/jasmine-2.2.28-alpha.tgz_1468276133116_0.5166198720689863"
+      },
+      "_shasum" : "9f4d5b2d38dedc13ed0c8eb89b3b38b6262cbd29",
+      "_resolved" : "file:output\\jasmine",
+      "_nodeVersion" : "6.3.0"
+    },
+    "2.8.2" : {
+      "name" : "@types/jasmine",
+      "description" : "TypeScript definitions for Jasmine",
+      "version" : "2.8.2",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+      },
+      "contributors" : [ {
+        "name" : "Boris Yankov",
+        "url" : "https://github.com/borisyankov",
+        "githubUsername" : "borisyankov"
+      }, {
+        "name" : "Theodore Brown",
+        "url" : "https://github.com/theodorejb",
+        "githubUsername" : "theodorejb"
+      }, {
+        "name" : "David Pärsson",
+        "url" : "https://github.com/davidparsson",
+        "githubUsername" : "davidparsson"
+      }, {
+        "name" : "Gabe Moothart",
+        "url" : "https://github.com/gmoothart",
+        "githubUsername" : "gmoothart"
+      }, {
+        "name" : "Lukas Zech",
+        "url" : "https://github.com/lukas-zech-software",
+        "githubUsername" : "lukas-zech-software"
+      } ],
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/@types/jasmine/-/jasmine-2.8.2.tgz",
+        "shasum" : "6ae4d8740c0da5d5a627df725b4eed71b8e36668"
+      },
+      "dependencies" : {
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/jasmine@2.8.2",
+      "typeScriptVersion" : "2.1",
+      "typesPublisherContentHash" : "55bd88f6f019ce8fde85a617c648ee57ed2bf813b83f4232886391f8327224f9",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/jasmine-2.8.2.tgz_1510745388801_0.5143904094584286"
+      }
+    },
+    "2.8.3" : {
+      "name" : "@types/jasmine",
+      "description" : "TypeScript definitions for Jasmine",
+      "version" : "2.8.3",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+      },
+      "contributors" : [ {
+        "name" : "Boris Yankov",
+        "url" : "https://github.com/borisyankov",
+        "githubUsername" : "borisyankov"
+      }, {
+        "name" : "Theodore Brown",
+        "url" : "https://github.com/theodorejb",
+        "githubUsername" : "theodorejb"
+      }, {
+        "name" : "David Pärsson",
+        "url" : "https://github.com/davidparsson",
+        "githubUsername" : "davidparsson"
+      }, {
+        "name" : "Gabe Moothart",
+        "url" : "https://github.com/gmoothart",
+        "githubUsername" : "gmoothart"
+      }, {
+        "name" : "Lukas Zech",
+        "url" : "https://github.com/lukas-zech-software",
+        "githubUsername" : "lukas-zech-software"
+      } ],
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/@types/jasmine/-/jasmine-2.8.3.tgz",
+        "shasum" : "f910edc67d69393d562d10f8f3d205ea3f3306bf"
+      },
+      "dependencies" : {
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/jasmine@2.8.3",
+      "typeScriptVersion" : "2.1",
+      "typesPublisherContentHash" : "cfb56cfd3f189bde1a2024063f9d13c140ceeacf930be25da161061fb7402747",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/jasmine-2.8.3.tgz_1514427674273_0.273037780309096"
+      }
+    },
+    "3.3.2" : {
+      "name" : "@types/jasmine",
+      "description" : "TypeScript definitions for Jasmine",
+      "version" : "3.3.2",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/DefinitelyTyped/DefinitelyTyped.git"
+      },
+      "contributors" : [ {
+        "name" : "Boris Yankov",
+        "url" : "https://github.com/borisyankov",
+        "githubUsername" : "borisyankov"
+      }, {
+        "name" : "Theodore Brown",
+        "url" : "https://github.com/theodorejb",
+        "githubUsername" : "theodorejb"
+      }, {
+        "name" : "David Pärsson",
+        "url" : "https://github.com/davidparsson",
+        "githubUsername" : "davidparsson"
+      }, {
+        "name" : "Gabe Moothart",
+        "url" : "https://github.com/gmoothart",
+        "githubUsername" : "gmoothart"
+      }, {
+        "name" : "Lukas Zech",
+        "url" : "https://github.com/lukas-zech-software",
+        "githubUsername" : "lukas-zech-software"
+      }, {
+        "name" : "Boris Breuer",
+        "url" : "https://github.com/Engineer2B",
+        "githubUsername" : "Engineer2B"
+      }, {
+        "name" : "Chris Yungmann",
+        "url" : "https://github.com/cyungmann",
+        "githubUsername" : "cyungmann"
+      }, {
+        "name" : "Giles Roadnight",
+        "url" : "https://github.com/Roaders",
+        "githubUsername" : "Roaders"
+      } ],
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/@types/jasmine/-/jasmine-3.3.2.tgz",
+        "shasum" : "a5a0ac81ed914e252790d2f362c07150577f9bcc"
+      },
+      "dependencies" : {
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/jasmine@3.3.2",
+      "types" : "index",
+      "typeScriptVersion" : "2.8",
+      "_hasShrinkwrap" : false,
+      "typesPublisherContentHash" : "1d262d820d406e5b29fe5640cb47f2605e6facd4b343a48c8929666c49bc2df2",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/jasmine_3.3.2_1544803126064_0.7346404889367175"
+      }
+    },
+    "3.5.0" : {
+      "name" : "@types/jasmine",
+      "description" : "TypeScript definitions for Jasmine",
+      "version" : "3.5.0",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+        "directory" : "types/jasmine"
+      },
+      "contributors" : [ {
+        "name" : "Boris Yankov",
+        "url" : "https://github.com/borisyankov",
+        "githubUsername" : "borisyankov"
+      }, {
+        "name" : "Theodore Brown",
+        "url" : "https://github.com/theodorejb",
+        "githubUsername" : "theodorejb"
+      }, {
+        "name" : "David Pärsson",
+        "url" : "https://github.com/davidparsson",
+        "githubUsername" : "davidparsson"
+      }, {
+        "name" : "Gabe Moothart",
+        "url" : "https://github.com/gmoothart",
+        "githubUsername" : "gmoothart"
+      }, {
+        "name" : "Lukas Zech",
+        "url" : "https://github.com/lukas-zech-software",
+        "githubUsername" : "lukas-zech-software"
+      }, {
+        "name" : "Boris Breuer",
+        "url" : "https://github.com/Engineer2B",
+        "githubUsername" : "Engineer2B"
+      }, {
+        "name" : "Chris Yungmann",
+        "url" : "https://github.com/cyungmann",
+        "githubUsername" : "cyungmann"
+      }, {
+        "name" : "Giles Roadnight",
+        "url" : "https://github.com/Roaders",
+        "githubUsername" : "Roaders"
+      }, {
+        "name" : "Yaroslav Admin",
+        "url" : "https://github.com/devoto13",
+        "githubUsername" : "devoto13"
+      }, {
+        "name" : "Domas Trijonis",
+        "url" : "https://github.com/fdim",
+        "githubUsername" : "fdim"
+      }, {
+        "name" : "Moshe Kolodny",
+        "url" : "https://github.com/kolodny",
+        "githubUsername" : "kolodny"
+      }, {
+        "name" : "Stephen Farrar",
+        "url" : "https://github.com/stephenfarrar",
+        "githubUsername" : "stephenfarrar"
+      }, {
+        "name" : "Mochamad Arfin",
+        "url" : "https://github.com/ndunks",
+        "githubUsername" : "ndunks"
+      }, {
+        "name" : "Alex Povar",
+        "url" : "https://github.com/zvirja",
+        "githubUsername" : "zvirja"
+      }, {
+        "name" : "Dominik Ehrenberg",
+        "url" : "https://github.com/djungowski",
+        "githubUsername" : "djungowski"
+      } ],
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/@types/jasmine/-/jasmine-3.5.0.tgz",
+        "shasum" : "2ad2006c8a937d20df20a8fee86071d0f730ef99"
+      },
+      "dependencies" : {
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/jasmine@3.5.0",
+      "typesVersions" : {
+        ">=3.1.0-0" : {
+          "*" : [ "ts3.1/*" ]
+        }
+      },
+      "types" : "index.d.ts",
+      "typeScriptVersion" : "2.8",
+      "_hasShrinkwrap" : false,
+      "typesPublisherContentHash" : "52870d2ee65b1fcc347c541609e9f054f32c29367f4286f2f93680ef1ca8b418",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/jasmine_3.5.0_1574437878453_0.2017527782100379"
+      }
+    },
+    "3.3.3" : {
+      "name" : "@types/jasmine",
+      "description" : "TypeScript definitions for Jasmine",
+      "version" : "3.3.3",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/DefinitelyTyped/DefinitelyTyped.git"
+      },
+      "contributors" : [ {
+        "name" : "Boris Yankov",
+        "url" : "https://github.com/borisyankov",
+        "githubUsername" : "borisyankov"
+      }, {
+        "name" : "Theodore Brown",
+        "url" : "https://github.com/theodorejb",
+        "githubUsername" : "theodorejb"
+      }, {
+        "name" : "David Pärsson",
+        "url" : "https://github.com/davidparsson",
+        "githubUsername" : "davidparsson"
+      }, {
+        "name" : "Gabe Moothart",
+        "url" : "https://github.com/gmoothart",
+        "githubUsername" : "gmoothart"
+      }, {
+        "name" : "Lukas Zech",
+        "url" : "https://github.com/lukas-zech-software",
+        "githubUsername" : "lukas-zech-software"
+      }, {
+        "name" : "Boris Breuer",
+        "url" : "https://github.com/Engineer2B",
+        "githubUsername" : "Engineer2B"
+      }, {
+        "name" : "Chris Yungmann",
+        "url" : "https://github.com/cyungmann",
+        "githubUsername" : "cyungmann"
+      }, {
+        "name" : "Giles Roadnight",
+        "url" : "https://github.com/Roaders",
+        "githubUsername" : "Roaders"
+      }, {
+        "name" : "Yaroslav Admin",
+        "url" : "https://github.com/devoto13",
+        "githubUsername" : "devoto13"
+      } ],
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/@types/jasmine/-/jasmine-3.3.3.tgz",
+        "shasum" : "e11cbe32639640f15d2356f8013472743047dcf8"
+      },
+      "dependencies" : {
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/jasmine@3.3.3",
+      "types" : "index",
+      "typeScriptVersion" : "2.8",
+      "_hasShrinkwrap" : false,
+      "typesPublisherContentHash" : "3629f08319c40be1f42529b8c3419658e0863134d7898ae2dacfb26f0d0e4ccb",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/jasmine_3.3.3_1545168569233_0.5590473527368403"
+      }
+    },
+    "3.3.4" : {
+      "name" : "@types/jasmine",
+      "description" : "TypeScript definitions for Jasmine",
+      "version" : "3.3.4",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/DefinitelyTyped/DefinitelyTyped.git"
+      },
+      "contributors" : [ {
+        "name" : "Boris Yankov",
+        "url" : "https://github.com/borisyankov",
+        "githubUsername" : "borisyankov"
+      }, {
+        "name" : "Theodore Brown",
+        "url" : "https://github.com/theodorejb",
+        "githubUsername" : "theodorejb"
+      }, {
+        "name" : "David Pärsson",
+        "url" : "https://github.com/davidparsson",
+        "githubUsername" : "davidparsson"
+      }, {
+        "name" : "Gabe Moothart",
+        "url" : "https://github.com/gmoothart",
+        "githubUsername" : "gmoothart"
+      }, {
+        "name" : "Lukas Zech",
+        "url" : "https://github.com/lukas-zech-software",
+        "githubUsername" : "lukas-zech-software"
+      }, {
+        "name" : "Boris Breuer",
+        "url" : "https://github.com/Engineer2B",
+        "githubUsername" : "Engineer2B"
+      }, {
+        "name" : "Chris Yungmann",
+        "url" : "https://github.com/cyungmann",
+        "githubUsername" : "cyungmann"
+      }, {
+        "name" : "Giles Roadnight",
+        "url" : "https://github.com/Roaders",
+        "githubUsername" : "Roaders"
+      }, {
+        "name" : "Yaroslav Admin",
+        "url" : "https://github.com/devoto13",
+        "githubUsername" : "devoto13"
+      }, {
+        "name" : "Domas Trijonis",
+        "url" : "https://github.com/fdim",
+        "githubUsername" : "fdim"
+      } ],
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/@types/jasmine/-/jasmine-3.3.4.tgz",
+        "shasum" : "492cc70364f6dee047887b4fa2135bedd41fb143"
+      },
+      "dependencies" : {
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/jasmine@3.3.4",
+      "types" : "index",
+      "typeScriptVersion" : "2.8",
+      "_hasShrinkwrap" : false,
+      "typesPublisherContentHash" : "5ef41ec97ce92498dd595ad01ccd5e37ee4bf838a64854626f7084b79e611804",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/jasmine_3.3.4_1545171253779_0.6727265900377946"
+      }
+    },
+    "3.3.5" : {
+      "name" : "@types/jasmine",
+      "description" : "TypeScript definitions for Jasmine",
+      "version" : "3.3.5",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/DefinitelyTyped/DefinitelyTyped.git"
+      },
+      "contributors" : [ {
+        "name" : "Boris Yankov",
+        "url" : "https://github.com/borisyankov",
+        "githubUsername" : "borisyankov"
+      }, {
+        "name" : "Theodore Brown",
+        "url" : "https://github.com/theodorejb",
+        "githubUsername" : "theodorejb"
+      }, {
+        "name" : "David Pärsson",
+        "url" : "https://github.com/davidparsson",
+        "githubUsername" : "davidparsson"
+      }, {
+        "name" : "Gabe Moothart",
+        "url" : "https://github.com/gmoothart",
+        "githubUsername" : "gmoothart"
+      }, {
+        "name" : "Lukas Zech",
+        "url" : "https://github.com/lukas-zech-software",
+        "githubUsername" : "lukas-zech-software"
+      }, {
+        "name" : "Boris Breuer",
+        "url" : "https://github.com/Engineer2B",
+        "githubUsername" : "Engineer2B"
+      }, {
+        "name" : "Chris Yungmann",
+        "url" : "https://github.com/cyungmann",
+        "githubUsername" : "cyungmann"
+      }, {
+        "name" : "Giles Roadnight",
+        "url" : "https://github.com/Roaders",
+        "githubUsername" : "Roaders"
+      }, {
+        "name" : "Yaroslav Admin",
+        "url" : "https://github.com/devoto13",
+        "githubUsername" : "devoto13"
+      }, {
+        "name" : "Domas Trijonis",
+        "url" : "https://github.com/fdim",
+        "githubUsername" : "fdim"
+      }, {
+        "name" : "Peter Safranek",
+        "url" : "https://github.com/pe8ter",
+        "githubUsername" : "pe8ter"
+      } ],
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/@types/jasmine/-/jasmine-3.3.5.tgz",
+        "shasum" : "3738ffbf34dffae9ecaac4503d7d969744f0e1d7"
+      },
+      "dependencies" : {
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/jasmine@3.3.5",
+      "types" : "index",
+      "typeScriptVersion" : "2.8",
+      "_hasShrinkwrap" : false,
+      "typesPublisherContentHash" : "5bfbc784d506c52f8a5fa7627d510ffd1df5b0b2379159cd19680cf6d0e84821",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/jasmine_3.3.5_1545434264064_0.11505464619414085"
+      }
+    },
+    "3.3.0" : {
+      "name" : "@types/jasmine",
+      "description" : "TypeScript definitions for Jasmine",
+      "version" : "3.3.0",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/DefinitelyTyped/DefinitelyTyped.git"
+      },
+      "contributors" : [ {
+        "name" : "Boris Yankov",
+        "url" : "https://github.com/borisyankov",
+        "githubUsername" : "borisyankov"
+      }, {
+        "name" : "Theodore Brown",
+        "url" : "https://github.com/theodorejb",
+        "githubUsername" : "theodorejb"
+      }, {
+        "name" : "David Pärsson",
+        "url" : "https://github.com/davidparsson",
+        "githubUsername" : "davidparsson"
+      }, {
+        "name" : "Gabe Moothart",
+        "url" : "https://github.com/gmoothart",
+        "githubUsername" : "gmoothart"
+      }, {
+        "name" : "Lukas Zech",
+        "url" : "https://github.com/lukas-zech-software",
+        "githubUsername" : "lukas-zech-software"
+      }, {
+        "name" : "Boris Breuer",
+        "url" : "https://github.com/Engineer2B",
+        "githubUsername" : "Engineer2B"
+      }, {
+        "name" : "Chris Yungmann",
+        "url" : "https://github.com/cyungmann",
+        "githubUsername" : "cyungmann"
+      }, {
+        "name" : "Giles Roadnight",
+        "url" : "https://github.com/Roaders",
+        "githubUsername" : "Roaders"
+      } ],
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/@types/jasmine/-/jasmine-3.3.0.tgz",
+        "shasum" : "6b0e4b0192367d77e438ff660ccc4487c9602e7b"
+      },
+      "dependencies" : {
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/jasmine@3.3.0",
+      "types" : "index",
+      "typeScriptVersion" : "2.8",
+      "_hasShrinkwrap" : false,
+      "typesPublisherContentHash" : "73cfefb0123513f4b27fffeafd402e978d037dc6e851a1af0440d3d396bb64a5",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/jasmine_3.3.0_1542592874333_0.4028723271579919"
+      }
+    },
+    "3.3.1" : {
+      "name" : "@types/jasmine",
+      "description" : "TypeScript definitions for Jasmine",
+      "version" : "3.3.1",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/DefinitelyTyped/DefinitelyTyped.git"
+      },
+      "contributors" : [ {
+        "name" : "Boris Yankov",
+        "url" : "https://github.com/borisyankov",
+        "githubUsername" : "borisyankov"
+      }, {
+        "name" : "Theodore Brown",
+        "url" : "https://github.com/theodorejb",
+        "githubUsername" : "theodorejb"
+      }, {
+        "name" : "David Pärsson",
+        "url" : "https://github.com/davidparsson",
+        "githubUsername" : "davidparsson"
+      }, {
+        "name" : "Gabe Moothart",
+        "url" : "https://github.com/gmoothart",
+        "githubUsername" : "gmoothart"
+      }, {
+        "name" : "Lukas Zech",
+        "url" : "https://github.com/lukas-zech-software",
+        "githubUsername" : "lukas-zech-software"
+      }, {
+        "name" : "Boris Breuer",
+        "url" : "https://github.com/Engineer2B",
+        "githubUsername" : "Engineer2B"
+      }, {
+        "name" : "Chris Yungmann",
+        "url" : "https://github.com/cyungmann",
+        "githubUsername" : "cyungmann"
+      }, {
+        "name" : "Giles Roadnight",
+        "url" : "https://github.com/Roaders",
+        "githubUsername" : "Roaders"
+      } ],
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/@types/jasmine/-/jasmine-3.3.1.tgz",
+        "shasum" : "b6c4f356013364e98b583647c7b3b6de6fccd2cc"
+      },
+      "dependencies" : {
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/jasmine@3.3.1",
+      "types" : "index",
+      "typeScriptVersion" : "2.8",
+      "_hasShrinkwrap" : false,
+      "typesPublisherContentHash" : "9307afe17c4c58b8b688cac716070882e674883d7edd29d204aab8e6eabc991d",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/jasmine_3.3.1_1543881831569_0.04236691109662605"
+      }
+    },
+    "2.8.13" : {
+      "name" : "@types/jasmine",
+      "description" : "TypeScript definitions for Jasmine",
+      "version" : "2.8.13",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/DefinitelyTyped/DefinitelyTyped.git"
+      },
+      "contributors" : [ {
+        "name" : "Boris Yankov",
+        "url" : "https://github.com/borisyankov",
+        "githubUsername" : "borisyankov"
+      }, {
+        "name" : "Theodore Brown",
+        "url" : "https://github.com/theodorejb",
+        "githubUsername" : "theodorejb"
+      }, {
+        "name" : "David Pärsson",
+        "url" : "https://github.com/davidparsson",
+        "githubUsername" : "davidparsson"
+      }, {
+        "name" : "Gabe Moothart",
+        "url" : "https://github.com/gmoothart",
+        "githubUsername" : "gmoothart"
+      }, {
+        "name" : "Lukas Zech",
+        "url" : "https://github.com/lukas-zech-software",
+        "githubUsername" : "lukas-zech-software"
+      }, {
+        "name" : "Boris Breuer",
+        "url" : "https://github.com/Engineer2B",
+        "githubUsername" : "Engineer2B"
+      }, {
+        "name" : "Chris Yungmann",
+        "url" : "https://github.com/cyungmann",
+        "githubUsername" : "cyungmann"
+      }, {
+        "name" : "Yaroslav Admin",
+        "url" : "https://github.com/devoto13",
+        "githubUsername" : "devoto13"
+      } ],
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/@types/jasmine/-/jasmine-2.8.13.tgz",
+        "shasum" : "f4cd70aa1b8a2987dcf4c8f66134b7d628d262c9"
+      },
+      "dependencies" : {
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/jasmine@2.8.13",
+      "types" : "index",
+      "typeScriptVersion" : "2.8",
+      "_hasShrinkwrap" : false,
+      "typesPublisherContentHash" : "b100112740b552256bf5d17f48d2f564a1558710364458d7c26356628a7dbf80",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/jasmine_2.8.13_1545167990768_0.9584989589291932"
+      }
+    },
+    "2.8.14" : {
+      "name" : "@types/jasmine",
+      "description" : "TypeScript definitions for Jasmine",
+      "version" : "2.8.14",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/DefinitelyTyped/DefinitelyTyped.git"
+      },
+      "contributors" : [ {
+        "name" : "Boris Yankov",
+        "url" : "https://github.com/borisyankov",
+        "githubUsername" : "borisyankov"
+      }, {
+        "name" : "Theodore Brown",
+        "url" : "https://github.com/theodorejb",
+        "githubUsername" : "theodorejb"
+      }, {
+        "name" : "David Pärsson",
+        "url" : "https://github.com/davidparsson",
+        "githubUsername" : "davidparsson"
+      }, {
+        "name" : "Gabe Moothart",
+        "url" : "https://github.com/gmoothart",
+        "githubUsername" : "gmoothart"
+      }, {
+        "name" : "Lukas Zech",
+        "url" : "https://github.com/lukas-zech-software",
+        "githubUsername" : "lukas-zech-software"
+      }, {
+        "name" : "Boris Breuer",
+        "url" : "https://github.com/Engineer2B",
+        "githubUsername" : "Engineer2B"
+      }, {
+        "name" : "Chris Yungmann",
+        "url" : "https://github.com/cyungmann",
+        "githubUsername" : "cyungmann"
+      }, {
+        "name" : "Yaroslav Admin",
+        "url" : "https://github.com/devoto13",
+        "githubUsername" : "devoto13"
+      }, {
+        "name" : "Domas Trijonis",
+        "url" : "https://github.com/fdim",
+        "githubUsername" : "fdim"
+      } ],
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/@types/jasmine/-/jasmine-2.8.14.tgz",
+        "shasum" : "42a87032418b7d70f427d1df16a9921fca28d8c7"
+      },
+      "dependencies" : {
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/jasmine@2.8.14",
+      "types" : "index",
+      "typeScriptVersion" : "2.8",
+      "_hasShrinkwrap" : false,
+      "typesPublisherContentHash" : "0c06fda1fb4fc1a1f5a3d59d113c282b19822bd5acbfc4dda2f9e64fcefd8c04",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/jasmine_2.8.14_1545171020557_0.383839958016325"
+      }
+    },
+    "2.8.15" : {
+      "name" : "@types/jasmine",
+      "description" : "TypeScript definitions for Jasmine",
+      "version" : "2.8.15",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/DefinitelyTyped/DefinitelyTyped.git"
+      },
+      "contributors" : [ {
+        "name" : "Boris Yankov",
+        "url" : "https://github.com/borisyankov",
+        "githubUsername" : "borisyankov"
+      }, {
+        "name" : "Theodore Brown",
+        "url" : "https://github.com/theodorejb",
+        "githubUsername" : "theodorejb"
+      }, {
+        "name" : "David Pärsson",
+        "url" : "https://github.com/davidparsson",
+        "githubUsername" : "davidparsson"
+      }, {
+        "name" : "Gabe Moothart",
+        "url" : "https://github.com/gmoothart",
+        "githubUsername" : "gmoothart"
+      }, {
+        "name" : "Lukas Zech",
+        "url" : "https://github.com/lukas-zech-software",
+        "githubUsername" : "lukas-zech-software"
+      }, {
+        "name" : "Boris Breuer",
+        "url" : "https://github.com/Engineer2B",
+        "githubUsername" : "Engineer2B"
+      }, {
+        "name" : "Chris Yungmann",
+        "url" : "https://github.com/cyungmann",
+        "githubUsername" : "cyungmann"
+      }, {
+        "name" : "Yaroslav Admin",
+        "url" : "https://github.com/devoto13",
+        "githubUsername" : "devoto13"
+      }, {
+        "name" : "Domas Trijonis",
+        "url" : "https://github.com/fdim",
+        "githubUsername" : "fdim"
+      } ],
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/@types/jasmine/-/jasmine-2.8.15.tgz",
+        "shasum" : "f4b73d8d9328ba5ad4bb9191ec117d10b7fd712c"
+      },
+      "dependencies" : {
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/jasmine@2.8.15",
+      "types" : "index",
+      "typeScriptVersion" : "2.8",
+      "_hasShrinkwrap" : false,
+      "typesPublisherContentHash" : "392f5e41d195e6bb948d2c5344c16f0b9b05d9a348988c4abf4284155c1e56dc",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/jasmine_2.8.15_1547791677578_0.4047003479097322"
+      }
+    },
+    "2.8.16" : {
+      "name" : "@types/jasmine",
+      "description" : "TypeScript definitions for Jasmine",
+      "version" : "2.8.16",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/DefinitelyTyped/DefinitelyTyped.git"
+      },
+      "contributors" : [ {
+        "name" : "Boris Yankov",
+        "url" : "https://github.com/borisyankov",
+        "githubUsername" : "borisyankov"
+      }, {
+        "name" : "Theodore Brown",
+        "url" : "https://github.com/theodorejb",
+        "githubUsername" : "theodorejb"
+      }, {
+        "name" : "David Pärsson",
+        "url" : "https://github.com/davidparsson",
+        "githubUsername" : "davidparsson"
+      }, {
+        "name" : "Gabe Moothart",
+        "url" : "https://github.com/gmoothart",
+        "githubUsername" : "gmoothart"
+      }, {
+        "name" : "Lukas Zech",
+        "url" : "https://github.com/lukas-zech-software",
+        "githubUsername" : "lukas-zech-software"
+      }, {
+        "name" : "Boris Breuer",
+        "url" : "https://github.com/Engineer2B",
+        "githubUsername" : "Engineer2B"
+      }, {
+        "name" : "Chris Yungmann",
+        "url" : "https://github.com/cyungmann",
+        "githubUsername" : "cyungmann"
+      }, {
+        "name" : "Yaroslav Admin",
+        "url" : "https://github.com/devoto13",
+        "githubUsername" : "devoto13"
+      }, {
+        "name" : "Domas Trijonis",
+        "url" : "https://github.com/fdim",
+        "githubUsername" : "fdim"
+      } ],
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/@types/jasmine/-/jasmine-2.8.16.tgz",
+        "shasum" : "a6cb24b1149d65293bd616923500014838e14e7d"
+      },
+      "dependencies" : {
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/jasmine@2.8.16",
+      "types" : "index",
+      "typeScriptVersion" : "2.8",
+      "_hasShrinkwrap" : false,
+      "typesPublisherContentHash" : "008a614d331bf69f6af8c50bd1b5f15caef1d9d11d0253b3b6ee05796a662c00",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/jasmine_2.8.16_1548378032481_0.19698889282933418"
+      }
+    },
+    "2.2.30" : {
+      "name" : "@types/jasmine",
+      "description" : "TypeScript definitions for Jasmine 2.2",
+      "version" : "2.2.30",
+      "author" : {
+        "name" : "Boris Yankov",
+        "email" : "https://github.com/borisyankov/"
+      },
+      "repository" : {
+        "type" : "git",
+        "url" : "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+      },
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/@types/jasmine/-/jasmine-2.2.30.tgz",
+        "shasum" : "754be39255479731ad841478bd29772d71cf5996"
+      },
+      "dependencies" : {
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ryan.cavanaugh@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_from" : "output\\jasmine",
+      "_npmVersion" : "3.10.3",
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/jasmine@2.2.30",
+      "typings" : "index.d.ts",
+      "_npmOperationalInternal" : {
+        "host" : "packages-16-east.internal.npmjs.com",
+        "tmp" : "tmp/jasmine-2.2.30.tgz_1468933906256_0.22782677575014532"
+      },
+      "_shasum" : "754be39255479731ad841478bd29772d71cf5996",
+      "_resolved" : "file:output\\jasmine",
+      "_nodeVersion" : "6.3.0"
+    },
+    "3.4.5" : {
+      "name" : "@types/jasmine",
+      "description" : "TypeScript definitions for Jasmine",
+      "version" : "3.4.5",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+        "directory" : "types/jasmine"
+      },
+      "contributors" : [ {
+        "name" : "Boris Yankov",
+        "url" : "https://github.com/borisyankov",
+        "githubUsername" : "borisyankov"
+      }, {
+        "name" : "Theodore Brown",
+        "url" : "https://github.com/theodorejb",
+        "githubUsername" : "theodorejb"
+      }, {
+        "name" : "David Pärsson",
+        "url" : "https://github.com/davidparsson",
+        "githubUsername" : "davidparsson"
+      }, {
+        "name" : "Gabe Moothart",
+        "url" : "https://github.com/gmoothart",
+        "githubUsername" : "gmoothart"
+      }, {
+        "name" : "Lukas Zech",
+        "url" : "https://github.com/lukas-zech-software",
+        "githubUsername" : "lukas-zech-software"
+      }, {
+        "name" : "Boris Breuer",
+        "url" : "https://github.com/Engineer2B",
+        "githubUsername" : "Engineer2B"
+      }, {
+        "name" : "Chris Yungmann",
+        "url" : "https://github.com/cyungmann",
+        "githubUsername" : "cyungmann"
+      }, {
+        "name" : "Giles Roadnight",
+        "url" : "https://github.com/Roaders",
+        "githubUsername" : "Roaders"
+      }, {
+        "name" : "Yaroslav Admin",
+        "url" : "https://github.com/devoto13",
+        "githubUsername" : "devoto13"
+      }, {
+        "name" : "Domas Trijonis",
+        "url" : "https://github.com/fdim",
+        "githubUsername" : "fdim"
+      }, {
+        "name" : "Moshe Kolodny",
+        "url" : "https://github.com/kolodny",
+        "githubUsername" : "kolodny"
+      }, {
+        "name" : "Stephen Farrar",
+        "url" : "https://github.com/stephenfarrar",
+        "githubUsername" : "stephenfarrar"
+      }, {
+        "name" : "Mochamad Arfin",
+        "url" : "https://github.com/ndunks",
+        "githubUsername" : "ndunks"
+      }, {
+        "name" : "Alex Povar",
+        "url" : "https://github.com/zvirja",
+        "githubUsername" : "zvirja"
+      } ],
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/@types/jasmine/-/jasmine-3.4.5.tgz",
+        "shasum" : "589cd518a725ceaf7605997e441a09d7f530483c"
+      },
+      "dependencies" : {
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/jasmine@3.4.5",
+      "typesVersions" : {
+        ">=3.1.0-0" : {
+          "*" : [ "ts3.1/*" ]
+        }
+      },
+      "types" : "index",
+      "typeScriptVersion" : "2.8",
+      "_hasShrinkwrap" : false,
+      "typesPublisherContentHash" : "95fd696e9847f92b1e29e3cb0f84a1f0d35c4a11e3bb99da7e5c049b4c48f5d9",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/jasmine_3.4.5_1572625682814_0.09658070690696152"
+      }
+    },
+    "2.8.10" : {
+      "name" : "@types/jasmine",
+      "description" : "TypeScript definitions for Jasmine",
+      "version" : "2.8.10",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/DefinitelyTyped/DefinitelyTyped.git"
+      },
+      "contributors" : [ {
+        "name" : "Boris Yankov",
+        "url" : "https://github.com/borisyankov",
+        "githubUsername" : "borisyankov"
+      }, {
+        "name" : "Theodore Brown",
+        "url" : "https://github.com/theodorejb",
+        "githubUsername" : "theodorejb"
+      }, {
+        "name" : "David Pärsson",
+        "url" : "https://github.com/davidparsson",
+        "githubUsername" : "davidparsson"
+      }, {
+        "name" : "Gabe Moothart",
+        "url" : "https://github.com/gmoothart",
+        "githubUsername" : "gmoothart"
+      }, {
+        "name" : "Lukas Zech",
+        "url" : "https://github.com/lukas-zech-software",
+        "githubUsername" : "lukas-zech-software"
+      }, {
+        "name" : "Boris Breuer",
+        "url" : "https://github.com/Engineer2B",
+        "githubUsername" : "Engineer2B"
+      }, {
+        "name" : "Chris Yungmann",
+        "url" : "https://github.com/cyungmann",
+        "githubUsername" : "cyungmann"
+      } ],
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/@types/jasmine/-/jasmine-2.8.10.tgz",
+        "shasum" : "9f5d547f6b97aa66b821da7359ea9fd4af3b2ffc"
+      },
+      "dependencies" : {
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/jasmine@2.8.10",
+      "types" : "index",
+      "typeScriptVersion" : "2.8",
+      "_hasShrinkwrap" : false,
+      "typesPublisherContentHash" : "d6f973dce38f7a976712592ff56d81491d400c1f19b47c9c9b293509a35e2584",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/jasmine_2.8.10_1541458124713_0.8156870123480424"
+      }
+    },
+    "3.4.6" : {
+      "name" : "@types/jasmine",
+      "description" : "TypeScript definitions for Jasmine",
+      "version" : "3.4.6",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+        "directory" : "types/jasmine"
+      },
+      "contributors" : [ {
+        "name" : "Boris Yankov",
+        "url" : "https://github.com/borisyankov",
+        "githubUsername" : "borisyankov"
+      }, {
+        "name" : "Theodore Brown",
+        "url" : "https://github.com/theodorejb",
+        "githubUsername" : "theodorejb"
+      }, {
+        "name" : "David Pärsson",
+        "url" : "https://github.com/davidparsson",
+        "githubUsername" : "davidparsson"
+      }, {
+        "name" : "Gabe Moothart",
+        "url" : "https://github.com/gmoothart",
+        "githubUsername" : "gmoothart"
+      }, {
+        "name" : "Lukas Zech",
+        "url" : "https://github.com/lukas-zech-software",
+        "githubUsername" : "lukas-zech-software"
+      }, {
+        "name" : "Boris Breuer",
+        "url" : "https://github.com/Engineer2B",
+        "githubUsername" : "Engineer2B"
+      }, {
+        "name" : "Chris Yungmann",
+        "url" : "https://github.com/cyungmann",
+        "githubUsername" : "cyungmann"
+      }, {
+        "name" : "Giles Roadnight",
+        "url" : "https://github.com/Roaders",
+        "githubUsername" : "Roaders"
+      }, {
+        "name" : "Yaroslav Admin",
+        "url" : "https://github.com/devoto13",
+        "githubUsername" : "devoto13"
+      }, {
+        "name" : "Domas Trijonis",
+        "url" : "https://github.com/fdim",
+        "githubUsername" : "fdim"
+      }, {
+        "name" : "Moshe Kolodny",
+        "url" : "https://github.com/kolodny",
+        "githubUsername" : "kolodny"
+      }, {
+        "name" : "Stephen Farrar",
+        "url" : "https://github.com/stephenfarrar",
+        "githubUsername" : "stephenfarrar"
+      }, {
+        "name" : "Mochamad Arfin",
+        "url" : "https://github.com/ndunks",
+        "githubUsername" : "ndunks"
+      }, {
+        "name" : "Alex Povar",
+        "url" : "https://github.com/zvirja",
+        "githubUsername" : "zvirja"
+      }, {
+        "name" : "Dominik Ehrenberg",
+        "url" : "https://github.com/djungowski",
+        "githubUsername" : "djungowski"
+      } ],
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/@types/jasmine/-/jasmine-3.4.6.tgz",
+        "shasum" : "afcb210af0fa751b85a96b2034eedada65390be1"
+      },
+      "dependencies" : {
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/jasmine@3.4.6",
+      "typesVersions" : {
+        ">=3.1.0-0" : {
+          "*" : [ "ts3.1/*" ]
+        }
+      },
+      "types" : "index",
+      "typeScriptVersion" : "2.8",
+      "_hasShrinkwrap" : false,
+      "typesPublisherContentHash" : "552b879648276b98be36ea14b329f702807a1c8eba786bdd0a038087c02c7976",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/jasmine_3.4.6_1572990717969_0.7116818318339981"
+      }
+    },
+    "2.2.32" : {
+      "name" : "@types/jasmine",
+      "description" : "TypeScript definitions for Jasmine 2.2",
+      "version" : "2.2.32",
+      "author" : "Boris Yankov <https://github.com/borisyankov/>, Theodore Brown <https://github.com/theodorejb>, David Pärsson <https://github.com/davidparsson/>",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+      },
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/@types/jasmine/-/jasmine-2.2.32.tgz",
+        "shasum" : "954a5806e43d80436a2d252fbb48902fdf5f23bf"
+      },
+      "dependencies" : {
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ryan.cavanaugh@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/jasmine@2.2.32",
+      "typings" : "index.d.ts",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/jasmine-2.2.32.tgz_1471620548828_0.686333398334682"
+      }
+    },
+    "2.8.11" : {
+      "name" : "@types/jasmine",
+      "description" : "TypeScript definitions for Jasmine",
+      "version" : "2.8.11",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/DefinitelyTyped/DefinitelyTyped.git"
+      },
+      "contributors" : [ {
+        "name" : "Boris Yankov",
+        "url" : "https://github.com/borisyankov",
+        "githubUsername" : "borisyankov"
+      }, {
+        "name" : "Theodore Brown",
+        "url" : "https://github.com/theodorejb",
+        "githubUsername" : "theodorejb"
+      }, {
+        "name" : "David Pärsson",
+        "url" : "https://github.com/davidparsson",
+        "githubUsername" : "davidparsson"
+      }, {
+        "name" : "Gabe Moothart",
+        "url" : "https://github.com/gmoothart",
+        "githubUsername" : "gmoothart"
+      }, {
+        "name" : "Lukas Zech",
+        "url" : "https://github.com/lukas-zech-software",
+        "githubUsername" : "lukas-zech-software"
+      }, {
+        "name" : "Boris Breuer",
+        "url" : "https://github.com/Engineer2B",
+        "githubUsername" : "Engineer2B"
+      }, {
+        "name" : "Chris Yungmann",
+        "url" : "https://github.com/cyungmann",
+        "githubUsername" : "cyungmann"
+      } ],
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/@types/jasmine/-/jasmine-2.8.11.tgz",
+        "shasum" : "0b5eba9e02616736b1a189112eacc163c3773b7b"
+      },
+      "dependencies" : {
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/jasmine@2.8.11",
+      "types" : "index",
+      "typeScriptVersion" : "2.8",
+      "_hasShrinkwrap" : false,
+      "typesPublisherContentHash" : "614f4a123154bed1f43294a4f89b60b412bc8a8c3b25b657fa196af53c1c1cba",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/jasmine_2.8.11_1541459418437_0.08094760285728064"
+      }
+    },
+    "2.2.31" : {
+      "name" : "@types/jasmine",
+      "description" : "TypeScript definitions for Jasmine 2.2",
+      "version" : "2.2.31",
+      "author" : "Boris Yankov <https://github.com/borisyankov/>, Theodore Brown <https://github.com/theodorejb>, David Pärsson <https://github.com/davidparsson/>",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+      },
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/@types/jasmine/-/jasmine-2.2.31.tgz",
+        "shasum" : "a69c539535018120e51a3819cd15e990cc116ad9"
+      },
+      "dependencies" : {
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ryan.cavanaugh@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/jasmine@2.2.31",
+      "typings" : "index.d.ts",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/jasmine-2.2.31.tgz_1470153331039_0.6127350085880607"
+      }
+    },
+    "2.8.12" : {
+      "name" : "@types/jasmine",
+      "description" : "TypeScript definitions for Jasmine",
+      "version" : "2.8.12",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/DefinitelyTyped/DefinitelyTyped.git"
+      },
+      "contributors" : [ {
+        "name" : "Boris Yankov",
+        "url" : "https://github.com/borisyankov",
+        "githubUsername" : "borisyankov"
+      }, {
+        "name" : "Theodore Brown",
+        "url" : "https://github.com/theodorejb",
+        "githubUsername" : "theodorejb"
+      }, {
+        "name" : "David Pärsson",
+        "url" : "https://github.com/davidparsson",
+        "githubUsername" : "davidparsson"
+      }, {
+        "name" : "Gabe Moothart",
+        "url" : "https://github.com/gmoothart",
+        "githubUsername" : "gmoothart"
+      }, {
+        "name" : "Lukas Zech",
+        "url" : "https://github.com/lukas-zech-software",
+        "githubUsername" : "lukas-zech-software"
+      }, {
+        "name" : "Boris Breuer",
+        "url" : "https://github.com/Engineer2B",
+        "githubUsername" : "Engineer2B"
+      }, {
+        "name" : "Chris Yungmann",
+        "url" : "https://github.com/cyungmann",
+        "githubUsername" : "cyungmann"
+      } ],
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/@types/jasmine/-/jasmine-2.8.12.tgz",
+        "shasum" : "dfe606b07686c977f54d17cb8ebe6cae2e26f8ff"
+      },
+      "dependencies" : {
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/jasmine@2.8.12",
+      "types" : "index",
+      "typeScriptVersion" : "2.8",
+      "_hasShrinkwrap" : false,
+      "typesPublisherContentHash" : "5988b1c893fb8952ab94e39bf8901739ab6d9978da4ecf603f5e66966cedc91a",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/jasmine_2.8.12_1542591764878_0.8585687535185527"
+      }
+    },
+    "2.2.34" : {
+      "name" : "@types/jasmine",
+      "description" : "TypeScript definitions for Jasmine 2.2",
+      "version" : "2.2.34",
+      "author" : "Boris Yankov <https://github.com/borisyankov/>, Theodore Brown <https://github.com/theodorejb>, David Pärsson <https://github.com/davidparsson/>",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+      },
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/@types/jasmine/-/jasmine-2.2.34.tgz",
+        "shasum" : "4156d5f8ea59dc2adb6e5f21e09ae80f19090505"
+      },
+      "dependencies" : {
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ryan.cavanaugh@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/jasmine@2.2.34",
+      "typings" : "index.d.ts",
+      "typesPublisherContentHash" : "608d57b043cd805f7347bcccb8521d07f580281faf9a7177e970862d3b171a50",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/jasmine-2.2.34.tgz_1474309341553_0.07764526200480759"
+      }
+    },
+    "2.2.33" : {
+      "name" : "@types/jasmine",
+      "description" : "TypeScript definitions for Jasmine 2.2",
+      "version" : "2.2.33",
+      "author" : "Boris Yankov <https://github.com/borisyankov/>, Theodore Brown <https://github.com/theodorejb>, David Pärsson <https://github.com/davidparsson/>",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+      },
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/@types/jasmine/-/jasmine-2.2.33.tgz",
+        "shasum" : "4715cfd2ca7fbd632fc7f1784f13e637bed028c5"
+      },
+      "dependencies" : {
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ryan.cavanaugh@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/jasmine@2.2.33",
+      "typings" : "index.d.ts",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/jasmine-2.2.33.tgz_1472150735380_0.38649170380085707"
+      }
+    },
+    "2.2.25-alpha" : {
+      "name" : "@types/jasmine",
+      "description" : "TypeScript definitions for Jasmine 2.2",
+      "version" : "2.2.25-alpha",
+      "author" : {
+        "name" : "Boris Yankov",
+        "email" : "https://github.com/borisyankov/"
+      },
+      "repository" : {
+        "type" : "git",
+        "url" : "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+      },
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/@types/jasmine/-/jasmine-2.2.25-alpha.tgz",
+        "shasum" : "43089b5848d0038663d1fe1cf8979f2106c117fa"
+      },
+      "dependencies" : {
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ryan.cavanaugh@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_from" : "output\\jasmine",
+      "_npmVersion" : "3.7.2",
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ryan.cavanaugh@microsoft.com"
+      },
+      "_id" : "@types/jasmine@2.2.25-alpha",
+      "typings" : "index.d.ts",
+      "_npmOperationalInternal" : {
+        "host" : "packages-16-east.internal.npmjs.com",
+        "tmp" : "tmp/jasmine-2.2.25-alpha.tgz_1467427237349_0.5275508093181998"
+      },
+      "_shasum" : "43089b5848d0038663d1fe1cf8979f2106c117fa",
+      "_resolved" : "file:output\\jasmine",
+      "_nodeVersion" : "6.2.1"
+    },
+    "1.3.0" : {
+      "name" : "@types/jasmine",
+      "description" : "TypeScript definitions for Jasmine",
+      "version" : "1.3.0",
+      "author" : "Boris Yankov <https://github.com/borisyankov/>",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+      },
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/@types/jasmine/-/jasmine-1.3.0.tgz",
+        "shasum" : "eff2bd181e025ca26a5e4ed241ad932d21552107"
+      },
+      "dependencies" : {
+      },
+      "peerDependencies" : {
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ryan.cavanaugh@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/jasmine@1.3.0",
+      "typeScriptVersion" : "2.0",
+      "typesPublisherContentHash" : "ff7d5887541f22dbfe739aac6166eb578488cecf04ddd421188774df937facc3",
+      "_npmOperationalInternal" : {
+        "host" : "packages-18-east.internal.npmjs.com",
+        "tmp" : "tmp/jasmine-1.3.0.tgz_1484074426193_0.7854864858090878"
+      }
+    },
+    "3.3.12" : {
+      "name" : "@types/jasmine",
+      "description" : "TypeScript definitions for Jasmine",
+      "version" : "3.3.12",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+        "directory" : "types/jasmine"
+      },
+      "contributors" : [ {
+        "name" : "Boris Yankov",
+        "url" : "https://github.com/borisyankov",
+        "githubUsername" : "borisyankov"
+      }, {
+        "name" : "Theodore Brown",
+        "url" : "https://github.com/theodorejb",
+        "githubUsername" : "theodorejb"
+      }, {
+        "name" : "David Pärsson",
+        "url" : "https://github.com/davidparsson",
+        "githubUsername" : "davidparsson"
+      }, {
+        "name" : "Gabe Moothart",
+        "url" : "https://github.com/gmoothart",
+        "githubUsername" : "gmoothart"
+      }, {
+        "name" : "Lukas Zech",
+        "url" : "https://github.com/lukas-zech-software",
+        "githubUsername" : "lukas-zech-software"
+      }, {
+        "name" : "Boris Breuer",
+        "url" : "https://github.com/Engineer2B",
+        "githubUsername" : "Engineer2B"
+      }, {
+        "name" : "Chris Yungmann",
+        "url" : "https://github.com/cyungmann",
+        "githubUsername" : "cyungmann"
+      }, {
+        "name" : "Giles Roadnight",
+        "url" : "https://github.com/Roaders",
+        "githubUsername" : "Roaders"
+      }, {
+        "name" : "Yaroslav Admin",
+        "url" : "https://github.com/devoto13",
+        "githubUsername" : "devoto13"
+      }, {
+        "name" : "Domas Trijonis",
+        "url" : "https://github.com/fdim",
+        "githubUsername" : "fdim"
+      }, {
+        "name" : "Peter Safranek",
+        "url" : "https://github.com/pe8ter",
+        "githubUsername" : "pe8ter"
+      } ],
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/@types/jasmine/-/jasmine-3.3.12.tgz",
+        "shasum" : "bf282cb540e9ad7a0a04b742082c073b655eab39"
+      },
+      "dependencies" : {
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/jasmine@3.3.12",
+      "typesVersions" : {
+        ">=3.1.0-0" : {
+          "*" : [ "ts3.1/*" ]
+        }
+      },
+      "types" : "index",
+      "typeScriptVersion" : "2.8",
+      "_hasShrinkwrap" : false,
+      "typesPublisherContentHash" : "5f37737a2aa51571b8c7430fc4afef6cad4732a5ab58334c556693cebbd4ffbb",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/jasmine_3.3.12_1553019768886_0.2560388770294786"
+      }
+    },
+    "1.3.1" : {
+      "name" : "@types/jasmine",
+      "description" : "TypeScript definitions for Jasmine",
+      "version" : "1.3.1",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+      },
+      "contributors" : [ {
+        "name" : "Boris Yankov",
+        "url" : "https://github.com/borisyankov/"
+      } ],
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/@types/jasmine/-/jasmine-1.3.1.tgz",
+        "shasum" : "9c884967f2abfb0d2fe2d53f7a3406f06105502e"
+      },
+      "dependencies" : {
+      },
+      "peerDependencies" : {
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ryan.cavanaugh@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/jasmine@1.3.1",
+      "typeScriptVersion" : "2.0",
+      "typesPublisherContentHash" : "7485042a967ae7634ec90015562e57ed9894490a733d663967e6c81cf9ffcbd9",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/jasmine-1.3.1.tgz_1488291868229_0.40098934224806726"
+      }
+    },
+    "3.3.11" : {
+      "name" : "@types/jasmine",
+      "description" : "TypeScript definitions for Jasmine",
+      "version" : "3.3.11",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+        "directory" : "types/jasmine"
+      },
+      "contributors" : [ {
+        "name" : "Boris Yankov",
+        "url" : "https://github.com/borisyankov",
+        "githubUsername" : "borisyankov"
+      }, {
+        "name" : "Theodore Brown",
+        "url" : "https://github.com/theodorejb",
+        "githubUsername" : "theodorejb"
+      }, {
+        "name" : "David Pärsson",
+        "url" : "https://github.com/davidparsson",
+        "githubUsername" : "davidparsson"
+      }, {
+        "name" : "Gabe Moothart",
+        "url" : "https://github.com/gmoothart",
+        "githubUsername" : "gmoothart"
+      }, {
+        "name" : "Lukas Zech",
+        "url" : "https://github.com/lukas-zech-software",
+        "githubUsername" : "lukas-zech-software"
+      }, {
+        "name" : "Boris Breuer",
+        "url" : "https://github.com/Engineer2B",
+        "githubUsername" : "Engineer2B"
+      }, {
+        "name" : "Chris Yungmann",
+        "url" : "https://github.com/cyungmann",
+        "githubUsername" : "cyungmann"
+      }, {
+        "name" : "Giles Roadnight",
+        "url" : "https://github.com/Roaders",
+        "githubUsername" : "Roaders"
+      }, {
+        "name" : "Yaroslav Admin",
+        "url" : "https://github.com/devoto13",
+        "githubUsername" : "devoto13"
+      }, {
+        "name" : "Domas Trijonis",
+        "url" : "https://github.com/fdim",
+        "githubUsername" : "fdim"
+      }, {
+        "name" : "Peter Safranek",
+        "url" : "https://github.com/pe8ter",
+        "githubUsername" : "pe8ter"
+      } ],
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/@types/jasmine/-/jasmine-3.3.11.tgz",
+        "shasum" : "6af60e9ec841e4112f043fea45638e99a4cb009d"
+      },
+      "dependencies" : {
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/jasmine@3.3.11",
+      "types" : "index",
+      "typeScriptVersion" : "2.8",
+      "_hasShrinkwrap" : false,
+      "typesPublisherContentHash" : "9d62ee5c20bd34a2da59b8ae2945594b16d1963b071c8d1929afbbf0f670b8ac",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/jasmine_3.3.11_1552939918587_0.47036135638721444"
+      }
+    },
+    "1.3.2" : {
+      "name" : "@types/jasmine",
+      "description" : "TypeScript definitions for Jasmine",
+      "version" : "1.3.2",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+      },
+      "contributors" : [ {
+        "name" : "Boris Yankov",
+        "url" : "https://github.com/borisyankov/"
+      } ],
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/@types/jasmine/-/jasmine-1.3.2.tgz",
+        "shasum" : "c20d8dc4dde3410367f039a351412fc387cf7c2e"
+      },
+      "dependencies" : {
+      },
+      "peerDependencies" : {
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ryan.cavanaugh@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/jasmine@1.3.2",
+      "typeScriptVersion" : "2.0",
+      "typesPublisherContentHash" : "b238c2c81d6a6e925671fec359859c564d0fc296803a57220a0d3af6b9cfcdc4",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/jasmine-1.3.2.tgz_1489603341802_0.547099692048505"
+      }
+    },
+    "3.3.10" : {
+      "name" : "@types/jasmine",
+      "description" : "TypeScript definitions for Jasmine",
+      "version" : "3.3.10",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+        "directory" : "types/jasmine"
+      },
+      "contributors" : [ {
+        "name" : "Boris Yankov",
+        "url" : "https://github.com/borisyankov",
+        "githubUsername" : "borisyankov"
+      }, {
+        "name" : "Theodore Brown",
+        "url" : "https://github.com/theodorejb",
+        "githubUsername" : "theodorejb"
+      }, {
+        "name" : "David Pärsson",
+        "url" : "https://github.com/davidparsson",
+        "githubUsername" : "davidparsson"
+      }, {
+        "name" : "Gabe Moothart",
+        "url" : "https://github.com/gmoothart",
+        "githubUsername" : "gmoothart"
+      }, {
+        "name" : "Lukas Zech",
+        "url" : "https://github.com/lukas-zech-software",
+        "githubUsername" : "lukas-zech-software"
+      }, {
+        "name" : "Boris Breuer",
+        "url" : "https://github.com/Engineer2B",
+        "githubUsername" : "Engineer2B"
+      }, {
+        "name" : "Chris Yungmann",
+        "url" : "https://github.com/cyungmann",
+        "githubUsername" : "cyungmann"
+      }, {
+        "name" : "Giles Roadnight",
+        "url" : "https://github.com/Roaders",
+        "githubUsername" : "Roaders"
+      }, {
+        "name" : "Yaroslav Admin",
+        "url" : "https://github.com/devoto13",
+        "githubUsername" : "devoto13"
+      }, {
+        "name" : "Domas Trijonis",
+        "url" : "https://github.com/fdim",
+        "githubUsername" : "fdim"
+      }, {
+        "name" : "Peter Safranek",
+        "url" : "https://github.com/pe8ter",
+        "githubUsername" : "pe8ter"
+      } ],
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/@types/jasmine/-/jasmine-3.3.10.tgz",
+        "shasum" : "5b90c8e74246487e8810100ddc2547ffc94d31f6"
+      },
+      "dependencies" : {
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/jasmine@3.3.10",
+      "types" : "index",
+      "typeScriptVersion" : "2.8",
+      "_hasShrinkwrap" : false,
+      "typesPublisherContentHash" : "b8f04e35e4e429f8e7231249efd8083433b2690568fdee44a932c87c33136052",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/jasmine_3.3.10_1552672120067_0.28353335734674157"
+      }
+    },
+    "1.3.3" : {
+      "name" : "@types/jasmine",
+      "description" : "TypeScript definitions for Jasmine",
+      "version" : "1.3.3",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/DefinitelyTyped/DefinitelyTyped.git"
+      },
+      "contributors" : [ {
+        "name" : "Boris Yankov",
+        "url" : "https://github.com/borisyankov",
+        "githubUsername" : "borisyankov"
+      } ],
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/@types/jasmine/-/jasmine-1.3.3.tgz",
+        "shasum" : "30ddd337e4cc348b6aee58f239f4a0094cddd90e"
+      },
+      "dependencies" : {
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/jasmine@1.3.3",
+      "types" : "index",
+      "typeScriptVersion" : "2.0",
+      "_hasShrinkwrap" : false,
+      "typesPublisherContentHash" : "e456d5a14d00f7cebb6950d27103e478460af58685c78572cf433aa261a41c21",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/jasmine_1.3.3_1542590206026_0.21835257550623788"
+      }
+    },
+    "3.3.16" : {
+      "name" : "@types/jasmine",
+      "description" : "TypeScript definitions for Jasmine",
+      "version" : "3.3.16",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+        "directory" : "types/jasmine"
+      },
+      "contributors" : [ {
+        "name" : "Boris Yankov",
+        "url" : "https://github.com/borisyankov",
+        "githubUsername" : "borisyankov"
+      }, {
+        "name" : "Theodore Brown",
+        "url" : "https://github.com/theodorejb",
+        "githubUsername" : "theodorejb"
+      }, {
+        "name" : "David Pärsson",
+        "url" : "https://github.com/davidparsson",
+        "githubUsername" : "davidparsson"
+      }, {
+        "name" : "Gabe Moothart",
+        "url" : "https://github.com/gmoothart",
+        "githubUsername" : "gmoothart"
+      }, {
+        "name" : "Lukas Zech",
+        "url" : "https://github.com/lukas-zech-software",
+        "githubUsername" : "lukas-zech-software"
+      }, {
+        "name" : "Boris Breuer",
+        "url" : "https://github.com/Engineer2B",
+        "githubUsername" : "Engineer2B"
+      }, {
+        "name" : "Chris Yungmann",
+        "url" : "https://github.com/cyungmann",
+        "githubUsername" : "cyungmann"
+      }, {
+        "name" : "Giles Roadnight",
+        "url" : "https://github.com/Roaders",
+        "githubUsername" : "Roaders"
+      }, {
+        "name" : "Yaroslav Admin",
+        "url" : "https://github.com/devoto13",
+        "githubUsername" : "devoto13"
+      }, {
+        "name" : "Domas Trijonis",
+        "url" : "https://github.com/fdim",
+        "githubUsername" : "fdim"
+      }, {
+        "name" : "Peter Safranek",
+        "url" : "https://github.com/pe8ter",
+        "githubUsername" : "pe8ter"
+      }, {
+        "name" : "Moshe Kolodny",
+        "url" : "https://github.com/kolodny",
+        "githubUsername" : "kolodny"
+      }, {
+        "name" : "Stephen Farrar",
+        "url" : "https://github.com/stephenfarrar",
+        "githubUsername" : "stephenfarrar"
+      } ],
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/@types/jasmine/-/jasmine-3.3.16.tgz",
+        "shasum" : "7c84074f5d7f84da9a14f816ccfb9aeb4da13f27"
+      },
+      "dependencies" : {
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/jasmine@3.3.16",
+      "typesVersions" : {
+        ">=3.1.0-0" : {
+          "*" : [ "ts3.1/*" ]
+        }
+      },
+      "types" : "index",
+      "typeScriptVersion" : "2.8",
+      "_hasShrinkwrap" : false,
+      "typesPublisherContentHash" : "ecd3a4f0d5de8333891f5227cadd7654c29918e72fa9c83f4d578cb30ff751e9",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/jasmine_3.3.16_1564163965798_0.5674368035432333"
+      }
+    },
+    "2.2.22-alpha" : {
+      "name" : "@types/jasmine",
+      "description" : "TypeScript definitions for Jasmine 2.2",
+      "version" : "2.2.22-alpha",
+      "author" : {
+        "name" : "Boris Yankov",
+        "email" : "https://github.com/borisyankov/"
+      },
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/@types/jasmine/-/jasmine-2.2.22-alpha.tgz",
+        "shasum" : "eecaee43fe42ef6b5cfefad1bcc370c433f485bf"
+      },
+      "dependencies" : {
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ryan.cavanaugh@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_from" : "output\\jasmine",
+      "_npmVersion" : "3.8.2",
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ryan.cavanaugh@microsoft.com"
+      },
+      "_id" : "@types/jasmine@2.2.22-alpha",
+      "typings" : "index.d.ts",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/jasmine-2.2.22-alpha.tgz_1464152962917_0.25692704669199884"
+      },
+      "_shasum" : "eecaee43fe42ef6b5cfefad1bcc370c433f485bf",
+      "_resolved" : "file:output\\jasmine",
+      "_nodeVersion" : "5.5.0"
+    },
+    "3.3.15" : {
+      "name" : "@types/jasmine",
+      "description" : "TypeScript definitions for Jasmine",
+      "version" : "3.3.15",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+        "directory" : "types/jasmine"
+      },
+      "contributors" : [ {
+        "name" : "Boris Yankov",
+        "url" : "https://github.com/borisyankov",
+        "githubUsername" : "borisyankov"
+      }, {
+        "name" : "Theodore Brown",
+        "url" : "https://github.com/theodorejb",
+        "githubUsername" : "theodorejb"
+      }, {
+        "name" : "David Pärsson",
+        "url" : "https://github.com/davidparsson",
+        "githubUsername" : "davidparsson"
+      }, {
+        "name" : "Gabe Moothart",
+        "url" : "https://github.com/gmoothart",
+        "githubUsername" : "gmoothart"
+      }, {
+        "name" : "Lukas Zech",
+        "url" : "https://github.com/lukas-zech-software",
+        "githubUsername" : "lukas-zech-software"
+      }, {
+        "name" : "Boris Breuer",
+        "url" : "https://github.com/Engineer2B",
+        "githubUsername" : "Engineer2B"
+      }, {
+        "name" : "Chris Yungmann",
+        "url" : "https://github.com/cyungmann",
+        "githubUsername" : "cyungmann"
+      }, {
+        "name" : "Giles Roadnight",
+        "url" : "https://github.com/Roaders",
+        "githubUsername" : "Roaders"
+      }, {
+        "name" : "Yaroslav Admin",
+        "url" : "https://github.com/devoto13",
+        "githubUsername" : "devoto13"
+      }, {
+        "name" : "Domas Trijonis",
+        "url" : "https://github.com/fdim",
+        "githubUsername" : "fdim"
+      }, {
+        "name" : "Peter Safranek",
+        "url" : "https://github.com/pe8ter",
+        "githubUsername" : "pe8ter"
+      }, {
+        "name" : "Moshe Kolodny",
+        "url" : "https://github.com/kolodny",
+        "githubUsername" : "kolodny"
+      } ],
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/@types/jasmine/-/jasmine-3.3.15.tgz",
+        "shasum" : "545be0670e828ac570566c45be570bbffcbc66d8"
+      },
+      "dependencies" : {
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/jasmine@3.3.15",
+      "typesVersions" : {
+        ">=3.1.0-0" : {
+          "*" : [ "ts3.1/*" ]
+        }
+      },
+      "types" : "index",
+      "typeScriptVersion" : "2.8",
+      "_hasShrinkwrap" : false,
+      "typesPublisherContentHash" : "92b0e852662210ed6fc2c85a9d73fbebfd5413132c8024de8058681a0008b914",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/jasmine_3.3.15_1563824683454_0.30534068963080996"
+      }
+    },
+    "3.3.14" : {
+      "name" : "@types/jasmine",
+      "description" : "TypeScript definitions for Jasmine",
+      "version" : "3.3.14",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+        "directory" : "types/jasmine"
+      },
+      "contributors" : [ {
+        "name" : "Boris Yankov",
+        "url" : "https://github.com/borisyankov",
+        "githubUsername" : "borisyankov"
+      }, {
+        "name" : "Theodore Brown",
+        "url" : "https://github.com/theodorejb",
+        "githubUsername" : "theodorejb"
+      }, {
+        "name" : "David Pärsson",
+        "url" : "https://github.com/davidparsson",
+        "githubUsername" : "davidparsson"
+      }, {
+        "name" : "Gabe Moothart",
+        "url" : "https://github.com/gmoothart",
+        "githubUsername" : "gmoothart"
+      }, {
+        "name" : "Lukas Zech",
+        "url" : "https://github.com/lukas-zech-software",
+        "githubUsername" : "lukas-zech-software"
+      }, {
+        "name" : "Boris Breuer",
+        "url" : "https://github.com/Engineer2B",
+        "githubUsername" : "Engineer2B"
+      }, {
+        "name" : "Chris Yungmann",
+        "url" : "https://github.com/cyungmann",
+        "githubUsername" : "cyungmann"
+      }, {
+        "name" : "Giles Roadnight",
+        "url" : "https://github.com/Roaders",
+        "githubUsername" : "Roaders"
+      }, {
+        "name" : "Yaroslav Admin",
+        "url" : "https://github.com/devoto13",
+        "githubUsername" : "devoto13"
+      }, {
+        "name" : "Domas Trijonis",
+        "url" : "https://github.com/fdim",
+        "githubUsername" : "fdim"
+      }, {
+        "name" : "Peter Safranek",
+        "url" : "https://github.com/pe8ter",
+        "githubUsername" : "pe8ter"
+      }, {
+        "name" : "Moshe Kolodny",
+        "url" : "https://github.com/kolodny",
+        "githubUsername" : "kolodny"
+      } ],
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/@types/jasmine/-/jasmine-3.3.14.tgz",
+        "shasum" : "593440eef2793ed6c2beddf65850f4ed3028599c"
+      },
+      "dependencies" : {
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/jasmine@3.3.14",
+      "typesVersions" : {
+        ">=3.1.0-0" : {
+          "*" : [ "ts3.1/*" ]
+        }
+      },
+      "types" : "index",
+      "typeScriptVersion" : "2.8",
+      "_hasShrinkwrap" : false,
+      "typesPublisherContentHash" : "7a56166378fe6a8a912c50efab73fded5d9a28a8529272c64cff30913027f672",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/jasmine_3.3.14_1563495975579_0.02443628344696025"
+      }
+    },
+    "3.3.13" : {
+      "name" : "@types/jasmine",
+      "description" : "TypeScript definitions for Jasmine",
+      "version" : "3.3.13",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+        "directory" : "types/jasmine"
+      },
+      "contributors" : [ {
+        "name" : "Boris Yankov",
+        "url" : "https://github.com/borisyankov",
+        "githubUsername" : "borisyankov"
+      }, {
+        "name" : "Theodore Brown",
+        "url" : "https://github.com/theodorejb",
+        "githubUsername" : "theodorejb"
+      }, {
+        "name" : "David Pärsson",
+        "url" : "https://github.com/davidparsson",
+        "githubUsername" : "davidparsson"
+      }, {
+        "name" : "Gabe Moothart",
+        "url" : "https://github.com/gmoothart",
+        "githubUsername" : "gmoothart"
+      }, {
+        "name" : "Lukas Zech",
+        "url" : "https://github.com/lukas-zech-software",
+        "githubUsername" : "lukas-zech-software"
+      }, {
+        "name" : "Boris Breuer",
+        "url" : "https://github.com/Engineer2B",
+        "githubUsername" : "Engineer2B"
+      }, {
+        "name" : "Chris Yungmann",
+        "url" : "https://github.com/cyungmann",
+        "githubUsername" : "cyungmann"
+      }, {
+        "name" : "Giles Roadnight",
+        "url" : "https://github.com/Roaders",
+        "githubUsername" : "Roaders"
+      }, {
+        "name" : "Yaroslav Admin",
+        "url" : "https://github.com/devoto13",
+        "githubUsername" : "devoto13"
+      }, {
+        "name" : "Domas Trijonis",
+        "url" : "https://github.com/fdim",
+        "githubUsername" : "fdim"
+      }, {
+        "name" : "Peter Safranek",
+        "url" : "https://github.com/pe8ter",
+        "githubUsername" : "pe8ter"
+      }, {
+        "name" : "Moshe Kolodny",
+        "url" : "https://github.com/kolodny",
+        "githubUsername" : "kolodny"
+      } ],
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/@types/jasmine/-/jasmine-3.3.13.tgz",
+        "shasum" : "d5daabb0af47bcddee40597acf6e804433bab439"
+      },
+      "dependencies" : {
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/jasmine@3.3.13",
+      "typesVersions" : {
+        ">=3.1.0-0" : {
+          "*" : [ "ts3.1/*" ]
+        }
+      },
+      "types" : "index",
+      "typeScriptVersion" : "2.8",
+      "_hasShrinkwrap" : false,
+      "typesPublisherContentHash" : "62b178d802a91a1d3798c782d36bdee8943d89fe0966bd9886405ec105cc68c3",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/jasmine_3.3.13_1559076995511_0.7707616769755392"
+      }
+    },
+    "2.2.26-alpha" : {
+      "name" : "@types/jasmine",
+      "description" : "TypeScript definitions for Jasmine 2.2",
+      "version" : "2.2.26-alpha",
+      "author" : {
+        "name" : "Boris Yankov",
+        "email" : "https://github.com/borisyankov/"
+      },
+      "repository" : {
+        "type" : "git",
+        "url" : "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+      },
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/@types/jasmine/-/jasmine-2.2.26-alpha.tgz",
+        "shasum" : "b56383149c4e583e30a3f40ef615104351c515a6"
+      },
+      "dependencies" : {
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ryan.cavanaugh@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_from" : "output\\jasmine",
+      "_npmVersion" : "3.7.2",
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ryan.cavanaugh@microsoft.com"
+      },
+      "_id" : "@types/jasmine@2.2.26-alpha",
+      "typings" : "index.d.ts",
+      "_npmOperationalInternal" : {
+        "host" : "packages-16-east.internal.npmjs.com",
+        "tmp" : "tmp/jasmine-2.2.26-alpha.tgz_1467592417680_0.43453761958517134"
+      },
+      "_shasum" : "b56383149c4e583e30a3f40ef615104351c515a6",
+      "_resolved" : "file:output\\jasmine",
+      "_nodeVersion" : "6.2.1"
+    },
+    "2.5.53" : {
+      "name" : "@types/jasmine",
+      "description" : "TypeScript definitions for Jasmine",
+      "version" : "2.5.53",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+      },
+      "contributors" : [ {
+        "name" : "Boris Yankov",
+        "url" : "https://github.com/borisyankov/"
+      }, {
+        "name" : "Theodore Brown",
+        "url" : "https://github.com/theodorejb"
+      }, {
+        "name" : "David Pärsson",
+        "url" : "https://github.com/davidparsson/"
+      }, {
+        "name" : "Gabe Moothart",
+        "url" : "https://github.com/gmoothart"
+      }, {
+        "name" : "Lukas Zech",
+        "url" : "https://github.com/lukas-zech-software"
+      } ],
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/@types/jasmine/-/jasmine-2.5.53.tgz",
+        "shasum" : "4e0cefad09df5ec48c8dd40433512f84b1568d61"
+      },
+      "dependencies" : {
+      },
+      "peerDependencies" : {
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/jasmine@2.5.53",
+      "typeScriptVersion" : "2.1",
+      "typesPublisherContentHash" : "5707f8739192e5e1c0202d630546228db04cf9ac32e0f284141ffdb37b72a916",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/jasmine-2.5.53.tgz_1498239317086_0.6815302141476423"
+      }
+    },
+    "2.5.52" : {
+      "name" : "@types/jasmine",
+      "description" : "TypeScript definitions for Jasmine",
+      "version" : "2.5.52",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+      },
+      "contributors" : [ {
+        "name" : "Boris Yankov",
+        "url" : "https://github.com/borisyankov/"
+      }, {
+        "name" : "Theodore Brown",
+        "url" : "https://github.com/theodorejb"
+      }, {
+        "name" : "David Pärsson",
+        "url" : "https://github.com/davidparsson/"
+      }, {
+        "name" : "Gabe Moothart",
+        "url" : "https://github.com/gmoothart"
+      }, {
+        "name" : "Lukas Zech",
+        "url" : "https://github.com/lukas-zech-software"
+      } ],
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/@types/jasmine/-/jasmine-2.5.52.tgz",
+        "shasum" : "6ea5435d5c71562296e63ef27a4718f94f2fbb13"
+      },
+      "dependencies" : {
+      },
+      "peerDependencies" : {
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/jasmine@2.5.52",
+      "typeScriptVersion" : "2.1",
+      "typesPublisherContentHash" : "ecc5b63a3a4fdc5b556935dd1e96c8319262d215eaf9df41aba04a8d543302b7",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/jasmine-2.5.52.tgz_1497305746064_0.44884863938204944"
+      }
+    },
+    "2.2.16-alpha" : {
+      "name" : "@types/jasmine",
+      "description" : "Type definitions for Jasmine 2.2 from https://www.github.com/DefinitelyTyped/DefinitelyTyped",
+      "version" : "2.2.16-alpha",
+      "author" : {
+        "name" : "Boris Yankov",
+        "email" : "https://github.com/borisyankov/"
+      },
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/@types/jasmine/-/jasmine-2.2.16-alpha.tgz",
+        "shasum" : "f0c04b82d0c19ca52ebe5e5e87f8ddc3d8a58830"
+      },
+      "dependencies" : {
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ryan.cavanaugh@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_from" : "output\\jasmine",
+      "_npmVersion" : "3.8.2",
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ryan.cavanaugh@microsoft.com"
+      },
+      "_id" : "@types/jasmine@2.2.16-alpha",
+      "typings" : "index.d.ts",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/jasmine-2.2.16-alpha.tgz_1463692521498_0.6279854797758162"
+      },
+      "_shasum" : "f0c04b82d0c19ca52ebe5e5e87f8ddc3d8a58830",
+      "_resolved" : "file:output\\jasmine",
+      "_nodeVersion" : "5.5.0"
+    },
+    "2.5.51" : {
+      "name" : "@types/jasmine",
+      "description" : "TypeScript definitions for Jasmine",
+      "version" : "2.5.51",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+      },
+      "contributors" : [ {
+        "name" : "Boris Yankov",
+        "url" : "https://github.com/borisyankov/"
+      }, {
+        "name" : "Theodore Brown",
+        "url" : "https://github.com/theodorejb"
+      }, {
+        "name" : "David Pärsson",
+        "url" : "https://github.com/davidparsson/"
+      }, {
+        "name" : "Gabe Moothart",
+        "url" : "https://github.com/gmoothart"
+      }, {
+        "name" : "Lukas Zech",
+        "url" : "https://github.com/lukas-zech-software"
+      } ],
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/@types/jasmine/-/jasmine-2.5.51.tgz",
+        "shasum" : "e3bd34af3b832fa15d1bc3a148b2780c93ea522e"
+      },
+      "dependencies" : {
+      },
+      "peerDependencies" : {
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/jasmine@2.5.51",
+      "typeScriptVersion" : "2.1",
+      "typesPublisherContentHash" : "5e7a3cb750008dced1c8046bcdfcdb49a186801444fde19b5bd67c59872fbf72",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/jasmine-2.5.51.tgz_1496421499688_0.12911990866996348"
+      }
+    },
+    "2.5.50" : {
+      "name" : "@types/jasmine",
+      "description" : "TypeScript definitions for Jasmine",
+      "version" : "2.5.50",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+      },
+      "contributors" : [ {
+        "name" : "Boris Yankov",
+        "url" : "https://github.com/borisyankov/"
+      }, {
+        "name" : "Theodore Brown",
+        "url" : "https://github.com/theodorejb"
+      }, {
+        "name" : "David Pärsson",
+        "url" : "https://github.com/davidparsson/"
+      }, {
+        "name" : "Gabe Moothart",
+        "url" : "https://github.com/gmoothart"
+      }, {
+        "name" : "Lukas Zech",
+        "url" : "https://github.com/lukas-zech-software"
+      } ],
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/@types/jasmine/-/jasmine-2.5.50.tgz",
+        "shasum" : "c61ead3ca7d586b616fd0a2858d7bcd364cc2663"
+      },
+      "dependencies" : {
+      },
+      "peerDependencies" : {
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/jasmine@2.5.50",
+      "typeScriptVersion" : "2.1",
+      "typesPublisherContentHash" : "77e2639464f256efbae6ee4b5fe57dcf9c1dc91ee2168cef9c62dda5ffb7e915",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/jasmine-2.5.50.tgz_1496409955753_0.6486938735470176"
+      }
+    },
+    "2.5.54" : {
+      "name" : "@types/jasmine",
+      "description" : "TypeScript definitions for Jasmine",
+      "version" : "2.5.54",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+      },
+      "contributors" : [ {
+        "name" : "Boris Yankov",
+        "url" : "https://github.com/borisyankov"
+      }, {
+        "name" : "Theodore Brown",
+        "url" : "https://github.com/theodorejb"
+      }, {
+        "name" : "David Pärsson",
+        "url" : "https://github.com/davidparsson"
+      }, {
+        "name" : "Gabe Moothart",
+        "url" : "https://github.com/gmoothart"
+      }, {
+        "name" : "Lukas Zech",
+        "url" : "https://github.com/lukas-zech-software"
+      } ],
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/@types/jasmine/-/jasmine-2.5.54.tgz",
+        "shasum" : "a6b5f2ae2afb6e0307774e8c7c608e037d491c63"
+      },
+      "dependencies" : {
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/jasmine@2.5.54",
+      "typeScriptVersion" : "2.1",
+      "typesPublisherContentHash" : "51afc75ecea2ec5ecfd15a204147bc2381c34465f0bf472a98ef698898d66be4",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/jasmine-2.5.54.tgz_1503352567736_0.8788966746069491"
+      }
+    },
+    "2.2.29" : {
+      "name" : "@types/jasmine",
+      "description" : "TypeScript definitions for Jasmine 2.2",
+      "version" : "2.2.29",
+      "author" : {
+        "name" : "Boris Yankov",
+        "email" : "https://github.com/borisyankov/"
+      },
+      "repository" : {
+        "type" : "git",
+        "url" : "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+      },
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/@types/jasmine/-/jasmine-2.2.29.tgz",
+        "shasum" : "da827a7a88edd65e119760af67ea6a6cf281cdc8"
+      },
+      "dependencies" : {
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ryan.cavanaugh@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_from" : "output\\jasmine",
+      "_npmVersion" : "3.10.3",
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/jasmine@2.2.29",
+      "typings" : "index.d.ts",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/jasmine-2.2.29.tgz_1468508257948_0.04049367387779057"
+      },
+      "_shasum" : "da827a7a88edd65e119760af67ea6a6cf281cdc8",
+      "_resolved" : "file:output\\jasmine",
+      "_nodeVersion" : "6.3.0"
+    },
+    "2.2.23-alpha" : {
+      "name" : "@types/jasmine",
+      "description" : "TypeScript definitions for Jasmine 2.2",
+      "version" : "2.2.23-alpha",
+      "author" : {
+        "name" : "Boris Yankov",
+        "email" : "https://github.com/borisyankov/"
+      },
+      "repository" : {
+        "type" : "git",
+        "url" : "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+      },
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/@types/jasmine/-/jasmine-2.2.23-alpha.tgz",
+        "shasum" : "88636858980616fa107658639ab31739749ea969"
+      },
+      "dependencies" : {
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ryan.cavanaugh@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_from" : "output\\jasmine",
+      "_npmVersion" : "3.9.5",
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ryan.cavanaugh@microsoft.com"
+      },
+      "_id" : "@types/jasmine@2.2.23-alpha",
+      "typings" : "index.d.ts",
+      "_npmOperationalInternal" : {
+        "host" : "packages-16-east.internal.npmjs.com",
+        "tmp" : "tmp/jasmine-2.2.23-alpha.tgz_1467402011920_0.0013736607506871223"
+      },
+      "_shasum" : "88636858980616fa107658639ab31739749ea969",
+      "_resolved" : "file:output\\jasmine",
+      "_nodeVersion" : "6.2.2"
+    },
+    "3.0.0" : {
+      "name" : "@types/jasmine",
+      "description" : "TypeScript definitions for Jasmine",
+      "version" : "3.0.0",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/DefinitelyTyped/DefinitelyTyped.git"
+      },
+      "contributors" : [ {
+        "name" : "Boris Yankov",
+        "url" : "https://github.com/borisyankov",
+        "githubUsername" : "borisyankov"
+      }, {
+        "name" : "Theodore Brown",
+        "url" : "https://github.com/theodorejb",
+        "githubUsername" : "theodorejb"
+      }, {
+        "name" : "David Pärsson",
+        "url" : "https://github.com/davidparsson",
+        "githubUsername" : "davidparsson"
+      }, {
+        "name" : "Gabe Moothart",
+        "url" : "https://github.com/gmoothart",
+        "githubUsername" : "gmoothart"
+      }, {
+        "name" : "Lukas Zech",
+        "url" : "https://github.com/lukas-zech-software",
+        "githubUsername" : "lukas-zech-software"
+      }, {
+        "name" : "Boris Breuer",
+        "url" : "https://github.com/Engineer2B",
+        "githubUsername" : "Engineer2B"
+      }, {
+        "name" : "Chris Yungmann",
+        "url" : "https://github.com/cyungmann",
+        "githubUsername" : "cyungmann"
+      }, {
+        "name" : "Giles Roadnight",
+        "url" : "https://github.com/Roaders",
+        "githubUsername" : "Roaders"
+      } ],
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/@types/jasmine/-/jasmine-3.0.0.tgz",
+        "shasum" : "9a6b6755a02fcd6baa088a767557709c79728f98"
+      },
+      "dependencies" : {
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/jasmine@3.0.0",
+      "types" : "index",
+      "typeScriptVersion" : "2.8",
+      "_hasShrinkwrap" : false,
+      "typesPublisherContentHash" : "abd149b99a1d808a320226cc4aaf561760dae6b4cfbb108a5e525a12a2d78ca6",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/jasmine_3.0.0_1542415338623_0.030303943844286474"
+      }
+    },
+    "3.4.1" : {
+      "name" : "@types/jasmine",
+      "description" : "TypeScript definitions for Jasmine",
+      "version" : "3.4.1",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+        "directory" : "types/jasmine"
+      },
+      "contributors" : [ {
+        "name" : "Boris Yankov",
+        "url" : "https://github.com/borisyankov",
+        "githubUsername" : "borisyankov"
+      }, {
+        "name" : "Theodore Brown",
+        "url" : "https://github.com/theodorejb",
+        "githubUsername" : "theodorejb"
+      }, {
+        "name" : "David Pärsson",
+        "url" : "https://github.com/davidparsson",
+        "githubUsername" : "davidparsson"
+      }, {
+        "name" : "Gabe Moothart",
+        "url" : "https://github.com/gmoothart",
+        "githubUsername" : "gmoothart"
+      }, {
+        "name" : "Lukas Zech",
+        "url" : "https://github.com/lukas-zech-software",
+        "githubUsername" : "lukas-zech-software"
+      }, {
+        "name" : "Boris Breuer",
+        "url" : "https://github.com/Engineer2B",
+        "githubUsername" : "Engineer2B"
+      }, {
+        "name" : "Chris Yungmann",
+        "url" : "https://github.com/cyungmann",
+        "githubUsername" : "cyungmann"
+      }, {
+        "name" : "Giles Roadnight",
+        "url" : "https://github.com/Roaders",
+        "githubUsername" : "Roaders"
+      }, {
+        "name" : "Yaroslav Admin",
+        "url" : "https://github.com/devoto13",
+        "githubUsername" : "devoto13"
+      }, {
+        "name" : "Domas Trijonis",
+        "url" : "https://github.com/fdim",
+        "githubUsername" : "fdim"
+      }, {
+        "name" : "Peter Safranek",
+        "url" : "https://github.com/pe8ter",
+        "githubUsername" : "pe8ter"
+      }, {
+        "name" : "Moshe Kolodny",
+        "url" : "https://github.com/kolodny",
+        "githubUsername" : "kolodny"
+      }, {
+        "name" : "Stephen Farrar",
+        "url" : "https://github.com/stephenfarrar",
+        "githubUsername" : "stephenfarrar"
+      }, {
+        "name" : "Mochamad Arfin",
+        "url" : "https://github.com/ndunks",
+        "githubUsername" : "ndunks"
+      }, {
+        "name" : "Alex Povar",
+        "url" : "https://github.com/zvirja",
+        "githubUsername" : "zvirja"
+      } ],
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/@types/jasmine/-/jasmine-3.4.1.tgz",
+        "shasum" : "214496efdd7870f133051a95d1692f9cc0730ee7"
+      },
+      "dependencies" : {
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/jasmine@3.4.1",
+      "typesVersions" : {
+        ">=3.1.0-0" : {
+          "*" : [ "ts3.1/*" ]
+        }
+      },
+      "types" : "index",
+      "typeScriptVersion" : "2.8",
+      "_hasShrinkwrap" : false,
+      "typesPublisherContentHash" : "f48cac3dedd597187cdb5669ba14ef155792d57f35bee46504528a42fd09f8f9",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/jasmine_3.4.1_1569524598721_0.5142350328293228"
+      }
+    },
+    "3.4.2" : {
+      "name" : "@types/jasmine",
+      "description" : "TypeScript definitions for Jasmine",
+      "version" : "3.4.2",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+        "directory" : "types/jasmine"
+      },
+      "contributors" : [ {
+        "name" : "Boris Yankov",
+        "url" : "https://github.com/borisyankov",
+        "githubUsername" : "borisyankov"
+      }, {
+        "name" : "Theodore Brown",
+        "url" : "https://github.com/theodorejb",
+        "githubUsername" : "theodorejb"
+      }, {
+        "name" : "David Pärsson",
+        "url" : "https://github.com/davidparsson",
+        "githubUsername" : "davidparsson"
+      }, {
+        "name" : "Gabe Moothart",
+        "url" : "https://github.com/gmoothart",
+        "githubUsername" : "gmoothart"
+      }, {
+        "name" : "Lukas Zech",
+        "url" : "https://github.com/lukas-zech-software",
+        "githubUsername" : "lukas-zech-software"
+      }, {
+        "name" : "Boris Breuer",
+        "url" : "https://github.com/Engineer2B",
+        "githubUsername" : "Engineer2B"
+      }, {
+        "name" : "Chris Yungmann",
+        "url" : "https://github.com/cyungmann",
+        "githubUsername" : "cyungmann"
+      }, {
+        "name" : "Giles Roadnight",
+        "url" : "https://github.com/Roaders",
+        "githubUsername" : "Roaders"
+      }, {
+        "name" : "Yaroslav Admin",
+        "url" : "https://github.com/devoto13",
+        "githubUsername" : "devoto13"
+      }, {
+        "name" : "Domas Trijonis",
+        "url" : "https://github.com/fdim",
+        "githubUsername" : "fdim"
+      }, {
+        "name" : "Peter Safranek",
+        "url" : "https://github.com/pe8ter",
+        "githubUsername" : "pe8ter"
+      }, {
+        "name" : "Moshe Kolodny",
+        "url" : "https://github.com/kolodny",
+        "githubUsername" : "kolodny"
+      }, {
+        "name" : "Stephen Farrar",
+        "url" : "https://github.com/stephenfarrar",
+        "githubUsername" : "stephenfarrar"
+      }, {
+        "name" : "Mochamad Arfin",
+        "url" : "https://github.com/ndunks",
+        "githubUsername" : "ndunks"
+      }, {
+        "name" : "Alex Povar",
+        "url" : "https://github.com/zvirja",
+        "githubUsername" : "zvirja"
+      } ],
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/@types/jasmine/-/jasmine-3.4.2.tgz",
+        "shasum" : "49f672de24043b3c1fb919901fd3cd36f027bc93"
+      },
+      "dependencies" : {
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/jasmine@3.4.2",
+      "typesVersions" : {
+        ">=3.1.0-0" : {
+          "*" : [ "ts3.1/*" ]
+        }
+      },
+      "types" : "index",
+      "typeScriptVersion" : "2.8",
+      "_hasShrinkwrap" : false,
+      "typesPublisherContentHash" : "c4f8cf7e52f2cf5b8e5e87d6a211b7d8b248d350235d3ff64042f846094c6b54",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/jasmine_3.4.2_1569948056614_0.578502435646638"
+      }
+    },
+    "3.4.3" : {
+      "name" : "@types/jasmine",
+      "description" : "TypeScript definitions for Jasmine",
+      "version" : "3.4.3",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+        "directory" : "types/jasmine"
+      },
+      "contributors" : [ {
+        "name" : "Boris Yankov",
+        "url" : "https://github.com/borisyankov",
+        "githubUsername" : "borisyankov"
+      }, {
+        "name" : "Theodore Brown",
+        "url" : "https://github.com/theodorejb",
+        "githubUsername" : "theodorejb"
+      }, {
+        "name" : "David Pärsson",
+        "url" : "https://github.com/davidparsson",
+        "githubUsername" : "davidparsson"
+      }, {
+        "name" : "Gabe Moothart",
+        "url" : "https://github.com/gmoothart",
+        "githubUsername" : "gmoothart"
+      }, {
+        "name" : "Lukas Zech",
+        "url" : "https://github.com/lukas-zech-software",
+        "githubUsername" : "lukas-zech-software"
+      }, {
+        "name" : "Boris Breuer",
+        "url" : "https://github.com/Engineer2B",
+        "githubUsername" : "Engineer2B"
+      }, {
+        "name" : "Chris Yungmann",
+        "url" : "https://github.com/cyungmann",
+        "githubUsername" : "cyungmann"
+      }, {
+        "name" : "Giles Roadnight",
+        "url" : "https://github.com/Roaders",
+        "githubUsername" : "Roaders"
+      }, {
+        "name" : "Yaroslav Admin",
+        "url" : "https://github.com/devoto13",
+        "githubUsername" : "devoto13"
+      }, {
+        "name" : "Domas Trijonis",
+        "url" : "https://github.com/fdim",
+        "githubUsername" : "fdim"
+      }, {
+        "name" : "Peter Safranek",
+        "url" : "https://github.com/pe8ter",
+        "githubUsername" : "pe8ter"
+      }, {
+        "name" : "Moshe Kolodny",
+        "url" : "https://github.com/kolodny",
+        "githubUsername" : "kolodny"
+      }, {
+        "name" : "Stephen Farrar",
+        "url" : "https://github.com/stephenfarrar",
+        "githubUsername" : "stephenfarrar"
+      }, {
+        "name" : "Mochamad Arfin",
+        "url" : "https://github.com/ndunks",
+        "githubUsername" : "ndunks"
+      }, {
+        "name" : "Alex Povar",
+        "url" : "https://github.com/zvirja",
+        "githubUsername" : "zvirja"
+      } ],
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/@types/jasmine/-/jasmine-3.4.3.tgz",
+        "shasum" : "a76de65d748f6c983f2cd54bfe1150fcd832d181"
+      },
+      "dependencies" : {
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/jasmine@3.4.3",
+      "typesVersions" : {
+        ">=3.1.0-0" : {
+          "*" : [ "ts3.1/*" ]
+        }
+      },
+      "types" : "index",
+      "typeScriptVersion" : "2.8",
+      "_hasShrinkwrap" : false,
+      "typesPublisherContentHash" : "57c80d627861919f546b694864e83e194a517219e77f723bc45f02280f0ddadf",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/jasmine_3.4.3_1570649627001_0.18871211012188027"
+      }
+    },
+    "3.4.4" : {
+      "name" : "@types/jasmine",
+      "description" : "TypeScript definitions for Jasmine",
+      "version" : "3.4.4",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+        "directory" : "types/jasmine"
+      },
+      "contributors" : [ {
+        "name" : "Boris Yankov",
+        "url" : "https://github.com/borisyankov",
+        "githubUsername" : "borisyankov"
+      }, {
+        "name" : "Theodore Brown",
+        "url" : "https://github.com/theodorejb",
+        "githubUsername" : "theodorejb"
+      }, {
+        "name" : "David Pärsson",
+        "url" : "https://github.com/davidparsson",
+        "githubUsername" : "davidparsson"
+      }, {
+        "name" : "Gabe Moothart",
+        "url" : "https://github.com/gmoothart",
+        "githubUsername" : "gmoothart"
+      }, {
+        "name" : "Lukas Zech",
+        "url" : "https://github.com/lukas-zech-software",
+        "githubUsername" : "lukas-zech-software"
+      }, {
+        "name" : "Boris Breuer",
+        "url" : "https://github.com/Engineer2B",
+        "githubUsername" : "Engineer2B"
+      }, {
+        "name" : "Chris Yungmann",
+        "url" : "https://github.com/cyungmann",
+        "githubUsername" : "cyungmann"
+      }, {
+        "name" : "Giles Roadnight",
+        "url" : "https://github.com/Roaders",
+        "githubUsername" : "Roaders"
+      }, {
+        "name" : "Yaroslav Admin",
+        "url" : "https://github.com/devoto13",
+        "githubUsername" : "devoto13"
+      }, {
+        "name" : "Domas Trijonis",
+        "url" : "https://github.com/fdim",
+        "githubUsername" : "fdim"
+      }, {
+        "name" : "Peter Safranek",
+        "url" : "https://github.com/pe8ter",
+        "githubUsername" : "pe8ter"
+      }, {
+        "name" : "Moshe Kolodny",
+        "url" : "https://github.com/kolodny",
+        "githubUsername" : "kolodny"
+      }, {
+        "name" : "Stephen Farrar",
+        "url" : "https://github.com/stephenfarrar",
+        "githubUsername" : "stephenfarrar"
+      }, {
+        "name" : "Mochamad Arfin",
+        "url" : "https://github.com/ndunks",
+        "githubUsername" : "ndunks"
+      }, {
+        "name" : "Alex Povar",
+        "url" : "https://github.com/zvirja",
+        "githubUsername" : "zvirja"
+      } ],
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/@types/jasmine/-/jasmine-3.4.4.tgz",
+        "shasum" : "be3fbd73e72725edb44e6f7f509cd52912d1550c"
+      },
+      "dependencies" : {
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/jasmine@3.4.4",
+      "typesVersions" : {
+        ">=3.1.0-0" : {
+          "*" : [ "ts3.1/*" ]
+        }
+      },
+      "types" : "index",
+      "typeScriptVersion" : "2.8",
+      "_hasShrinkwrap" : false,
+      "typesPublisherContentHash" : "335f6b0d8477b73e7b1c00139984fab24f56668e7c812d0c9509b5aa583f9eb6",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/jasmine_3.4.4_1570737764323_0.7969028108343339"
+      }
+    },
+    "3.4.0" : {
+      "name" : "@types/jasmine",
+      "description" : "TypeScript definitions for Jasmine",
+      "version" : "3.4.0",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+        "directory" : "types/jasmine"
+      },
+      "contributors" : [ {
+        "name" : "Boris Yankov",
+        "url" : "https://github.com/borisyankov",
+        "githubUsername" : "borisyankov"
+      }, {
+        "name" : "Theodore Brown",
+        "url" : "https://github.com/theodorejb",
+        "githubUsername" : "theodorejb"
+      }, {
+        "name" : "David Pärsson",
+        "url" : "https://github.com/davidparsson",
+        "githubUsername" : "davidparsson"
+      }, {
+        "name" : "Gabe Moothart",
+        "url" : "https://github.com/gmoothart",
+        "githubUsername" : "gmoothart"
+      }, {
+        "name" : "Lukas Zech",
+        "url" : "https://github.com/lukas-zech-software",
+        "githubUsername" : "lukas-zech-software"
+      }, {
+        "name" : "Boris Breuer",
+        "url" : "https://github.com/Engineer2B",
+        "githubUsername" : "Engineer2B"
+      }, {
+        "name" : "Chris Yungmann",
+        "url" : "https://github.com/cyungmann",
+        "githubUsername" : "cyungmann"
+      }, {
+        "name" : "Giles Roadnight",
+        "url" : "https://github.com/Roaders",
+        "githubUsername" : "Roaders"
+      }, {
+        "name" : "Yaroslav Admin",
+        "url" : "https://github.com/devoto13",
+        "githubUsername" : "devoto13"
+      }, {
+        "name" : "Domas Trijonis",
+        "url" : "https://github.com/fdim",
+        "githubUsername" : "fdim"
+      }, {
+        "name" : "Peter Safranek",
+        "url" : "https://github.com/pe8ter",
+        "githubUsername" : "pe8ter"
+      }, {
+        "name" : "Moshe Kolodny",
+        "url" : "https://github.com/kolodny",
+        "githubUsername" : "kolodny"
+      }, {
+        "name" : "Stephen Farrar",
+        "url" : "https://github.com/stephenfarrar",
+        "githubUsername" : "stephenfarrar"
+      }, {
+        "name" : "Mochamad Arfin",
+        "url" : "https://github.com/ndunks",
+        "githubUsername" : "ndunks"
+      } ],
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/@types/jasmine/-/jasmine-3.4.0.tgz",
+        "shasum" : "018c56db42400c092aae47de21f710b7f04e4b06"
+      },
+      "dependencies" : {
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/jasmine@3.4.0",
+      "typesVersions" : {
+        ">=3.1.0-0" : {
+          "*" : [ "ts3.1/*" ]
+        }
+      },
+      "types" : "index",
+      "typeScriptVersion" : "2.8",
+      "_hasShrinkwrap" : false,
+      "typesPublisherContentHash" : "87e2e7c96c61d28e0b2dcbfd842ff36d49a92e270a1ecfb6a33cf3e2c2c47168",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/jasmine_3.4.0_1565213206357_0.7172422773862883"
+      }
+    },
+    "2.5.42" : {
+      "name" : "@types/jasmine",
+      "description" : "TypeScript definitions for Jasmine",
+      "version" : "2.5.42",
+      "author" : "Boris Yankov <https://github.com/borisyankov/>, Theodore Brown <https://github.com/theodorejb>, David Pärsson <https://github.com/davidparsson/>",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+      },
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/@types/jasmine/-/jasmine-2.5.42.tgz",
+        "shasum" : "60ed723d08d2ddd277333ebe1e39761b46fdb755"
+      },
+      "dependencies" : {
+      },
+      "peerDependencies" : {
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ryan.cavanaugh@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/jasmine@2.5.42",
+      "typeScriptVersion" : "2.1",
+      "typesPublisherContentHash" : "b2af2280e509165c0aecc0721d7c3c27992793acb1836bb94b3e68b7ffdbafe5",
+      "_npmOperationalInternal" : {
+        "host" : "packages-18-east.internal.npmjs.com",
+        "tmp" : "tmp/jasmine-2.5.42.tgz_1486765477197_0.3922683531418443"
+      }
+    },
+    "2.5.41" : {
+      "name" : "@types/jasmine",
+      "description" : "TypeScript definitions for Jasmine",
+      "version" : "2.5.41",
+      "author" : "Boris Yankov <https://github.com/borisyankov/>, Theodore Brown <https://github.com/theodorejb>, David Pärsson <https://github.com/davidparsson/>",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+      },
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/@types/jasmine/-/jasmine-2.5.41.tgz",
+        "shasum" : "d5e86161a0af80d52062b310a33ed65b051a0713"
+      },
+      "dependencies" : {
+      },
+      "peerDependencies" : {
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ryan.cavanaugh@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/jasmine@2.5.41",
+      "typeScriptVersion" : "2.0",
+      "typesPublisherContentHash" : "cad789a6b33d33a815890a64f72e7011cc4e114cf44ff5c568c68b4a6a3c5d1e",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/jasmine-2.5.41.tgz_1484689234070_0.7792714990209788"
+      }
+    },
+    "2.5.40" : {
+      "name" : "@types/jasmine",
+      "description" : "TypeScript definitions for Jasmine",
+      "version" : "2.5.40",
+      "author" : "Boris Yankov <https://github.com/borisyankov/>, Theodore Brown <https://github.com/theodorejb>, David Pärsson <https://github.com/davidparsson/>",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+      },
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/@types/jasmine/-/jasmine-2.5.40.tgz",
+        "shasum" : "875c7ae739dcab1342794f51231c4aadcda6eb79"
+      },
+      "dependencies" : {
+      },
+      "peerDependencies" : {
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ryan.cavanaugh@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/jasmine@2.5.40",
+      "typeScriptVersion" : "2.0",
+      "typesPublisherContentHash" : "df4984f5d71234eef83367d15713964bd7eeab76cf18b738249054c3cf153d04",
+      "_npmOperationalInternal" : {
+        "host" : "packages-18-east.internal.npmjs.com",
+        "tmp" : "tmp/jasmine-2.5.40.tgz_1483025151789_0.857044410193339"
+      }
+    },
+    "2.5.46" : {
+      "name" : "@types/jasmine",
+      "description" : "TypeScript definitions for Jasmine",
+      "version" : "2.5.46",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+      },
+      "contributors" : [ {
+        "name" : "Boris Yankov",
+        "url" : "https://github.com/borisyankov/"
+      }, {
+        "name" : "Theodore Brown",
+        "url" : "https://github.com/theodorejb"
+      }, {
+        "name" : "David Pärsson",
+        "url" : "https://github.com/davidparsson/"
+      } ],
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/@types/jasmine/-/jasmine-2.5.46.tgz",
+        "shasum" : "bb3047a3f40f60dee03f52c3e2d955cd3d5066c8"
+      },
+      "dependencies" : {
+      },
+      "peerDependencies" : {
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ryan.cavanaugh@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/jasmine@2.5.46",
+      "typeScriptVersion" : "2.1",
+      "typesPublisherContentHash" : "01552fe1e48049428a3180bfe1331d16df3bd37d6600a8e74f69a217fe771cd7",
+      "_npmOperationalInternal" : {
+        "host" : "packages-18-east.internal.npmjs.com",
+        "tmp" : "tmp/jasmine-2.5.46.tgz_1489675153946_0.9927868680097163"
+      }
+    },
+    "3.3.6" : {
+      "name" : "@types/jasmine",
+      "description" : "TypeScript definitions for Jasmine",
+      "version" : "3.3.6",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/DefinitelyTyped/DefinitelyTyped.git"
+      },
+      "contributors" : [ {
+        "name" : "Boris Yankov",
+        "url" : "https://github.com/borisyankov",
+        "githubUsername" : "borisyankov"
+      }, {
+        "name" : "Theodore Brown",
+        "url" : "https://github.com/theodorejb",
+        "githubUsername" : "theodorejb"
+      }, {
+        "name" : "David Pärsson",
+        "url" : "https://github.com/davidparsson",
+        "githubUsername" : "davidparsson"
+      }, {
+        "name" : "Gabe Moothart",
+        "url" : "https://github.com/gmoothart",
+        "githubUsername" : "gmoothart"
+      }, {
+        "name" : "Lukas Zech",
+        "url" : "https://github.com/lukas-zech-software",
+        "githubUsername" : "lukas-zech-software"
+      }, {
+        "name" : "Boris Breuer",
+        "url" : "https://github.com/Engineer2B",
+        "githubUsername" : "Engineer2B"
+      }, {
+        "name" : "Chris Yungmann",
+        "url" : "https://github.com/cyungmann",
+        "githubUsername" : "cyungmann"
+      }, {
+        "name" : "Giles Roadnight",
+        "url" : "https://github.com/Roaders",
+        "githubUsername" : "Roaders"
+      }, {
+        "name" : "Yaroslav Admin",
+        "url" : "https://github.com/devoto13",
+        "githubUsername" : "devoto13"
+      }, {
+        "name" : "Domas Trijonis",
+        "url" : "https://github.com/fdim",
+        "githubUsername" : "fdim"
+      }, {
+        "name" : "Peter Safranek",
+        "url" : "https://github.com/pe8ter",
+        "githubUsername" : "pe8ter"
+      } ],
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/@types/jasmine/-/jasmine-3.3.6.tgz",
+        "shasum" : "6d84212a0db569666f20a83abc22be8608ca16c7"
+      },
+      "dependencies" : {
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/jasmine@3.3.6",
+      "types" : "index",
+      "typeScriptVersion" : "2.8",
+      "_hasShrinkwrap" : false,
+      "typesPublisherContentHash" : "1f9827af1004e741de81225a5b9eb0beb64874e544378f70eac7ad24a578ac9f",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/jasmine_3.3.6_1547795790033_0.06389695143404817"
+      }
+    },
+    "2.5.45" : {
+      "name" : "@types/jasmine",
+      "description" : "TypeScript definitions for Jasmine",
+      "version" : "2.5.45",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+      },
+      "contributors" : [ {
+        "name" : "Boris Yankov",
+        "url" : "https://github.com/borisyankov/"
+      }, {
+        "name" : "Theodore Brown",
+        "url" : "https://github.com/theodorejb"
+      }, {
+        "name" : "David Pärsson",
+        "url" : "https://github.com/davidparsson/"
+      } ],
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/@types/jasmine/-/jasmine-2.5.45.tgz",
+        "shasum" : "58928a621d014ce6ab59c5a9c41071f7328b0ca9"
+      },
+      "dependencies" : {
+      },
+      "peerDependencies" : {
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ryan.cavanaugh@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/jasmine@2.5.45",
+      "typeScriptVersion" : "2.1",
+      "typesPublisherContentHash" : "660838d968c361b0bb57552fb56bb52744f3da66c914097c2f5b33a91a72f005",
+      "_npmOperationalInternal" : {
+        "host" : "packages-18-east.internal.npmjs.com",
+        "tmp" : "tmp/jasmine-2.5.45.tgz_1489194380028_0.027334532933309674"
+      }
+    },
+    "3.3.7" : {
+      "name" : "@types/jasmine",
+      "description" : "TypeScript definitions for Jasmine",
+      "version" : "3.3.7",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/DefinitelyTyped/DefinitelyTyped.git"
+      },
+      "contributors" : [ {
+        "name" : "Boris Yankov",
+        "url" : "https://github.com/borisyankov",
+        "githubUsername" : "borisyankov"
+      }, {
+        "name" : "Theodore Brown",
+        "url" : "https://github.com/theodorejb",
+        "githubUsername" : "theodorejb"
+      }, {
+        "name" : "David Pärsson",
+        "url" : "https://github.com/davidparsson",
+        "githubUsername" : "davidparsson"
+      }, {
+        "name" : "Gabe Moothart",
+        "url" : "https://github.com/gmoothart",
+        "githubUsername" : "gmoothart"
+      }, {
+        "name" : "Lukas Zech",
+        "url" : "https://github.com/lukas-zech-software",
+        "githubUsername" : "lukas-zech-software"
+      }, {
+        "name" : "Boris Breuer",
+        "url" : "https://github.com/Engineer2B",
+        "githubUsername" : "Engineer2B"
+      }, {
+        "name" : "Chris Yungmann",
+        "url" : "https://github.com/cyungmann",
+        "githubUsername" : "cyungmann"
+      }, {
+        "name" : "Giles Roadnight",
+        "url" : "https://github.com/Roaders",
+        "githubUsername" : "Roaders"
+      }, {
+        "name" : "Yaroslav Admin",
+        "url" : "https://github.com/devoto13",
+        "githubUsername" : "devoto13"
+      }, {
+        "name" : "Domas Trijonis",
+        "url" : "https://github.com/fdim",
+        "githubUsername" : "fdim"
+      }, {
+        "name" : "Peter Safranek",
+        "url" : "https://github.com/pe8ter",
+        "githubUsername" : "pe8ter"
+      } ],
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/@types/jasmine/-/jasmine-3.3.7.tgz",
+        "shasum" : "52f2bfe8d2995d4756585d2328c97fbb0fec66e3"
+      },
+      "dependencies" : {
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/jasmine@3.3.7",
+      "types" : "index",
+      "typeScriptVersion" : "2.8",
+      "_hasShrinkwrap" : false,
+      "typesPublisherContentHash" : "0027cd64480766bc32708b6f6b361009a239808a96a0f889e575d627196a88bf",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/jasmine_3.3.7_1547846618208_0.8425605178238778"
+      }
+    },
+    "2.5.44" : {
+      "name" : "@types/jasmine",
+      "description" : "TypeScript definitions for Jasmine",
+      "version" : "2.5.44",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+      },
+      "contributors" : [ {
+        "name" : "Boris Yankov",
+        "url" : "https://github.com/borisyankov/"
+      }, {
+        "name" : "Theodore Brown",
+        "url" : "https://github.com/theodorejb"
+      }, {
+        "name" : "David Pärsson",
+        "url" : "https://github.com/davidparsson/"
+      } ],
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/@types/jasmine/-/jasmine-2.5.44.tgz",
+        "shasum" : "2e6faa099f80aaef5c0c6680e3a33800204fff3f"
+      },
+      "dependencies" : {
+        "typescript" : ">=2.1.4"
+      },
+      "peerDependencies" : {
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ryan.cavanaugh@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/jasmine@2.5.44",
+      "typeScriptVersion" : "2.1",
+      "typesPublisherContentHash" : "4974669c0b1b23f19fd5227f51c6a1948ac6293e8ee06818634e334ddf325a59",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/jasmine-2.5.44.tgz_1489127417596_0.01668761484324932"
+      }
+    },
+    "3.3.8" : {
+      "name" : "@types/jasmine",
+      "description" : "TypeScript definitions for Jasmine",
+      "version" : "3.3.8",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/DefinitelyTyped/DefinitelyTyped.git"
+      },
+      "contributors" : [ {
+        "name" : "Boris Yankov",
+        "url" : "https://github.com/borisyankov",
+        "githubUsername" : "borisyankov"
+      }, {
+        "name" : "Theodore Brown",
+        "url" : "https://github.com/theodorejb",
+        "githubUsername" : "theodorejb"
+      }, {
+        "name" : "David Pärsson",
+        "url" : "https://github.com/davidparsson",
+        "githubUsername" : "davidparsson"
+      }, {
+        "name" : "Gabe Moothart",
+        "url" : "https://github.com/gmoothart",
+        "githubUsername" : "gmoothart"
+      }, {
+        "name" : "Lukas Zech",
+        "url" : "https://github.com/lukas-zech-software",
+        "githubUsername" : "lukas-zech-software"
+      }, {
+        "name" : "Boris Breuer",
+        "url" : "https://github.com/Engineer2B",
+        "githubUsername" : "Engineer2B"
+      }, {
+        "name" : "Chris Yungmann",
+        "url" : "https://github.com/cyungmann",
+        "githubUsername" : "cyungmann"
+      }, {
+        "name" : "Giles Roadnight",
+        "url" : "https://github.com/Roaders",
+        "githubUsername" : "Roaders"
+      }, {
+        "name" : "Yaroslav Admin",
+        "url" : "https://github.com/devoto13",
+        "githubUsername" : "devoto13"
+      }, {
+        "name" : "Domas Trijonis",
+        "url" : "https://github.com/fdim",
+        "githubUsername" : "fdim"
+      }, {
+        "name" : "Peter Safranek",
+        "url" : "https://github.com/pe8ter",
+        "githubUsername" : "pe8ter"
+      } ],
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/@types/jasmine/-/jasmine-3.3.8.tgz",
+        "shasum" : "fc6abd92f7121431685ec986f0ec8f77b4390a3e"
+      },
+      "dependencies" : {
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/jasmine@3.3.8",
+      "types" : "index",
+      "typeScriptVersion" : "2.8",
+      "_hasShrinkwrap" : false,
+      "typesPublisherContentHash" : "fad9cc700167699acdc0d6e50537a4cc3cf3301150d425fb14057b4115abb629",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/jasmine_3.3.8_1548378240306_0.13161971774008863"
+      }
+    },
+    "2.5.43" : {
+      "name" : "@types/jasmine",
+      "description" : "TypeScript definitions for Jasmine",
+      "version" : "2.5.43",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+      },
+      "contributors" : [ {
+        "name" : "Boris Yankov",
+        "url" : "https://github.com/borisyankov/"
+      }, {
+        "name" : "Theodore Brown",
+        "url" : "https://github.com/theodorejb"
+      }, {
+        "name" : "David Pärsson",
+        "url" : "https://github.com/davidparsson/"
+      } ],
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/@types/jasmine/-/jasmine-2.5.43.tgz",
+        "shasum" : "6328a8c26082f2fd84f043c802c9ed7fa110b2dd"
+      },
+      "dependencies" : {
+        "typescript" : ">=2.1.4"
+      },
+      "peerDependencies" : {
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ryan.cavanaugh@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/jasmine@2.5.43",
+      "typeScriptVersion" : "2.1",
+      "typesPublisherContentHash" : "425c5e9f4c97861ad45d41dbc6ca42f051aed41baffc705b7361e01b4eb9433b",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/jasmine-2.5.43.tgz_1487101916082_0.7553728220518678"
+      }
+    },
+    "3.3.9" : {
+      "name" : "@types/jasmine",
+      "description" : "TypeScript definitions for Jasmine",
+      "version" : "3.3.9",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/DefinitelyTyped/DefinitelyTyped.git"
+      },
+      "contributors" : [ {
+        "name" : "Boris Yankov",
+        "url" : "https://github.com/borisyankov",
+        "githubUsername" : "borisyankov"
+      }, {
+        "name" : "Theodore Brown",
+        "url" : "https://github.com/theodorejb",
+        "githubUsername" : "theodorejb"
+      }, {
+        "name" : "David Pärsson",
+        "url" : "https://github.com/davidparsson",
+        "githubUsername" : "davidparsson"
+      }, {
+        "name" : "Gabe Moothart",
+        "url" : "https://github.com/gmoothart",
+        "githubUsername" : "gmoothart"
+      }, {
+        "name" : "Lukas Zech",
+        "url" : "https://github.com/lukas-zech-software",
+        "githubUsername" : "lukas-zech-software"
+      }, {
+        "name" : "Boris Breuer",
+        "url" : "https://github.com/Engineer2B",
+        "githubUsername" : "Engineer2B"
+      }, {
+        "name" : "Chris Yungmann",
+        "url" : "https://github.com/cyungmann",
+        "githubUsername" : "cyungmann"
+      }, {
+        "name" : "Giles Roadnight",
+        "url" : "https://github.com/Roaders",
+        "githubUsername" : "Roaders"
+      }, {
+        "name" : "Yaroslav Admin",
+        "url" : "https://github.com/devoto13",
+        "githubUsername" : "devoto13"
+      }, {
+        "name" : "Domas Trijonis",
+        "url" : "https://github.com/fdim",
+        "githubUsername" : "fdim"
+      }, {
+        "name" : "Peter Safranek",
+        "url" : "https://github.com/pe8ter",
+        "githubUsername" : "pe8ter"
+      } ],
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/@types/jasmine/-/jasmine-3.3.9.tgz",
+        "shasum" : "ee886a9113db567e722a8a0c37f0e6283f2cefa3"
+      },
+      "dependencies" : {
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/jasmine@3.3.9",
+      "types" : "index",
+      "typeScriptVersion" : "2.8",
+      "_hasShrinkwrap" : false,
+      "typesPublisherContentHash" : "b22acaacef6d78908d0b2dd15bcd1864c305d97aaabf947927c933360ef02456",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/jasmine_3.3.9_1550084955075_0.029755640155135987"
+      }
+    },
+    "2.6.2" : {
+      "name" : "@types/jasmine",
+      "description" : "TypeScript definitions for Jasmine",
+      "version" : "2.6.2",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+      },
+      "contributors" : [ {
+        "name" : "Boris Yankov",
+        "url" : "https://github.com/borisyankov",
+        "githubUsername" : "borisyankov"
+      }, {
+        "name" : "Theodore Brown",
+        "url" : "https://github.com/theodorejb",
+        "githubUsername" : "theodorejb"
+      }, {
+        "name" : "David Pärsson",
+        "url" : "https://github.com/davidparsson",
+        "githubUsername" : "davidparsson"
+      }, {
+        "name" : "Gabe Moothart",
+        "url" : "https://github.com/gmoothart",
+        "githubUsername" : "gmoothart"
+      }, {
+        "name" : "Lukas Zech",
+        "url" : "https://github.com/lukas-zech-software",
+        "githubUsername" : "lukas-zech-software"
+      } ],
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/@types/jasmine/-/jasmine-2.6.2.tgz",
+        "shasum" : "6e6d4cb183cd55c7a1ad6270bced10fdd5367a3c"
+      },
+      "dependencies" : {
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/jasmine@2.6.2",
+      "typeScriptVersion" : "2.3",
+      "typesPublisherContentHash" : "b33c8cc306b7b8df77f029361e6688aaf3cb921a3880e609835c6ab1ecfe1802",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/jasmine-2.6.2.tgz_1508956820534_0.709960239008069"
+      }
+    },
+    "2.8.0" : {
+      "name" : "@types/jasmine",
+      "description" : "TypeScript definitions for Jasmine",
+      "version" : "2.8.0",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+      },
+      "contributors" : [ {
+        "name" : "Boris Yankov",
+        "url" : "https://github.com/borisyankov",
+        "githubUsername" : "borisyankov"
+      }, {
+        "name" : "Theodore Brown",
+        "url" : "https://github.com/theodorejb",
+        "githubUsername" : "theodorejb"
+      }, {
+        "name" : "David Pärsson",
+        "url" : "https://github.com/davidparsson",
+        "githubUsername" : "davidparsson"
+      }, {
+        "name" : "Gabe Moothart",
+        "url" : "https://github.com/gmoothart",
+        "githubUsername" : "gmoothart"
+      }, {
+        "name" : "Lukas Zech",
+        "url" : "https://github.com/lukas-zech-software",
+        "githubUsername" : "lukas-zech-software"
+      } ],
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/@types/jasmine/-/jasmine-2.8.0.tgz",
+        "shasum" : "caa5395081143e419d3f4b0277c66b26fc783e68"
+      },
+      "dependencies" : {
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/jasmine@2.8.0",
+      "typeScriptVersion" : "2.1",
+      "typesPublisherContentHash" : "e4e4db9f8695103c7b5f12ebcb48b3adf598d8e1a0b42cbe27a88cb3742995d3",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/jasmine-2.8.0.tgz_1510618019596_0.5277567740995437"
+      }
+    },
+    "2.5.49" : {
+      "name" : "@types/jasmine",
+      "description" : "TypeScript definitions for Jasmine",
+      "version" : "2.5.49",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+      },
+      "contributors" : [ {
+        "name" : "Boris Yankov",
+        "url" : "https://github.com/borisyankov/"
+      }, {
+        "name" : "Theodore Brown",
+        "url" : "https://github.com/theodorejb"
+      }, {
+        "name" : "David Pärsson",
+        "url" : "https://github.com/davidparsson/"
+      }, {
+        "name" : "Gabe Moothart",
+        "url" : "https://github.com/gmoothart"
+      } ],
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/@types/jasmine/-/jasmine-2.5.49.tgz",
+        "shasum" : "acc4b6752d2ada39c0fc6e6f36a41195bea162e1"
+      },
+      "dependencies" : {
+      },
+      "peerDependencies" : {
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/jasmine@2.5.49",
+      "typeScriptVersion" : "2.1",
+      "typesPublisherContentHash" : "660dfd3954dff5785ed76be45b50b99780ddcfaf78a8f2a9eadd438a2df90d67",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/jasmine-2.5.49.tgz_1496367342176_0.4382889769040048"
+      }
+    },
+    "2.6.3" : {
+      "name" : "@types/jasmine",
+      "description" : "TypeScript definitions for Jasmine",
+      "version" : "2.6.3",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+      },
+      "contributors" : [ {
+        "name" : "Boris Yankov",
+        "url" : "https://github.com/borisyankov",
+        "githubUsername" : "borisyankov"
+      }, {
+        "name" : "Theodore Brown",
+        "url" : "https://github.com/theodorejb",
+        "githubUsername" : "theodorejb"
+      }, {
+        "name" : "David Pärsson",
+        "url" : "https://github.com/davidparsson",
+        "githubUsername" : "davidparsson"
+      }, {
+        "name" : "Gabe Moothart",
+        "url" : "https://github.com/gmoothart",
+        "githubUsername" : "gmoothart"
+      }, {
+        "name" : "Lukas Zech",
+        "url" : "https://github.com/lukas-zech-software",
+        "githubUsername" : "lukas-zech-software"
+      } ],
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/@types/jasmine/-/jasmine-2.6.3.tgz",
+        "shasum" : "586963bfdd35e38f24a0a0b63a438cf521292ed9"
+      },
+      "dependencies" : {
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/jasmine@2.6.3",
+      "typeScriptVersion" : "2.1",
+      "typesPublisherContentHash" : "078b602f704df7c5479a84794a74a98deafda54f498ad0b2fef930e61663df02",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/jasmine-2.6.3.tgz_1509995687496_0.6066375595983118"
+      }
+    },
+    "2.8.1" : {
+      "name" : "@types/jasmine",
+      "description" : "TypeScript definitions for Jasmine",
+      "version" : "2.8.1",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+      },
+      "contributors" : [ {
+        "name" : "Boris Yankov",
+        "url" : "https://github.com/borisyankov",
+        "githubUsername" : "borisyankov"
+      }, {
+        "name" : "Theodore Brown",
+        "url" : "https://github.com/theodorejb",
+        "githubUsername" : "theodorejb"
+      }, {
+        "name" : "David Pärsson",
+        "url" : "https://github.com/davidparsson",
+        "githubUsername" : "davidparsson"
+      }, {
+        "name" : "Gabe Moothart",
+        "url" : "https://github.com/gmoothart",
+        "githubUsername" : "gmoothart"
+      }, {
+        "name" : "Lukas Zech",
+        "url" : "https://github.com/lukas-zech-software",
+        "githubUsername" : "lukas-zech-software"
+      } ],
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/@types/jasmine/-/jasmine-2.8.1.tgz",
+        "shasum" : "57aaf1f94b9a9b4c1fc506dd757050e52b6df9ee"
+      },
+      "dependencies" : {
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/jasmine@2.8.1",
+      "typeScriptVersion" : "2.1",
+      "typesPublisherContentHash" : "6bf8949c8ba8e3407dde7c6548bf87a0241de320728a7ece2058eee3d6daf171",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/jasmine-2.8.1.tgz_1510695122531_0.2696452480740845"
+      }
+    },
+    "2.5.48" : {
+      "name" : "@types/jasmine",
+      "description" : "TypeScript definitions for Jasmine",
+      "version" : "2.5.48",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+      },
+      "contributors" : [ {
+        "name" : "Boris Yankov",
+        "url" : "https://github.com/borisyankov/"
+      }, {
+        "name" : "Theodore Brown",
+        "url" : "https://github.com/theodorejb"
+      }, {
+        "name" : "David Pärsson",
+        "url" : "https://github.com/davidparsson/"
+      } ],
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/@types/jasmine/-/jasmine-2.5.48.tgz",
+        "shasum" : "fa18e4f97ee1172b27a18233c08768e7a107c521"
+      },
+      "dependencies" : {
+      },
+      "peerDependencies" : {
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/jasmine@2.5.48",
+      "typeScriptVersion" : "2.1",
+      "typesPublisherContentHash" : "30a73ba72b31db597819669a165f1bb0f96fe73c57372500f3e35fd591f25c36",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/jasmine-2.5.48.tgz_1496293924138_0.42971052415668964"
+      }
+    },
+    "2.6.0" : {
+      "name" : "@types/jasmine",
+      "description" : "TypeScript definitions for Jasmine",
+      "version" : "2.6.0",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+      },
+      "contributors" : [ {
+        "name" : "Boris Yankov",
+        "url" : "https://github.com/borisyankov",
+        "githubUsername" : "borisyankov"
+      }, {
+        "name" : "Theodore Brown",
+        "url" : "https://github.com/theodorejb",
+        "githubUsername" : "theodorejb"
+      }, {
+        "name" : "David Pärsson",
+        "url" : "https://github.com/davidparsson",
+        "githubUsername" : "davidparsson"
+      }, {
+        "name" : "Gabe Moothart",
+        "url" : "https://github.com/gmoothart",
+        "githubUsername" : "gmoothart"
+      }, {
+        "name" : "Lukas Zech",
+        "url" : "https://github.com/lukas-zech-software",
+        "githubUsername" : "lukas-zech-software"
+      } ],
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/@types/jasmine/-/jasmine-2.6.0.tgz",
+        "shasum" : "997b41a27752b4850af2683bc4a8d8222c25bd02"
+      },
+      "dependencies" : {
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/jasmine@2.6.0",
+      "typeScriptVersion" : "2.1",
+      "typesPublisherContentHash" : "140f7a61953bdfc7aacf4f32a6391812ec2fd8208e31b781952b2c72ca6cc8fe",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/jasmine-2.6.0.tgz_1505418228215_0.9635077016428113"
+      }
+    },
+    "2.2.15-alpha" : {
+      "name" : "@types/jasmine",
+      "description" : "Type definitions for Jasmine 2.2 from https://www.github.com/DefinitelyTyped/DefinitelyTyped",
+      "version" : "2.2.15-alpha",
+      "author" : {
+        "name" : "Boris Yankov",
+        "email" : "https://github.com/borisyankov/"
+      },
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/@types/jasmine/-/jasmine-2.2.15-alpha.tgz",
+        "shasum" : "5fec3f394cb147dc6e5335ce32296b0600cf7de1"
+      },
+      "dependencies" : {
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ryan.cavanaugh@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_from" : "output\\jasmine",
+      "_npmVersion" : "3.8.2",
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ryan.cavanaugh@microsoft.com"
+      },
+      "_id" : "@types/jasmine@2.2.15-alpha",
+      "typings" : "index.d.ts",
+      "_npmOperationalInternal" : {
+        "host" : "packages-16-east.internal.npmjs.com",
+        "tmp" : "tmp/jasmine-2.2.15-alpha.tgz_1463462082182_0.9934383064974099"
+      },
+      "_shasum" : "5fec3f394cb147dc6e5335ce32296b0600cf7de1",
+      "_resolved" : "file:output\\jasmine",
+      "_nodeVersion" : "5.5.0"
+    },
+    "2.5.47" : {
+      "name" : "@types/jasmine",
+      "description" : "TypeScript definitions for Jasmine",
+      "version" : "2.5.47",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+      },
+      "contributors" : [ {
+        "name" : "Boris Yankov",
+        "url" : "https://github.com/borisyankov/"
+      }, {
+        "name" : "Theodore Brown",
+        "url" : "https://github.com/theodorejb"
+      }, {
+        "name" : "David Pärsson",
+        "url" : "https://github.com/davidparsson/"
+      } ],
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/@types/jasmine/-/jasmine-2.5.47.tgz",
+        "shasum" : "bbba9bcf0e95e7890c6f4a47394e8bacaa960eb6"
+      },
+      "dependencies" : {
+      },
+      "peerDependencies" : {
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ryan.cavanaugh@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/jasmine@2.5.47",
+      "typeScriptVersion" : "2.1",
+      "typesPublisherContentHash" : "a50903321ee8089ba96fbbe41499560fa5c9665a05d8fb97bbf6010125f8cd8c",
+      "_npmOperationalInternal" : {
+        "host" : "packages-18-east.internal.npmjs.com",
+        "tmp" : "tmp/jasmine-2.5.47.tgz_1490807936422_0.4035042030736804"
+      }
+    },
+    "2.6.1" : {
+      "name" : "@types/jasmine",
+      "description" : "TypeScript definitions for Jasmine",
+      "version" : "2.6.1",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+      },
+      "contributors" : [ {
+        "name" : "Boris Yankov",
+        "url" : "https://github.com/borisyankov",
+        "githubUsername" : "borisyankov"
+      }, {
+        "name" : "Theodore Brown",
+        "url" : "https://github.com/theodorejb",
+        "githubUsername" : "theodorejb"
+      }, {
+        "name" : "David Pärsson",
+        "url" : "https://github.com/davidparsson",
+        "githubUsername" : "davidparsson"
+      }, {
+        "name" : "Gabe Moothart",
+        "url" : "https://github.com/gmoothart",
+        "githubUsername" : "gmoothart"
+      }, {
+        "name" : "Lukas Zech",
+        "url" : "https://github.com/lukas-zech-software",
+        "githubUsername" : "lukas-zech-software"
+      } ],
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/@types/jasmine/-/jasmine-2.6.1.tgz",
+        "shasum" : "44eb4a13c51e65151d996da0ffd7e6f9857a144c"
+      },
+      "dependencies" : {
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/jasmine@2.6.1",
+      "typeScriptVersion" : "2.1",
+      "typesPublisherContentHash" : "0865b72dd6ba771fed87db7ef0f61b5d0e748e6f19ac53f53bec170bf1e3c5df",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/jasmine-2.6.1.tgz_1508893531787_0.21403228864073753"
+      }
+    },
+    "2.2.27-alpha" : {
+      "name" : "@types/jasmine",
+      "description" : "TypeScript definitions for Jasmine 2.2",
+      "version" : "2.2.27-alpha",
+      "author" : {
+        "name" : "Boris Yankov",
+        "email" : "https://github.com/borisyankov/"
+      },
+      "repository" : {
+        "type" : "git",
+        "url" : "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+      },
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/@types/jasmine/-/jasmine-2.2.27-alpha.tgz",
+        "shasum" : "4d5645d88ea36ca88b5c38b58f2bce7bf5a1c22b"
+      },
+      "dependencies" : {
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ryan.cavanaugh@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_from" : "output\\jasmine",
+      "_npmVersion" : "3.10.3",
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ryan.cavanaugh@microsoft.com"
+      },
+      "_id" : "@types/jasmine@2.2.27-alpha",
+      "typings" : "index.d.ts",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/jasmine-2.2.27-alpha.tgz_1468009774790_0.9861557330004871"
+      },
+      "_shasum" : "4d5645d88ea36ca88b5c38b58f2bce7bf5a1c22b",
+      "_resolved" : "file:output\\jasmine",
+      "_nodeVersion" : "6.3.0"
+    }
+  },
+  "readme" : "# Installation\r\n> `npm install --save @types/jasmine`\r\n\r\n# Summary\r\nThis package contains type definitions for Jasmine (http://jasmine.github.io).\r\n\r\n# Details\r\nFiles were exported from https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/jasmine.\r\n\r\n### Additional Details\r\n * Last updated: Fri, 22 Nov 2019 15:50:56 GMT\r\n * Dependencies: none\r\n * Global values: `afterAll`, `afterEach`, `beforeAll`, `beforeEach`, `describe`, `expect`, `expectAsync`, `fail`, `fdescribe`, `fit`, `it`, `jasmine`, `pending`, `runs`, `spyOn`, `spyOnAllFunctions`, `spyOnProperty`, `waits`, `waitsFor`, `xdescribe`, `xit`\r\n\r\n# Credits\r\nThese definitions were written by Boris Yankov (https://github.com/borisyankov), Theodore Brown (https://github.com/theodorejb), David Pärsson (https://github.com/davidparsson), Gabe Moothart (https://github.com/gmoothart), Lukas Zech (https://github.com/lukas-zech-software), Boris Breuer (https://github.com/Engineer2B), Chris Yungmann (https://github.com/cyungmann), Giles Roadnight (https://github.com/Roaders), Yaroslav Admin (https://github.com/devoto13), Domas Trijonis (https://github.com/fdim), Moshe Kolodny (https://github.com/kolodny), Stephen Farrar (https://github.com/stephenfarrar), Mochamad Arfin (https://github.com/ndunks), Alex Povar (https://github.com/zvirja), and Dominik Ehrenberg (https://github.com/djungowski).\r\n",
+  "maintainers" : [ {
+    "name" : "types",
+    "email" : "ts-npm-types@microsoft.com"
+  } ],
+  "time" : {
+    "2.5.35" : "2016-10-05T20:57:52.815Z",
+    "2.2.21-alpha" : "2016-05-20T19:50:52.890Z",
+    "2.5.39" : "2016-12-28T21:11:35.616Z",
+    "2.5.38" : "2016-11-14T19:36:13.979Z",
+    "2.2.24-alpha" : "2016-07-01T23:08:03.381Z",
+    "2.5.37" : "2016-11-01T12:57:59.268Z",
+    "2.5.36" : "2016-10-26T19:26:33.637Z",
+    "2.8.8" : "2018-05-31T23:51:44.584Z",
+    "2.8.9" : "2018-10-03T17:58:14.385Z",
+    "2.8.6" : "2018-01-26T17:21:43.616Z",
+    "2.8.7" : "2018-05-03T16:12:28.979Z",
+    "2.8.4" : "2018-01-12T18:52:25.791Z",
+    "2.8.5" : "2018-01-22T23:15:03.697Z",
+    "2.2.28-alpha" : "2016-07-11T22:28:56.035Z",
+    "2.8.2" : "2017-11-15T11:29:48.864Z",
+    "2.8.3" : "2017-12-28T02:21:14.382Z",
+    "3.3.2" : "2018-12-14T15:58:46.197Z",
+    "3.5.0" : "2019-11-22T15:51:18.623Z",
+    "modified" : "2019-11-22T15:51:38.871Z",
+    "3.3.3" : "2018-12-18T21:29:29.423Z",
+    "3.3.4" : "2018-12-18T22:14:13.979Z",
+    "3.3.5" : "2018-12-21T23:17:46.216Z",
+    "3.3.0" : "2018-11-19T02:01:14.437Z",
+    "3.3.1" : "2018-12-04T00:03:51.760Z",
+    "2.8.13" : "2018-12-18T21:19:50.911Z",
+    "2.8.14" : "2018-12-18T22:10:20.740Z",
+    "2.8.15" : "2019-01-18T06:07:58.268Z",
+    "2.8.16" : "2019-01-25T01:00:32.592Z",
+    "2.2.30" : "2016-07-19T13:11:47.501Z",
+    "3.4.5" : "2019-11-01T16:28:02.902Z",
+    "2.8.10" : "2018-11-05T22:48:44.874Z",
+    "3.4.6" : "2019-11-05T21:51:58.149Z",
+    "created" : "2016-05-17T05:14:45.827Z",
+    "2.2.32" : "2016-08-19T15:29:10.552Z",
+    "2.8.11" : "2018-11-05T23:10:18.556Z",
+    "2.2.31" : "2016-08-02T15:55:32.954Z",
+    "2.8.12" : "2018-11-19T01:42:44.999Z",
+    "2.2.34" : "2016-09-19T18:22:21.800Z",
+    "2.2.33" : "2016-08-25T18:45:37.069Z",
+    "2.2.25-alpha" : "2016-07-02T02:40:40.803Z",
+    "1.3.0" : "2017-01-10T18:53:48.210Z",
+    "3.3.12" : "2019-03-19T18:22:48.982Z",
+    "1.3.1" : "2017-02-28T14:24:28.458Z",
+    "3.3.11" : "2019-03-18T20:11:58.730Z",
+    "1.3.2" : "2017-03-15T18:42:22.058Z",
+    "3.3.10" : "2019-03-15T17:48:40.190Z",
+    "1.3.3" : "2018-11-19T01:16:46.125Z",
+    "3.3.16" : "2019-07-26T17:59:25.983Z",
+    "2.2.22-alpha" : "2016-05-25T05:09:23.362Z",
+    "3.3.15" : "2019-07-22T19:44:43.581Z",
+    "3.3.14" : "2019-07-19T00:26:15.872Z",
+    "3.3.13" : "2019-05-28T20:56:35.606Z",
+    "2.2.26-alpha" : "2016-07-04T00:33:41.219Z",
+    "2.5.53" : "2017-06-23T17:35:17.185Z",
+    "2.5.52" : "2017-06-12T22:15:46.200Z",
+    "2.2.16-alpha" : "2016-05-19T21:15:22.090Z",
+    "2.5.51" : "2017-06-02T16:38:20.606Z",
+    "2.5.50" : "2017-06-02T13:25:56.651Z",
+    "2.5.54" : "2017-08-21T21:56:07.815Z",
+    "2.2.29" : "2016-07-14T14:57:40.367Z",
+    "2.2.23-alpha" : "2016-07-01T19:40:14.172Z",
+    "3.0.0" : "2018-11-17T00:42:18.799Z",
+    "3.4.1" : "2019-09-26T19:03:18.937Z",
+    "3.4.2" : "2019-10-01T16:40:56.745Z",
+    "3.4.3" : "2019-10-09T19:33:47.131Z",
+    "3.4.4" : "2019-10-10T20:02:44.453Z",
+    "3.4.0" : "2019-08-07T21:26:46.501Z",
+    "2.5.42" : "2017-02-10T22:24:39.148Z",
+    "2.5.41" : "2017-01-17T21:40:34.310Z",
+    "2.5.40" : "2016-12-29T15:25:53.809Z",
+    "2.5.46" : "2017-03-16T14:39:15.850Z",
+    "3.3.6" : "2019-01-18T07:16:30.187Z",
+    "2.5.45" : "2017-03-11T01:06:21.990Z",
+    "3.3.7" : "2019-01-18T21:23:38.316Z",
+    "2.5.44" : "2017-03-10T06:30:17.825Z",
+    "3.3.8" : "2019-01-25T01:04:00.448Z",
+    "2.5.43" : "2017-02-14T19:51:56.301Z",
+    "3.3.9" : "2019-02-13T19:09:15.232Z",
+    "2.6.2" : "2017-10-25T18:40:20.599Z",
+    "2.8.0" : "2017-11-14T00:06:59.684Z",
+    "2.5.49" : "2017-06-02T01:35:42.258Z",
+    "2.6.3" : "2017-11-06T19:14:47.563Z",
+    "2.8.1" : "2017-11-14T21:32:02.589Z",
+    "2.5.48" : "2017-06-01T05:12:04.223Z",
+    "2.6.0" : "2017-09-14T19:43:48.307Z",
+    "2.2.15-alpha" : "2016-05-17T05:14:45.827Z",
+    "2.5.47" : "2017-03-29T17:18:58.397Z",
+    "2.6.1" : "2017-10-25T01:05:31.867Z",
+    "2.2.27-alpha" : "2016-07-08T20:29:37.320Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+    "directory" : "types/jasmine"
+  },
+  "users" : {
+    "hongbo-miao" : true,
+    "thewhiterabbit" : true,
+    "liuhuoliunian" : true,
+    "renishskills" : true
+  },
+  "readmeFilename" : "",
+  "contributors" : [ {
+    "name" : "Boris Yankov",
+    "url" : "https://github.com/borisyankov",
+    "githubUsername" : "borisyankov"
+  }, {
+    "name" : "Theodore Brown",
+    "url" : "https://github.com/theodorejb",
+    "githubUsername" : "theodorejb"
+  }, {
+    "name" : "David Pärsson",
+    "url" : "https://github.com/davidparsson",
+    "githubUsername" : "davidparsson"
+  }, {
+    "name" : "Gabe Moothart",
+    "url" : "https://github.com/gmoothart",
+    "githubUsername" : "gmoothart"
+  }, {
+    "name" : "Lukas Zech",
+    "url" : "https://github.com/lukas-zech-software",
+    "githubUsername" : "lukas-zech-software"
+  }, {
+    "name" : "Boris Breuer",
+    "url" : "https://github.com/Engineer2B",
+    "githubUsername" : "Engineer2B"
+  }, {
+    "name" : "Chris Yungmann",
+    "url" : "https://github.com/cyungmann",
+    "githubUsername" : "cyungmann"
+  }, {
+    "name" : "Giles Roadnight",
+    "url" : "https://github.com/Roaders",
+    "githubUsername" : "Roaders"
+  }, {
+    "name" : "Yaroslav Admin",
+    "url" : "https://github.com/devoto13",
+    "githubUsername" : "devoto13"
+  }, {
+    "name" : "Domas Trijonis",
+    "url" : "https://github.com/fdim",
+    "githubUsername" : "fdim"
+  }, {
+    "name" : "Moshe Kolodny",
+    "url" : "https://github.com/kolodny",
+    "githubUsername" : "kolodny"
+  }, {
+    "name" : "Stephen Farrar",
+    "url" : "https://github.com/stephenfarrar",
+    "githubUsername" : "stephenfarrar"
+  }, {
+    "name" : "Mochamad Arfin",
+    "url" : "https://github.com/ndunks",
+    "githubUsername" : "ndunks"
+  }, {
+    "name" : "Alex Povar",
+    "url" : "https://github.com/zvirja",
+    "githubUsername" : "zvirja"
+  }, {
+    "name" : "Dominik Ehrenberg",
+    "url" : "https://github.com/djungowski",
+    "githubUsername" : "djungowski"
+  } ],
+  "license" : "MIT"
+}

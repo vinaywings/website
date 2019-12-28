@@ -1,0 +1,461 @@
+{
+  "_id" : "dom-serialize",
+  "_rev" : "16-be2eede3ec9965cc1057d982eedf4ba6",
+  "name" : "dom-serialize",
+  "description" : "Serializes any DOM node into a String",
+  "dist-tags" : {
+    "latest" : "2.2.1"
+  },
+  "versions" : {
+    "1.2.1" : {
+      "name" : "dom-serialize",
+      "description" : "Serializes any DOM node into a String",
+      "version" : "1.2.1",
+      "author" : {
+        "name" : "Nathan Rajlich",
+        "email" : "nathan@tootallnate.net",
+        "url" : "http://n8.io/"
+      },
+      "homepage" : "https://github.com/webmodules/dom-serialize",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/webmodules/dom-serialize.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/webmodules/dom-serialize/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/dom-serialize/-/dom-serialize-1.2.1.tgz",
+        "shasum" : "7c01e94a9838dd3ecec54d4a82fa4b76078a3f59"
+      },
+      "dependencies" : {
+        "custom-event" : "~1.0.0",
+        "ent" : "~2.2.0",
+        "void-elements" : "~1.0.0"
+      },
+      "devDependencies" : {
+        "zuul" : "~1.16.3"
+      },
+      "keywords" : [ "browser", "node", "dom", "serialize", "string" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "tootallnate",
+        "email" : "nathan@tootallnate.net"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "make test"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.28",
+      "_npmUser" : {
+        "name" : "tootallnate",
+        "email" : "nathan@tootallnate.net"
+      },
+      "_id" : "dom-serialize@1.2.1",
+      "gitHead" : "3fe1f5db80b6d674e2a132508017f4d3db63d896",
+      "_shasum" : "7c01e94a9838dd3ecec54d4a82fa4b76078a3f59"
+    },
+    "2.0.0" : {
+      "name" : "dom-serialize",
+      "description" : "Serializes any DOM node into a String",
+      "version" : "2.0.0",
+      "author" : {
+        "name" : "Nathan Rajlich",
+        "email" : "nathan@tootallnate.net",
+        "url" : "http://n8.io/"
+      },
+      "homepage" : "https://github.com/webmodules/dom-serialize",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/webmodules/dom-serialize.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/webmodules/dom-serialize/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/dom-serialize/-/dom-serialize-2.0.0.tgz",
+        "shasum" : "2004267b5c355ee6824f987d6347fda675bf0cf1"
+      },
+      "dependencies" : {
+        "custom-event" : "~1.0.0",
+        "ent" : "~2.2.0",
+        "void-elements" : "~1.0.0"
+      },
+      "devDependencies" : {
+        "zuul" : "~1.16.3"
+      },
+      "keywords" : [ "browser", "node", "dom", "serialize", "string" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "tootallnate",
+        "email" : "nathan@tootallnate.net"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "make test"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.28",
+      "_npmUser" : {
+        "name" : "tootallnate",
+        "email" : "nathan@tootallnate.net"
+      },
+      "_id" : "dom-serialize@2.0.0",
+      "gitHead" : "c86d26136346ecefd1ef339428e5b551a71f417f",
+      "_shasum" : "2004267b5c355ee6824f987d6347fda675bf0cf1"
+    },
+    "2.0.1" : {
+      "name" : "dom-serialize",
+      "description" : "Serializes any DOM node into a String",
+      "version" : "2.0.1",
+      "author" : {
+        "name" : "Nathan Rajlich",
+        "email" : "nathan@tootallnate.net",
+        "url" : "http://n8.io/"
+      },
+      "homepage" : "https://github.com/webmodules/dom-serialize",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/webmodules/dom-serialize.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/webmodules/dom-serialize/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/dom-serialize/-/dom-serialize-2.0.1.tgz",
+        "shasum" : "eca930179da7c3bf273b61debee3ef00124837f2"
+      },
+      "dependencies" : {
+        "custom-event" : "~1.0.0",
+        "ent" : "~2.2.0",
+        "void-elements" : "~1.0.0"
+      },
+      "devDependencies" : {
+        "zuul" : "~1.16.3"
+      },
+      "keywords" : [ "browser", "node", "dom", "serialize", "string" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "tootallnate",
+        "email" : "nathan@tootallnate.net"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "make test"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.28",
+      "_npmUser" : {
+        "name" : "tootallnate",
+        "email" : "nathan@tootallnate.net"
+      },
+      "_id" : "dom-serialize@2.0.1",
+      "gitHead" : "3dc0ba6153943c5c088b7f46f3d6e356179091ef",
+      "_shasum" : "eca930179da7c3bf273b61debee3ef00124837f2"
+    },
+    "2.1.0" : {
+      "name" : "dom-serialize",
+      "description" : "Serializes any DOM node into a String",
+      "version" : "2.1.0",
+      "author" : {
+        "name" : "Nathan Rajlich",
+        "email" : "nathan@tootallnate.net",
+        "url" : "http://n8.io/"
+      },
+      "homepage" : "https://github.com/webmodules/dom-serialize",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/webmodules/dom-serialize.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/webmodules/dom-serialize/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/dom-serialize/-/dom-serialize-2.1.0.tgz",
+        "shasum" : "152c51de73aff8095ac3f0fbb7655500218a05a6"
+      },
+      "dependencies" : {
+        "custom-event" : "~1.0.0",
+        "ent" : "~2.2.0",
+        "void-elements" : "~1.0.0"
+      },
+      "devDependencies" : {
+        "zuul" : "1"
+      },
+      "keywords" : [ "browser", "node", "dom", "serialize", "string" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "tootallnate",
+        "email" : "nathan@tootallnate.net"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "make test"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.5.1",
+      "_npmUser" : {
+        "name" : "tootallnate",
+        "email" : "nathan@tootallnate.net"
+      },
+      "_id" : "dom-serialize@2.1.0",
+      "gitHead" : "6b00e804b36ba3be809560393275c886b2def87d",
+      "_shasum" : "152c51de73aff8095ac3f0fbb7655500218a05a6",
+      "_nodeVersion" : "0.12.0"
+    },
+    "1.1.0" : {
+      "name" : "dom-serialize",
+      "description" : "Serializes any DOM node into a String",
+      "version" : "1.1.0",
+      "author" : {
+        "name" : "Nathan Rajlich",
+        "email" : "nathan@tootallnate.net",
+        "url" : "http://n8.io/"
+      },
+      "homepage" : "https://github.com/webmodules/dom-serialize",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/webmodules/dom-serialize.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/webmodules/dom-serialize/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/dom-serialize/-/dom-serialize-1.1.0.tgz",
+        "shasum" : "62f034f4f4aa8da42dfa508142c67de815d52bdb"
+      },
+      "dependencies" : {
+        "custom-event" : "~1.0.0",
+        "ent" : "~2.2.0",
+        "void-elements" : "~1.0.0"
+      },
+      "devDependencies" : {
+        "zuul" : "~1.16.3"
+      },
+      "keywords" : [ "browser", "node", "dom", "serialize", "string" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "tootallnate",
+        "email" : "nathan@tootallnate.net"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "make test"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.28",
+      "_npmUser" : {
+        "name" : "tootallnate",
+        "email" : "nathan@tootallnate.net"
+      },
+      "_id" : "dom-serialize@1.1.0",
+      "gitHead" : "d6584bab9a1678aac20a91373e41323fbf9ad4c4",
+      "_shasum" : "62f034f4f4aa8da42dfa508142c67de815d52bdb"
+    },
+    "2.2.0" : {
+      "name" : "dom-serialize",
+      "description" : "Serializes any DOM node into a String",
+      "version" : "2.2.0",
+      "author" : {
+        "name" : "Nathan Rajlich",
+        "email" : "nathan@tootallnate.net",
+        "url" : "http://n8.io/"
+      },
+      "homepage" : "https://github.com/webmodules/dom-serialize",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/webmodules/dom-serialize.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/webmodules/dom-serialize/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/dom-serialize/-/dom-serialize-2.2.0.tgz",
+        "shasum" : "cc607ba627bd6104b89190da0978d58ba2e08471"
+      },
+      "dependencies" : {
+        "custom-event" : "~1.0.0",
+        "ent" : "~2.2.0",
+        "extend" : "~2.0.0",
+        "void-elements" : "~1.0.0"
+      },
+      "devDependencies" : {
+        "zuul" : "1"
+      },
+      "keywords" : [ "browser", "node", "dom", "serialize", "string" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "tootallnate",
+        "email" : "nathan@tootallnate.net"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "make test"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.28",
+      "_npmUser" : {
+        "name" : "tootallnate",
+        "email" : "nathan@tootallnate.net"
+      },
+      "_id" : "dom-serialize@2.2.0",
+      "gitHead" : "f2d60cf6ec92277fc1b27ed8b0d3be310178eaf0",
+      "_shasum" : "cc607ba627bd6104b89190da0978d58ba2e08471"
+    },
+    "1.2.0" : {
+      "name" : "dom-serialize",
+      "description" : "Serializes any DOM node into a String",
+      "version" : "1.2.0",
+      "author" : {
+        "name" : "Nathan Rajlich",
+        "email" : "nathan@tootallnate.net",
+        "url" : "http://n8.io/"
+      },
+      "homepage" : "https://github.com/webmodules/dom-serialize",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/webmodules/dom-serialize.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/webmodules/dom-serialize/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/dom-serialize/-/dom-serialize-1.2.0.tgz",
+        "shasum" : "e235ac523b0b41c5864fad9d6f9190384c8d9b97"
+      },
+      "dependencies" : {
+        "custom-event" : "~1.0.0",
+        "ent" : "~2.2.0",
+        "void-elements" : "~1.0.0"
+      },
+      "devDependencies" : {
+        "zuul" : "~1.16.3"
+      },
+      "keywords" : [ "browser", "node", "dom", "serialize", "string" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "tootallnate",
+        "email" : "nathan@tootallnate.net"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "make test"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.28",
+      "_npmUser" : {
+        "name" : "tootallnate",
+        "email" : "nathan@tootallnate.net"
+      },
+      "_id" : "dom-serialize@1.2.0",
+      "gitHead" : "974d7fddae960b8acc26f76dbe742723d1741203",
+      "_shasum" : "e235ac523b0b41c5864fad9d6f9190384c8d9b97"
+    },
+    "2.2.1" : {
+      "name" : "dom-serialize",
+      "description" : "Serializes any DOM node into a String",
+      "version" : "2.2.1",
+      "author" : {
+        "name" : "Nathan Rajlich",
+        "email" : "nathan@tootallnate.net",
+        "url" : "http://n8.io/"
+      },
+      "homepage" : "https://github.com/webmodules/dom-serialize",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/webmodules/dom-serialize.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/webmodules/dom-serialize/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/dom-serialize/-/dom-serialize-2.2.1.tgz",
+        "shasum" : "562ae8999f44be5ea3076f5419dcd59eb43ac95b"
+      },
+      "dependencies" : {
+        "custom-event" : "~1.0.0",
+        "ent" : "~2.2.0",
+        "extend" : "^3.0.0",
+        "void-elements" : "^2.0.0"
+      },
+      "devDependencies" : {
+        "zuul" : "1"
+      },
+      "keywords" : [ "browser", "node", "dom", "serialize", "string" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "tootallnate",
+        "email" : "nathan@tootallnate.net"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "make test"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.14.4",
+      "_npmUser" : {
+        "name" : "tootallnate",
+        "email" : "nathan@tootallnate.net"
+      },
+      "_id" : "dom-serialize@2.2.1",
+      "gitHead" : "3e9706965c76cfc2a74a6f3c113f89bffd49cb29",
+      "_shasum" : "562ae8999f44be5ea3076f5419dcd59eb43ac95b",
+      "_nodeVersion" : "4.1.2"
+    }
+  },
+  "_attachments" : {
+  },
+  "readme" : "dom-serialize\n=============\n### Serializes any DOM node into a String\n\n[![Sauce Test Status](https://saucelabs.com/browser-matrix/dom-serialize.svg)](https://saucelabs.com/u/dom-serialize)\n\n[![Build Status](https://travis-ci.org/webmodules/dom-serialize.svg?branch=master)](https://travis-ci.org/webmodules/dom-serialize)\n\nIt's like `outerHTML`, but it works with:\n\n * DOM elements\n * Text nodes\n * Attributes\n * Comment nodes\n * Documents\n * DocumentFragments\n * Doctypes\n * NodeLists / Arrays\n\nFor custom serialization logic, a \"serialize\" event is dispatched on\nevery `Node` which event listeners can override the default behavior on by\nsetting the `event.detail.serialize` property to a String or other Node.\n\nThe \"serialize\" event bubbles, so it could be a good idea to utilize\nevent delegation on a known root node that will be serialized.\nCheck the `event.serializeTarget` property to check which `Node` is\ncurrently being serialized.\n\n\nInstallation\n------------\n\n``` bash\n$ npm install dom-serialize\n```\n\n\nExample\n-------\n\n``` js\nvar serialize = require('dom-serialize');\nvar node;\n\n// works with Text nodes\nnode = document.createTextNode('foo & <bar>');\nconsole.log(serialize(node));\n\n\n// works with DOM elements\nnode = document.createElement('body');\nnode.appendChild(document.createElement('strong'));\nnode.firstChild.appendChild(document.createTextNode('hello'));\nconsole.log(serialize(node));\n\n\n// custom \"serialize\" event\nnode.firstChild.addEventListener('serialize', function (event) {\n  event.detail.serialize = 'pwn';\n}, false);\nconsole.log(serialize(node));\n\n\n// you can also just pass a function in for a one-time serializer\nconsole.log(serialize(node, function (event) {\n  if (event.serializeTarget === node.firstChild) {\n    // for the first child, output an ellipsis to summarize \"content\"\n    event.detail.serialze = '…';\n  } else if (event.serializeTarget !== node) {\n    // any other child\n    event.preventDefault();\n  }\n}));\n```\n\n```\nfoo &amp; &lt;bar&gt;\n<body><strong>hello</strong></body>\n<body>pwn</body>\n<body>…</body>\n```\n",
+  "maintainers" : [ {
+    "name" : "tootallnate",
+    "email" : "nathan@tootallnate.net"
+  } ],
+  "author" : {
+    "name" : "Nathan Rajlich",
+    "email" : "nathan@tootallnate.net",
+    "url" : "http://n8.io/"
+  },
+  "time" : {
+    "1.2.1" : "2015-02-04T00:07:50.164Z",
+    "2.0.0" : "2015-02-04T03:55:37.509Z",
+    "2.0.1" : "2015-02-04T04:43:52.362Z",
+    "2.1.0" : "2015-02-10T20:50:42.997Z",
+    "created" : "2015-01-17T00:46:09.519Z",
+    "modified" : "2017-01-19T19:41:28.632Z",
+    "1.1.0" : "2015-01-17T00:46:09.519Z",
+    "2.2.0" : "2015-02-13T19:22:10.774Z",
+    "1.2.0" : "2015-02-03T01:41:24.384Z",
+    "2.2.1" : "2015-11-05T18:04:28.006Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "git://github.com/webmodules/dom-serialize.git"
+  },
+  "users" : {
+    "danielkalen" : true
+  },
+  "readmeFilename" : "README.md",
+  "homepage" : "https://github.com/webmodules/dom-serialize",
+  "keywords" : [ "browser", "node", "dom", "serialize", "string" ],
+  "bugs" : {
+    "url" : "https://github.com/webmodules/dom-serialize/issues"
+  },
+  "license" : "MIT"
+}

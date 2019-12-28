@@ -1,0 +1,540 @@
+{
+  "_id" : "date-format",
+  "_rev" : "35-54a1f86fd3cdb734bb60136ffb2460a7",
+  "name" : "date-format",
+  "description" : "Formatting Date objects as strings since 2013",
+  "dist-tags" : {
+    "latest" : "3.0.0"
+  },
+  "versions" : {
+    "2.0.0" : {
+      "name" : "date-format",
+      "description" : "Formatting Date objects as strings since 2013",
+      "version" : "2.0.0",
+      "author" : {
+        "name" : "Gareth Jones",
+        "email" : "gareth.nomiddlename@gmail.com"
+      },
+      "homepage" : "https://github.com/nomiddlename/date-format#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/nomiddlename/date-format.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/nomiddlename/date-format/issues"
+      },
+      "engines" : {
+        "node" : ">=4.0"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/date-format/-/date-format-2.0.0.tgz",
+        "shasum" : "7cf7b172f1ec564f0003b39ea302c5498fb98c8f"
+      },
+      "devDependencies" : {
+        "eslint" : "^5.5.0",
+        "eslint-plugin-mocha" : "^5.2.0",
+        "mocha" : "^5.2.0",
+        "should" : "^13.2.3"
+      },
+      "keywords" : [ "date", "format", "string" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "csausdev",
+        "email" : "gareth.jones@sensis.com.au"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "eslint lib/* test/*",
+        "pretest" : "eslint lib/* test/*",
+        "test" : "mocha"
+      },
+      "_npmVersion" : "6.1.0",
+      "_npmUser" : {
+        "name" : "csausdev",
+        "email" : "gareth.nomiddlename@gmail.com"
+      },
+      "_id" : "date-format@2.0.0",
+      "gitHead" : "bf59015ab6c9e86454b179374f29debbdb403522",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/date-format_2.0.0_1541543784123_0.5061446193634411"
+      },
+      "_nodeVersion" : "10.6.0"
+    },
+    "2.1.0" : {
+      "name" : "date-format",
+      "description" : "Formatting Date objects as strings since 2013",
+      "version" : "2.1.0",
+      "author" : {
+        "name" : "Gareth Jones",
+        "email" : "gareth.nomiddlename@gmail.com"
+      },
+      "homepage" : "https://github.com/nomiddlename/date-format#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/nomiddlename/date-format.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/nomiddlename/date-format/issues"
+      },
+      "engines" : {
+        "node" : ">=4.0"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/date-format/-/date-format-2.1.0.tgz",
+        "shasum" : "31d5b5ea211cf5fd764cd38baf9d033df7e125cf"
+      },
+      "devDependencies" : {
+        "eslint" : "^5.16.0",
+        "eslint-plugin-mocha" : "^5.3.0",
+        "mocha" : "^5.2.0",
+        "should" : "^13.2.3"
+      },
+      "keywords" : [ "date", "format", "string" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "csausdev",
+        "email" : "gareth.jones@sensis.com.au"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "eslint lib/* test/*",
+        "pretest" : "eslint lib/* test/*",
+        "test" : "mocha"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "csausdev",
+        "email" : "gareth.nomiddlename@gmail.com"
+      },
+      "_id" : "date-format@2.1.0",
+      "gitHead" : "bf59015ab6c9e86454b179374f29debbdb403522",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/date-format_2.1.0_1563342825222_0.516411915009432"
+      },
+      "_nodeVersion" : "10.15.0"
+    },
+    "3.0.0" : {
+      "name" : "date-format",
+      "description" : "Formatting Date objects as strings since 2013",
+      "version" : "3.0.0",
+      "author" : {
+        "name" : "Gareth Jones",
+        "email" : "gareth.nomiddlename@gmail.com"
+      },
+      "homepage" : "https://github.com/nomiddlename/date-format#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/nomiddlename/date-format.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/nomiddlename/date-format/issues"
+      },
+      "engines" : {
+        "node" : ">=4.0"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/date-format/-/date-format-3.0.0.tgz",
+        "shasum" : "eb8780365c7d2b1511078fb491e6479780f3ad95"
+      },
+      "devDependencies" : {
+        "eslint" : "^5.16.0",
+        "eslint-plugin-mocha" : "^5.3.0",
+        "mocha" : "^5.2.0",
+        "should" : "^13.2.3"
+      },
+      "keywords" : [ "date", "format", "string" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "csausdev",
+        "email" : "gareth.jones@sensis.com.au"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "eslint lib/* test/*",
+        "pretest" : "eslint lib/* test/*",
+        "test" : "mocha"
+      },
+      "_npmVersion" : "6.10.0",
+      "_npmUser" : {
+        "name" : "csausdev",
+        "email" : "gareth.nomiddlename@gmail.com"
+      },
+      "_id" : "date-format@3.0.0",
+      "gitHead" : "bf59015ab6c9e86454b179374f29debbdb403522",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/date-format_3.0.0_1572558432802_0.9883970407524658"
+      },
+      "_nodeVersion" : "12.7.0"
+    },
+    "0.0.2" : {
+      "name" : "date-format",
+      "description" : "formatting Date objects as strings since 2013",
+      "version" : "0.0.2",
+      "author" : {
+        "name" : "Gareth Jones",
+        "email" : "gareth.jones@sensis.com.au"
+      },
+      "homepage" : "https://github.com/nomiddlename/date-format",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/nomiddlename/date-format.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/nomiddlename/date-format/issues"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/date-format/-/date-format-0.0.2.tgz",
+        "shasum" : "fafd448f72115ef1e2b739155ae92f2be6c28dd1"
+      },
+      "devDependencies" : {
+        "should" : "~1.2.2",
+        "mocha" : "~1.12.0"
+      },
+      "keywords" : [ "date", "format", "string" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "csausdev",
+        "email" : "gareth.jones@sensis.com.au"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.3.17",
+      "_npmUser" : {
+        "name" : "csausdev",
+        "email" : "gareth.nomiddlename@gmail.com"
+      },
+      "_id" : "date-format@0.0.2",
+      "gitHead" : "bf59015ab6c9e86454b179374f29debbdb403522"
+    },
+    "1.0.0" : {
+      "name" : "date-format",
+      "description" : "Formatting Date objects as strings since 2013",
+      "version" : "1.0.0",
+      "author" : {
+        "name" : "Gareth Jones",
+        "email" : "gareth.nomiddlename@gmail.com"
+      },
+      "homepage" : "https://github.com/nomiddlename/date-format#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/nomiddlename/date-format.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/nomiddlename/date-format/issues"
+      },
+      "engines" : {
+        "node" : ">=4.0"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/date-format/-/date-format-1.0.0.tgz",
+        "shasum" : "e2fefbc18fdc4bf2be720e82c781f3d2c15ba33b"
+      },
+      "devDependencies" : {
+        "eslint" : "^3.12.0",
+        "eslint-config-airbnb-base" : "^11.0.0",
+        "eslint-plugin-import" : "^2.0.0",
+        "eslint-plugin-mocha" : "^4.8.0",
+        "mocha" : "^3.2.0",
+        "should" : "^11.1.2"
+      },
+      "keywords" : [ "date", "format", "string" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "csausdev",
+        "email" : "gareth.jones@sensis.com.au"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "eslint lib/* test/*",
+        "pretest" : "eslint lib/* test/*",
+        "test" : "mocha"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.8.9",
+      "_npmUser" : {
+        "name" : "csausdev",
+        "email" : "gareth.nomiddlename@gmail.com"
+      },
+      "_id" : "date-format@1.0.0",
+      "gitHead" : "bf59015ab6c9e86454b179374f29debbdb403522",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/date-format-1.0.0.tgz_1483072694291_0.8120451045688242"
+      },
+      "_shasum" : "e2fefbc18fdc4bf2be720e82c781f3d2c15ba33b",
+      "_nodeVersion" : "6.2.0"
+    },
+    "0.0.0" : {
+      "name" : "date-format",
+      "description" : "formatting Date objects as strings since 2013",
+      "version" : "0.0.0",
+      "author" : {
+        "name" : "Gareth Jones",
+        "email" : "gareth.jones@sensis.com.au"
+      },
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/nomiddlename/date-format.git"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/date-format/-/date-format-0.0.0.tgz",
+        "shasum" : "09206863ab070eb459acea5542cbd856b11966b3"
+      },
+      "devDependencies" : {
+        "should" : "~1.2.2",
+        "mocha" : "~1.12.0"
+      },
+      "keywords" : [ "date", "format", "string" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "csausdev",
+        "email" : "gareth.jones@sensis.com.au"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.2.18",
+      "_npmUser" : {
+        "name" : "csausdev",
+        "email" : "gareth.jones@sensis.com.au"
+      },
+      "_id" : "date-format@0.0.0",
+      "gitHead" : "bf59015ab6c9e86454b179374f29debbdb403522"
+    },
+    "1.1.0" : {
+      "name" : "date-format",
+      "description" : "Formatting Date objects as strings since 2013",
+      "version" : "1.1.0",
+      "author" : {
+        "name" : "Gareth Jones",
+        "email" : "gareth.nomiddlename@gmail.com"
+      },
+      "homepage" : "https://github.com/nomiddlename/date-format#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/nomiddlename/date-format.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/nomiddlename/date-format/issues"
+      },
+      "engines" : {
+        "node" : ">=4.0"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/date-format/-/date-format-1.1.0.tgz",
+        "shasum" : "be7df68ec270fd9ec78482bd85be68c8fb8fbebc"
+      },
+      "devDependencies" : {
+        "eslint" : "^3.12.0",
+        "eslint-plugin-import" : "^2.2.0",
+        "eslint-plugin-mocha" : "^4.8.0",
+        "mocha" : "^3.2.0",
+        "should" : "^11.1.2"
+      },
+      "keywords" : [ "date", "format", "string" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "csausdev",
+        "email" : "gareth.jones@sensis.com.au"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "eslint lib/* test/*",
+        "pretest" : "eslint lib/* test/*",
+        "test" : "mocha"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.10.10",
+      "_npmUser" : {
+        "name" : "csausdev",
+        "email" : "gareth.nomiddlename@gmail.com"
+      },
+      "_id" : "date-format@1.1.0",
+      "gitHead" : "bf59015ab6c9e86454b179374f29debbdb403522",
+      "_npmOperationalInternal" : {
+        "host" : "packages-18-east.internal.npmjs.com",
+        "tmp" : "tmp/date-format-1.1.0.tgz_1488232241450_0.007586805848404765"
+      },
+      "_shasum" : "be7df68ec270fd9ec78482bd85be68c8fb8fbebc",
+      "_nodeVersion" : "6.9.4"
+    },
+    "0.0.1" : {
+      "name" : "date-format",
+      "description" : "formatting Date objects as strings since 2013",
+      "version" : "0.0.1",
+      "author" : {
+        "name" : "Gareth Jones",
+        "email" : "gareth.jones@sensis.com.au"
+      },
+      "homepage" : "https://github.com/nomiddlename/date-format",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/nomiddlename/date-format.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/nomiddlename/date-format/issues"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/date-format/-/date-format-0.0.1.tgz",
+        "shasum" : "d66afb749a63da9122b25b7e2867fceffc6c14db"
+      },
+      "devDependencies" : {
+        "should" : "~1.2.2",
+        "mocha" : "~1.12.0"
+      },
+      "keywords" : [ "date", "format", "string" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "csausdev",
+        "email" : "gareth.jones@sensis.com.au"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.3.17",
+      "_npmUser" : {
+        "name" : "csausdev",
+        "email" : "gareth.nomiddlename@gmail.com"
+      },
+      "_id" : "date-format@0.0.1",
+      "gitHead" : "bf59015ab6c9e86454b179374f29debbdb403522"
+    },
+    "1.2.0" : {
+      "name" : "date-format",
+      "description" : "Formatting Date objects as strings since 2013",
+      "version" : "1.2.0",
+      "author" : {
+        "name" : "Gareth Jones",
+        "email" : "gareth.nomiddlename@gmail.com"
+      },
+      "homepage" : "https://github.com/nomiddlename/date-format#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/nomiddlename/date-format.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/nomiddlename/date-format/issues"
+      },
+      "engines" : {
+        "node" : ">=4.0"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/date-format/-/date-format-1.2.0.tgz",
+        "shasum" : "615e828e233dd1ab9bb9ae0950e0ceccfa6ecad8"
+      },
+      "devDependencies" : {
+        "eslint" : "^3.12.0",
+        "eslint-plugin-import" : "^2.2.0",
+        "eslint-plugin-mocha" : "^4.8.0",
+        "mocha" : "^3.2.0",
+        "should" : "^11.1.2"
+      },
+      "keywords" : [ "date", "format", "string" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "csausdev",
+        "email" : "gareth.jones@sensis.com.au"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "eslint lib/* test/*",
+        "pretest" : "eslint lib/* test/*",
+        "test" : "mocha"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.10.10",
+      "_npmUser" : {
+        "name" : "csausdev",
+        "email" : "gareth.nomiddlename@gmail.com"
+      },
+      "_id" : "date-format@1.2.0",
+      "gitHead" : "bf59015ab6c9e86454b179374f29debbdb403522",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/date-format-1.2.0.tgz_1510607396190_0.22567522712051868"
+      },
+      "_shasum" : "615e828e233dd1ab9bb9ae0950e0ceccfa6ecad8",
+      "_nodeVersion" : "6.11.4"
+    }
+  },
+  "readme" : "date-format\n===========\n\nnode.js formatting of Date objects as strings. Probably exactly the same as some other library out there.\n\n```sh\nnpm install date-format\n```\n\nusage\n=====\n\nFormatting dates as strings\n----\n\n```javascript\nvar format = require('date-format');\nformat.asString(); //defaults to ISO8601 format and current date.\nformat.asString(new Date()); //defaults to ISO8601 format\nformat.asString('hh:mm:ss.SSS', new Date()); //just the time\n```\n\nor\n\n```javascript\nvar format = require('date-format');\nformat(); //defaults to ISO8601 format and current date.\nformat(new Date());\nformat('hh:mm:ss.SSS', new Date());\n```\n\nFormat string can be anything, but the following letters will be replaced (and leading zeroes added if necessary):\n* dd - `date.getDate()`\n* MM - `date.getMonth() + 1`\n* yy - `date.getFullYear().toString().substring(2, 4)`\n* yyyy - `date.getFullYear()`\n* hh - `date.getHours()`\n* mm - `date.getMinutes()`\n* ss - `date.getSeconds()`\n* SSS - `date.getMilliseconds()`\n* O - timezone offset in +hm format (note that time will be in UTC if displaying offset)\n\nBuilt-in formats:\n* `format.ISO8601_FORMAT` - `2017-03-14T14:10:20.391` (local time used)\n* `format.ISO8601_WITH_TZ_OFFSET_FORMAT` - `2017-03-14T03:10:20.391+1100` (UTC + TZ used)\n* `format.DATETIME_FORMAT` - `14 03 2017 14:10:20.391` (local time used)\n* `format.ABSOLUTETIME_FORMAT` - `14:10:20.391` (local time used)\n\nParsing strings as dates\n----\nThe date format library has limited ability to parse strings into dates. It can convert strings created using date format patterns (as above), but if you're looking for anything more sophisticated than that you should probably look for a better library ([momentjs](https://momentjs.com) does pretty much everything).\n\n```javascript\nvar format = require('date-format');\n// pass in the format of the string as first argument\nformat.parse(format.ISO8601_FORMAT, '2017-03-14T14:10:20.391');\n// returns Date\n```\n",
+  "maintainers" : [ {
+    "name" : "csausdev",
+    "email" : "gareth.jones@sensis.com.au"
+  } ],
+  "author" : {
+    "name" : "Gareth Jones",
+    "email" : "gareth.nomiddlename@gmail.com"
+  },
+  "time" : {
+    "2.0.0" : "2018-11-06T22:36:24.280Z",
+    "2.1.0" : "2019-07-17T05:53:45.333Z",
+    "3.0.0" : "2019-10-31T21:47:12.934Z",
+    "created" : "2013-08-29T10:45:02.490Z",
+    "modified" : "2019-10-31T21:47:15.399Z",
+    "0.0.2" : "2014-02-24T21:49:54.550Z",
+    "1.0.0" : "2016-12-30T04:38:14.526Z",
+    "0.0.0" : "2013-08-29T10:45:24.426Z",
+    "1.1.0" : "2017-02-27T21:50:43.233Z",
+    "0.0.1" : "2014-02-24T21:46:59.381Z",
+    "1.2.0" : "2017-11-13T21:09:56.348Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "git+https://github.com/nomiddlename/date-format.git"
+  },
+  "users" : {
+    "icerainnuaa" : true,
+    "ozshimon21" : true,
+    "tiagobraga" : true,
+    "michalskuza" : true,
+    "redmonkeydf" : true,
+    "guim0ve" : true,
+    "m-shibata" : true,
+    "jacoborus" : true,
+    "salvatorelab" : true,
+    "rubiadias" : true,
+    "x0000ff" : true,
+    "stone_breaker" : true,
+    "fetaoily" : true,
+    "warapitiya" : true
+  },
+  "readmeFilename" : "README.md",
+  "homepage" : "https://github.com/nomiddlename/date-format#readme",
+  "keywords" : [ "date", "format", "string" ],
+  "bugs" : {
+    "url" : "https://github.com/nomiddlename/date-format/issues"
+  },
+  "license" : "MIT"
+}

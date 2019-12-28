@@ -1,0 +1,213 @@
+{
+  "_id" : "@yarnpkg/lockfile",
+  "_rev" : "6-5fee698f91508941510357cc1e0dbd91",
+  "name" : "@yarnpkg/lockfile",
+  "description" : "The parser/stringifier for Yarn lockfiles.",
+  "dist-tags" : {
+    "latest" : "1.1.0"
+  },
+  "versions" : {
+    "1.0.0" : {
+      "name" : "@yarnpkg/lockfile",
+      "description" : "The parser/stringifier for Yarn lockfiles.",
+      "version" : "1.0.0",
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/@yarnpkg/lockfile/-/lockfile-1.0.0.tgz",
+        "shasum" : "33d1dbb659a23b81f87f048762b35a446172add3"
+      },
+      "license" : "BSD-2-Clause",
+      "maintainers" : [ {
+        "name" : "daniel15",
+        "email" : "npm@dan.cx"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_from" : ".",
+      "_npmVersion" : "4.2.0",
+      "_npmUser" : {
+        "name" : "daniel15",
+        "email" : "npm@dan.cx"
+      },
+      "_id" : "@yarnpkg/lockfile@1.0.0",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/lockfile-1.0.0.tgz_1503376322509_0.7613778912927955"
+      },
+      "_shasum" : "33d1dbb659a23b81f87f048762b35a446172add3",
+      "_nodeVersion" : "7.8.0"
+    },
+    "1.0.1" : {
+      "name" : "@yarnpkg/lockfile",
+      "description" : "The parser/stringifier for Yarn lockfiles.",
+      "version" : "1.0.1",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/yarnpkg/yarn/blob/master/packages/lockfile"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/@yarnpkg/lockfile/-/lockfile-1.0.1.tgz",
+        "shasum" : "294155ffbf78cec882a23bc61800b8e629b6b384"
+      },
+      "keywords" : [ "yarn", "yarnpkg", "lockfile", "dependency", "npm" ],
+      "license" : "BSD-2-Clause",
+      "maintainers" : [ {
+        "email" : "nison.mael@gmail.com",
+        "name" : "arcanis"
+      }, {
+        "email" : "bestander@gmail.com",
+        "name" : "bestander"
+      }, {
+        "email" : "christoph.pojer@gmail.com",
+        "name" : "cpojer"
+      }, {
+        "email" : "npm@dan.cx",
+        "name" : "daniel15"
+      }, {
+        "email" : "sebmck@gmail.com",
+        "name" : "sebmck"
+      } ],
+      "directories" : {
+      },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "arcanis",
+        "email" : "nison.mael@gmail.com"
+      },
+      "_id" : "@yarnpkg/lockfile@1.0.1",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/lockfile_1.0.1_1526051468869_0.07737654099356206"
+      },
+      "_nodeVersion" : "9.11.1"
+    },
+    "1.1.0" : {
+      "name" : "@yarnpkg/lockfile",
+      "description" : "The parser/stringifier for Yarn lockfiles.",
+      "version" : "1.1.0",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/yarnpkg/yarn/blob/master/packages/lockfile"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/@yarnpkg/lockfile/-/lockfile-1.1.0.tgz",
+        "shasum" : "e77a97fbd345b76d83245edcd17d393b1b41fb31"
+      },
+      "keywords" : [ "yarn", "yarnpkg", "lockfile", "dependency", "npm" ],
+      "license" : "BSD-2-Clause",
+      "maintainers" : [ {
+        "email" : "nison.mael@gmail.com",
+        "name" : "arcanis"
+      }, {
+        "email" : "bestander@gmail.com",
+        "name" : "bestander"
+      }, {
+        "email" : "christoph.pojer@gmail.com",
+        "name" : "cpojer"
+      }, {
+        "email" : "npm@dan.cx",
+        "name" : "daniel15"
+      }, {
+        "email" : "sebmck@gmail.com",
+        "name" : "sebmck"
+      } ],
+      "directories" : {
+      },
+      "_npmUser" : {
+        "name" : "arcanis",
+        "email" : "nison.mael@gmail.com"
+      },
+      "_id" : "@yarnpkg/lockfile@1.1.0",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/lockfile_1.1.0_1536586678302_0.9512823617370638"
+      }
+    },
+    "1.0.2" : {
+      "name" : "@yarnpkg/lockfile",
+      "description" : "The parser/stringifier for Yarn lockfiles.",
+      "version" : "1.0.2",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/yarnpkg/yarn/blob/master/packages/lockfile"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/@yarnpkg/lockfile/-/lockfile-1.0.2.tgz",
+        "shasum" : "833d163680a151d2441a2489f5fe5fa87ac87726"
+      },
+      "keywords" : [ "yarn", "yarnpkg", "lockfile", "dependency", "npm" ],
+      "license" : "BSD-2-Clause",
+      "maintainers" : [ {
+        "email" : "nison.mael@gmail.com",
+        "name" : "arcanis"
+      }, {
+        "email" : "bestander@gmail.com",
+        "name" : "bestander"
+      }, {
+        "email" : "christoph.pojer@gmail.com",
+        "name" : "cpojer"
+      }, {
+        "email" : "npm@dan.cx",
+        "name" : "daniel15"
+      }, {
+        "email" : "sebmck@gmail.com",
+        "name" : "sebmck"
+      } ],
+      "directories" : {
+      },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "arcanis",
+        "email" : "nison.mael@gmail.com"
+      },
+      "_id" : "@yarnpkg/lockfile@1.0.2",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/lockfile_1.0.2_1528712202316_0.8843966849371665"
+      },
+      "_nodeVersion" : "9.11.1"
+    }
+  },
+  "readme" : "# yarn-lockfile\n\nParse and/or write `yarn.lock` files\n\n## Usage Examples\n\n```js\nconst fs = require('fs');\nconst lockfile = require('@yarnpkg/lockfile');\n// or (es6)\nimport fs from 'fs';\nimport * as lockfile from '@yarnpkg/lockfile';\n\nlet file = fs.readFileSync('yarn.lock', 'utf8');\nlet json = lockfile.parse(file);\n\nconsole.log(json);\n\nlet fileAgain = lockfile.stringify(json);\n\nconsole.log(fileAgain);\n```\n",
+  "maintainers" : [ {
+    "email" : "nison.mael@gmail.com",
+    "name" : "arcanis"
+  }, {
+    "email" : "bestander@gmail.com",
+    "name" : "bestander"
+  }, {
+    "email" : "christoph.pojer@gmail.com",
+    "name" : "cpojer"
+  }, {
+    "email" : "npm@dan.cx",
+    "name" : "daniel15"
+  }, {
+    "email" : "sebmck@gmail.com",
+    "name" : "sebmck"
+  } ],
+  "time" : {
+    "created" : "2017-08-22T04:32:02.658Z",
+    "modified" : "2018-09-10T13:38:05.264Z",
+    "1.0.0" : "2017-08-22T04:32:02.658Z",
+    "1.0.1" : "2018-05-11T15:11:08.955Z",
+    "1.1.0" : "2018-09-10T13:37:58.652Z",
+    "1.0.2" : "2018-06-11T10:16:43.509Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/yarnpkg/yarn/blob/master/packages/lockfile"
+  },
+  "users" : {
+  },
+  "readmeFilename" : "README.md",
+  "keywords" : [ "yarn", "yarnpkg", "lockfile", "dependency", "npm" ],
+  "license" : "BSD-2-Clause"
+}

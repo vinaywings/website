@@ -1,0 +1,1108 @@
+{
+  "_id" : "isbinaryfile",
+  "_rev" : "49-c3cc4a3d3ae3efeea4e00e25b05b96e6",
+  "name" : "isbinaryfile",
+  "description" : "Detects if a file is binary in Node.js. Similar to Perl's -B.",
+  "dist-tags" : {
+    "latest" : "4.0.2"
+  },
+  "versions" : {
+    "0.1.5" : {
+      "name" : "isbinaryfile",
+      "description" : "Detects if a file is binary in Node.js. Similar to Perl's -B.",
+      "version" : "0.1.5",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/gjtorikian/isBinaryFile"
+      },
+      "engines" : {
+        "node" : ">=0.6.0"
+      },
+      "main" : "./lib/panino.js",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/isbinaryfile/-/isbinaryfile-0.1.5.tgz",
+        "shasum" : "a6f7c9ff8648079b400eb18a76f4f8a0c9a3439c"
+      },
+      "devDependencies" : {
+        "mocha" : ""
+      },
+      "maintainers" : [ {
+        "name" : "gjtorikian",
+        "email" : "gjtorikian@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "_npmVersion" : "1.1.69",
+      "_npmUser" : {
+        "name" : "gjtorikian",
+        "email" : "gjtorikian@gmail.com"
+      },
+      "_id" : "isbinaryfile@0.1.5"
+    },
+    "0.1.6" : {
+      "name" : "isbinaryfile",
+      "description" : "Detects if a file is binary in Node.js. Similar to Perl's -B.",
+      "version" : "0.1.6",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/gjtorikian/isBinaryFile"
+      },
+      "engines" : {
+        "node" : ">=0.6.0"
+      },
+      "main" : "./lib/panino.js",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/isbinaryfile/-/isbinaryfile-0.1.6.tgz",
+        "shasum" : "482f45ebff3397de48525deadcc7cb1c98e2350d"
+      },
+      "devDependencies" : {
+        "mocha" : ""
+      },
+      "maintainers" : [ {
+        "name" : "gjtorikian",
+        "email" : "gjtorikian@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "_npmVersion" : "1.1.59",
+      "_npmUser" : {
+        "name" : "gjtorikian",
+        "email" : "gjtorikian@gmail.com"
+      },
+      "_id" : "isbinaryfile@0.1.6"
+    },
+    "0.1.3" : {
+      "name" : "isbinaryfile",
+      "description" : "Detects if a file is binary in Node.js. Similar to Perl's -B.",
+      "version" : "0.1.3",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/gjtorikian/isBinaryFile"
+      },
+      "engines" : {
+        "node" : ">=0.6.0"
+      },
+      "main" : "./lib/panino.js",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/isbinaryfile/-/isbinaryfile-0.1.3.tgz",
+        "shasum" : "6a7bc68b730d8a90416c1d63db5ea85ba58820a6"
+      },
+      "maintainers" : [ {
+        "name" : "gjtorikian",
+        "email" : "gjtorikian@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "_id" : "isbinaryfile@0.1.3"
+    },
+    "0.1.4" : {
+      "name" : "isbinaryfile",
+      "description" : "Detects if a file is binary in Node.js. Similar to Perl's -B.",
+      "version" : "0.1.4",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/gjtorikian/isBinaryFile"
+      },
+      "engines" : {
+        "node" : ">=0.6.0"
+      },
+      "main" : "./lib/panino.js",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/isbinaryfile/-/isbinaryfile-0.1.4.tgz",
+        "shasum" : "c43289f6030b04a7123374c970f3749e9b94c096"
+      },
+      "devDependencies" : {
+        "mocha" : ""
+      },
+      "maintainers" : [ {
+        "name" : "gjtorikian",
+        "email" : "gjtorikian@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "_npmVersion" : "1.1.65",
+      "_npmUser" : {
+        "name" : "gjtorikian",
+        "email" : "gjtorikian@gmail.com"
+      },
+      "_id" : "isbinaryfile@0.1.4"
+    },
+    "0.1.9" : {
+      "name" : "isbinaryfile",
+      "description" : "Detects if a file is binary in Node.js. Similar to Perl's -B.",
+      "version" : "0.1.9",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/gjtorikian/isBinaryFile"
+      },
+      "engines" : {
+        "node" : ">=0.6.0"
+      },
+      "main" : "./lib/panino.js",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/isbinaryfile/-/isbinaryfile-0.1.9.tgz",
+        "shasum" : "15eece35c4ab708d8924da99fb874f2b5cc0b6c4"
+      },
+      "devDependencies" : {
+        "mocha" : ""
+      },
+      "maintainers" : [ {
+        "name" : "gjtorikian",
+        "email" : "gjtorikian@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha tests/test.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.2.17",
+      "_npmUser" : {
+        "name" : "gjtorikian",
+        "email" : "gjtorikian@gmail.com"
+      },
+      "_id" : "isbinaryfile@0.1.9"
+    },
+    "0.1.7" : {
+      "name" : "isbinaryfile",
+      "description" : "Detects if a file is binary in Node.js. Similar to Perl's -B.",
+      "version" : "0.1.7",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/gjtorikian/isBinaryFile"
+      },
+      "engines" : {
+        "node" : ">=0.6.0"
+      },
+      "main" : "./lib/panino.js",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/isbinaryfile/-/isbinaryfile-0.1.7.tgz",
+        "shasum" : "78cffef7e0a4f0cf3a83c86cc5c122d8fe1d458e"
+      },
+      "devDependencies" : {
+        "mocha" : ""
+      },
+      "maintainers" : [ {
+        "name" : "gjtorikian",
+        "email" : "gjtorikian@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha tests/test.js"
+      },
+      "_npmVersion" : "1.1.59",
+      "_npmUser" : {
+        "name" : "gjtorikian",
+        "email" : "gjtorikian@gmail.com"
+      },
+      "_id" : "isbinaryfile@0.1.7"
+    },
+    "0.1.8" : {
+      "name" : "isbinaryfile",
+      "description" : "Detects if a file is binary in Node.js. Similar to Perl's -B.",
+      "version" : "0.1.8",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/gjtorikian/isBinaryFile"
+      },
+      "engines" : {
+        "node" : ">=0.6.0"
+      },
+      "main" : "./lib/panino.js",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/isbinaryfile/-/isbinaryfile-0.1.8.tgz",
+        "shasum" : "82ee8bae6634bad5be4accae9ceb70a34a4be5b0"
+      },
+      "devDependencies" : {
+        "mocha" : ""
+      },
+      "maintainers" : [ {
+        "name" : "gjtorikian",
+        "email" : "gjtorikian@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha tests/test.js"
+      },
+      "_npmVersion" : "1.1.59",
+      "_npmUser" : {
+        "name" : "gjtorikian",
+        "email" : "gjtorikian@gmail.com"
+      },
+      "_id" : "isbinaryfile@0.1.8"
+    },
+    "4.0.2" : {
+      "name" : "isbinaryfile",
+      "description" : "Detects if a file is binary in Node.js. Similar to Perl's -B.",
+      "version" : "4.0.2",
+      "homepage" : "https://github.com/gjtorikian/isBinaryFile#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/gjtorikian/isBinaryFile.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/gjtorikian/isBinaryFile/issues"
+      },
+      "engines" : {
+        "node" : ">= 8.0.0"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/isbinaryfile/-/isbinaryfile-4.0.2.tgz",
+        "shasum" : "bfc45642da645681c610cca831022e30af426488"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "@types/jest" : "^23.3.14",
+        "@types/node" : "^10.14.12",
+        "jest" : "^24.8.0",
+        "prettier" : "^1.18.2",
+        "release-it" : "^9.8.3",
+        "ts-jest" : "^23.10.5",
+        "tslint" : "^5.18.0",
+        "tslint-config-prettier" : "^1.18.0",
+        "typescript" : "^3.5.3"
+      },
+      "keywords" : [ "text", "binary", "encoding", "istext", "is text", "isbinary", "is binary", "is text or binary", "is text or binary file", "isbinaryfile", "is binary file", "istextfile", "is text file" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "gjtorikian",
+        "email" : "gjtorikian@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "tsc",
+        "format" : "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
+        "lint" : "tslint -p tsconfig.json",
+        "prepare" : "npm run build",
+        "release" : "release-it",
+        "prepublishOnly" : "npm test && npm run lint",
+        "preversion" : "npm run lint",
+        "version" : "npm run format && git add -A src",
+        "postversion" : "git push && git push --tags",
+        "test" : "jest --config jestconfig.json",
+        "watch" : "tsc -w"
+      },
+      "_npmVersion" : "6.9.0",
+      "_npmUser" : {
+        "name" : "gjtorikian",
+        "email" : "gjtorikian@gmail.com"
+      },
+      "_id" : "isbinaryfile@4.0.2",
+      "gitHead" : "6766ea754d28925797490528cf1a8cb36f8495d6",
+      "types" : "lib/index.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/isbinaryfile_4.0.2_1562847741573_0.31559349496487643"
+      },
+      "_nodeVersion" : "10.11.0"
+    },
+    "4.0.0-rc1" : {
+      "name" : "isbinaryfile",
+      "description" : "Detects if a file is binary in Node.js. Similar to Perl's -B.",
+      "version" : "4.0.0-rc1",
+      "homepage" : "https://github.com/gjtorikian/isBinaryFile#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/gjtorikian/isBinaryFile.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/gjtorikian/isBinaryFile/issues"
+      },
+      "engines" : {
+        "node" : ">= 8.0.0"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/isbinaryfile/-/isbinaryfile-4.0.0-rc1.tgz",
+        "shasum" : "389e2ddac29a0414057c22c3208ffcc5f35eb8a1"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "@types/jest" : "^23.3.12",
+        "@types/node" : "^10.12.18",
+        "jest" : "^23.6.0",
+        "prettier" : "^1.15.3",
+        "ts-jest" : "^23.10.5",
+        "tslint" : "^5.12.0",
+        "tslint-config-prettier" : "^1.17.0",
+        "typescript" : "^3.2.2"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "gjtorikian",
+        "email" : "gjtorikian@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "tsc",
+        "format" : "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
+        "lint" : "tslint -p tsconfig.json",
+        "prepare" : "npm run build",
+        "prepublishOnly" : "npm test && npm run lint",
+        "preversion" : "npm run lint",
+        "version" : "npm run format && git add -A src",
+        "postversion" : "git push && git push --tags",
+        "test" : "jest --config jestconfig.json",
+        "watch" : "tsc -w"
+      },
+      "_npmVersion" : "6.5.0",
+      "_npmUser" : {
+        "name" : "gjtorikian",
+        "email" : "gjtorikian@gmail.com"
+      },
+      "_id" : "isbinaryfile@4.0.0-rc1",
+      "gitHead" : "269660a788ff34ef58955d4a2149b2b290ec8257",
+      "types" : "lib/index.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/isbinaryfile_4.0.0-rc1_1546915182032_0.17695320716526086"
+      },
+      "_nodeVersion" : "10.11.0"
+    },
+    "4.0.0" : {
+      "name" : "isbinaryfile",
+      "description" : "Detects if a file is binary in Node.js. Similar to Perl's -B.",
+      "version" : "4.0.0",
+      "homepage" : "https://github.com/gjtorikian/isBinaryFile#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/gjtorikian/isBinaryFile.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/gjtorikian/isBinaryFile/issues"
+      },
+      "engines" : {
+        "node" : ">= 8.0.0"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/isbinaryfile/-/isbinaryfile-4.0.0.tgz",
+        "shasum" : "07d1061c21598b41292b0f5c68add5eab601ad8e"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "@types/jest" : "^23.3.12",
+        "@types/node" : "^10.12.18",
+        "jest" : "^23.6.0",
+        "prettier" : "^1.15.3",
+        "release-it" : "^9.6.2",
+        "ts-jest" : "^23.10.5",
+        "tslint" : "^5.12.0",
+        "tslint-config-prettier" : "^1.17.0",
+        "typescript" : "^3.2.2"
+      },
+      "keywords" : [ "text", "binary", "encoding", "istext", "is text", "isbinary", "is binary", "is text or binary", "is text or binary file", "isbinaryfile", "is binary file", "istextfile", "is text file" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "gjtorikian",
+        "email" : "gjtorikian@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "tsc",
+        "format" : "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
+        "lint" : "tslint -p tsconfig.json",
+        "prepare" : "npm run build",
+        "release" : "release-it",
+        "prepublishOnly" : "npm test && npm run lint",
+        "preversion" : "npm run lint",
+        "version" : "npm run format && git add -A src",
+        "postversion" : "git push && git push --tags",
+        "test" : "jest --config jestconfig.json",
+        "watch" : "tsc -w"
+      },
+      "_npmVersion" : "6.5.0",
+      "_npmUser" : {
+        "name" : "gjtorikian",
+        "email" : "gjtorikian@gmail.com"
+      },
+      "_id" : "isbinaryfile@4.0.0",
+      "gitHead" : "04ea3eb8ca9f35a8ab555724354f11af1508b93e",
+      "types" : "lib/index.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/isbinaryfile_4.0.0_1546916109217_0.5959059216081468"
+      },
+      "_nodeVersion" : "10.11.0"
+    },
+    "4.0.1" : {
+      "name" : "isbinaryfile",
+      "description" : "Detects if a file is binary in Node.js. Similar to Perl's -B.",
+      "version" : "4.0.1",
+      "homepage" : "https://github.com/gjtorikian/isBinaryFile#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/gjtorikian/isBinaryFile.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/gjtorikian/isBinaryFile/issues"
+      },
+      "engines" : {
+        "node" : ">= 8.0.0"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/isbinaryfile/-/isbinaryfile-4.0.1.tgz",
+        "shasum" : "85dadd12ba236c9225fdf4648d6069956eaba640"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "@types/jest" : "^23.3.12",
+        "@types/node" : "^10.12.18",
+        "jest" : "^24.8.0",
+        "prettier" : "^1.15.3",
+        "release-it" : "^9.6.2",
+        "ts-jest" : "^23.10.5",
+        "tslint" : "^5.12.0",
+        "tslint-config-prettier" : "^1.17.0",
+        "typescript" : "^3.2.2"
+      },
+      "keywords" : [ "text", "binary", "encoding", "istext", "is text", "isbinary", "is binary", "is text or binary", "is text or binary file", "isbinaryfile", "is binary file", "istextfile", "is text file" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "gjtorikian",
+        "email" : "gjtorikian@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "tsc",
+        "format" : "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
+        "lint" : "tslint -p tsconfig.json",
+        "prepare" : "npm run build",
+        "release" : "release-it",
+        "prepublishOnly" : "npm test && npm run lint",
+        "preversion" : "npm run lint",
+        "version" : "npm run format && git add -A src",
+        "postversion" : "git push && git push --tags",
+        "test" : "jest --config jestconfig.json",
+        "watch" : "tsc -w"
+      },
+      "_npmVersion" : "6.9.0",
+      "_npmUser" : {
+        "name" : "gjtorikian",
+        "email" : "gjtorikian@gmail.com"
+      },
+      "_id" : "isbinaryfile@4.0.1",
+      "gitHead" : "244077ad7f5382339463a3d503d9623fc7a4c05d",
+      "types" : "lib/index.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/isbinaryfile_4.0.1_1559770494862_0.8749671054938768"
+      },
+      "_nodeVersion" : "10.11.0"
+    },
+    "0.1.1" : {
+      "name" : "isbinaryfile",
+      "description" : "Detects if a file is binary in Node.js. Similar to Perl's -B.",
+      "version" : "0.1.1",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/gjtorikian/isBinaryFile"
+      },
+      "engines" : {
+        "node" : ">=0.6.0"
+      },
+      "main" : "./lib/panino.js",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/isbinaryfile/-/isbinaryfile-0.1.1.tgz",
+        "shasum" : "b450f748a85ec9dc60d2d0c27375203beb356a36"
+      },
+      "maintainers" : [ {
+        "name" : "gjtorikian",
+        "email" : "gjtorikian@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "_id" : "isbinaryfile@0.1.1"
+    },
+    "0.1.2" : {
+      "name" : "isbinaryfile",
+      "description" : "Detects if a file is binary in Node.js. Similar to Perl's -B.",
+      "version" : "0.1.2",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/gjtorikian/isBinaryFile"
+      },
+      "engines" : {
+        "node" : ">=0.6.0"
+      },
+      "main" : "./lib/panino.js",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/isbinaryfile/-/isbinaryfile-0.1.2.tgz",
+        "shasum" : "025635767652d7b930c72465ba81a435999352fd"
+      },
+      "maintainers" : [ {
+        "name" : "gjtorikian",
+        "email" : "gjtorikian@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "_id" : "isbinaryfile@0.1.2"
+    },
+    "0.1.0" : {
+      "name" : "isbinaryfile",
+      "description" : "Detects if a file is binary in Node.js. Similar to Perl's -B.",
+      "version" : "0.1.0",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/gjtorikian/isBinaryFile"
+      },
+      "engines" : {
+        "node" : ">=0.6.0"
+      },
+      "main" : "./lib/panino.js",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/isbinaryfile/-/isbinaryfile-0.1.0.tgz",
+        "shasum" : "de84b10537354175ed3c23f407d2725ff9188659"
+      },
+      "maintainers" : [ {
+        "name" : "gjtorikian",
+        "email" : "gjtorikian@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "_id" : "isbinaryfile@0.1.0"
+    },
+    "3.0.0" : {
+      "name" : "isbinaryfile",
+      "description" : "Detects if a file is binary in Node.js. Similar to Perl's -B.",
+      "version" : "3.0.0",
+      "homepage" : "https://github.com/gjtorikian/isBinaryFile",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/gjtorikian/isBinaryFile"
+      },
+      "bugs" : {
+        "url" : "https://github.com/gjtorikian/isBinaryFile/issues"
+      },
+      "engines" : {
+        "node" : ">=0.6.0"
+      },
+      "main" : "./index.js",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/isbinaryfile/-/isbinaryfile-3.0.0.tgz",
+        "shasum" : "e9382ebe16aa0f7c874848008d928020e42175f7"
+      },
+      "devDependencies" : {
+        "mocha" : "^2.2.4",
+        "grunt" : "~0.4.1",
+        "grunt-release" : "~0.6.0",
+        "grunt-exec" : "0.4.3",
+        "grunt-cli" : "~0.1.13"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "gjtorikian",
+        "email" : "gjtorikian@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.1.11",
+      "_npmUser" : {
+        "name" : "gjtorikian",
+        "email" : "gjtorikian@gmail.com"
+      },
+      "_id" : "isbinaryfile@3.0.0",
+      "gitHead" : "6f2489ea97d54bcb22f0c5c7469c963f84ee134e",
+      "_shasum" : "e9382ebe16aa0f7c874848008d928020e42175f7",
+      "_nodeVersion" : "0.10.33"
+    },
+    "3.0.1" : {
+      "name" : "isbinaryfile",
+      "description" : "Detects if a file is binary in Node.js. Similar to Perl's -B.",
+      "version" : "3.0.1",
+      "homepage" : "https://github.com/gjtorikian/isBinaryFile#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/gjtorikian/isBinaryFile.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/gjtorikian/isBinaryFile/issues"
+      },
+      "engines" : {
+        "node" : ">=0.6.0"
+      },
+      "main" : "./index.js",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/isbinaryfile/-/isbinaryfile-3.0.1.tgz",
+        "shasum" : "6e99573675372e841a0520c036b41513d783e79e"
+      },
+      "devDependencies" : {
+        "mocha" : "^2.2.4",
+        "grunt" : "~0.4.1",
+        "grunt-release" : "~0.6.0",
+        "grunt-exec" : "0.4.3",
+        "grunt-cli" : "~0.1.13"
+      },
+      "license" : "MIT",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "gjtorikian",
+        "email" : "gjtorikian@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.9.5",
+      "_npmUser" : {
+        "name" : "gjtorikian",
+        "email" : "gjtorikian@gmail.com"
+      },
+      "_id" : "isbinaryfile@3.0.1",
+      "gitHead" : "b771103b2ac94f2f68771b58973f514882a13af2",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/isbinaryfile-3.0.1.tgz_1470697593755_0.28075776994228363"
+      },
+      "_shasum" : "6e99573675372e841a0520c036b41513d783e79e",
+      "_nodeVersion" : "5.11.0"
+    },
+    "3.0.2" : {
+      "name" : "isbinaryfile",
+      "description" : "Detects if a file is binary in Node.js. Similar to Perl's -B.",
+      "version" : "3.0.2",
+      "homepage" : "https://github.com/gjtorikian/isBinaryFile#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/gjtorikian/isBinaryFile.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/gjtorikian/isBinaryFile/issues"
+      },
+      "engines" : {
+        "node" : ">=0.6.0"
+      },
+      "main" : "./index.js",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/isbinaryfile/-/isbinaryfile-3.0.2.tgz",
+        "shasum" : "4a3e974ec0cba9004d3fc6cde7209ea69368a621"
+      },
+      "devDependencies" : {
+        "mocha" : "^2.2.4",
+        "grunt" : "~0.4.1",
+        "grunt-release" : "~0.6.0",
+        "grunt-exec" : "0.4.3",
+        "grunt-cli" : "~0.1.13"
+      },
+      "license" : "MIT",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "gjtorikian",
+        "email" : "gjtorikian@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.10.8",
+      "_npmUser" : {
+        "name" : "gjtorikian",
+        "email" : "gjtorikian@gmail.com"
+      },
+      "_id" : "isbinaryfile@3.0.2",
+      "gitHead" : "e5262cf43088319833993dcf8dc797112d303cae",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/isbinaryfile-3.0.2.tgz_1483387062557_0.10704225953668356"
+      },
+      "_shasum" : "4a3e974ec0cba9004d3fc6cde7209ea69368a621",
+      "_nodeVersion" : "7.0.0"
+    },
+    "3.0.3" : {
+      "name" : "isbinaryfile",
+      "description" : "Detects if a file is binary in Node.js. Similar to Perl's -B.",
+      "version" : "3.0.3",
+      "homepage" : "https://github.com/gjtorikian/isBinaryFile#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/gjtorikian/isBinaryFile.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/gjtorikian/isBinaryFile/issues"
+      },
+      "engines" : {
+        "node" : ">=0.6.0"
+      },
+      "main" : "./index.js",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/isbinaryfile/-/isbinaryfile-3.0.3.tgz",
+        "shasum" : "5d6def3edebf6e8ca8cae9c30183a804b5f8be80"
+      },
+      "dependencies" : {
+        "buffer-alloc" : "^1.2.0"
+      },
+      "devDependencies" : {
+        "mocha" : "^2.2.4",
+        "grunt" : "~0.4.1",
+        "grunt-release" : "~0.6.0",
+        "grunt-exec" : "0.4.3",
+        "grunt-cli" : "~0.1.13"
+      },
+      "license" : "MIT",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "gjtorikian",
+        "email" : "gjtorikian@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha"
+      },
+      "_npmVersion" : "6.1.0",
+      "_npmUser" : {
+        "name" : "gjtorikian",
+        "email" : "gjtorikian@gmail.com"
+      },
+      "_id" : "isbinaryfile@3.0.3",
+      "gitHead" : "7c07d831c8fbaf9868424509e09ebb90d8509366",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/isbinaryfile_3.0.3_1533238236961_0.5843964125280325"
+      },
+      "_nodeVersion" : "10.1.0"
+    },
+    "2.0.0" : {
+      "name" : "isbinaryfile",
+      "description" : "Detects if a file is binary in Node.js. Similar to Perl's -B.",
+      "version" : "2.0.0",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/gjtorikian/isBinaryFile"
+      },
+      "engines" : {
+        "node" : ">=0.6.0"
+      },
+      "main" : "./lib/panino.js",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/isbinaryfile/-/isbinaryfile-2.0.0.tgz",
+        "shasum" : "309c09010811d04ebed7c8d026df443d565e9f26"
+      },
+      "devDependencies" : {
+        "mocha" : ""
+      },
+      "maintainers" : [ {
+        "name" : "gjtorikian",
+        "email" : "gjtorikian@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha tests/test.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.2.17",
+      "_npmUser" : {
+        "name" : "gjtorikian",
+        "email" : "gjtorikian@gmail.com"
+      },
+      "_id" : "isbinaryfile@2.0.0"
+    },
+    "2.0.1" : {
+      "name" : "isbinaryfile",
+      "description" : "Detects if a file is binary in Node.js. Similar to Perl's -B.",
+      "version" : "2.0.1",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/gjtorikian/isBinaryFile"
+      },
+      "engines" : {
+        "node" : ">=0.6.0"
+      },
+      "main" : "./lib/panino.js",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/isbinaryfile/-/isbinaryfile-2.0.1.tgz",
+        "shasum" : "b92369bfdaf616027133e077c5ba145f36699d55"
+      },
+      "devDependencies" : {
+        "mocha" : ""
+      },
+      "maintainers" : [ {
+        "name" : "gjtorikian",
+        "email" : "gjtorikian@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha tests/test.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.2.17",
+      "_npmUser" : {
+        "name" : "gjtorikian",
+        "email" : "gjtorikian@gmail.com"
+      },
+      "_id" : "isbinaryfile@2.0.1"
+    },
+    "2.0.4" : {
+      "name" : "isbinaryfile",
+      "description" : "Detects if a file is binary in Node.js. Similar to Perl's -B.",
+      "version" : "2.0.4",
+      "homepage" : "https://github.com/gjtorikian/isBinaryFile",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/gjtorikian/isBinaryFile"
+      },
+      "bugs" : {
+        "url" : "https://github.com/gjtorikian/isBinaryFile/issues"
+      },
+      "engines" : {
+        "node" : ">=0.6.0"
+      },
+      "main" : "./lib/panino.js",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/isbinaryfile/-/isbinaryfile-2.0.4.tgz",
+        "shasum" : "d23592e6a6f093efb84c2e6152056be294e414a1"
+      },
+      "devDependencies" : {
+        "mocha" : ""
+      },
+      "maintainers" : [ {
+        "name" : "gjtorikian",
+        "email" : "gjtorikian@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha tests/test.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.1.11",
+      "_npmUser" : {
+        "name" : "gjtorikian",
+        "email" : "gjtorikian@gmail.com"
+      },
+      "_id" : "isbinaryfile@2.0.4",
+      "gitHead" : "bc7971d0ccc99c411c36fb29bdf79003fee6aed7",
+      "_shasum" : "d23592e6a6f093efb84c2e6152056be294e414a1",
+      "_nodeVersion" : "0.10.33"
+    },
+    "2.0.2" : {
+      "name" : "isbinaryfile",
+      "description" : "Detects if a file is binary in Node.js. Similar to Perl's -B.",
+      "version" : "2.0.2",
+      "homepage" : "https://github.com/gjtorikian/isBinaryFile",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/gjtorikian/isBinaryFile"
+      },
+      "bugs" : {
+        "url" : "https://github.com/gjtorikian/isBinaryFile/issues"
+      },
+      "engines" : {
+        "node" : ">=0.6.0"
+      },
+      "main" : "./lib/panino.js",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/isbinaryfile/-/isbinaryfile-2.0.2.tgz",
+        "shasum" : "b7206ba957f23221b89f364328dc2b141899ca7d"
+      },
+      "devDependencies" : {
+        "mocha" : ""
+      },
+      "maintainers" : [ {
+        "name" : "gjtorikian",
+        "email" : "gjtorikian@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha tests/test.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.4",
+      "_npmUser" : {
+        "name" : "gjtorikian",
+        "email" : "gjtorikian@gmail.com"
+      },
+      "_id" : "isbinaryfile@2.0.2"
+    },
+    "2.0.3" : {
+      "name" : "isbinaryfile",
+      "description" : "Detects if a file is binary in Node.js. Similar to Perl's -B.",
+      "version" : "2.0.3",
+      "homepage" : "https://github.com/gjtorikian/isBinaryFile",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/gjtorikian/isBinaryFile"
+      },
+      "bugs" : {
+        "url" : "https://github.com/gjtorikian/isBinaryFile/issues"
+      },
+      "engines" : {
+        "node" : ">=0.6.0"
+      },
+      "main" : "./lib/panino.js",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/isbinaryfile/-/isbinaryfile-2.0.3.tgz",
+        "shasum" : "f3946eb92e67ce17df6e7f3c215bdd02a4ec02e3"
+      },
+      "devDependencies" : {
+        "mocha" : ""
+      },
+      "maintainers" : [ {
+        "name" : "gjtorikian",
+        "email" : "gjtorikian@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha tests/test.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.4",
+      "_npmUser" : {
+        "name" : "gjtorikian",
+        "email" : "gjtorikian@gmail.com"
+      },
+      "_id" : "isbinaryfile@2.0.3"
+    },
+    "1.0.0" : {
+      "name" : "isbinaryfile",
+      "description" : "Detects if a file is binary in Node.js. Similar to Perl's -B.",
+      "version" : "1.0.0",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/gjtorikian/isBinaryFile"
+      },
+      "engines" : {
+        "node" : ">=0.6.0"
+      },
+      "main" : "./lib/panino.js",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/isbinaryfile/-/isbinaryfile-1.0.0.tgz",
+        "shasum" : "d69b9c7e21b3aea64ec0f7e17140ac38ba4141ea"
+      },
+      "devDependencies" : {
+        "mocha" : ""
+      },
+      "maintainers" : [ {
+        "name" : "gjtorikian",
+        "email" : "gjtorikian@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha tests/test.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.2.17",
+      "_npmUser" : {
+        "name" : "gjtorikian",
+        "email" : "gjtorikian@gmail.com"
+      },
+      "_id" : "isbinaryfile@1.0.0"
+    },
+    "1.0.1" : {
+      "name" : "isbinaryfile",
+      "description" : "Detects if a file is binary in Node.js. Similar to Perl's -B.",
+      "version" : "1.0.1",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/gjtorikian/isBinaryFile"
+      },
+      "engines" : {
+        "node" : ">=0.6.0"
+      },
+      "main" : "./lib/panino.js",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/isbinaryfile/-/isbinaryfile-1.0.1.tgz",
+        "shasum" : "7d69f583273954e76d0f00a3f78f0877315444cc"
+      },
+      "devDependencies" : {
+        "mocha" : ""
+      },
+      "maintainers" : [ {
+        "name" : "gjtorikian",
+        "email" : "gjtorikian@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha tests/test.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.2.17",
+      "_npmUser" : {
+        "name" : "gjtorikian",
+        "email" : "gjtorikian@gmail.com"
+      },
+      "_id" : "isbinaryfile@1.0.1"
+    }
+  },
+  "readme" : "# isBinaryFile\n\nDetects if a file is binary in Node.js using ✨promises✨. Similar to [Perl's `-B` switch](http://stackoverflow.com/questions/899206/how-does-perl-know-a-file-is-binary), in that:\n- it reads the first few thousand bytes of a file\n- checks for a `null` byte; if it's found, it's binary\n- flags non-ASCII characters. After a certain number of \"weird\" characters, the file is flagged as binary\n\nMuch of the logic is pretty much ported from [ag](https://github.com/ggreer/the_silver_searcher).\n\nNote: if the file doesn't exist or is a directory, an error is thrown.\n\n## Installation\n\n```\nnpm install isbinaryfile\n```\n\n## Usage\n\nReturns `Promise<boolean>` (or just `boolean` for `*Sync`). `true` if the file is binary, `false` otherwise.\n\n### isBinaryFile(filepath)\n\n* `filepath` -  a `string` indicating the path to the file.\n\n### isBinaryFile(bytes[, size])\n\n* `bytes` - a `Buffer` of the file's contents.\n* `size` - an optional `number` indicating the file size.\n\n### isBinaryFileSync(filepath)\n\n* `filepath` - a `string` indicating the path to the file.\n\n\n### isBinaryFileSync(bytes[, size])\n\n* `bytes` - a `Buffer` of the file's contents.\n* `size` - an optional `number` indicating the file size.\n\n### Examples\n\nHere's an arbitrary usage:\n\n```javascript\nconst isBinaryFile = require(\"isbinaryfile\").isBinaryFile;\nconst fs = require(\"fs\");\n\nconst filename = \"fixtures/pdf.pdf\";\nconst data = fs.readFileSync(filename);\nconst stat = fs.lstatSync(filename);\n\nisBinaryFile(data, stat.size).then((result) => {\n  if (result) {\n    console.log(\"It is binary!\")\n  }\n  else {\n    console.log(\"No it is not.\")\n  }\n});\n\nconst isBinaryFileSync = require(\"isbinaryfile\").isBinaryFileSync;\nconst bytes = fs.readFileSync(filename);\nconst size = fs.lstatSync(filename).size;\nconsole.log(isBinaryFileSync(bytes, size)); // true or false\n```\n\n## Testing\n\nRun `npm install`, then run `npm test`.\n",
+  "maintainers" : [ {
+    "name" : "gjtorikian",
+    "email" : "gjtorikian@gmail.com"
+  } ],
+  "time" : {
+    "0.1.5" : "2012-12-24T10:10:38.979Z",
+    "0.1.6" : "2013-03-13T07:15:56.885Z",
+    "0.1.3" : "2012-10-26T05:12:53.570Z",
+    "0.1.4" : "2012-11-08T17:32:51.454Z",
+    "0.1.9" : "2013-05-24T21:32:05.109Z",
+    "0.1.7" : "2013-03-19T02:16:31.881Z",
+    "0.1.8" : "2013-03-19T17:47:00.807Z",
+    "4.0.2" : "2019-07-11T12:22:21.711Z",
+    "4.0.0-rc1" : "2019-01-08T02:39:42.134Z",
+    "4.0.0" : "2019-01-08T02:55:09.341Z",
+    "4.0.1" : "2019-06-05T21:34:55.055Z",
+    "0.1.1" : "2012-10-14T18:17:33.729Z",
+    "0.1.2" : "2012-10-15T20:29:48.898Z",
+    "0.1.0" : "2012-10-09T05:40:12.609Z",
+    "3.0.0" : "2015-08-05T00:09:55.183Z",
+    "modified" : "2019-07-11T12:22:24.451Z",
+    "3.0.1" : "2016-08-08T23:06:34.025Z",
+    "3.0.2" : "2017-01-02T19:57:42.794Z",
+    "3.0.3" : "2018-08-02T19:30:37.009Z",
+    "2.0.0" : "2013-12-24T16:55:20.032Z",
+    "2.0.1" : "2014-01-28T09:22:41.567Z",
+    "created" : "2012-10-09T05:40:10.897Z",
+    "2.0.4" : "2015-05-04T16:33:43.046Z",
+    "2.0.2" : "2014-10-23T08:01:20.396Z",
+    "2.0.3" : "2014-11-19T18:59:40.860Z",
+    "1.0.0" : "2013-12-02T22:46:32.609Z",
+    "1.0.1" : "2013-12-20T18:21:01.787Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "git+https://github.com/gjtorikian/isBinaryFile.git"
+  },
+  "users" : {
+    "alimaster" : true,
+    "gurunate" : true,
+    "anhulife" : true
+  },
+  "readmeFilename" : "README.md",
+  "homepage" : "https://github.com/gjtorikian/isBinaryFile#readme",
+  "keywords" : [ "text", "binary", "encoding", "istext", "is text", "isbinary", "is binary", "is text or binary", "is text or binary file", "isbinaryfile", "is binary file", "istextfile", "is text file" ],
+  "bugs" : {
+    "url" : "https://github.com/gjtorikian/isBinaryFile/issues"
+  },
+  "license" : "MIT"
+}

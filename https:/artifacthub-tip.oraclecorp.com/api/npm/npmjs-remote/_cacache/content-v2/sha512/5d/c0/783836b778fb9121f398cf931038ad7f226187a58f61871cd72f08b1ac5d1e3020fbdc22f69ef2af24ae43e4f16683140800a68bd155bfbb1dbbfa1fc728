@@ -1,0 +1,291 @@
+{
+  "_id" : "readdir-scoped-modules",
+  "_rev" : "22-f0d090b0ec5d8300eebc5ff20e0f459b",
+  "name" : "readdir-scoped-modules",
+  "description" : "Like `fs.readdir` but handling `@org/module` dirs as if they were a single entry.",
+  "dist-tags" : {
+    "latest" : "1.1.0"
+  },
+  "versions" : {
+    "1.0.0" : {
+      "name" : "readdir-scoped-modules",
+      "description" : "Like `fs.readdir` but handling `@org/module` dirs as if they were a single entry.",
+      "version" : "1.0.0",
+      "author" : {
+        "name" : "Isaac Z. Schlueter",
+        "email" : "i@izs.me",
+        "url" : "http://blog.izs.me/"
+      },
+      "homepage" : "https://github.com/npm/readdir-scoped-modules",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/npm/readdir-scoped-modules"
+      },
+      "bugs" : {
+        "url" : "https://github.com/npm/readdir-scoped-modules/issues"
+      },
+      "main" : "readdir.js",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/readdir-scoped-modules/-/readdir-scoped-modules-1.0.0.tgz",
+        "shasum" : "e939de969b38b3e7dfaa14fbcfe7a2fd15a4ea37"
+      },
+      "dependencies" : {
+        "debuglog" : "^1.0.1",
+        "dezalgo" : "^1.0.0",
+        "once" : "^1.3.0"
+      },
+      "devDependencies" : {
+        "tap" : "0.4"
+      },
+      "license" : "ISC",
+      "maintainers" : [ {
+        "name" : "isaacs",
+        "email" : "i@izs.me"
+      } ],
+      "directories" : {
+        "test" : "test"
+      },
+      "scripts" : {
+        "test" : "tap test/*.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.0.0-alpha.6.0",
+      "_npmUser" : {
+        "name" : "isaacs",
+        "email" : "i@izs.me"
+      },
+      "_id" : "readdir-scoped-modules@1.0.0",
+      "gitHead" : "35a4a7a2325d12ed25ed322cd61f976b740f7fb7",
+      "_shasum" : "e939de969b38b3e7dfaa14fbcfe7a2fd15a4ea37"
+    },
+    "1.0.1" : {
+      "name" : "readdir-scoped-modules",
+      "description" : "Like `fs.readdir` but handling `@org/module` dirs as if they were a single entry.",
+      "version" : "1.0.1",
+      "author" : {
+        "name" : "Isaac Z. Schlueter",
+        "email" : "i@izs.me",
+        "url" : "http://blog.izs.me/"
+      },
+      "homepage" : "https://github.com/npm/readdir-scoped-modules",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/npm/readdir-scoped-modules"
+      },
+      "bugs" : {
+        "url" : "https://github.com/npm/readdir-scoped-modules/issues"
+      },
+      "main" : "readdir.js",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/readdir-scoped-modules/-/readdir-scoped-modules-1.0.1.tgz",
+        "shasum" : "5c2a77f3e08250a8fddf53fa58cdc17900b808b9"
+      },
+      "dependencies" : {
+        "debuglog" : "^1.0.1",
+        "dezalgo" : "^1.0.0",
+        "graceful-fs" : "^3.0.4",
+        "once" : "^1.3.0"
+      },
+      "devDependencies" : {
+        "tap" : "0.4"
+      },
+      "license" : "ISC",
+      "maintainers" : [ {
+        "name" : "isaacs",
+        "email" : "i@izs.me"
+      }, {
+        "name" : "othiym23",
+        "email" : "ogd@aoaioxxysz.net"
+      } ],
+      "directories" : {
+        "test" : "test"
+      },
+      "scripts" : {
+        "test" : "tap test/*.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.1.9",
+      "_npmUser" : {
+        "name" : "othiym23",
+        "email" : "ogd@aoaioxxysz.net"
+      },
+      "_id" : "readdir-scoped-modules@1.0.1",
+      "gitHead" : "451d38946c5b6b6c0db33a890f33536a11ed79f7",
+      "_shasum" : "5c2a77f3e08250a8fddf53fa58cdc17900b808b9",
+      "_nodeVersion" : "0.10.33"
+    },
+    "1.1.0" : {
+      "name" : "readdir-scoped-modules",
+      "description" : "Like `fs.readdir` but handling `@org/module` dirs as if they were a single entry.",
+      "version" : "1.1.0",
+      "author" : {
+        "name" : "Isaac Z. Schlueter",
+        "email" : "i@izs.me",
+        "url" : "http://blog.izs.me/"
+      },
+      "homepage" : "https://github.com/npm/readdir-scoped-modules",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/npm/readdir-scoped-modules.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/npm/readdir-scoped-modules/issues"
+      },
+      "main" : "readdir.js",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/readdir-scoped-modules/-/readdir-scoped-modules-1.1.0.tgz",
+        "shasum" : "8d45407b4f870a0dcaebc0e28670d18e74514309"
+      },
+      "dependencies" : {
+        "debuglog" : "^1.0.1",
+        "dezalgo" : "^1.0.0",
+        "graceful-fs" : "^4.1.2",
+        "once" : "^1.3.0"
+      },
+      "devDependencies" : {
+        "tap" : "^1.2.0"
+      },
+      "license" : "ISC",
+      "maintainers" : [ {
+        "email" : "i@izs.me",
+        "name" : "isaacs"
+      }, {
+        "email" : "npm@zkat.tech",
+        "name" : "zkat"
+      } ],
+      "directories" : {
+        "test" : "test"
+      },
+      "scripts" : {
+        "test" : "tap test/*.js"
+      },
+      "_npmVersion" : "6.9.2",
+      "_npmUser" : {
+        "name" : "isaacs",
+        "email" : "i@izs.me"
+      },
+      "_id" : "readdir-scoped-modules@1.1.0",
+      "gitHead" : "5e240fa9ebe681b022cf588b2d18dff9598b0bfe",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/readdir-scoped-modules_1.1.0_1561748508276_0.8588488177303504"
+      },
+      "_nodeVersion" : "12.4.0"
+    },
+    "1.0.2" : {
+      "name" : "readdir-scoped-modules",
+      "description" : "Like `fs.readdir` but handling `@org/module` dirs as if they were a single entry.",
+      "version" : "1.0.2",
+      "author" : {
+        "name" : "Isaac Z. Schlueter",
+        "email" : "i@izs.me",
+        "url" : "http://blog.izs.me/"
+      },
+      "homepage" : "https://github.com/npm/readdir-scoped-modules",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/npm/readdir-scoped-modules.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/npm/readdir-scoped-modules/issues"
+      },
+      "main" : "readdir.js",
+      "dist" : {
+        "tarball" : "https://artifacthub-tip.oraclecorp.com/api/npm/npmjs-remote/readdir-scoped-modules/-/readdir-scoped-modules-1.0.2.tgz",
+        "shasum" : "9fafa37d286be5d92cbaebdee030dc9b5f406747"
+      },
+      "dependencies" : {
+        "debuglog" : "^1.0.1",
+        "dezalgo" : "^1.0.0",
+        "graceful-fs" : "^4.1.2",
+        "once" : "^1.3.0"
+      },
+      "devDependencies" : {
+        "tap" : "^1.2.0"
+      },
+      "license" : "ISC",
+      "maintainers" : [ {
+        "name" : "isaacs",
+        "email" : "isaacs@npmjs.com"
+      }, {
+        "name" : "othiym23",
+        "email" : "ogd@aoaioxxysz.net"
+      }, {
+        "name" : "zkat",
+        "email" : "kat@sykosomatic.org"
+      } ],
+      "directories" : {
+        "test" : "test"
+      },
+      "scripts" : {
+        "test" : "tap test/*.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.14.3",
+      "_npmUser" : {
+        "name" : "zkat",
+        "email" : "kat@sykosomatic.org"
+      },
+      "_id" : "readdir-scoped-modules@1.0.2",
+      "gitHead" : "d41d5de877cb4e9e3f14b92913132680af73d1b4",
+      "_shasum" : "9fafa37d286be5d92cbaebdee030dc9b5f406747",
+      "_nodeVersion" : "2.2.2"
+    }
+  },
+  "readme" : "# readdir-scoped-modules\n\nLike `fs.readdir` but handling `@org/module` dirs as if they were\na single entry.\n\nUsed by npm.\n\n## USAGE\n\n```javascript\nvar readdir = require('readdir-scoped-modules')\n\nreaddir('node_modules', function (er, entries) {\n  // entries will be something like\n  // ['a', '@org/foo', '@org/bar']\n})\n```\n",
+  "maintainers" : [ {
+    "email" : "ruyadorno@hotmail.com",
+    "name" : "ruyadorno"
+  }, {
+    "email" : "mike@mikecorp.ca",
+    "name" : "mikemimik"
+  }, {
+    "email" : "billatnpm@gmail.com",
+    "name" : "billatnpm"
+  }, {
+    "email" : "anne@npmjs.com",
+    "name" : "annekimsey"
+  }, {
+    "email" : "cghr1990@gmail.com",
+    "name" : "claudiahdz"
+  }, {
+    "email" : "darcy@darcyclarke.me",
+    "name" : "darcyclarke"
+  }, {
+    "email" : "evilpacket@gmail.com",
+    "name" : "adam_baldwin"
+  }, {
+    "email" : "ahmad@ahmadnassri.com",
+    "name" : "ahmadnassri"
+  }, {
+    "email" : "i@izs.me",
+    "name" : "isaacs"
+  } ],
+  "author" : {
+    "name" : "Isaac Z. Schlueter",
+    "email" : "i@izs.me",
+    "url" : "http://blog.izs.me/"
+  },
+  "time" : {
+    "created" : "2014-08-12T19:18:14.101Z",
+    "modified" : "2019-09-10T19:05:04.237Z",
+    "1.0.0" : "2014-08-12T19:18:14.101Z",
+    "1.0.1" : "2014-11-19T18:52:52.128Z",
+    "1.1.0" : "2019-06-28T19:01:48.455Z",
+    "1.0.2" : "2015-09-10T18:03:09.765Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "git+https://github.com/npm/readdir-scoped-modules.git"
+  },
+  "users" : {
+    "mattmcfarland" : true
+  },
+  "readmeFilename" : "README.md",
+  "homepage" : "https://github.com/npm/readdir-scoped-modules",
+  "bugs" : {
+    "url" : "https://github.com/npm/readdir-scoped-modules/issues"
+  },
+  "license" : "ISC"
+}
